@@ -1,0 +1,1316 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}MFL | {{ object.facility_name }}{% endblock %}
+
+
+{% block content %}
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-xs-12 content-card">
+                    <h3 class="fw-500  hidden-xs col-xs-12 ng-binding">
+                            <span class="fs-26 ng-binding">{{ object.HMIS_Code }}</span> | {{ object.facility_name }} | <small>{{ object.district }} District | {{ object.province }} Province</small>
+                    </h3>
+                    <hr style="border: 1px solid #F0F0F0;">
+                    <br>
+                    <h4 class="margin-t--27 fw-500">
+                        <span class="pull-left col-md-6 col-xs-12 ng-binding">
+                            <label>Facility Type: </label>
+                            {{ object.facility_type }}
+                        </span>
+                    </h4>
+                    <br>
+
+                    <br>
+                    <h4>
+                        <div class="pull-left col-md-6 col-xs-12">
+                            <p><b class="fs-15 text-black">Operation status:</b>
+                            <span class="fs-15 label label-success fs-13 ng-binding">
+                                Operational
+                            </span></p>
+                        </div>
+{#                        <!-- ngIf: oneFacility.open_weekends --><span class="content-right fs-14 col-md-6 col-xs-12 ng-scope" ng-if="oneFacility.open_weekends">Open weekends</span><!-- end ngIf: oneFacility.open_weekends -->#}
+                    </h4>
+                    <br>
+                    <h4>
+                        <div class="pull-left col-md-6 col-xs-12">
+                            <p><b class="fs-15 text-black">Regulation Status:</b>
+                            <span class="fs-13 label label-warning ng-binding">
+                                Licensed
+                            </span></p>
+                        </div>
+{#                        <!-- ngIf: oneFacility.open_whole_day --><span class="content-right fs-14 col-md-6 col-xs-12 ng-scope" ng-if="oneFacility.open_whole_day">Open wholw day</span><!-- end ngIf: oneFacility.open_whole_day -->#}
+                    </h4>
+                    <br>
+                    <br>
+
+                    <h4 class="fs-14 margin-t--5">
+                        <span class="pull-left col-md-6 col-xs-12 ng-binding">
+                            <label>Beds: </label> {{ object.number_of_beds }}
+                        </span>
+                        <!-- ngIf: oneFacility.open_public_holidays --><span class="content-right col-md-6 col-xs-12 ng-scope" ng-if="oneFacility.open_public_holidays">Open on public holidays</span><!-- end ngIf: oneFacility.open_public_holidays -->
+                    </h4>
+                    <br>
+
+                    <h4 class="fs-14 margin-t--5">
+                        <span class="pull-left col-md-6 col-xs-12 ng-binding">
+                            <label>Cots: </label> {{ object.number_of_cots }}
+                        </span>
+                        <!-- ngIf: oneFacility.open_weekends --><span class="content-right col-md-6 col-xs-12 ng-scope" ng-if="oneFacility.open_weekends">Open weekends</span><!-- end ngIf: oneFacility.open_weekends -->
+                    </h4>
+                    <br>
+
+                    <h4 class="fs-14 margin-t--5">
+                        <span class="pull-left col-md-6 col-xs-12 ng-binding">
+                        </span>
+                        <!-- ngIf: oneFacility.open_24_hours--><span class="content-right col-md-6 col-xs-12 ng-scope" ng-if="oneFacility.open_weekends">Open 24 hours</span><!-- end ngIf: oneFacility.open_24_hours -->
+                    </h4>
+                    <br>
+
+                    <hr style="border: 1px solid #F0F0F0;">
+                    <h4 class="fs-20 fw-600  col-xs-12">
+                    <span class="fa-stack fa-lg fs-13">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-map-marker fa-stack-1x fa-inverse"></i>
+                    </span> Location</h4>
+                    <br>
+                    <h4 class="fs-14 fw-500  hidden-sm hidden-xs">
+                        <a ui-sref="gis_county({county_code:oneFacility.county_code})" href="#/gis/15/">
+                        <span class="fs-14 fw-500 text-blue col-md-6 col-xs-12 margin-b-5 ng-binding">
+                            {{ object.district }} | {{ object.province }} Province
+                        </span></a>
+
+                        <span class="content-right col-md-6 col-xs-12 margin-b-5">
+                            <a ui-sref="gis_county.gis_const({county_code:oneFacility.county_code,constituency_code:oneFacility.constituency_code})" href="#/gis/15/72/">
+                                <span class="fs-14 fw-500 text-blue ng-binding">Constituency</span>
+                            </a>
+                        </span>
+                    </h4>
+                    <br>
+                    <!-- End of locatin displays -->
+                </div>
+                <div class="col-xs-12 content-card ng-scope services" ng-show="oneFacility.service_catalogue_active">
+                    <h3 class="fw-500  hidden-xs col-xs-12 ng-binding">Services</h3>
+                    <hr style="border: 1px solid #F0F0F0;">
+                    <br>
+<h4 class="hidden-xs fade-content">
+        <label class="fs-18 fw-500">Total Facility Rating:</label>
+        <span class="fs-18 fw-500 ng-binding">0.00 <i style="color: #FFD700" class="fa fa-star-o"></i></span>
+</h4>
+<h4 class="fs-16 fw-500 visible-xs fade-content">
+        <label>
+            Facility Rating:
+        </label>
+        <span class="fw-500 ng-binding" style="color: #666;">0.00 <i style="color: #FFD700" class="fa fa-star-o"></i></span>
+</h4>
+<h4 class="fade-content fs-16">
+</h4>
+<div class="row fade-content">
+    <!-- ngRepeat: service in oneFacility.facility_services --><div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-b-10 margin-t-10 ng-scope" ng-repeat-start="service in oneFacility.facility_services">
+        <p class="lead fs-18 fw-500 text-black hidden-xs ng-binding">
+            1.&nbsp;EMTCT
+        </p>
+        <p class="lead fs-16 fw-500 text-black visible-xs ng-binding">
+            1.&nbsp;EMTCT
+        </p>
+        <p class="lead fs-14">
+            <label class="fs-14 fw-600">Category: </label>
+            <span class="fs-14 fw-600 ng-binding">ART</span>
+        </p>
+        <p>
+            <button class="login-btn login-btn-primary ng-binding" ng-click="rateFacility = !rateFacility">
+                &nbsp;Service Rating&nbsp;<!-- ngIf: !rateFacility --><i ng-if="!rateFacility" class="fa fa-caret-down ng-scope"></i><!-- end ngIf: !rateFacility --> <!-- ngIf: rateFacility -->
+            </button>
+        </p>
+        <!-- Start of content slide in -->
+        <div content-slide-in="rateFacility" slide-show-duration="1000" style="display: none;">
+            <p class="lead margin-t--5">
+                <span class="pull-left">
+                    <label class="fs-14 fw-600">Average rating: </label>
+                    <span class="fs-14 fw-600 ng-binding">0.00 <i style="color: #FFD700" class="fa fa-star-o"></i></span>
+                </span>
+            </p>
+            <br>
+            <h4>
+                <span class="pull-left fs-14 ng-binding">
+                    <label class="fw-500 light-font">Number of ratings: </label>
+                    0
+                </span>
+            </h4>
+            <br>
+            <h4>
+                 <span class="col-xs-12 pad-0 pull-left margin-t--5 class-rate">
+                    <label class="fs-14 fw-500 light-font">Rate facility's service (You may leave your contacts in the comment)</label>
+                    <span>
+                        <!-- Testing rating directive -->
+                        <!-- ngRepeat: rating in service.ratings --><span class="fs-12 ng-scope" ng-repeat="rating in service.ratings">
+                        <div class="form-group">
+                            <textarea class="form-control ng-pristine ng-untouched ng-valid" rows="1" placeholder="Leave comment" ng-model="rating.comment"></textarea>
+                        </div>
+                        <!-- {{rating.current}} out of{{rating.max}} -->
+                        <div star-rating="" rating-value="rating.current" max="rating.max" on-rating-selected="getSelectedRating(rating, service.id)" class="ng-isolate-scope"><ul class="rating"><!-- ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --></ul></div>
+                        <span class="col-xs-12 pad-0 margin-t-10">
+                            <button ng-click="rateService(service)" class="login-btn login-btn-success btn-sm">
+                             &nbsp;Rate Service
+                            </button>
+                            <!-- ngIf: service.spinner -->
+                        </span>
+                        </span><!-- end ngRepeat: rating in service.ratings -->
+                <!-- End of rating directive -->
+                    </span>
+                </span>
+
+            </h4>
+        </div>
+        <!-- End of content slide in -->
+    </div>
+    <!-- ngIf: $index%3==2 -->
+    <!-- ngIf: $index%2==2 -->
+    <div ng-repeat-end="" class="ng-scope"></div><!-- end ngRepeat: service in oneFacility.facility_services --><div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-b-10 margin-t-10 ng-scope" ng-repeat-start="service in oneFacility.facility_services">
+        <p class="lead fs-18 fw-500 text-black hidden-xs ng-binding">
+            2.&nbsp;HCT
+        </p>
+        <p class="lead fs-16 fw-500 text-black visible-xs ng-binding">
+            2.&nbsp;HCT
+        </p>
+        <p class="lead fs-14">
+            <label class="fs-14 fw-600">Category: </label>
+            <span class="fs-14 fw-600 ng-binding">ART</span>
+        </p>
+        <p>
+            <button class="login-btn login-btn-primary ng-binding" ng-click="rateFacility = !rateFacility">
+                &nbsp;Service Rating&nbsp;<!-- ngIf: !rateFacility --><i ng-if="!rateFacility" class="fa fa-caret-down ng-scope"></i><!-- end ngIf: !rateFacility --> <!-- ngIf: rateFacility -->
+            </button>
+        </p>
+        <!-- Start of content slide in -->
+        <div content-slide-in="rateFacility" slide-show-duration="1000" style="display: none;">
+            <p class="lead margin-t--5">
+                <span class="pull-left">
+                    <label class="fs-14 fw-600">Average rating: </label>
+                    <span class="fs-14 fw-600 ng-binding">0.00 <i style="color: #FFD700" class="fa fa-star-o"></i></span>
+                </span>
+            </p>
+            <br>
+            <h4>
+                <span class="pull-left fs-14 ng-binding">
+                    <label class="fw-500 light-font">Number of ratings: </label>
+                    0
+                </span>
+            </h4>
+            <br>
+            <h4>
+                 <span class="col-xs-12 pad-0 pull-left margin-t--5 class-rate">
+                    <label class="fs-14 fw-500 light-font">Rate facility's service (You may leave your contacts in the comment)</label>
+                    <span>
+                        <!-- Testing rating directive -->
+                        <!-- ngRepeat: rating in service.ratings --><span class="fs-12 ng-scope" ng-repeat="rating in service.ratings">
+                        <div class="form-group">
+                            <textarea class="form-control ng-pristine ng-untouched ng-valid" rows="1" placeholder="Leave comment" ng-model="rating.comment"></textarea>
+                        </div>
+                        <!-- {{rating.current}} out of{{rating.max}} -->
+                        <div star-rating="" rating-value="rating.current" max="rating.max" on-rating-selected="getSelectedRating(rating, service.id)" class="ng-isolate-scope"><ul class="rating"><!-- ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --></ul></div>
+                        <span class="col-xs-12 pad-0 margin-t-10">
+                            <button ng-click="rateService(service)" class="login-btn login-btn-success btn-sm">
+                             &nbsp;Rate Service
+                            </button>
+                            <!-- ngIf: service.spinner -->
+                        </span>
+                        </span><!-- end ngRepeat: rating in service.ratings -->
+                <!-- End of rating directive -->
+                    </span>
+                </span>
+
+            </h4>
+        </div>
+        <!-- End of content slide in -->
+    </div>
+    <!-- ngIf: $index%3==2 -->
+    <!-- ngIf: $index%2==2 -->
+    <div ng-repeat-end="" class="ng-scope"></div><!-- end ngRepeat: service in oneFacility.facility_services --><div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-b-10 margin-t-10 ng-scope" ng-repeat-start="service in oneFacility.facility_services">
+        <p class="lead fs-18 fw-500 text-black hidden-xs ng-binding">
+            3.&nbsp;VMMC
+        </p>
+        <p class="lead fs-16 fw-500 text-black visible-xs ng-binding">
+            3.&nbsp;VMMC
+        </p>
+        <p class="lead fs-14">
+            <label class="fs-14 fw-600">Category: </label>
+            <span class="fs-14 fw-600 ng-binding">ART</span>
+        </p>
+        <p>
+            <button class="login-btn login-btn-primary ng-binding" ng-click="rateFacility = !rateFacility">
+                &nbsp;Service Rating&nbsp;<!-- ngIf: !rateFacility --><i ng-if="!rateFacility" class="fa fa-caret-down ng-scope"></i><!-- end ngIf: !rateFacility --> <!-- ngIf: rateFacility -->
+            </button>
+        </p>
+        <!-- Start of content slide in -->
+        <div content-slide-in="rateFacility" slide-show-duration="1000" style="display: none;">
+            <p class="lead margin-t--5">
+                <span class="pull-left">
+                    <label class="fs-14 fw-600">Average rating: </label>
+                    <span class="fs-14 fw-600 ng-binding">0.00 <i style="color: #FFD700" class="fa fa-star-o"></i></span>
+                </span>
+            </p>
+            <br>
+            <h4>
+                <span class="pull-left fs-14 ng-binding">
+                    <label class="fw-500 light-font">Number of ratings: </label>
+                    0
+                </span>
+            </h4>
+            <br>
+            <h4>
+                 <span class="col-xs-12 pad-0 pull-left margin-t--5 class-rate">
+                    <label class="fs-14 fw-500 light-font">Rate facility's service (You may leave your contacts in the comment)</label>
+                    <span>
+                        <!-- Testing rating directive -->
+                        <!-- ngRepeat: rating in service.ratings --><span class="fs-12 ng-scope" ng-repeat="rating in service.ratings">
+                        <div class="form-group">
+                            <textarea class="form-control ng-pristine ng-untouched ng-valid" rows="1" placeholder="Leave comment" ng-model="rating.comment"></textarea>
+                        </div>
+                        <!-- {{rating.current}} out of{{rating.max}} -->
+                        <div star-rating="" rating-value="rating.current" max="rating.max" on-rating-selected="getSelectedRating(rating, service.id)" class="ng-isolate-scope"><ul class="rating"><!-- ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --></ul></div>
+                        <span class="col-xs-12 pad-0 margin-t-10">
+                            <button ng-click="rateService(service)" class="login-btn login-btn-success btn-sm">
+                             &nbsp;Rate Service
+                            </button>
+                            <!-- ngIf: service.spinner -->
+                        </span>
+                        </span><!-- end ngRepeat: rating in service.ratings -->
+                <!-- End of rating directive -->
+                    </span>
+                </span>
+
+            </h4>
+        </div>
+        <!-- End of content slide in -->
+    </div>
+    <!-- ngIf: $index%3==2 --><div class="clearfix hidden-sm hidden-xs ng-scope" ng-if="$index%3==2"></div><!-- end ngIf: $index%3==2 -->
+    <!-- ngIf: $index%2==2 -->
+    <div ng-repeat-end="" class="ng-scope"></div><!-- end ngRepeat: service in oneFacility.facility_services --><div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-b-10 margin-t-10 ng-scope" ng-repeat-start="service in oneFacility.facility_services">
+        <p class="lead fs-18 fw-500 text-black hidden-xs ng-binding">
+            4.&nbsp;Postnatal care services
+        </p>
+        <p class="lead fs-16 fw-500 text-black visible-xs ng-binding">
+            4.&nbsp;Postnatal care services
+        </p>
+        <p class="lead fs-14">
+            <label class="fs-14 fw-600">Category: </label>
+            <span class="fs-14 fw-600 ng-binding">POSTNATAL CARE SERVICES</span>
+        </p>
+        <p>
+            <button class="login-btn login-btn-primary ng-binding" ng-click="rateFacility = !rateFacility">
+                &nbsp;Service Rating&nbsp;<!-- ngIf: !rateFacility --><i ng-if="!rateFacility" class="fa fa-caret-down ng-scope"></i><!-- end ngIf: !rateFacility --> <!-- ngIf: rateFacility -->
+            </button>
+        </p>
+        <!-- Start of content slide in -->
+        <div content-slide-in="rateFacility" slide-show-duration="1000" style="display: none;">
+            <p class="lead margin-t--5">
+                <span class="pull-left">
+                    <label class="fs-14 fw-600">Average rating: </label>
+                    <span class="fs-14 fw-600 ng-binding">0.00 <i style="color: #FFD700" class="fa fa-star-o"></i></span>
+                </span>
+            </p>
+            <br>
+            <h4>
+                <span class="pull-left fs-14 ng-binding">
+                    <label class="fw-500 light-font">Number of ratings: </label>
+                    0
+                </span>
+            </h4>
+            <br>
+            <h4>
+                 <span class="col-xs-12 pad-0 pull-left margin-t--5 class-rate">
+                    <label class="fs-14 fw-500 light-font">Rate facility's service (You may leave your contacts in the comment)</label>
+                    <span>
+                        <!-- Testing rating directive -->
+                        <!-- ngRepeat: rating in service.ratings --><span class="fs-12 ng-scope" ng-repeat="rating in service.ratings">
+                        <div class="form-group">
+                            <textarea class="form-control ng-pristine ng-untouched ng-valid" rows="1" placeholder="Leave comment" ng-model="rating.comment"></textarea>
+                        </div>
+                        <!-- {{rating.current}} out of{{rating.max}} -->
+                        <div star-rating="" rating-value="rating.current" max="rating.max" on-rating-selected="getSelectedRating(rating, service.id)" class="ng-isolate-scope"><ul class="rating"><!-- ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --></ul></div>
+                        <span class="col-xs-12 pad-0 margin-t-10">
+                            <button ng-click="rateService(service)" class="login-btn login-btn-success btn-sm">
+                             &nbsp;Rate Service
+                            </button>
+                            <!-- ngIf: service.spinner -->
+                        </span>
+                        </span><!-- end ngRepeat: rating in service.ratings -->
+                <!-- End of rating directive -->
+                    </span>
+                </span>
+
+            </h4>
+        </div>
+        <!-- End of content slide in -->
+    </div>
+    <!-- ngIf: $index%3==2 -->
+    <!-- ngIf: $index%2==2 -->
+    <div ng-repeat-end="" class="ng-scope"></div><!-- end ngRepeat: service in oneFacility.facility_services --><div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-b-10 margin-t-10 ng-scope" ng-repeat-start="service in oneFacility.facility_services">
+        <p class="lead fs-18 fw-500 text-black hidden-xs ng-binding">
+            5.&nbsp;Permanent
+        </p>
+        <p class="lead fs-16 fw-500 text-black visible-xs ng-binding">
+            5.&nbsp;Permanent
+        </p>
+        <p class="lead fs-14">
+            <label class="fs-14 fw-600">Category: </label>
+            <span class="fs-14 fw-600 ng-binding">FAMILY PLANNING</span>
+        </p>
+        <p>
+            <button class="login-btn login-btn-primary ng-binding" ng-click="rateFacility = !rateFacility">
+                &nbsp;View Service Rating&nbsp;<!-- ngIf: !rateFacility --><i ng-if="!rateFacility" class="fa fa-caret-down ng-scope"></i><!-- end ngIf: !rateFacility --> <!-- ngIf: rateFacility -->
+            </button>
+        </p>
+        <!-- Start of content slide in -->
+        <div content-slide-in="rateFacility" slide-show-duration="1000" style="display: none;">
+            <p class="lead margin-t--5">
+                <span class="pull-left">
+                    <label class="fs-14 fw-600">Average rating: </label>
+                    <span class="fs-14 fw-600 ng-binding">0.00 <i style="color: #FFD700" class="fa fa-star-o"></i></span>
+                </span>
+            </p>
+            <br>
+            <h4>
+                <span class="pull-left fs-14 ng-binding">
+                    <label class="fw-500 light-font">Number of ratings: </label>
+                    0
+                </span>
+            </h4>
+            <br>
+            <h4>
+                 <span class="col-xs-12 pad-0 pull-left margin-t--5 class-rate">
+                    <label class="fs-14 fw-500 light-font">Rate facility's service (You may leave your contacts in the comment)</label>
+                    <span>
+                        <!-- Testing rating directive -->
+                        <!-- ngRepeat: rating in service.ratings --><span class="fs-12 ng-scope" ng-repeat="rating in service.ratings">
+                        <div class="form-group">
+                            <textarea class="form-control ng-pristine ng-untouched ng-valid" rows="1" placeholder="Leave comment" ng-model="rating.comment"></textarea>
+                        </div>
+                        <!-- {{rating.current}} out of{{rating.max}} -->
+                        <div star-rating="" rating-value="rating.current" max="rating.max" on-rating-selected="getSelectedRating(rating, service.id)" class="ng-isolate-scope"><ul class="rating"><!-- ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --></ul></div>
+                        <span class="col-xs-12 pad-0 margin-t-10">
+                            <button ng-click="rateService(service)" class="login-btn login-btn-success btn-sm">
+                             &nbsp;Rate Service
+                            </button>
+                            <!-- ngIf: service.spinner -->
+                        </span>
+                        </span><!-- end ngRepeat: rating in service.ratings -->
+                <!-- End of rating directive -->
+                    </span>
+                </span>
+
+            </h4>
+        </div>
+        <!-- End of content slide in -->
+    </div>
+    <!-- ngIf: $index%3==2 -->
+    <!-- ngIf: $index%2==2 -->
+    <div ng-repeat-end="" class="ng-scope"></div><!-- end ngRepeat: service in oneFacility.facility_services --><div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-b-10 margin-t-10 ng-scope" ng-repeat-start="service in oneFacility.facility_services">
+        <p class="lead fs-18 fw-500 text-black hidden-xs ng-binding">
+            6.&nbsp;Paediatric outpatient clinic
+        </p>
+        <p class="lead fs-16 fw-500 text-black visible-xs ng-binding">
+            6.&nbsp;Paediatric outpatient clinic
+        </p>
+        <p class="lead fs-14">
+            <label class="fs-14 fw-600">Category: </label>
+            <span class="fs-14 fw-600 ng-binding">SPECIALIZED OUTPATIENTS CLINIC</span>
+        </p>
+        <p>
+            <button class="login-btn login-btn-primary ng-binding" ng-click="rateFacility = !rateFacility">
+                &nbsp;View Service Rating&nbsp;<!-- ngIf: !rateFacility --><i ng-if="!rateFacility" class="fa fa-caret-down ng-scope"></i><!-- end ngIf: !rateFacility --> <!-- ngIf: rateFacility -->
+            </button>
+        </p>
+        <!-- Start of content slide in -->
+        <div content-slide-in="rateFacility" slide-show-duration="1000" style="display: none;">
+            <p class="lead margin-t--5">
+                <span class="pull-left">
+                    <label class="fs-14 fw-600">Average rating: </label>
+                    <span class="fs-14 fw-600 ng-binding">0.00 <i style="color: #FFD700" class="fa fa-star-o"></i></span>
+                </span>
+            </p>
+            <br>
+            <h4>
+                <span class="pull-left fs-14 ng-binding">
+                    <label class="fw-500 light-font">Number of ratings: </label>
+                    0
+                </span>
+            </h4>
+            <br>
+            <h4>
+                 <span class="col-xs-12 pad-0 pull-left margin-t--5 class-rate">
+                    <label class="fs-14 fw-500 light-font">Rate facility's service (You may leave your contacts in the comment)</label>
+                    <span>
+                        <!-- Testing rating directive -->
+                        <!-- ngRepeat: rating in service.ratings --><span class="fs-12 ng-scope" ng-repeat="rating in service.ratings">
+                        <div class="form-group">
+                            <textarea class="form-control ng-pristine ng-untouched ng-valid" rows="1" placeholder="Leave comment" ng-model="rating.comment"></textarea>
+                        </div>
+                        <!-- {{rating.current}} out of{{rating.max}} -->
+                        <div star-rating="" rating-value="rating.current" max="rating.max" on-rating-selected="getSelectedRating(rating, service.id)" class="ng-isolate-scope"><ul class="rating"><!-- ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --></ul></div>
+                        <span class="col-xs-12 pad-0 margin-t-10">
+                            <button ng-click="rateService(service)" class="login-btn login-btn-success btn-sm">
+                             &nbsp;Rate Service
+                            </button>
+                            <!-- ngIf: service.spinner -->
+                        </span>
+                        </span><!-- end ngRepeat: rating in service.ratings -->
+                <!-- End of rating directive -->
+                    </span>
+                </span>
+
+            </h4>
+        </div>
+        <!-- End of content slide in -->
+    </div>
+    <!-- ngIf: $index%3==2 --><div class="clearfix hidden-sm hidden-xs ng-scope" ng-if="$index%3==2"></div><!-- end ngIf: $index%3==2 -->
+    <!-- ngIf: $index%2==2 -->
+    <div ng-repeat-end="" class="ng-scope"></div><!-- end ngRepeat: service in oneFacility.facility_services --><div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-b-10 margin-t-10 ng-scope" ng-repeat-start="service in oneFacility.facility_services">
+        <p class="lead fs-18 fw-500 text-black hidden-xs ng-binding">
+            7.&nbsp;Outpatient
+        </p>
+        <p class="lead fs-16 fw-500 text-black visible-xs ng-binding">
+            7.&nbsp;Outpatient
+        </p>
+        <p class="lead fs-14">
+            <label class="fs-14 fw-600">Category: </label>
+            <span class="fs-14 fw-600 ng-binding">CURATIVE SERVICES</span>
+        </p>
+        <p>
+            <button class="login-btn login-btn-primary ng-binding" ng-click="rateFacility = !rateFacility">
+                &nbsp;View Service Rating&nbsp;<!-- ngIf: !rateFacility --><i ng-if="!rateFacility" class="fa fa-caret-down ng-scope"></i><!-- end ngIf: !rateFacility --> <!-- ngIf: rateFacility -->
+            </button>
+        </p>
+        <!-- Start of content slide in -->
+        <div content-slide-in="rateFacility" slide-show-duration="1000" style="display: none;">
+            <p class="lead margin-t--5">
+                <span class="pull-left">
+                    <label class="fs-14 fw-600">Average rating: </label>
+                    <span class="fs-14 fw-600 ng-binding">0.00 <i style="color: #FFD700" class="fa fa-star-o"></i></span>
+                </span>
+            </p>
+            <br>
+            <h4>
+                <span class="pull-left fs-14 ng-binding">
+                    <label class="fw-500 light-font">Number of ratings: </label>
+                    0
+                </span>
+            </h4>
+            <br>
+            <h4>
+                 <span class="col-xs-12 pad-0 pull-left margin-t--5 class-rate">
+                    <label class="fs-14 fw-500 light-font">Rate facility's service (You may leave your contacts in the comment)</label>
+                    <span>
+                        <!-- Testing rating directive -->
+                        <!-- ngRepeat: rating in service.ratings --><span class="fs-12 ng-scope" ng-repeat="rating in service.ratings">
+                        <div class="form-group">
+                            <textarea class="form-control ng-pristine ng-untouched ng-valid" rows="1" placeholder="Leave comment" ng-model="rating.comment"></textarea>
+                        </div>
+                        <!-- {{rating.current}} out of{{rating.max}} -->
+                        <div star-rating="" rating-value="rating.current" max="rating.max" on-rating-selected="getSelectedRating(rating, service.id)" class="ng-isolate-scope"><ul class="rating"><!-- ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --></ul></div>
+                        <span class="col-xs-12 pad-0 margin-t-10">
+                            <button ng-click="rateService(service)" class="login-btn login-btn-success btn-sm">
+                             &nbsp;Rate Service
+                            </button>
+                            <!-- ngIf: service.spinner -->
+                        </span>
+                        </span><!-- end ngRepeat: rating in service.ratings -->
+                <!-- End of rating directive -->
+                    </span>
+                </span>
+
+            </h4>
+        </div>
+        <!-- End of content slide in -->
+    </div>
+    <!-- ngIf: $index%3==2 -->
+    <!-- ngIf: $index%2==2 -->
+    <div ng-repeat-end="" class="ng-scope"></div><!-- end ngRepeat: service in oneFacility.facility_services --><div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-b-10 margin-t-10 ng-scope" ng-repeat-start="service in oneFacility.facility_services">
+        <p class="lead fs-18 fw-500 text-black hidden-xs ng-binding">
+            8.&nbsp;Natural
+        </p>
+        <p class="lead fs-16 fw-500 text-black visible-xs ng-binding">
+            8.&nbsp;Natural
+        </p>
+        <p class="lead fs-14">
+            <label class="fs-14 fw-600">Category: </label>
+            <span class="fs-14 fw-600 ng-binding">FAMILY PLANNING</span>
+        </p>
+        <p>
+            <button class="login-btn login-btn-primary ng-binding" ng-click="rateFacility = !rateFacility">
+                &nbsp;View Service Rating&nbsp;<!-- ngIf: !rateFacility --><i ng-if="!rateFacility" class="fa fa-caret-down ng-scope"></i><!-- end ngIf: !rateFacility --> <!-- ngIf: rateFacility -->
+            </button>
+        </p>
+        <!-- Start of content slide in -->
+        <div content-slide-in="rateFacility" slide-show-duration="1000" style="display: none;">
+            <p class="lead margin-t--5">
+                <span class="pull-left">
+                    <label class="fs-14 fw-600">Average rating: </label>
+                    <span class="fs-14 fw-600 ng-binding">0.00 <i style="color: #FFD700" class="fa fa-star-o"></i></span>
+                </span>
+            </p>
+            <br>
+            <h4>
+                <span class="pull-left fs-14 ng-binding">
+                    <label class="fw-500 light-font">Number of ratings: </label>
+                    0
+                </span>
+            </h4>
+            <br>
+            <h4>
+                 <span class="col-xs-12 pad-0 pull-left margin-t--5 class-rate">
+                    <label class="fs-14 fw-500 light-font">Rate facility's service (You may leave your contacts in the comment)</label>
+                    <span>
+                        <!-- Testing rating directive -->
+                        <!-- ngRepeat: rating in service.ratings --><span class="fs-12 ng-scope" ng-repeat="rating in service.ratings">
+                        <div class="form-group">
+                            <textarea class="form-control ng-pristine ng-untouched ng-valid" rows="1" placeholder="Leave comment" ng-model="rating.comment"></textarea>
+                        </div>
+                        <!-- {{rating.current}} out of{{rating.max}} -->
+                        <div star-rating="" rating-value="rating.current" max="rating.max" on-rating-selected="getSelectedRating(rating, service.id)" class="ng-isolate-scope"><ul class="rating"><!-- ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --></ul></div>
+                        <span class="col-xs-12 pad-0 margin-t-10">
+                            <button ng-click="rateService(service)" class="login-btn login-btn-success btn-sm">
+                             &nbsp;Rate Service
+                            </button>
+                            <!-- ngIf: service.spinner -->
+                        </span>
+                        </span><!-- end ngRepeat: rating in service.ratings -->
+                <!-- End of rating directive -->
+                    </span>
+                </span>
+
+            </h4>
+        </div>
+        <!-- End of content slide in -->
+    </div>
+    <!-- ngIf: $index%3==2 -->
+    <!-- ngIf: $index%2==2 -->
+    <div ng-repeat-end="" class="ng-scope"></div><!-- end ngRepeat: service in oneFacility.facility_services --><div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-b-10 margin-t-10 ng-scope" ng-repeat-start="service in oneFacility.facility_services">
+        <p class="lead fs-18 fw-500 text-black hidden-xs ng-binding">
+            9.&nbsp;Medical Outpatient Clinic
+        </p>
+        <p class="lead fs-16 fw-500 text-black visible-xs ng-binding">
+            9.&nbsp;Medical Outpatient Clinic
+        </p>
+        <p class="lead fs-14">
+            <label class="fs-14 fw-600">Category: </label>
+            <span class="fs-14 fw-600 ng-binding">SPECIALIZED OUTPATIENTS CLINIC</span>
+        </p>
+        <p>
+            <button class="login-btn login-btn-primary ng-binding" ng-click="rateFacility = !rateFacility">
+                &nbsp;View Service Rating&nbsp;<!-- ngIf: !rateFacility --><i ng-if="!rateFacility" class="fa fa-caret-down ng-scope"></i><!-- end ngIf: !rateFacility --> <!-- ngIf: rateFacility -->
+            </button>
+        </p>
+        <!-- Start of content slide in -->
+        <div content-slide-in="rateFacility" slide-show-duration="1000" style="display: none;">
+            <p class="lead margin-t--5">
+                <span class="pull-left">
+                    <label class="fs-14 fw-600">Average rating: </label>
+                    <span class="fs-14 fw-600 ng-binding">0.00 <i style="color: #FFD700" class="fa fa-star-o"></i></span>
+                </span>
+            </p>
+            <br>
+            <h4>
+                <span class="pull-left fs-14 ng-binding">
+                    <label class="fw-500 light-font">Number of ratings: </label>
+                    0
+                </span>
+            </h4>
+            <br>
+            <h4>
+                 <span class="col-xs-12 pad-0 pull-left margin-t--5 class-rate">
+                    <label class="fs-14 fw-500 light-font">Rate facility's service (You may leave your contacts in the comment)</label>
+                    <span>
+                        <!-- Testing rating directive -->
+                        <!-- ngRepeat: rating in service.ratings --><span class="fs-12 ng-scope" ng-repeat="rating in service.ratings">
+                        <div class="form-group">
+                            <textarea class="form-control ng-pristine ng-untouched ng-valid" rows="1" placeholder="Leave comment" ng-model="rating.comment"></textarea>
+                        </div>
+                        <!-- {{rating.current}} out of{{rating.max}} -->
+                        <div star-rating="" rating-value="rating.current" max="rating.max" on-rating-selected="getSelectedRating(rating, service.id)" class="ng-isolate-scope"><ul class="rating"><!-- ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --></ul></div>
+                        <span class="col-xs-12 pad-0 margin-t-10">
+                            <button ng-click="rateService(service)" class="login-btn login-btn-success btn-sm">
+                             &nbsp;Rate Service
+                            </button>
+                            <!-- ngIf: service.spinner -->
+                        </span>
+                        </span><!-- end ngRepeat: rating in service.ratings -->
+                <!-- End of rating directive -->
+                    </span>
+                </span>
+
+            </h4>
+        </div>
+        <!-- End of content slide in -->
+    </div>
+    <!-- ngIf: $index%3==2 --><div class="clearfix hidden-sm hidden-xs ng-scope" ng-if="$index%3==2"></div><!-- end ngIf: $index%3==2 -->
+    <!-- ngIf: $index%2==2 -->
+    <div ng-repeat-end="" class="ng-scope"></div><!-- end ngRepeat: service in oneFacility.facility_services --><div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-b-10 margin-t-10 ng-scope" ng-repeat-start="service in oneFacility.facility_services">
+        <p class="lead fs-18 fw-500 text-black hidden-xs ng-binding">
+            10.&nbsp;Long Term
+        </p>
+        <p class="lead fs-16 fw-500 text-black visible-xs ng-binding">
+            10.&nbsp;Long Term
+        </p>
+        <p class="lead fs-14">
+            <label class="fs-14 fw-600">Category: </label>
+            <span class="fs-14 fw-600 ng-binding">FAMILY PLANNING</span>
+        </p>
+        <p>
+            <button class="login-btn login-btn-primary ng-binding" ng-click="rateFacility = !rateFacility">
+                &nbsp;View Service Rating&nbsp;<!-- ngIf: !rateFacility --><i ng-if="!rateFacility" class="fa fa-caret-down ng-scope"></i><!-- end ngIf: !rateFacility --> <!-- ngIf: rateFacility -->
+            </button>
+        </p>
+        <!-- Start of content slide in -->
+        <div content-slide-in="rateFacility" slide-show-duration="1000" style="display: none;">
+            <p class="lead margin-t--5">
+                <span class="pull-left">
+                    <label class="fs-14 fw-600">Average rating: </label>
+                    <span class="fs-14 fw-600 ng-binding">0.00 <i style="color: #FFD700" class="fa fa-star-o"></i></span>
+                </span>
+            </p>
+            <br>
+            <h4>
+                <span class="pull-left fs-14 ng-binding">
+                    <label class="fw-500 light-font">Number of ratings: </label>
+                    0
+                </span>
+            </h4>
+            <br>
+            <h4>
+                 <span class="col-xs-12 pad-0 pull-left margin-t--5 class-rate">
+                    <label class="fs-14 fw-500 light-font">Rate facility's service (You may leave your contacts in the comment)</label>
+                    <span>
+                        <!-- Testing rating directive -->
+                        <!-- ngRepeat: rating in service.ratings --><span class="fs-12 ng-scope" ng-repeat="rating in service.ratings">
+                        <div class="form-group">
+                            <textarea class="form-control ng-pristine ng-untouched ng-valid" rows="1" placeholder="Leave comment" ng-model="rating.comment"></textarea>
+                        </div>
+                        <!-- {{rating.current}} out of{{rating.max}} -->
+                        <div star-rating="" rating-value="rating.current" max="rating.max" on-rating-selected="getSelectedRating(rating, service.id)" class="ng-isolate-scope"><ul class="rating"><!-- ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --></ul></div>
+                        <span class="col-xs-12 pad-0 margin-t-10">
+                            <button ng-click="rateService(service)" class="login-btn login-btn-success btn-sm">
+                             &nbsp;Rate Service
+                            </button>
+                            <!-- ngIf: service.spinner -->
+                        </span>
+                        </span><!-- end ngRepeat: rating in service.ratings -->
+                <!-- End of rating directive -->
+                    </span>
+                </span>
+
+            </h4>
+        </div>
+        <!-- End of content slide in -->
+    </div>
+    <!-- ngIf: $index%3==2 -->
+    <!-- ngIf: $index%2==2 -->
+    <div ng-repeat-end="" class="ng-scope"></div><!-- end ngRepeat: service in oneFacility.facility_services --><div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-b-10 margin-t-10 ng-scope" ng-repeat-start="service in oneFacility.facility_services">
+        <p class="lead fs-18 fw-500 text-black hidden-xs ng-binding">
+            11.&nbsp;Integrated Child Immunization
+        </p>
+        <p class="lead fs-16 fw-500 text-black visible-xs ng-binding">
+            11.&nbsp;Integrated Child Immunization
+        </p>
+        <p class="lead fs-14">
+            <label class="fs-14 fw-600">Category: </label>
+            <span class="fs-14 fw-600 ng-binding">IMMUNISATION</span>
+        </p>
+        <p>
+            <button class="login-btn login-btn-primary ng-binding" ng-click="rateFacility = !rateFacility">
+                &nbsp;View Service Rating&nbsp;<!-- ngIf: !rateFacility --><i ng-if="!rateFacility" class="fa fa-caret-down ng-scope"></i><!-- end ngIf: !rateFacility --> <!-- ngIf: rateFacility -->
+            </button>
+        </p>
+        <!-- Start of content slide in -->
+        <div content-slide-in="rateFacility" slide-show-duration="1000" style="display: none;">
+            <p class="lead margin-t--5">
+                <span class="pull-left">
+                    <label class="fs-14 fw-600">Average rating: </label>
+                    <span class="fs-14 fw-600 ng-binding">0.00 <i style="color: #FFD700" class="fa fa-star-o"></i></span>
+                </span>
+            </p>
+            <br>
+            <h4>
+                <span class="pull-left fs-14 ng-binding">
+                    <label class="fw-500 light-font">Number of ratings: </label>
+                    0
+                </span>
+            </h4>
+            <br>
+            <h4>
+                 <span class="col-xs-12 pad-0 pull-left margin-t--5 class-rate">
+                    <label class="fs-14 fw-500 light-font">Rate facility's service (You may leave your contacts in the comment)</label>
+                    <span>
+                        <!-- Testing rating directive -->
+                        <!-- ngRepeat: rating in service.ratings --><span class="fs-12 ng-scope" ng-repeat="rating in service.ratings">
+                        <div class="form-group">
+                            <textarea class="form-control ng-pristine ng-untouched ng-valid" rows="1" placeholder="Leave comment" ng-model="rating.comment"></textarea>
+                        </div>
+                        <!-- {{rating.current}} out of{{rating.max}} -->
+                        <div star-rating="" rating-value="rating.current" max="rating.max" on-rating-selected="getSelectedRating(rating, service.id)" class="ng-isolate-scope"><ul class="rating"><!-- ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --></ul></div>
+                        <span class="col-xs-12 pad-0 margin-t-10">
+                            <button ng-click="rateService(service)" class="login-btn login-btn-success btn-sm">
+                             &nbsp;Rate Service
+                            </button>
+                            <!-- ngIf: service.spinner -->
+                        </span>
+                        </span><!-- end ngRepeat: rating in service.ratings -->
+                <!-- End of rating directive -->
+                    </span>
+                </span>
+
+            </h4>
+        </div>
+        <!-- End of content slide in -->
+    </div>
+    <!-- ngIf: $index%3==2 -->
+    <!-- ngIf: $index%2==2 -->
+    <div ng-repeat-end="" class="ng-scope"></div><!-- end ngRepeat: service in oneFacility.facility_services --><div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-b-10 margin-t-10 ng-scope" ng-repeat-start="service in oneFacility.facility_services">
+        <p class="lead fs-18 fw-500 text-black hidden-xs ng-binding">
+            12.&nbsp;Inpatient
+        </p>
+        <p class="lead fs-16 fw-500 text-black visible-xs ng-binding">
+            12.&nbsp;Inpatient
+        </p>
+        <p class="lead fs-14">
+            <label class="fs-14 fw-600">Category: </label>
+            <span class="fs-14 fw-600 ng-binding">CURATIVE SERVICES</span>
+        </p>
+        <p>
+            <button class="login-btn login-btn-primary ng-binding" ng-click="rateFacility = !rateFacility">
+                &nbsp;View Service Rating&nbsp;<!-- ngIf: !rateFacility --><i ng-if="!rateFacility" class="fa fa-caret-down ng-scope"></i><!-- end ngIf: !rateFacility --> <!-- ngIf: rateFacility -->
+            </button>
+        </p>
+        <!-- Start of content slide in -->
+        <div content-slide-in="rateFacility" slide-show-duration="1000" style="display: none;">
+            <p class="lead margin-t--5">
+                <span class="pull-left">
+                    <label class="fs-14 fw-600">Average rating: </label>
+                    <span class="fs-14 fw-600 ng-binding">0.00 <i style="color: #FFD700" class="fa fa-star-o"></i></span>
+                </span>
+            </p>
+            <br>
+            <h4>
+                <span class="pull-left fs-14 ng-binding">
+                    <label class="fw-500 light-font">Number of ratings: </label>
+                    0
+                </span>
+            </h4>
+            <br>
+            <h4>
+                 <span class="col-xs-12 pad-0 pull-left margin-t--5 class-rate">
+                    <label class="fs-14 fw-500 light-font">Rate facility's service (You may leave your contacts in the comment)</label>
+                    <span>
+                        <!-- Testing rating directive -->
+                        <!-- ngRepeat: rating in service.ratings --><span class="fs-12 ng-scope" ng-repeat="rating in service.ratings">
+                        <div class="form-group">
+                            <textarea class="form-control ng-pristine ng-untouched ng-valid" rows="1" placeholder="Leave comment" ng-model="rating.comment"></textarea>
+                        </div>
+                        <!-- {{rating.current}} out of{{rating.max}} -->
+                        <div star-rating="" rating-value="rating.current" max="rating.max" on-rating-selected="getSelectedRating(rating, service.id)" class="ng-isolate-scope"><ul class="rating"><!-- ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --></ul></div>
+                        <span class="col-xs-12 pad-0 margin-t-10">
+                            <button ng-click="rateService(service)" class="login-btn login-btn-success btn-sm">
+                             &nbsp;Rate Service
+                            </button>
+                            <!-- ngIf: service.spinner -->
+                        </span>
+                        </span><!-- end ngRepeat: rating in service.ratings -->
+                <!-- End of rating directive -->
+                    </span>
+                </span>
+
+            </h4>
+        </div>
+        <!-- End of content slide in -->
+    </div>
+    <!-- ngIf: $index%3==2 --><div class="clearfix hidden-sm hidden-xs ng-scope" ng-if="$index%3==2"></div><!-- end ngIf: $index%3==2 -->
+    <!-- ngIf: $index%2==2 -->
+    <div ng-repeat-end="" class="ng-scope"></div><!-- end ngRepeat: service in oneFacility.facility_services --><div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-b-10 margin-t-10 ng-scope" ng-repeat-start="service in oneFacility.facility_services">
+        <p class="lead fs-18 fw-500 text-black hidden-xs ng-binding">
+            13.&nbsp;Hospital - Retail services
+        </p>
+        <p class="lead fs-16 fw-500 text-black visible-xs ng-binding">
+            13.&nbsp;Hospital - Retail services
+        </p>
+        <p class="lead fs-14">
+            <label class="fs-14 fw-600">Category: </label>
+            <span class="fs-14 fw-600 ng-binding">PHARMACY SERVICES</span>
+        </p>
+        <p>
+            <button class="login-btn login-btn-primary ng-binding" ng-click="rateFacility = !rateFacility">
+                &nbsp;View Service Rating&nbsp;<!-- ngIf: !rateFacility --><i ng-if="!rateFacility" class="fa fa-caret-down ng-scope"></i><!-- end ngIf: !rateFacility --> <!-- ngIf: rateFacility -->
+            </button>
+        </p>
+        <!-- Start of content slide in -->
+        <div content-slide-in="rateFacility" slide-show-duration="1000" style="display: none;">
+            <p class="lead margin-t--5">
+                <span class="pull-left">
+                    <label class="fs-14 fw-600">Average rating: </label>
+                    <span class="fs-14 fw-600 ng-binding">0.00 <i style="color: #FFD700" class="fa fa-star-o"></i></span>
+                </span>
+            </p>
+            <br>
+            <h4>
+                <span class="pull-left fs-14 ng-binding">
+                    <label class="fw-500 light-font">Number of ratings: </label>
+                    0
+                </span>
+            </h4>
+            <br>
+            <h4>
+                 <span class="col-xs-12 pad-0 pull-left margin-t--5 class-rate">
+                    <label class="fs-14 fw-500 light-font">Rate facility's service (You may leave your contacts in the comment)</label>
+                    <span>
+                        <!-- Testing rating directive -->
+                        <!-- ngRepeat: rating in service.ratings --><span class="fs-12 ng-scope" ng-repeat="rating in service.ratings">
+                        <div class="form-group">
+                            <textarea class="form-control ng-pristine ng-untouched ng-valid" rows="1" placeholder="Leave comment" ng-model="rating.comment"></textarea>
+                        </div>
+                        <!-- {{rating.current}} out of{{rating.max}} -->
+                        <div star-rating="" rating-value="rating.current" max="rating.max" on-rating-selected="getSelectedRating(rating, service.id)" class="ng-isolate-scope"><ul class="rating"><!-- ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --></ul></div>
+                        <span class="col-xs-12 pad-0 margin-t-10">
+                            <button ng-click="rateService(service)" class="login-btn login-btn-success btn-sm">
+                             &nbsp;Rate Service
+                            </button>
+                            <!-- ngIf: service.spinner -->
+                        </span>
+                        </span><!-- end ngRepeat: rating in service.ratings -->
+                <!-- End of rating directive -->
+                    </span>
+                </span>
+
+            </h4>
+        </div>
+        <!-- End of content slide in -->
+    </div>
+    <!-- ngIf: $index%3==2 -->
+    <!-- ngIf: $index%2==2 -->
+    <div ng-repeat-end="" class="ng-scope"></div><!-- end ngRepeat: service in oneFacility.facility_services --><div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-b-10 margin-t-10 ng-scope" ng-repeat-start="service in oneFacility.facility_services">
+        <p class="lead fs-18 fw-500 text-black hidden-xs ng-binding">
+            14.&nbsp;HIV treatment and care
+        </p>
+        <p class="lead fs-16 fw-500 text-black visible-xs ng-binding">
+            14.&nbsp;HIV treatment and care
+        </p>
+        <p class="lead fs-14">
+            <label class="fs-14 fw-600">Category: </label>
+            <span class="fs-14 fw-600 ng-binding">HIV TREATMENT</span>
+        </p>
+        <p>
+            <button class="login-btn login-btn-primary ng-binding" ng-click="rateFacility = !rateFacility">
+                &nbsp;View Service Rating&nbsp;<!-- ngIf: !rateFacility --><i ng-if="!rateFacility" class="fa fa-caret-down ng-scope"></i><!-- end ngIf: !rateFacility --> <!-- ngIf: rateFacility -->
+            </button>
+        </p>
+        <!-- Start of content slide in -->
+        <div content-slide-in="rateFacility" slide-show-duration="1000" style="display: none;">
+            <p class="lead margin-t--5">
+                <span class="pull-left">
+                    <label class="fs-14 fw-600">Average rating: </label>
+                    <span class="fs-14 fw-600 ng-binding">0.00 <i style="color: #FFD700" class="fa fa-star-o"></i></span>
+                </span>
+            </p>
+            <br>
+            <h4>
+                <span class="pull-left fs-14 ng-binding">
+                    <label class="fw-500 light-font">Number of ratings: </label>
+                    0
+                </span>
+            </h4>
+            <br>
+            <h4>
+                 <span class="col-xs-12 pad-0 pull-left margin-t--5 class-rate">
+                    <label class="fs-14 fw-500 light-font">Rate facility's service (You may leave your contacts in the comment)</label>
+                    <span>
+                        <!-- Testing rating directive -->
+                        <!-- ngRepeat: rating in service.ratings --><span class="fs-12 ng-scope" ng-repeat="rating in service.ratings">
+                        <div class="form-group">
+                            <textarea class="form-control ng-pristine ng-untouched ng-valid" rows="1" placeholder="Leave comment" ng-model="rating.comment"></textarea>
+                        </div>
+                        <!-- {{rating.current}} out of{{rating.max}} -->
+                        <div star-rating="" rating-value="rating.current" max="rating.max" on-rating-selected="getSelectedRating(rating, service.id)" class="ng-isolate-scope"><ul class="rating"><!-- ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --></ul></div>
+                        <span class="col-xs-12 pad-0 margin-t-10">
+                            <button ng-click="rateService(service)" class="login-btn login-btn-success btn-sm">
+                             &nbsp;Rate Service
+                            </button>
+                            <!-- ngIf: service.spinner -->
+                        </span>
+                        </span><!-- end ngRepeat: rating in service.ratings -->
+                <!-- End of rating directive -->
+                    </span>
+                </span>
+
+            </h4>
+        </div>
+        <!-- End of content slide in -->
+    </div>
+    <!-- ngIf: $index%3==2 -->
+    <!-- ngIf: $index%2==2 -->
+    <div ng-repeat-end="" class="ng-scope"></div><!-- end ngRepeat: service in oneFacility.facility_services --><div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-b-10 margin-t-10 ng-scope" ng-repeat-start="service in oneFacility.facility_services">
+        <p class="lead fs-18 fw-500 text-black hidden-xs ng-binding">
+            15.&nbsp;Gynaecology
+        </p>
+        <p class="lead fs-16 fw-500 text-black visible-xs ng-binding">
+            15.&nbsp;Gynaecology
+        </p>
+        <p class="lead fs-14">
+            <label class="fs-14 fw-600">Category: </label>
+            <span class="fs-14 fw-600 ng-binding">SPECIALIZED OUTPATIENTS CLINIC</span>
+        </p>
+        <p>
+            <button class="login-btn login-btn-primary ng-binding" ng-click="rateFacility = !rateFacility">
+                &nbsp;View Service Rating&nbsp;<!-- ngIf: !rateFacility --><i ng-if="!rateFacility" class="fa fa-caret-down ng-scope"></i><!-- end ngIf: !rateFacility --> <!-- ngIf: rateFacility -->
+            </button>
+        </p>
+        <!-- Start of content slide in -->
+        <div content-slide-in="rateFacility" slide-show-duration="1000" style="display: none;">
+            <p class="lead margin-t--5">
+                <span class="pull-left">
+                    <label class="fs-14 fw-600">Average rating: </label>
+                    <span class="fs-14 fw-600 ng-binding">0.00 <i style="color: #FFD700" class="fa fa-star-o"></i></span>
+                </span>
+            </p>
+            <br>
+            <h4>
+                <span class="pull-left fs-14 ng-binding">
+                    <label class="fw-500 light-font">Number of ratings: </label>
+                    0
+                </span>
+            </h4>
+            <br>
+            <h4>
+                 <span class="col-xs-12 pad-0 pull-left margin-t--5 class-rate">
+                    <label class="fs-14 fw-500 light-font">Rate facility's service (You may leave your contacts in the comment)</label>
+                    <span>
+                        <!-- Testing rating directive -->
+                        <!-- ngRepeat: rating in service.ratings --><span class="fs-12 ng-scope" ng-repeat="rating in service.ratings">
+                        <div class="form-group">
+                            <textarea class="form-control ng-pristine ng-untouched ng-valid" rows="1" placeholder="Leave comment" ng-model="rating.comment"></textarea>
+                        </div>
+                        <!-- {{rating.current}} out of{{rating.max}} -->
+                        <div star-rating="" rating-value="rating.current" max="rating.max" on-rating-selected="getSelectedRating(rating, service.id)" class="ng-isolate-scope"><ul class="rating"><!-- ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --></ul></div>
+                        <span class="col-xs-12 pad-0 margin-t-10">
+                            <button ng-click="rateService(service)" class="login-btn login-btn-success btn-sm">
+                             &nbsp;Rate Service
+                            </button>
+                            <!-- ngIf: service.spinner -->
+                        </span>
+                        </span><!-- end ngRepeat: rating in service.ratings -->
+                <!-- End of rating directive -->
+                    </span>
+                </span>
+
+            </h4>
+        </div>
+        <!-- End of content slide in -->
+    </div>
+    <!-- ngIf: $index%3==2 --><div class="clearfix hidden-sm hidden-xs ng-scope" ng-if="$index%3==2"></div><!-- end ngIf: $index%3==2 -->
+    <!-- ngIf: $index%2==2 -->
+    <div ng-repeat-end="" class="ng-scope"></div><!-- end ngRepeat: service in oneFacility.facility_services --><div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-b-10 margin-t-10 ng-scope" ng-repeat-start="service in oneFacility.facility_services">
+        <p class="lead fs-18 fw-500 text-black hidden-xs ng-binding">
+            16.&nbsp;Focused Antenatal Care
+        </p>
+        <p class="lead fs-16 fw-500 text-black visible-xs ng-binding">
+            16.&nbsp;Focused Antenatal Care
+        </p>
+        <p class="lead fs-14">
+            <label class="fs-14 fw-600">Category: </label>
+            <span class="fs-14 fw-600 ng-binding">ANTENATAL CARE</span>
+        </p>
+        <p>
+            <button class="login-btn login-btn-primary ng-binding" ng-click="rateFacility = !rateFacility">
+                &nbsp;View Service Rating&nbsp;<!-- ngIf: !rateFacility --><i ng-if="!rateFacility" class="fa fa-caret-down ng-scope"></i><!-- end ngIf: !rateFacility --> <!-- ngIf: rateFacility -->
+            </button>
+        </p>
+        <!-- Start of content slide in -->
+        <div content-slide-in="rateFacility" slide-show-duration="1000" style="display: none;">
+            <p class="lead margin-t--5">
+                <span class="pull-left">
+                    <label class="fs-14 fw-600">Average rating: </label>
+                    <span class="fs-14 fw-600 ng-binding">0.00 <i style="color: #FFD700" class="fa fa-star-o"></i></span>
+                </span>
+            </p>
+            <br>
+            <h4>
+                <span class="pull-left fs-14 ng-binding">
+                    <label class="fw-500 light-font">Number of ratings: </label>
+                    0
+                </span>
+            </h4>
+            <br>
+            <h4>
+                 <span class="col-xs-12 pad-0 pull-left margin-t--5 class-rate">
+                    <label class="fs-14 fw-500 light-font">Rate facility's service (You may leave your contacts in the comment)</label>
+                    <span>
+                        <!-- Testing rating directive -->
+                        <!-- ngRepeat: rating in service.ratings --><span class="fs-12 ng-scope" ng-repeat="rating in service.ratings">
+                        <div class="form-group">
+                            <textarea class="form-control ng-pristine ng-untouched ng-valid" rows="1" placeholder="Leave comment" ng-model="rating.comment"></textarea>
+                        </div>
+                        <!-- {{rating.current}} out of{{rating.max}} -->
+                        <div star-rating="" rating-value="rating.current" max="rating.max" on-rating-selected="getSelectedRating(rating, service.id)" class="ng-isolate-scope"><ul class="rating"><!-- ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --></ul></div>
+                        <span class="col-xs-12 pad-0 margin-t-10">
+                            <button ng-click="rateService(service)" class="login-btn login-btn-success btn-sm">
+                             &nbsp;Rate Service
+                            </button>
+                            <!-- ngIf: service.spinner -->
+                        </span>
+                        </span><!-- end ngRepeat: rating in service.ratings -->
+                <!-- End of rating directive -->
+                    </span>
+                </span>
+
+            </h4>
+        </div>
+        <!-- End of content slide in -->
+    </div>
+    <!-- ngIf: $index%3==2 -->
+    <!-- ngIf: $index%2==2 -->
+    <div ng-repeat-end="" class="ng-scope"></div><!-- end ngRepeat: service in oneFacility.facility_services --><div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-b-10 margin-t-10 ng-scope" ng-repeat-start="service in oneFacility.facility_services">
+        <p class="lead fs-18 fw-500 text-black hidden-xs ng-binding">
+            17.&nbsp;Class E
+        </p>
+        <p class="lead fs-16 fw-500 text-black visible-xs ng-binding">
+            17.&nbsp;Class E
+        </p>
+        <p class="lead fs-14">
+            <label class="fs-14 fw-600">Category: </label>
+            <span class="fs-14 fw-600 ng-binding">LABORATORY SERVICES</span>
+        </p>
+        <p>
+            <button class="login-btn login-btn-primary ng-binding" ng-click="rateFacility = !rateFacility">
+                &nbsp;View Service Rating&nbsp;<!-- ngIf: !rateFacility --><i ng-if="!rateFacility" class="fa fa-caret-down ng-scope"></i><!-- end ngIf: !rateFacility --> <!-- ngIf: rateFacility -->
+            </button>
+        </p>
+        <!-- Start of content slide in -->
+        <div content-slide-in="rateFacility" slide-show-duration="1000" style="display: none;">
+            <p class="lead margin-t--5">
+                <span class="pull-left">
+                    <label class="fs-14 fw-600">Average rating: </label>
+                    <span class="fs-14 fw-600 ng-binding">0.00 <i style="color: #FFD700" class="fa fa-star-o"></i></span>
+                </span>
+            </p>
+            <br>
+            <h4>
+                <span class="pull-left fs-14 ng-binding">
+                    <label class="fw-500 light-font">Number of ratings: </label>
+                    0
+                </span>
+            </h4>
+            <br>
+            <h4>
+                 <span class="col-xs-12 pad-0 pull-left margin-t--5 class-rate">
+                    <label class="fs-14 fw-500 light-font">Rate facility's service (You may leave your contacts in the comment)</label>
+                    <span>
+                        <!-- Testing rating directive -->
+                        <!-- ngRepeat: rating in service.ratings --><span class="fs-12 ng-scope" ng-repeat="rating in service.ratings">
+                        <div class="form-group">
+                            <textarea class="form-control ng-pristine ng-untouched ng-valid" rows="1" placeholder="Leave comment" ng-model="rating.comment"></textarea>
+                        </div>
+                        <!-- {{rating.current}} out of{{rating.max}} -->
+                        <div star-rating="" rating-value="rating.current" max="rating.max" on-rating-selected="getSelectedRating(rating, service.id)" class="ng-isolate-scope"><ul class="rating"><!-- ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --></ul></div>
+                        <span class="col-xs-12 pad-0 margin-t-10">
+                            <button ng-click="rateService(service)" class="login-btn login-btn-success btn-sm">
+                             &nbsp;Rate Service
+                            </button>
+                            <!-- ngIf: service.spinner -->
+                        </span>
+                        </span><!-- end ngRepeat: rating in service.ratings -->
+                <!-- End of rating directive -->
+                    </span>
+                </span>
+
+            </h4>
+        </div>
+        <!-- End of content slide in -->
+    </div>
+    <!-- ngIf: $index%3==2 -->
+    <!-- ngIf: $index%2==2 -->
+    <div ng-repeat-end="" class="ng-scope"></div><!-- end ngRepeat: service in oneFacility.facility_services --><div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-b-10 margin-t-10 ng-scope" ng-repeat-start="service in oneFacility.facility_services">
+        <p class="lead fs-18 fw-500 text-black hidden-xs ng-binding">
+            18.&nbsp;Basic Obstetric Care (BMOC)
+        </p>
+        <p class="lead fs-16 fw-500 text-black visible-xs ng-binding">
+            18.&nbsp;Basic Obstetric Care (BMOC)
+        </p>
+        <p class="lead fs-14">
+            <label class="fs-14 fw-600">Category: </label>
+            <span class="fs-14 fw-600 ng-binding">MATERNITY SERVICES</span>
+        </p>
+        <p>
+            <button class="login-btn login-btn-primary ng-binding" ng-click="rateFacility = !rateFacility">
+                &nbsp;View Service Rating&nbsp;<!-- ngIf: !rateFacility --><i ng-if="!rateFacility" class="fa fa-caret-down ng-scope"></i><!-- end ngIf: !rateFacility --> <!-- ngIf: rateFacility -->
+            </button>
+        </p>
+        <!-- Start of content slide in -->
+        <div content-slide-in="rateFacility" slide-show-duration="1000" style="display: none;">
+            <p class="lead margin-t--5">
+                <span class="pull-left">
+                    <label class="fs-14 fw-600">Average rating: </label>
+                    <span class="fs-14 fw-600 ng-binding">0.00 <i style="color: #FFD700" class="fa fa-star-o"></i></span>
+                </span>
+            </p>
+            <br>
+            <h4>
+                <span class="pull-left fs-14 ng-binding">
+                    <label class="fw-500 light-font">Number of ratings: </label>
+                    0
+                </span>
+            </h4>
+            <br>
+            <h4>
+                 <span class="col-xs-12 pad-0 pull-left margin-t--5 class-rate">
+                    <label class="fs-14 fw-500 light-font">Rate facility's service (You may leave your contacts in the comment)</label>
+                    <span>
+                        <!-- Testing rating directive -->
+                        <!-- ngRepeat: rating in service.ratings --><span class="fs-12 ng-scope" ng-repeat="rating in service.ratings">
+                        <div class="form-group">
+                            <textarea class="form-control ng-pristine ng-untouched ng-valid" rows="1" placeholder="Leave comment" ng-model="rating.comment"></textarea>
+                        </div>
+                        <!-- {{rating.current}} out of{{rating.max}} -->
+                        <div star-rating="" rating-value="rating.current" max="rating.max" on-rating-selected="getSelectedRating(rating, service.id)" class="ng-isolate-scope"><ul class="rating"><!-- ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --></ul></div>
+                        <span class="col-xs-12 pad-0 margin-t-10">
+                            <button ng-click="rateService(service)" class="login-btn login-btn-success btn-sm">
+                             &nbsp;Rate Service
+                            </button>
+                            <!-- ngIf: service.spinner -->
+                        </span>
+                        </span><!-- end ngRepeat: rating in service.ratings -->
+                <!-- End of rating directive -->
+                    </span>
+                </span>
+
+            </h4>
+        </div>
+        <!-- End of content slide in -->
+    </div>
+    <!-- ngIf: $index%3==2 --><div class="clearfix hidden-sm hidden-xs ng-scope" ng-if="$index%3==2"></div><!-- end ngIf: $index%3==2 -->
+    <!-- ngIf: $index%2==2 -->
+    <div ng-repeat-end="" class="ng-scope"></div><!-- end ngRepeat: service in oneFacility.facility_services --><div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-b-10 margin-t-10 ng-scope" ng-repeat-start="service in oneFacility.facility_services">
+        <p class="lead fs-18 fw-500 text-black hidden-xs ng-binding">
+            19.&nbsp;Basic Emergency Preparedness
+        </p>
+        <p class="lead fs-16 fw-500 text-black visible-xs ng-binding">
+            19.&nbsp;Basic Emergency Preparedness
+        </p>
+        <p class="lead fs-14">
+            <label class="fs-14 fw-600">Category: </label>
+            <span class="fs-14 fw-600 ng-binding">EMERGENCY PREPAREDNESS</span>
+        </p>
+        <p>
+            <button class="login-btn login-btn-primary ng-binding" ng-click="rateFacility = !rateFacility">
+                &nbsp;View Service Rating&nbsp;<!-- ngIf: !rateFacility --><i ng-if="!rateFacility" class="fa fa-caret-down ng-scope"></i><!-- end ngIf: !rateFacility --> <!-- ngIf: rateFacility -->
+            </button>
+        </p>
+        <!-- Start of content slide in -->
+        <div content-slide-in="rateFacility" slide-show-duration="1000" style="display: none;">
+            <p class="lead margin-t--5">
+                <span class="pull-left">
+                    <label class="fs-14 fw-600">Average rating: </label>
+                    <span class="fs-14 fw-600 ng-binding">0.00 <i style="color: #FFD700" class="fa fa-star-o"></i></span>
+                </span>
+            </p>
+            <br>
+            <h4>
+                <span class="pull-left fs-14 ng-binding">
+                    <label class="fw-500 light-font">Number of ratings: </label>
+                    0
+                </span>
+            </h4>
+            <br>
+            <h4>
+                 <span class="col-xs-12 pad-0 pull-left margin-t--5 class-rate">
+                    <label class="fs-14 fw-500 light-font">Rate facility's service (You may leave your contacts in the comment)</label>
+                    <span>
+                        <!-- Testing rating directive -->
+                        <!-- ngRepeat: rating in service.ratings --><span class="fs-12 ng-scope" ng-repeat="rating in service.ratings">
+                        <div class="form-group">
+                            <textarea class="form-control ng-pristine ng-untouched ng-valid" rows="1" placeholder="Leave comment" ng-model="rating.comment"></textarea>
+                        </div>
+                        <!-- {{rating.current}} out of{{rating.max}} -->
+                        <div star-rating="" rating-value="rating.current" max="rating.max" on-rating-selected="getSelectedRating(rating, service.id)" class="ng-isolate-scope"><ul class="rating"><!-- ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --></ul></div>
+                        <span class="col-xs-12 pad-0 margin-t-10">
+                            <button ng-click="rateService(service)" class="login-btn login-btn-success btn-sm">
+                             &nbsp;Rate Service
+                            </button>
+                            <!-- ngIf: service.spinner -->
+                        </span>
+                        </span><!-- end ngRepeat: rating in service.ratings -->
+                <!-- End of rating directive -->
+                    </span>
+                </span>
+
+            </h4>
+        </div>
+        <!-- End of content slide in -->
+    </div>
+    <!-- ngIf: $index%3==2 -->
+    <!-- ngIf: $index%2==2 -->
+    <div ng-repeat-end="" class="ng-scope"></div><!-- end ngRepeat: service in oneFacility.facility_services --><div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-b-10 margin-t-10 ng-scope" ng-repeat-start="service in oneFacility.facility_services">
+        <p class="lead fs-18 fw-500 text-black hidden-xs ng-binding">
+            20.&nbsp;Basic dental services
+        </p>
+        <p class="lead fs-16 fw-500 text-black visible-xs ng-binding">
+            20.&nbsp;Basic dental services
+        </p>
+        <p class="lead fs-14">
+            <label class="fs-14 fw-600">Category: </label>
+            <span class="fs-14 fw-600 ng-binding">DENTAL SERVICES</span>
+        </p>
+        <p>
+            <button class="login-btn login-btn-primary ng-binding" ng-click="rateFacility = !rateFacility">
+                &nbsp;View Service Rating&nbsp;<!-- ngIf: !rateFacility --><i ng-if="!rateFacility" class="fa fa-caret-down ng-scope"></i><!-- end ngIf: !rateFacility --> <!-- ngIf: rateFacility -->
+            </button>
+        </p>
+        <!-- Start of content slide in -->
+        <div content-slide-in="rateFacility" slide-show-duration="1000" style="display: none;">
+            <p class="lead margin-t--5">
+                <span class="pull-left">
+                    <label class="fs-14 fw-600">Average rating: </label>
+                    <span class="fs-14 fw-600 ng-binding">0.00 <i style="color: #FFD700" class="fa fa-star-o"></i></span>
+                </span>
+            </p>
+            <br>
+            <h4>
+                <span class="pull-left fs-14 ng-binding">
+                    <label class="fw-500 light-font">Number of ratings: </label>
+                    0
+                </span>
+            </h4>
+            <br>
+            <h4>
+                 <span class="col-xs-12 pad-0 pull-left margin-t--5 class-rate">
+                    <label class="fs-14 fw-500 light-font">Rate facility's service (You may leave your contacts in the comment)</label>
+                    <span>
+                        <!-- Testing rating directive -->
+                        <!-- ngRepeat: rating in service.ratings --><span class="fs-12 ng-scope" ng-repeat="rating in service.ratings">
+                        <div class="form-group">
+                            <textarea class="form-control ng-pristine ng-untouched ng-valid" rows="1" placeholder="Leave comment" ng-model="rating.comment"></textarea>
+                        </div>
+                        <!-- {{rating.current}} out of{{rating.max}} -->
+                        <div star-rating="" rating-value="rating.current" max="rating.max" on-rating-selected="getSelectedRating(rating, service.id)" class="ng-isolate-scope"><ul class="rating"><!-- ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --><li ng-repeat="star in stars" ng-class="star" ng-click="toggle($index)" ng-mouseover="hover($index)" ng-mouseout="undo($index)" class="ng-scope $$hashKey"> ★ </li><!-- end ngRepeat: star in stars --></ul></div>
+                        <span class="col-xs-12 pad-0 margin-t-10">
+                            <button ng-click="rateService(service)" class="login-btn login-btn-success btn-sm">
+                             &nbsp;Rate Service
+                            </button>
+                            <!-- ngIf: service.spinner -->
+                        </span>
+                        </span><!-- end ngRepeat: rating in service.ratings -->
+                <!-- End of rating directive -->
+                    </span>
+                </span>
+
+            </h4>
+        </div>
+        <!-- End of content slide in -->
+    </div>
+    <!-- ngIf: $index%3==2 -->
+    <!-- ngIf: $index%2==2 -->
+    <div ng-repeat-end="" class="ng-scope"></div><!-- end ngRepeat: service in oneFacility.facility_services -->
+</div>
+</div>
+            </div>
+        </div> <!-- /container -->
+{% endblock %}
+
+
+
