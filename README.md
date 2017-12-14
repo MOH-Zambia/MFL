@@ -5,8 +5,8 @@ To run this application you have to have python 3.5 https://www.python.org insta
 
 # Installation
 
-- ```shell 
-$git clone https://github.com/csiwale/MFL
+- ```346 
+  $git clone https://github.com/csiwale/MFL
 ```
 - $cd MFL
 - $pip install virtualenv
