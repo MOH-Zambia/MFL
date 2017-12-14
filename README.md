@@ -5,7 +5,7 @@ To run this application you have to have python 3.5 https://www.python.org insta
 
 # Installation
 
-```346 
+```bash 
   git clone https://github.com/csiwale/MFL
 ```
 ```346
