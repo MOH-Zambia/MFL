@@ -8,11 +8,21 @@ To run this application you have to have python 3.5 https://www.python.org insta
 ```bash 
   git clone https://github.com/csiwale/MFL
 ```
-```346
+```bash
   cd MFL
 ```
-- $pip install virtualenv
-- $virtualenv -p python3 .
-- $source bin/activate
-- $pip install -r requirements.txt
-- $python manage.py runserver
+```bash
+  pip install virtualenv
+```
+```bash 
+  virtualenv -p python3 .
+```
+```bash 
+  source bin/activate
+```
+```bash
+  pip install -r requirements.txt
+```
+```bash
+  python manage.py runserver
+```
