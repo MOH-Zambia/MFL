@@ -11,4 +11,4 @@ To run this application you have to have python 3.5 https://www.python.org insta
 4. $ virtualenv -p python3 .
 5. $ source bin/activate
 6. $ pip install -r requirements.txt
-
+7. $ python manage.py runserver
