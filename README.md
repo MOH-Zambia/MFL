@@ -1,7 +1,7 @@
 # MFL
 Master Facility List for Ministry of Health Zambia
 
-To run this application you have to have python 3.5 https://www.python.org installed on your machine.
+To run this application you need to have python 3.5 https://www.python.org installed on your machine.
 
 # Installation
 
