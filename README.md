@@ -5,10 +5,12 @@ To run this application you have to have python 3.5 https://www.python.org insta
 
 # Installation
 
-- ```346 
-  $git clone https://github.com/csiwale/MFL
+```346 
+  git clone https://github.com/csiwale/MFL
 ```
-- $cd MFL
+```346
+  cd MFL
+```
 - $pip install virtualenv
 - $virtualenv -p python3 .
 - $source bin/activate
