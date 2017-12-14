@@ -5,10 +5,10 @@ To run this application you have to have python 3.5 https://www.python.org insta
 
 # Installation
 
-1. $ git clone https://github.com/csiwale/MFL
-2. $ cd MFL
-3. $ pip install virtualenv
-4. $ virtualenv -p python3 .
-5. $ source bin/activate
-6. $ pip install -r requirements.txt
-7. $ python manage.py runserver
+- $git clone https://github.com/csiwale/MFL
+- $cd MFL
+- $pip install virtualenv
+- $virtualenv -p python3 .
+- $source bin/activate
+- $pip install -r requirements.txt
+- $python manage.py runserver
