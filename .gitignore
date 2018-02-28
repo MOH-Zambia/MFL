@@ -55,6 +55,7 @@ coverage.xml
 .static_storage/
 .media/
 local_settings.py
+local.py
 
 # Flask stuff:
 instance/
@@ -89,6 +90,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+bin/
 
 # Spyder project settings
 .spyderproject
@@ -102,3 +104,5 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+

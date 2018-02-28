@@ -1,8 +1,7 @@
 from django.db import models
 from django.db.models import Q
 from django.db.models.signals import pre_save, post_save
-from django.core.urlresolvers import reverse
-
+from django.urls import reverse
 from .utils import unique_slug_generator
 
 
@@ -52,8 +51,8 @@ class Province(models.Model):
 
 
 class District(models.Model):
-    name = models.CharField(max_length=30)
-    province = models.ForeignKey(Province)
+    name = models.CharField(max_length=15)
+    province = models.ForeignKey(Province, on_delete=models.DO_NOTHING)
 
     def get_province(self):
         return self.province.name
@@ -95,6 +94,15 @@ class OperationalStatus(models.Model):
     class Meta:
         verbose_name_plural = "Operational status"
 
+class LabLevel(models.Model):
+    name = models.CharField(max_length=10)
+
+    def __str__(self):  # __unicode__ on Python 2
+        return self.name
+
+    class Meta:
+        verbose_name_plural = "Lab Levels"
+
 
 # class FacilityQuerySet(models.query.QuerySet):
 #     def search(self, query):
@@ -116,14 +124,15 @@ class OperationalStatus(models.Model):
 
 
 class Facility(models.Model):
-    #dhis2_uid = models.CharField(max_length=13)
+    dhis2_uid = models.CharField(max_length=13, null=True, blank=True)
     HMIS_Code = models.CharField(max_length=8)
     facility_name = models.CharField(max_length=30)
-    facility_type = models.ForeignKey(FacilityType)
-    operational_status = models.ForeignKey(OperationalStatus)
-    administrative_unit = models.ForeignKey(AdministrativeUnit)
-    ownership = models.ForeignKey(Ownership)
+    facility_type = models.ForeignKey(FacilityType, on_delete=models.DO_NOTHING)
+    operational_status = models.ForeignKey(OperationalStatus, on_delete=models.DO_NOTHING)
+    administrative_unit = models.ForeignKey(AdministrativeUnit, on_delete=models.DO_NOTHING)
+    ownership = models.ForeignKey(Ownership, on_delete=models.DO_NOTHING)
     services = models.ManyToManyField(Service)
+    lab_level = models.ManyToManyField(LabLevel)
     operating_hours = models.ManyToManyField(OperatingHours)
     infrastructure = models.ManyToManyField(Infrastructure, blank=True)
     equipment = models.ManyToManyField(Equipment, blank=True)
@@ -140,12 +149,17 @@ class Facility(models.Model):
     street_number = models.CharField(max_length=10, null=True, blank=True)
     area_name = models.CharField(max_length=30, null=True, blank=True)
     postal_address = models.CharField(max_length=10, null=True, blank=True)
-    district = models.ForeignKey(District)
-    longitude = models.DecimalField(max_digits=8, decimal_places=3, null=True, blank=True)
-    latitude = models.DecimalField(max_digits=8, decimal_places=3, null=True, blank=True)
+    district = models.ForeignKey(District, on_delete=models.DO_NOTHING)
+    catchment_population = models.IntegerField(null=True, blank=True)
+    longitude = models.FloatField(null=True, blank=True)
+    latitude = models.FloatField(null=True, blank=True)
     timestamp = models.DateTimeField(auto_now_add=True, auto_now=False)
     updated = models.DateTimeField(auto_now_add=False, auto_now=True)
     slug = models.SlugField(null=True, blank=True)
+    star = models.TextField(max_length=1000, null=True, blank=True)
+    # stars = models.ManyToManyField(Star, null=True, blank=True)
+    rated = models.TextField(max_length=1000, null=True, blank=True)
+    rating = models.TextField(max_length=10, null=True, blank=True)
 
     def province(self):
         return self.district.province.name
@@ -161,7 +175,7 @@ class Facility(models.Model):
 
     def get_absolute_url(self):  # get_absolute_url
         # return f"/facility/{self.slug}"
-        return reverse('facility', kwargs={'slug': self.slug})
+        return reverse('facility', kwargs={'pk': self.id})
 
     @property
     def title(self):
