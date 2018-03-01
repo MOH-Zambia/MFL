@@ -91,6 +91,8 @@ ENV/
 env.bak/
 venv.bak/
 bin/
+lib/
+include/
 
 # Spyder project settings
 .spyderproject
