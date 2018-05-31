@@ -5,9 +5,20 @@ from django.urls import reverse
 from .utils import unique_slug_generator
 
 
+class ServiceCategory(models.Model):
+    name = models.CharField(max_length=100)
+
+    def __str__(self):  # __unicode__ on Python 2
+        return self.name
+
+    class Meta:
+        verbose_name_plural = "Service Categories"
+
+
 class Service(models.Model):
     name = models.CharField(max_length=100)
     # category = models.CharField(max_length=100)
+    category = models.ForeignKey(ServiceCategory, on_delete=models.DO_NOTHING)
 
     def __str__(self):  # __unicode__ on Python 2
         return self.name

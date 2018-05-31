@@ -14,6 +14,7 @@ admin.site.register(OperationalStatus)
 admin.site.register(FacilityType)
 admin.site.register(Ownership)
 admin.site.register(Service)
+admin.site.register(ServiceCategory)
 admin.site.register(Infrastructure)
 admin.site.register(Equipment)
 
