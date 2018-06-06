@@ -72,6 +72,25 @@ class District(models.Model):
         return self.name
 
 
+class Constituency(models.Model):
+    name = models.CharField(max_length=15)
+    district = models.ForeignKey(District, on_delete=models.DO_NOTHING)
+
+    def get_province(self):
+        return self.district.province.name
+
+    def __str__(self):  # __unicode__ on Python 2
+        return self.name
+
+
+class Ward(models.Model):
+    name = models.CharField(max_length=15)
+    constituency = models.ForeignKey(Constituency, on_delete=models.DO_NOTHING)
+
+    def __str__(self):  # __unicode__ on Python 2
+        return self.name
+
+
 class Ownership(models.Model):
     name = models.CharField(max_length=30)
 
