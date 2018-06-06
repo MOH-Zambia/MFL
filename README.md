@@ -6,7 +6,7 @@ To run this application you need to have python 3.5 https://www.python.org insta
 # Installation
 
 ```bash 
-  git clone https://github.com/csiwale/MFL
+  git clone https://github.com/MOH-Zambia/MFL
 ```
 ```bash
   cd MFL
