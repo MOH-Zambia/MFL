@@ -1,12 +1,8 @@
 import os
 
-<<<<<<< Updated upstream
-SECRET_KEY = os.environ['SECRET_KEY']
-=======
 #Read secret key from a file with 
 open('/etc/secret_key.txt') as f:
     SECRET_KEY = f.read().strip()        
->>>>>>> Stashed changes
 
 DEBUG = False
 
