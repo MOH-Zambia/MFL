@@ -92,6 +92,7 @@ env.bak/
 venv.bak/
 bin/
 lib/
+share/
 include/
 
 # Spyder project settings
@@ -106,5 +107,7 @@ include/
 
 # mypy
 .mypy_cache/
+
+MFL/migrations
 
 

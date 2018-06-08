@@ -1,9 +1,6 @@
 import os
 
-try:
-    SECRET_KEY = os.environ['SECRET_KEY']
-except KeyError:
-    pass
+SECRET_KEY = os.environ['SECRET_KEY']
 
 DEBUG = False
 
