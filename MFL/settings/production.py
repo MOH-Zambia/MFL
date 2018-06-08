@@ -1,6 +1,12 @@
 import os
 
+<<<<<<< Updated upstream
 SECRET_KEY = os.environ['SECRET_KEY']
+=======
+#Read secret key from a file with 
+open('/etc/secret_key.txt') as f:
+    SECRET_KEY = f.read().strip()        
+>>>>>>> Stashed changes
 
 DEBUG = False
 
@@ -16,9 +22,11 @@ DATABASES = {
         # 'ENGINE': 'django.db.backends.sqlite3',
         # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         # 'NAME': os.path.join(BASE_DIR, 'db.spatiallite'),
-        'NAME': 'mfl',
+        'NAME': 'MFL',
         'USER': 'django',
-        'PASSSWORD': 'django_12345',
+        'PASSWORD' : 'django_12345',
+        'HOST': '127.0.0.1',
+        'PORT': '5432',
     }
 }
 
