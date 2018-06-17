@@ -8,7 +8,7 @@ with open('/etc/secret_key.txt') as f:
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['41.72.110.82']
+ALLOWED_HOSTS = ['41.72.110.82', 'mfl.moh.gov.zm']
 
 # Database
 # https://docs.djangoproject.com/en/1.8/ref/settings/#databases
@@ -39,3 +39,8 @@ COMPRESS_PRECOMPILERS = (
 )
 
 # COMPRESS_ENABLED = os.environ.get('COMPRESS_ENABLED', False)
+
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+SECURE_SSL_REDIRECT = True
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
