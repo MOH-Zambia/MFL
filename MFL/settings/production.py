@@ -8,7 +8,7 @@ with open('/etc/secret_key.txt') as f:
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['41.72.110.82', 'mfl.moh.gov.zm']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '10.2.8.15', '10.2.8.25', '41.72.110.82', 'mfl.moh.gov.zm']
 
 # Database
 # https://docs.djangoproject.com/en/1.8/ref/settings/#databases
