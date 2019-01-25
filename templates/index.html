@@ -4,65 +4,41 @@
 
 {% block style %}
     <style type="text/css">
-        html {
-            height: 100%;
-        }
-
-        html body {
-          height: 100%;
-          overflow: hidden;
-          display: flex;
-          flex-direction: column;
-        }
-
-        html body .container-fluid.body-content {
-          width: 100%;
-          overflow-y: auto;
-          padding-bottom: 200px;
+        body {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            overflow-y: auto;
         }
         footer {
-            position:absolute;
-            bottom:0;
-            width:100% !important;
-            height: 200px;   /* Height of the footer */
-{#          background:#f8f8f8;#}
-            background: #428c42;
-            display: block;
-            flex-shrink: 0;
-            overflow:hidden;
-            min-height: 200px;
-            width: 100%;
+            position: absolute;
+            overflow: hidden;
         }
     </style>
-}
+
 {% endblock %}
 
 {% block content %}
-    {% block jumbotron %}
-        <div class="jumbotron">
-            <div class="container">
-                <div class="row"><img src="{% static 'MFL/img/Coat_of_arms_of_Zambia_50x58.png' %}"></div>
-                <div class="row">
-                    <p><span class="text-orange">Master Facility List</span></p>
-                </div>
-                <form class="form" method="get" action="{% url 'list' %}">
-                    <div class="row">
-                        <div id="custom-search-input">
-                            <div class="input-group col-xs-7">
-
-                                <input type="text" class=" search-query form-control" placeholder="Search..." name="q" value="{{ request.GET.q }}" />
-                                <span class="input-group-btn">
-                                    <button class="btn btn-danger" type="button">
-                                        <span class="glyphicon glyphicon-search"></span>
-                                    </button>
-                                </span>
-                            </div>
+    <div class="container-fluid body-content m-t-1">
+        <div class="d-flex flex-column align-items-center mt-5">
+            <div class="p-2"><img src="{% static 'MFL/img/Coat_of_arms_of_Zambia_50x58.png' %}"></div>
+            <div class="p-2"><h3>Master Facility List</h3></div>
+            <div class="p-2">
+                <div id="custom-search-input">
+                    <form class="form" method="get" action="{% url 'list' %}">
+                        <div class="input-group input-group-lg">
+                            <input name="name" type="text" class="search-query form-control" placeholder="Search" />
+                            <span class="input-group-btn">
+                                <button type="button" disabled>
+                                    <span class="fas fa-search"></span>
+                                </button>
+                            </span>
                         </div>
-                    </div>
-                </form>
-            </div> <!-- /container -->
+                    </form>
+                </div>
+             </div>
         </div>
-    {% endblock %}
+    </div>
 {% endblock %}
 
 

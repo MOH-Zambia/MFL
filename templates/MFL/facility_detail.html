@@ -1,75 +1,35 @@
 {% extends "base.html" %}
 {% load static %}
-{% block title %}MFL | {{ object.facility_name }}{% endblock %}
+{% block title %} MFL | {{ object.name }}{% endblock %}
 
 
 {% block content %}
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-xs-12 content-card">
-                    <h3 class="fw-500  hidden-xs col-xs-12 ng-binding">
-                        <span class="fs-26 ng-binding">{{ object.HMIS_Code }}</span> | {{ object.facility_name }} | <small>{{ object.district }} District | {{ object.province }} Province</small>
+                    <h3 class="fw-500 hidden-xs col-xs-12">
+                        <span class="fs-26">{{ object.HMIS_Code }}</span> | {{ object.name }} | <small>{{ object.district }} District | {{ object.province }} Province</small>
                     </h3>
                     <hr style="border: 1px solid #F0F0F0;">
-                    <br>
-                    <h4 class="margin-t--27 fw-500">
-                        <span class="pull-left col-md-6 col-xs-12 ng-binding">
+                    <h3>
+                        <span class="col-md-6 col-xs-12">
                             <label>Facility Type: </label>
                             {{ object.facility_type }}
                         </span>
-                    </h4>
+                    </h3>
                     <br>
 
-                    <br>
                     <h4>
                         <div class="pull-left col-md-6 col-xs-12">
                             <p><b class="fs-15 text-black">Operation status:</b>
-                            <span class="fs-15 label label-success fs-13 ng-binding">
-                                Operational
+                            <span class="fs-15 label label-success fs-13">{{ object.operation_status }}
                             </span></p>
                         </div>
-{#                        <!-- ngIf: oneFacility.open_weekends --><span class="content-right fs-14 col-md-6 col-xs-12 ng-scope" ng-if="oneFacility.open_weekends">Open weekends</span><!-- end ngIf: oneFacility.open_weekends -->#}
                     </h4>
-                    <br>
-                    <h4>
-                        <div class="pull-left col-md-6 col-xs-12">
-                            <p>
-                                <b class="fs-15 text-black">Regulation Status:</b>
-                                <span class="fs-13 label label-warning ng-binding">
-                                    Licensed
-                                </span>
-                            </p>
-                        </div>
-{#                        <!-- ngIf: oneFacility.open_whole_day --><span class="content-right fs-14 col-md-6 col-xs-12 ng-scope" ng-if="oneFacility.open_whole_day">Open wholw day</span><!-- end ngIf: oneFacility.open_whole_day -->#}
-                    </h4>
-                    <br>
-                    <br>
 
-                    <h4 class="fs-14 margin-t--5">
-                        <span class="pull-left col-md-6 col-xs-12 ng-binding">
-                            <label>Beds: </label> {{ object.number_of_beds }}
-                        </span>
-                        <!-- ngIf: oneFacility.open_public_holidays --><span class="content-right col-md-6 col-xs-12 ng-scope" ng-if="oneFacility.open_public_holidays">Open on public holidays</span><!-- end ngIf: oneFacility.open_public_holidays -->
-                    </h4>
-                    <br>
-
-                    <h4 class="fs-14 margin-t--5">
-                        <span class="pull-left col-md-6 col-xs-12 ng-binding">
-                            <label>Cots: </label> {{ object.number_of_cots }}
-                        </span>
-                        <!-- ngIf: oneFacility.open_weekends --><span class="content-right col-md-6 col-xs-12 ng-scope" ng-if="oneFacility.open_weekends">Open weekends</span><!-- end ngIf: oneFacility.open_weekends -->
-                    </h4>
-                    <br>
-
-                    <h4 class="fs-14 margin-t--5">
-                        <span class="pull-left col-md-6 col-xs-12 ng-binding">
-                        </span>
-                        <!-- ngIf: oneFacility.open_24_hours--><span class="content-right col-md-6 col-xs-12 ng-scope" ng-if="oneFacility.open_weekends">Open 24 hours</span><!-- end ngIf: oneFacility.open_24_hours -->
-                    </h4>
-                    <br>
-
-                    <hr style="border: 1px solid #F0F0F0;">
-                    <h4 class="fs-20 fw-600  col-xs-12">
+                </div>
+                <div class="col-md-12 col-xs-12 content-card">
+                     <h4 class="fs-20 fw-600  col-xs-12">
                     <span class="fa-stack fa-lg fs-13">
                       <i class="fa fa-circle fa-stack-2x"></i>
                       <i class="fa fa-map-marker fa-stack-1x fa-inverse"></i>
@@ -85,8 +45,8 @@
                     <div id="map"></div>
                     <!-- End of locatin displays -->
                 </div>
-                <div class="col-xs-12 content-card ng-scope services" ng-show="oneFacility.service_catalogue_active">
-                    <h3 class="fw-500  hidden-xs col-xs-12 ng-binding">Services</h3>
+                <div class="col-xs-12 content-card services">
+                    <h3 class="fw-500  hidden-xs col-xs-12">Services</h3>
                     <hr style="border: 1px solid #F0F0F0;">
                     <br>
                     <h4 class="hidden-xs fade-content">

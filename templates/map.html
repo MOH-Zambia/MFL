@@ -1,30 +1,309 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <style>
-       #map {
-        height: 400px;
-        width: 100%;
-       }
+{% extends "base.html" %}
+{% load static %}
+{% load leaflet_tags %}
+
+{% block title %}MFL | Map{% endblock %}
+
+
+{% block head %}
+    {% leaflet_css %}
+{% endblock %}
+
+{% block style %}
+    <link type="text/css" rel="stylesheet" src="{% static 'MFL/css/leaflet.groupedlayercontrol.min.css' %}">
+    <style type="text/css">
+        body {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            overflow-y: auto;
+        }
+        footer {
+            display: none;
+        }
+        #map {
+            height: 100vh;
+        }
+        .leaflet-container {
+            height: 100vh;
+        }
+        .info {
+            padding: 6px 8px;
+            font: 14px/16px Arial, Helvetica, sans-serif;
+            background: white;
+            background: rgba(255,255,255,0.8);
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            border-radius: 5px;
+        }
+        .info h4 {
+            margin: 0 0 5px;
+            color: #777;
+        }
+        .legend {
+            line-height: 18px;
+            color: #555;
+        }
+        .legend i {
+            width: 18px;
+            height: 18px;
+            float: left;
+            margin-right: 8px;
+            opacity: 0.7;
+        }
+        #stats {
+            background: #F5F5F5;
+            opacity: 0.9;
+        }
+        .tile_count {
+        }
+        .tile_count .tile_stats_count {
+            border-bottom: 1px solid #D9DEE4;
+            padding: 0 10px 0 20px;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+            position: relative
+        }
+        @media (min-width: 992px) {
+            footer {
+                margin-left: 230px
+            }
+        }
+        @media (min-width: 992px) {
+            .tile_count .tile_stats_count {
+                margin-bottom: 10px;
+                border-bottom: 0;
+                padding-bottom: 10px
+            }
+        }
+        .tile_count .tile_stats_count:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            height: 65px;
+            border-left: 2px solid #ADB2B5;
+            margin-top: 10px
+        }
+        @media (min-width: 992px) {
+            .tile_count .tile_stats_count:first-child:before {
+                border-left: 0
+            }
+        }
+        .tile_count .tile_stats_count .count {
+            font-size: 30px;
+            line-height: 47px;
+            font-weight: 600
+        }
+        @media (min-width: 768px) {
+            .tile_count .tile_stats_count .count {
+                font-size: 40px
+            }
+        }
+        @media (min-width: 992px) and (max-width: 1100px) {
+            .tile_count .tile_stats_count .count {
+                font-size: 30px
+            }
+        }
+        .tile_count .tile_stats_count span {
+            font-size: 12px
+        }
+        @media (min-width: 768px) {
+            .tile_count .tile_stats_count span {
+                font-size: 13px
+            }
+        }
+        .tile_count .tile_stats_count .count_bottom i {
+            width: 12px
+        }
+
     </style>
-  </head>
-  <body>
-    <div id="map"></div>
-    <script>
-      function initMap() {
-        var uluru = {lat: -15.408370, lng: 28.280141};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 4,
-          center: uluru
+{% endblock %}
+
+{% block content %}
+    <div id="stats">
+    <div class="container">
+        <div class="row tile_count">
+            <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+                <span class="count_top">Total Public Facilities</span>
+                <div class="count">{{ num_facilities }}</div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+                <span class="count_top">Hospitals</span>
+                <div class="count">{{ num_hospitals }}</div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+                <span class="count_top">Urban Health Centers</span>
+                <div class="count"> {{ num_UHC }}</div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+                <span class="count_top">Rural Health Centers</span>
+                <div class="count">{{ num_RHC }}</div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+                <span class="count_top">Health Posts</span>
+                <div class="count">{{ num_HP }}</div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+                <span class="count_top">Private</span>
+                <div class="count">{{ num_private }}</div>
+            </div>
+        </div>
+    </div>
+    </div>
+    {% leaflet_js %}
+
+    <script type="text/javascript" src="{% static 'MFL/js/leaflet.ajax.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'MFL/js/leaflet.groupedlayercontrol.min.js' %}"></script>
+
+    <script type="text/javascript">
+        function getColor(facility_type) {
+            switch (facility_type) {
+                case 6:
+                case 5:
+                case 4:
+                    return "#000";
+
+                case 3:
+                    return "#e17d00";
+
+                case 8:
+                    return "#ff00ff";
+
+                case 7:
+                    return "#0000FF";
+
+                case 2:
+                    return "#008000";
+
+                case 1:
+                    return "#ff0000";
+
+                default:
+                    return "#CCCC00";
+            }
+        }
+
+
+        window.addEventListener("map:init", function (event) {
+            let map = event.detail.map;
+
+            //API URLs
+            let facility_url = '{% url "facilities" %}';
+            let province_url = '{% url "provinces" %}';
+            let district_url = '{% url "districts" %}';
+            let constituency_url = '{% url "constituencies" %}';
+            let ward_url = '{% url "wards" %}';
+
+            // Download GeoJSON data with Ajax
+            function getFeatureFacilities(){
+                return fetch(facility_url, {}).then((response) => response.json())
+            }
+
+            function getPeatureProvinces(){
+                return fetch(province_url, {}).then((response) => response.json())
+            }
+
+            function getFeatureDistricts(){
+                return fetch(district_url, {}).then((response) => response.json())
+            }
+
+            function getFeatureConstituencies(){
+                return fetch(constituency_url, {}).then((response) => response.json())
+            }
+
+            function getFeatureWards(){
+                return fetch(ward_url, {}).then((response) => response.json())
+            }
+
+            // Request all map features in parallel and return a Promise for all values.
+            // `Promise.all` returns a new Promise that resolves when all of its arguments resolve.
+            function getMapData(){
+              return Promise.all([getFeatureFacilities(), getPeatureProvinces(), getFeatureDistricts(),
+                  getFeatureConstituencies(), getFeatureWards()])
+            }
+
+            // When this Promise resolves, both values will be available.
+            getMapData().then(([facilities, provinces, districts, constituencies, wards]) => {
+                facilities = L.geoJson(facilities, {
+                    pointToLayer: function (feature, latlng) {
+                        return new L.CircleMarker(latlng, {
+                            radius: 5,
+                            fillColor: getColor(feature.properties.facility_type),
+                            color: getColor(feature.properties.facility_type),
+                            weight: 1,
+                            opacity: 1,
+                            fillOpacity: 0.8
+                        });
+                    },
+
+                    onEachFeature: function (feature, layer) {
+                        layer.bindPopup(feature.properties.name);
+                    }
+                });
+                provinces = L.geoJson(provinces, {});
+                districts = L.geoJson(districts, {});
+                constituencies = L.geoJson(constituencies, {});
+                wards = L.geoJson(wards, {});
+
+                //Add layers to map
+                facilities.addTo(map);
+
+                //Add layer control with base map
+                let basemaps = {
+                    Grayscale: L.tileLayer('http://{s}.tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png', {
+                        maxZoom: 18,
+                        attribution: `&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>`
+                    }),
+                    Streets: L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        maxZoom: 19,
+                        attribution: `&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>`
+                    })
+                };
+
+                let groupedOverlays = {
+                    "Health facilities": {
+                        "All": facilities,
+                    },
+
+                    "Administrative Boundaries": {
+                        "Provinces": provinces,
+                        "Districts": districts,
+                        "Constituencies": constituencies,
+                        "Wards": wards
+                    }
+                };
+
+                const layerControl = L.control.groupedLayers(basemaps, groupedOverlays);
+                layerControl.addTo(map);
+            });
+
+
+            //Map legend
+            let legend = L.control({position: 'bottomright'});
+
+            legend.onAdd = function (map) {
+                let div = L.DomUtil.create('div', 'info legend');
+                let labels = [`<strong>Facility Types</strong>`],
+                    facility_types = ['Health Post', 'Rural Health Centre', 'Urban Health Centre', 'Level 1 Hospital District',
+                        'Level 2 Hospital Provincial', 'Level 3 Hospital Tertiary', 'Military', 'Private'];
+
+                for (let i = 0; i < facility_types.length; i++) {
+                    div.innerHTML += labels.push(
+                        `<i class="circle" style="background:${getColor(i + 1)}"></i> ${facility_types[i] ? facility_types[i] : '+'}`);
+                }
+                div.innerHTML = labels.join('<br>');
+                return div;
+            };
+
+            legend.addTo(map);
         });
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
-      }
     </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxWu2NmcMF04MBEHKL21JBzMLxqzhTN8I&callback=initMap">
-    </script>
-  </body>
-</html>
+
+    {% leaflet_map "map" %}
+
+{% endblock %}
+
+{% block javascript %}
+
+
+{% endblock %}

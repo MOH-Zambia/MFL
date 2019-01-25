@@ -1,23 +1,79 @@
 from django.contrib.gis.db import models
 
-class WorldBorder(models.Model):
-    # Regular Django fields corresponding to the attributes in the
-    # world borders shapefile.
-    name = models.CharField(max_length=50)
-    area = models.IntegerField()
-    pop2005 = models.IntegerField('Population 2005')
-    fips = models.CharField('FIPS Code', max_length=2)
-    iso2 = models.CharField('2 Digit ISO', max_length=2)
-    iso3 = models.CharField('3 Digit ISO', max_length=3)
-    un = models.IntegerField('United Nations Code')
-    region = models.IntegerField('Region Code')
-    subregion = models.IntegerField('Sub-Region Code')
-    lon = models.FloatField()
-    lat = models.FloatField()
 
-    # GeoDjango-specific: a geometry field (MultiPolygonField)
-    mpoly = models.MultiPolygonField()
+class Province(models.Model):
+    name = models.CharField(max_length=64)
+    population = models.IntegerField()
+    pop_density = models.FloatField(verbose_name='People per sq. km')
+    area_sq_km = models.FloatField(verbose_name='Land area, sq. km')
+    geom = models.MultiPolygonField(srid=4326)
 
     # Returns the string representation of the model.
-    def __str__(self):              # __unicode__ on Python 2
+    def __str__(self):  # __unicode__ on Python 2
+        return self.name
+
+
+class DistrictType(models.Model):
+    name = models.CharField(max_length=15)
+
+    def __str__(self):  # __unicode__ on Python 2
+        return self.name
+
+
+class LocationType(models.Model):
+    name = models.CharField(max_length=10)
+
+    def __str__(self):  # __unicode__ on Python 2
+        return self.name
+
+    class Meta:
+        verbose_name_plural = "Location Types"
+
+
+class District(models.Model):
+    name = models.CharField(max_length=30)
+    province = models.ForeignKey(Province, on_delete=models.DO_NOTHING)
+    district_type = models.ForeignKey(DistrictType, on_delete=models.DO_NOTHING)
+    population = models.FloatField(null=True, blank=True)
+    pop_density = models.FloatField(null=True, blank=True, verbose_name='People per sq. km')
+    area_sq_km = models.FloatField(null=True, blank=True, verbose_name='Land area, sq. km')
+    geom = models.MultiPolygonField(srid=4326)
+
+    def get_province(self):
+        return self.province.name
+
+    # Returns the string representation of the model.
+    def __str__(self):  # __unicode__ on Python 2
+        return self.name
+
+
+class Constituency(models.Model):
+    name = models.CharField(max_length=50)
+    district = models.ForeignKey(District, on_delete=models.DO_NOTHING, null=True)
+    population = models.FloatField(null=True, blank=True)
+    pop_density = models.FloatField(null=True, blank=True, verbose_name='People per sq. km')
+    area_sq_km = models.FloatField(null=True, blank=True, verbose_name='Land area, sq. km')
+    geom = models.MultiPolygonField(srid=4326)
+
+    # Returns the string representation of the model.
+    def __str__(self):  # __unicode__ on Python 2
+        return self.name
+
+    def get_district(self):
+        return self.district.name
+
+    class Meta:
+        verbose_name_plural = "Constituencies"
+
+
+class Ward(models.Model):
+    name = models.CharField(max_length=254)
+    constituency = models.ForeignKey(Constituency, on_delete=models.DO_NOTHING, null=True, blank=True)
+    population = models.FloatField(null=True, blank=True)
+    pop_density = models.FloatField(null=True, blank=True, verbose_name='People per sq. km')
+    area_sq_km = models.FloatField(null=True, blank=True, verbose_name='Land area, sq. km')
+    geom = models.MultiPolygonField(srid=4326)
+
+    # Returns the string representation of the model.
+    def __str__(self):  # __unicode__ on Python 2
         return self.name

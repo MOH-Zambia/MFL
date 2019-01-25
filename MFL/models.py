@@ -1,8 +1,10 @@
 from django.db import models
-from django.db.models import Q
+from django.contrib.gis.db import models
 from django.db.models.signals import pre_save, post_save
 from django.urls import reverse
+from django.utils.translation import ugettext_lazy as _
 from .utils import unique_slug_generator
+from maps.models import District, Constituency, Ward, LocationType
 
 
 class ServiceCategory(models.Model):
@@ -54,43 +56,6 @@ class OperatingHours(models.Model):
         verbose_name_plural = "Operating Hours"
 
 
-class Province(models.Model):
-    name = models.CharField(max_length=15)
-
-    def __str__(self):  # __unicode__ on Python 2
-        return self.name
-
-
-class District(models.Model):
-    name = models.CharField(max_length=15)
-    province = models.ForeignKey(Province, on_delete=models.DO_NOTHING)
-
-    def get_province(self):
-        return self.province.name
-
-    def __str__(self):  # __unicode__ on Python 2
-        return self.name
-
-
-class Constituency(models.Model):
-    name = models.CharField(max_length=15)
-    district = models.ForeignKey(District, on_delete=models.DO_NOTHING)
-
-    def get_province(self):
-        return self.district.province.name
-
-    def __str__(self):  # __unicode__ on Python 2
-        return self.name
-
-
-class Ward(models.Model):
-    name = models.CharField(max_length=15)
-    constituency = models.ForeignKey(Constituency, on_delete=models.DO_NOTHING)
-
-    def __str__(self):  # __unicode__ on Python 2
-        return self.name
-
-
 class Ownership(models.Model):
     name = models.CharField(max_length=30)
 
@@ -102,10 +67,10 @@ class Ownership(models.Model):
 
 
 class FacilityType(models.Model):
-    facility_type = models.CharField(max_length=30)
+    name = models.CharField(max_length=30)
 
     def __str__(self):  # __unicode__ on Python 2
-        return self.facility_type
+        return self.name
 
 
 class AdministrativeUnit(models.Model):
@@ -115,23 +80,19 @@ class AdministrativeUnit(models.Model):
         return self.name
 
 
-class OperationalStatus(models.Model):
+class OperationStatus(models.Model):
     name = models.CharField(max_length=30)
+    description = models.TextField()
 
     def __str__(self):  # __unicode__ on Python 2
         return self.name
 
-    class Meta:
-        verbose_name_plural = "Operational status"
 
 class LabLevel(models.Model):
     name = models.CharField(max_length=10)
 
     def __str__(self):  # __unicode__ on Python 2
         return self.name
-
-    class Meta:
-        verbose_name_plural = "Lab Levels"
 
 
 # class FacilityQuerySet(models.query.QuerySet):
@@ -153,13 +114,37 @@ class LabLevel(models.Model):
 #         return self.get_queryset().search(query)
 
 
+class SearchManager(models.Manager):
+    def search(self, **kwargs):
+        query_string = ''
+        qs = self.all()
+
+        if kwargs.get('form_data').get('name', ''):
+            qs = qs.filter(name__icontains=kwargs['form_data']['name'])
+            query_string += '&name=' + kwargs['form_data']['name']
+        if kwargs.get('form_data').get('facility_type', []):
+            qs = qs.filter(facility_type=kwargs['form_data']['facility_type'])
+            query_string += '&facility_type=' + kwargs['form_data']['facility_type']
+        if kwargs.get('form_data').get('operation_status', []):
+            qs = qs.filter(operation_status=kwargs['form_data']['operation_status'])
+            query_string += '&operation_status=' + kwargs['form_data']['operation_status']
+        if kwargs.get('form_data').get('ownership', []):
+            qs = qs.filter(ownership=kwargs['form_data']['ownership'])
+            query_string += '&ownership=' + kwargs['form_data']['ownership']
+
+        return {
+            'query_set': qs,
+            'query_string': query_string
+        }
+
+
 class Facility(models.Model):
-    dhis2_uid = models.CharField(max_length=13, null=True, blank=True)
-    HMIS_Code = models.CharField(max_length=8)
-    facility_name = models.CharField(max_length=30)
+    DHIS2_UID = models.CharField(max_length=13, null=True, blank=True)
+    HMIS_Code = models.CharField(max_length=10)
+    name = models.CharField(max_length=60)
     facility_type = models.ForeignKey(FacilityType, on_delete=models.DO_NOTHING)
-    operational_status = models.ForeignKey(OperationalStatus, on_delete=models.DO_NOTHING)
-    administrative_unit = models.ForeignKey(AdministrativeUnit, on_delete=models.DO_NOTHING)
+    operation_status = models.ForeignKey(OperationStatus, on_delete=models.DO_NOTHING, default=1)
+    administrative_unit = models.ForeignKey(AdministrativeUnit, on_delete=models.DO_NOTHING, null=True, blank=True)
     ownership = models.ForeignKey(Ownership, on_delete=models.DO_NOTHING)
     services = models.ManyToManyField(Service)
     lab_level = models.ManyToManyField(LabLevel)
@@ -170,32 +155,39 @@ class Facility(models.Model):
     number_of_cots = models.IntegerField(null=True, blank=True)
     number_of_nurses = models.IntegerField(null=True, blank=True)
     number_of_doctors = models.IntegerField(null=True, blank=True)
-    email = models.EmailField(null=True, blank=True)
+    address_line1 = models.CharField(_('Address 1'), max_length=60, null=True, blank=True, help_text='Street addrees, '
+                                                                                                     'P.O Box')
+    address_line2 = models.CharField(_('Address 2'), max_length=60, null=True, blank=True, help_text='Apartment, '
+                                                                                                     'suite, unit, '
+                                                                                                     'building, '
+                                                                                                     'floor, etc')
+    district = models.ForeignKey(District, on_delete=models.DO_NOTHING)
+    constituency = models.ForeignKey(Constituency, on_delete=models.DO_NOTHING, null=True, blank=True)
+    ward = models.ForeignKey(Ward, on_delete=models.DO_NOTHING, null=True, blank=True)
+    postal_address = models.CharField(_('Postal box'), max_length=25, null=True, blank=True, help_text='Postal address')
+    location_type = models.ForeignKey(LocationType, on_delete=models.DO_NOTHING, null=True, blank=True)
     web_address = models.CharField(max_length=120, null=True, blank=True)
+    email = models.EmailField(null=True, blank=True)
     phone = models.CharField(max_length=13, null=True, blank=True)
     mobile = models.CharField(max_length=13, null=True, blank=True)
     fax = models.CharField(max_length=13, null=True, blank=True)
-    street_name = models.CharField(max_length=30, null=True, blank=True)
-    street_number = models.CharField(max_length=10, null=True, blank=True)
-    area_name = models.CharField(max_length=30, null=True, blank=True)
-    postal_address = models.CharField(max_length=10, null=True, blank=True)
-    district = models.ForeignKey(District, on_delete=models.DO_NOTHING)
     catchment_population = models.IntegerField(null=True, blank=True)
-    longitude = models.FloatField(null=True, blank=True)
-    latitude = models.FloatField(null=True, blank=True)
-    timestamp = models.DateTimeField(auto_now_add=True, auto_now=False)
-    updated = models.DateTimeField(auto_now_add=False, auto_now=True)
-    slug = models.SlugField(null=True, blank=True)
     star = models.TextField(max_length=1000, null=True, blank=True)
     # stars = models.ManyToManyField(Star, null=True, blank=True)
     rated = models.TextField(max_length=1000, null=True, blank=True)
     rating = models.TextField(max_length=10, null=True, blank=True)
+    longitude = models.FloatField(null=True, blank=True)
+    latitude = models.FloatField(null=True, blank=True)
+    geom = models.PointField(srid=4326, blank=True)
+    timestamp = models.DateTimeField(auto_now_add=True, auto_now=False)
+    updated = models.DateTimeField(auto_now_add=False, auto_now=True)
+    slug = models.SlugField(max_length=254, null=True, blank=True)
 
     def province(self):
         return self.district.province.name
 
     def __str__(self):  # __unicode__ on Python 2
-        return "%s | %s" % (self.HMIS_Code, self.facility_name)
+        return "%s | %s" % (self.HMIS_Code, self.name)
 
     class Meta:
         verbose_name = "Facility"
@@ -209,11 +201,13 @@ class Facility(models.Model):
 
     @property
     def title(self):
-        return self.facility_name
+        return self.name
+
+    objects = SearchManager()
 
 
 def rl_pre_save_receiver(sender, instance, *args, **kwargs):
-    instance.facility_name = instance.facility_name.capitalize()
+    instance.facility_name = instance.name.capitalize()
     if not instance.slug:
         instance.slug = unique_slug_generator(instance)
 
@@ -226,3 +220,5 @@ def rl_pre_save_receiver(sender, instance, *args, **kwargs):
 
 
 pre_save.connect(rl_pre_save_receiver, sender=Facility)
+
+

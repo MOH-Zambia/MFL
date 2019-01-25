@@ -1,0 +1,401 @@
+/*Default styles are here*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+  height: 100%
+}
+
+body{
+	overflow-x: hidden;
+	font-family: 'Open Sans', sans-serif;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+}
+
+a{
+	text-decoration: none;
+	/*transition: all 500ms ease-in-out;*/
+}
+
+a:hover,
+a:active{
+	text-decoration: none;
+}
+
+/*h1,*/
+/*h2,*/
+/*h4{*/
+	/*font-family: 'PT Sans Narrow', Arial, sans-serif ;*/
+	/*text-transform: uppercase;*/
+	/*font-weight: 700;*/
+/*}*/
+
+p{
+	font-size: 15px;
+	line-height: 21px;
+}
+
+.btn{
+	transition: all 300ms ease-in-out;
+	font-weight: 500 !important;
+	text-transform: uppercase;
+    color: #fff;
+}
+
+.btn:hover{
+	background-color: #ededed !important;
+	color: #3c3c3c !important;
+	border: 1px  solid #fff !important;
+}
+
+/*Default styles end here*/
+
+.orange {
+    color: #e17d00;
+}
+
+.bg-color-orange {
+    background-color: #e17d00;
+}
+
+.border-color-orange {
+    border-color: #e17d00;
+}
+
+.green {
+    color: #428c42;
+}
+
+.red {
+    color: #df212e;
+}
+
+/*Header*/
+header {
+    min-height: 55px;
+    width: 100%;
+    flex-shrink: 0;
+     /*position: absolute;
+    overflow:hidden;*/
+}
+
+/*Navbar*/
+.navbar {
+    background: #428c42;
+    padding: 0 !important;
+}
+
+.navbar a {
+    min-height: 55px;
+    text-align: center;
+    line-height: 40px;
+    min-width: 60px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    background: #76b084;
+    border-bottom: solid #fff;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #eeeeee;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+	text-decoration: none;
+    background: none;
+    color: #333;
+}
+
+.logo-brand.local-link {
+    background-clip: border-box;
+    /*background-image: url({% static 'MFL/img/moh_coat_of_arms.svg' %});*/
+    background: rgba(0, 0, 0, 0) url('../img/moh_coat_of_arms.svg') no-repeat;
+    background-origin: padding-box;
+    background-size: contain;
+    box-sizing: border-box;
+    clear: both;
+    color: rgb(66, 139, 202);
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    height: 50px;
+    line-height: 23px;
+    margin: 0 0 16px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-decoration-color: rgb(66, 139, 202);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-indent: -159984px;
+    width: 720px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/*Search index page search*/
+#custom-search-input {
+    margin: 10px 0 0;
+
+    display: flex !important;
+	border: 1px solid transparent !important;
+	justify-content: center;
+
+}
+
+#custom-search-input input {
+    height: 40px;
+    width: 584px !important;
+    padding: 5px;
+}
+
+#custom-search-input .search-query {
+    width:100%;
+    padding-right: 3px;
+    padding-left: 15px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 0;
+}
+
+#custom-search-input button {
+    border: 0;
+    background: none;
+    /** belows styles are working good */
+    padding: 2px 5px;
+    margin-top: 2px;
+    position: absolute;
+    right:0;
+    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color:#D9230F;
+    cursor: unset;
+    z-index: 2;
+}
+
+.search-query:focus{
+    z-index: 0;
+}
+
+.page-header {
+    margin-top: 60px
+}
+
+.page-header:first-child {
+    margin-top: 20px
+}
+
+
+.navbar-brand img {
+    vertical-align: middle;
+}
+
+footer {
+    bottom:0;
+    background: #428c42;
+    display: block;
+    height: 200px;
+    min-height: 200px;
+    width:100% !important;
+    color: #ffffff;
+}
+
+.footer {
+	padding: 30px;
+	color: #eeeeee;
+}
+
+.footer .social {
+	font-size: 20px;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	padding: 2px;
+	margin-bottom: 15px;
+	margin-right: 5px;
+	color: #eeeeee;
+}
+
+footer a {
+    color: #eeeeee;
+}
+
+.nav li a i {
+    font-size: 1.5em;
+}
+
+.nav li a span {
+    display: inline-block;
+    padding-left: 1em;
+}
+
+/*Facility list*/
+.wrapper {
+    display: flex;
+    align-items: stretch;
+    background: #F5F5F5;
+}
+
+#sidebar {
+    min-width: 400px;
+    max-width: 400px;
+    transition: all 0.3s;
+}
+
+#sidebar.active {
+    display: none;
+    /*margin-left: -250px;*/
+}
+
+.content {
+    position: relative;
+    display: block;
+    background-color: #F6F4F4;
+    min-height: 100vh;
+}
+
+#content {
+    width: 100%;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+
+.search-resulthead {
+    text-decoration: none;
+    color: #e38229
+}
+
+.search-resulthead > span {
+    color: #e38229
+}
+
+.search-resulthead:hover {
+    color: #673ab7
+}
+
+.search-resulthead > span:hover {
+    color: #673ab7
+}
+
+
+.lead {
+    margin-bottom: 10px
+}
+
+.results-card {
+    padding: 5px 10px 8px 10px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #CCC;
+    box-sizing: border-box;
+    border-radius: 1px
+}
+
+.content-card {
+    padding: 10px 10px 20px 10px;
+    background-color: #f8f8f8;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #CCC;
+    box-sizing: border-box;
+    border-radius: 1px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+    position: relative;
+    margin: 0 0 0;
+    flex-grow: 1;
+    overflow: auto;
+    min-height: 2em;
+}
+
+.card-header {
+    font-size: 26px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 225, .8);
+    box-shadow: 1px 1px 1px #5694f7;
+    border: 1px solid transparent
+}
+
+.card-height {
+    min-height: 10px
+}
+
+@media (max-width:991px) and (min-width:768px) {
+    .card-height {
+        min-height: 120px
+    }
+}
+
+@media (min-width:768px) {
+    .card-height {
+        min-height: 120px
+    }
+}
+
+@media (min-width:991px) {
+    .card-height {
+        min-height: 85px
+    }
+}
+
+.side-notes {
+    background-color: #fff;
+    padding: 40px 20px 20px 35px;
+    min-height: 20px
+}
+
+.side-notes > div > h3 {
+    font-size: 20px;
+    font-weight: 500
+}
+
+.side-notes > div > p {
+    font-size: 13px
+}
+
+
+.card-heading {
+    font-size: 17px;
+    font-weight: 500;
+    font-family: Lato, sans-serif !important;
+    color: #e38229
+}
+
+.cards-title {
+    font-size: 1.64rem;
+    font-weight: 500;
+    font-family: Lato, sans-serif !important;
+    color: #777
+}
+
+#main-view {
+    background-color: #CFCFCF
+}
+
+.main-view.ui-resolve::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    /*background: rgba(255, 255, 255, .5) url(assets/img/301.GIF) no-repeat center center*/
+}
+
+.text-muted {
+    color: #95a5a6 !important
+}
+
+.detail-content {
+    background-color: #F6F4F4;
+    padding: 20px
+}

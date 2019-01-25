@@ -29,103 +29,87 @@
 
     <title>{% block title %}{% endblock %}</title>
         <!-- Bootstrap core CSS-->
-    <link type="text/css" href="{% static 'MFL/css/bootstrap.min.css' %}" rel="stylesheet">
-{#    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">#}
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
       <!-- Font-awesome core CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-{#    <link type="text/css" href="{% static 'MFL/css/font-awesome.min.css' %}" rel="stylesheet">#}
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Roboto">
+
+    {% block head %}
+
+    {% endblock %}
 
       <!-- MFL core css-->
-    <link type="text/css" href="{% static 'MFL/css/moh-mfl-core-v0.1.css' %}" rel="stylesheet">
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link type="text/css" href="{% static 'MFL/css/ie10-viewport-bug-workaround.css' %}" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-{#    <link type="text/css" href="{% static 'MFL/css/navbar-fixed-top.css' %}" rel="stylesheet">#}
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script type="text/javascript" src="{% static 'MFL/js/ie8-responsive-file-warning.js' %}"></script><![endif]-->
-    <script type="text/javascript" src="{% static 'MFL/js/ie-emulation-modes-warning.js' %}"></script>
+    <link rel="stylesheet" type="text/css" href="{% static 'MFL/css/main.css' %}" >
 
 
+    {% block style %}
 
+    {% endblock %}
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script type="text/javascript" src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script type="text/javascript" src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <style>
-        {% block style %}
-
-        {% endblock %}
-    </style>
   </head>
     <body>
         <header>
             <!-- Fixed navbar -->
-            <nav class="navbar navbar-default navbar-fixed-top">
-              <div class="container">
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                  <a class="navbar-brand" href="{% url 'home' %}"><img src="{% static 'MFL/img/flag_58x38.png' %}"></a>
+            <nav class="navbar navbar-default navbar-expand-md fixed-top">
+                <div class="container">
+                    <a class="navbar-brand" href="{% url 'home' %}"><img src="{% static 'MFL/img/flag_58x38.png' %}"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+
+                        <ul class="navbar-nav mr-auto">
+                            <li class="{% if request.resolver_match.url_name == 'home' %}active{% endif %} nav-item"><a class="nav-link" href="{% url 'home' %}">Home</a></li>
+                            <li class="{% if request.resolver_match.url_name == 'about' %}active{% endif %} nav-item"><a class="nav-link" href="{% url 'about' %}">About</a></li>
+                            <li class="{% if request.resolver_match.url_name == 'contact' %}active{% endif %} nav-item"><a class="nav-link" href="{% url 'contact' %}">Contact</a></li>
+                        </ul>
+                        <ul class="navbar-nav ml-auto">
+                            <li class="{% if request.resolver_match.url_name == 'list' %}active{% endif %} nav-item"><a class="nav-link" href="{% url 'list' %}">List</a></li>
+                            <li class="{% if request.resolver_match.url_name == 'table' %}active{% endif %} nav-item"><a class="nav-link" href="#">Table</a></li>
+                            <li class="{% if request.resolver_match.url_name == 'map' %}active{% endif %} nav-item"><a class="nav-link" href="{% url 'map' %}">Map</a></li>
+                            <li class="{% if request.resolver_match.url_name == 'help' %}active{% endif %} nav-item"><a class="nav-link" href="#">Help <span class="sr-only">(current)</span></a></li>
+                        </ul>
+                    </div><!--/.nav-collapse -->
                 </div>
-                <div id="navbar" class="navbar-collapse collapse">
-                  <ul class="nav navbar-nav">
-                    <li class="active"><a href="{% url 'home' %}">Home</a></li>
-                    <li><a href="{% url 'about' %}">About</a></li>
-                    <li><a href="{% url 'contact' %}">Contact</a></li>
-                  </ul>
-                  <ul class="nav navbar-nav navbar-right">
-                    <li><a href="{% url 'map' %}">Map</a></li>
-                    <li><a href="{% url 'list' %}">View all facilities</a></li>
-                    <li><a href="./">Help <span class="sr-only">(current)</span></a></li>
-                  </ul>
-                </div><!--/.nav-collapse -->
-              </div>
             </nav>
         </header>
         {% block content %}
-            {% block jumbotron %}
-            {% endblock %}
+
         {% endblock %}
 
-        <footer class="content-info" role="contentinfo">
+        <!-- Footer section -->
+        <footer class="footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-5 col-lg-5" role="navigation">
-        {#                <div class="footer-logo">#}
-        {#                    <a class="logo-brand local-link external ext-link" href="https://www.moh.gov.zm" alt="www.moh.gov.zm">www.moh.gov.zm</a>#}
-        {#                </div>#}
-                        <ul id="menu-footer2" class="nav">
-                            <li class="menu-moh-website"><a href="https://www.moh.gov.zm" class="external ext-link" rel="external" onclick="this.target='_blank';">Ministry of Health</a></li>
-                            <li class="menu-zicta"><a href="https://www.zicta.zm/" class="external ext-link" rel="external" onclick="this.target='_blank';">ZICTA</a></li>
-                            <li class="menu-szi"><a href="https://www.szi.gov.zm/" class="external ext-link" rel="external" onclick="this.target='_blank';">Smart Zambia Institute</a></li>
-                        </ul>
+                    <div class="col-lg-4 col-md-4">
+                        <h4 class="orange">Contact us</h4>
+                        <p><i class="fas fa-home"></i> Ndeke House, Longacres, Lusaka</p>
+                        <p><i class="fas fa-envelope"></i> info@moh.gov.zm</p>
+                        <p><i class="fas fa-phone"></i> +260 211 253757</p>
                     </div>
-                    <nav class="col-md-4 col-lg-4" role="navigation">
-                        <ul id="menu-footer" class="nav">
-                            <li class="menu-phone"><a href="tel:+260222222902"><i class="fa fa-phone"></i><span>Phone: +260 211 253757</span></a></li>
-                            <li class="menu-email"><a href="mailto:info@moh.gov.zm"><i class="fa fa-envelope"></i><span>Email: info@moh.gov.zm</span></a></li>
-                        </ul>
-                    </nav>
-
-                    <nav class="col-md-3 col-lg-3" role="navigation">
-                        <ul id="menu-footer" class="nav">
-                            <li><a href="https://twitter.com/moh_zambia" class="local-link"><i class="fa fa-twitter"></i><span>Twitter</span></a></li>
-                            <li><a href="http://facebook.com/mohzambia/"  class="local-link"><i class="fa fa-facebook"></i><span>Facebook</span></a></li>
-                        </ul>
-                    </nav>
+                    <div class="col-lg-4 col-md-4">
+                        <h4 class="orange">External links</h4>
+                        <p><a href="http://www.moh.gov.zm" rel="external" onclick="this.target='_blank';">Ministry of Health</a></p>
+                        <p><a href="https://www.zicta.zm/" rel="external" onclick="this.target='_blank';">ZICTA</a></p>
+                        <p><a href="https://www.szi.gov.zm/" rel="external" onclick="this.target='_blank';">Smart Zambia Institute</a></p>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <h4 class="orange">Stay in touch</h4>
+                        <a href="https://twitter.com/moh_zambia"><i class="social fab fa-facebook"></i></a>
+                        <a href="http://facebook.com/mohzambia/"><i class="social fab fa-twitter"></i></a>
+                        <a href="#"><i class="social fab fa-youtube"></i></a>
+                        <a href="#"><i class="social fab fa-github"></i></a>
+                    </div>
                 </div>
             </div>
         </footer>
+
+
         {% include 'snippets/javascripts.html' %}
+
+        {% block javascript %}
+
+        {% endblock %}
     </body>
 </html>

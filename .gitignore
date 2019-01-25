@@ -108,7 +108,12 @@ include/
 # mypy
 .mypy_cache/
 
-MFL/migrations
+MFL/migrations/
+maps/migrations/
+
+node_modules/
+vendor/
+
+.idea/
 
 
-.idea

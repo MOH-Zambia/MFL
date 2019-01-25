@@ -13,10 +13,10 @@ Including another URLconf
     1. Add an import:  from blog import urls as blog_urls
     2. Add a URL to urlpatterns:  url(r'^blog/', include(blog_urls))
 """
+from django.contrib.gis import admin
 from django.urls import include, path
 from django.conf.urls import url
-from django.contrib import admin
-from MFL.views import FacilityDetail, FacilityList, FacilityViewSet
+from MFL.views import FacilityDetail, FacilityList, FacilityViewSet, FeatureFacilityViewSet, feature_facilities, MapView
 from django.views.generic import TemplateView
 from rest_framework import routers
 
@@ -31,6 +31,7 @@ facility_detail = FacilityViewSet.as_view({
 
 router = routers.DefaultRouter()
 router.register(r'facility', FacilityViewSet)
+router.register(r'feature/facility', FeatureFacilityViewSet)
 
 # router = routers.DefaultRouter()
 # router.register(r'facility', FacilityViewSet)
@@ -40,10 +41,12 @@ urlpatterns = [
     url(r'^$', TemplateView.as_view(template_name='index.html'), name='home'),
     # url(r'^facility/(?P<pk>\d+)$', FacilityDetail.as_view(), name='facility'),
     path('facility/<int:pk>', FacilityDetail.as_view(), name='facility'),
-    path('map', TemplateView.as_view(template_name='map.html'), name='map'),
+    path('map', MapView.as_view(), name='map'),
+    path('features/facility', feature_facilities, name='facilities'),
     path('list', FacilityList.as_view(), name='list'),
     path('contact', TemplateView.as_view(template_name='contact.html'), name='contact'),
     path('about', TemplateView.as_view(template_name='about.html'), name='about'),
-    path('api', include(router.urls)),
+    path('api/', include(router.urls)),
     path('admin', admin.site.urls),
+    path('', include('maps.urls')),
 ]
