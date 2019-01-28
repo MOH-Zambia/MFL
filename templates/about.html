@@ -4,37 +4,17 @@
 
 {% block style %}
     <style type="text/css">
-        html {
-            height: 100%;
-        }
-
-        html body {
-          height: 100%;
-          overflow: hidden;
-          display: flex;
-          flex-direction: column;
-        }
-
-        html body .container-fluid.body-content {
-          width: 100%;
-          overflow-y: auto;
-          padding-bottom: 200px;
+        body {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            overflow-y: auto;
         }
         footer {
-            position:absolute;
-            bottom:0;
-            width:100% !important;
-            height: 200px;   /* Height of the footer */
-{#            background:#f8f8f8;#}
-            background: #428c42;;
-            display: block;
-            flex-shrink: 0;
-            overflow:hidden;
-            min-height: 200px;
-            width: 100%;
+            position: absolute;
+            overflow: hidden;
         }
     </style>
-}
 {% endblock %}
 
 {% block content %}

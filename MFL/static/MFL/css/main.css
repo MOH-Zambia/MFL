@@ -41,7 +41,7 @@ a:active{
 /*}*/
 
 p{
-	font-size: 15px;
+	font-size: 14px;
 	line-height: 21px;
 }
 
@@ -99,12 +99,12 @@ header {
     min-height: 55px;
     text-align: center;
     line-height: 40px;
-    min-width: 60px;
+    /*min-width: 60px;*/
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
     background: #76b084;
-    border-bottom: solid #fff;
+    border-bottom: solid #e17d00;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -145,7 +145,6 @@ header {
 /*Search index page search*/
 #custom-search-input {
     margin: 10px 0 0;
-
     display: flex !important;
 	border: 1px solid transparent !important;
 	justify-content: center;
@@ -271,28 +270,6 @@ footer a {
     width: 100%;
     min-height: 100vh;
     transition: all 0.3s;
-}
-
-.search-resulthead {
-    text-decoration: none;
-    color: #e38229
-}
-
-.search-resulthead > span {
-    color: #e38229
-}
-
-.search-resulthead:hover {
-    color: #673ab7
-}
-
-.search-resulthead > span:hover {
-    color: #673ab7
-}
-
-
-.lead {
-    margin-bottom: 10px
 }
 
 .results-card {

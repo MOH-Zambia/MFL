@@ -2,27 +2,27 @@ import os
 import csv
 from django.contrib.gis.utils import LayerMapping
 from MFL.models import *
-from .models import *
+from maps.models import *
 
 
 provinces_shp = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), 'data', 'Province.shp'),
+    os.path.join(os.path.dirname(__file__), 'maps/data', 'Province.shp'),
 )
 
 districts_shp = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), 'data', 'District.shp'),
+    os.path.join(os.path.dirname(__file__), 'maps/data', 'District.shp'),
 )
 
 constituencies_shp = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), 'data', 'Constituent.shp'),
+    os.path.join(os.path.dirname(__file__), 'maps/data', 'Constituent.shp'),
 )
 
 wards_shp = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), 'data', 'Ward.shp'),
+    os.path.join(os.path.dirname(__file__), 'maps/data', 'Ward.shp'),
 )
 
 facility_shp = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), 'data', 'Facility.shp'),
+    os.path.join(os.path.dirname(__file__), 'maps/data', 'Facility.shp'),
 )
 
 # Auto-generated `LayerMapping` dictionary for ZambiaProvince model
@@ -107,7 +107,7 @@ def load_operational_status_table():
     }
 
     for status, desc in data.items():
-        OperationalStatus.objects.create(name=status, description=desc)
+        OperationStatus.objects.create(name=status, description=desc)
         print('Saved: OperationalStatus => ' + status)
 
     print('Completed loading OperationalStatus table!')
@@ -140,6 +140,21 @@ def load_facility_type_table():
         print('Saved: FacilityType => ' + facility_type)
 
     print('Completed loading FacilityType table!')
+
+
+def load_service_category_table():
+    data = ['Accident and Emergency Casualty Service',
+            'Ambulatory Services',
+            'Antenatal Care',
+            'Blood Transfusion Services',
+            'Curative Services',
+            ]
+
+    for service_category in data:
+        ServiceCategory.objects.create(name=service_category)
+        print('Saved: ServiceCategory => '+service_category)
+
+    print('Completed loading ServiceCategory table!')
 
 
 def load_district_type_table():

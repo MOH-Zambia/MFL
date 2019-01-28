@@ -2,6 +2,20 @@
 {% load static %}
 {% block title %} MFL | {{ object.name }}{% endblock %}
 
+{% block style %}
+    <style type="text/css">
+        body {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            overflow-y: auto;
+        }
+        footer {
+            position: absolute;
+            overflow: hidden;
+        }
+    </style>
+{% endblock %}
 
 {% block content %}
         <div class="container">

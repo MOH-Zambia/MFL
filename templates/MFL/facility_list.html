@@ -136,9 +136,9 @@
                                     <div class="col-md-12 col-lg-12 p-4">
                                         <div class="row">
                                         <a href="{{ facility.get_absolute_url }}">
-                                            <p class="search-resulthead lead col-xs-12">
-                                                <span class="font-weight-bold text-uppercase" style="cursor: pointer">
-                                                    <span> {{ facility.HMIS_Code }}</span> | {{ facility.name }}
+                                            <p>
+                                                <span class="orange lead font-weight-bold text-uppercase" style="cursor: pointer">
+                                                    {{ facility.HMIS_Code }} | {{ facility.name }}
                                                 </span>
                                             </p>
                                         </a>
@@ -148,11 +148,11 @@
                                             <div class="mr-auto">
                                                 <span>
                                                     <label>Operation Status: </label>
-                                                    <span class="text-success fw-600">{{ facility.operation_status }}</span>
+                                                    <span class="text-success">{{ facility.operation_status }}</span>
                                                 </span>
                                                 </div>
                                             <div class="ml-auto">
-                                                <span class="fs-14 fw-600 label label-primary">{{  facility.facility_type }}</span>
+                                                <span class="label label-primary">{{  facility.facility_type }}</span>
                                                 </div>
                                             </div>
 
