@@ -8,7 +8,7 @@ from geography.models import District, Constituency, Ward, LocationType
 
 
 class ServiceCategory(models.Model):
-    name = models.CharField(max_length=100)
+    name = models.CharField(max_length=100, unique=True)
 
     def __str__(self):  # __unicode__ on Python 2
         return self.name
@@ -27,7 +27,7 @@ class Service(models.Model):
 
 
 class Infrastructure(models.Model):
-    name = models.CharField(max_length=100)
+    name = models.CharField(max_length=100, unique=True)
 
     def __str__(self):  # __unicode__ on Python 2
         return self.name
@@ -37,7 +37,7 @@ class Infrastructure(models.Model):
 
 
 class Equipment(models.Model):
-    name = models.CharField(max_length=100)
+    name = models.CharField(max_length=100, unique=True)
 
     def __str__(self):  # __unicode__ on Python 2
         return self.name
@@ -47,7 +47,7 @@ class Equipment(models.Model):
 
 
 class OperatingHours(models.Model):
-    name = models.CharField(max_length=60)
+    name = models.CharField(max_length=60, unique=True)
 
     def __str__(self):  # __unicode__ on Python 2
         return self.name
@@ -57,7 +57,7 @@ class OperatingHours(models.Model):
 
 
 class Ownership(models.Model):
-    name = models.CharField(max_length=30)
+    name = models.CharField(max_length=30, unique=True)
 
     def __str__(self):  # __unicode__ on Python 2
         return self.name
@@ -67,21 +67,21 @@ class Ownership(models.Model):
 
 
 class FacilityType(models.Model):
-    name = models.CharField(max_length=30)
+    name = models.CharField(max_length=30, unique=True)
 
     def __str__(self):  # __unicode__ on Python 2
         return self.name
 
 
 class AdministrativeUnit(models.Model):
-    name = models.CharField(max_length=30)
+    name = models.CharField(max_length=30, unique=True)
 
     def __str__(self):  # __unicode__ on Python 2
         return self.name
 
 
 class OperationStatus(models.Model):
-    name = models.CharField(max_length=30)
+    name = models.CharField(max_length=30, unique=True)
     description = models.TextField()
 
     def __str__(self):  # __unicode__ on Python 2
@@ -89,7 +89,7 @@ class OperationStatus(models.Model):
 
 
 class LabLevel(models.Model):
-    name = models.CharField(max_length=10)
+    name = models.CharField(max_length=10, unique=True)
 
     def __str__(self):  # __unicode__ on Python 2
         return self.name

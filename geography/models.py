@@ -2,7 +2,7 @@ from django.contrib.gis.db import models
 
 
 class Province(models.Model):
-    name = models.CharField(max_length=64)
+    name = models.CharField(max_length=64, unique=True)
     population = models.IntegerField()
     pop_density = models.FloatField(verbose_name='People per sq. km')
     area_sq_km = models.FloatField(verbose_name='Land area, sq. km')
@@ -14,7 +14,7 @@ class Province(models.Model):
 
 
 class DistrictType(models.Model):
-    name = models.CharField(max_length=15)
+    name = models.CharField(max_length=15, unique=True)
 
     def __str__(self):  # __unicode__ on Python 2
         return self.name
@@ -31,7 +31,7 @@ class LocationType(models.Model):
 
 
 class District(models.Model):
-    name = models.CharField(max_length=30)
+    name = models.CharField(max_length=30, unique=True)
     province = models.ForeignKey(Province, on_delete=models.DO_NOTHING)
     district_type = models.ForeignKey(DistrictType, on_delete=models.DO_NOTHING)
     population = models.FloatField(null=True, blank=True)
