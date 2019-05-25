@@ -206,7 +206,7 @@ L.Map.djangoMap = function (id, options) {
     var map = new L.Map.DjangoMap(id, options);
 
     if (options.globals) {
-        // Register document maps, like window.forms :)
+        // Register document geography, like window.forms :)
         window.maps = window.maps || [];
         window.maps.push(map);
     }

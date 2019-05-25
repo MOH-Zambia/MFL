@@ -2,27 +2,27 @@ import os
 import csv
 from django.contrib.gis.utils import LayerMapping
 from MFL.models import *
-from maps.models import *
+from geography.models import *
 
 
 provinces_shp = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), 'maps/data', 'Province.shp'),
+    os.path.join(os.path.dirname(__file__), 'geography/data', 'Province.shp'),
 )
 
 districts_shp = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), 'maps/data', 'District.shp'),
+    os.path.join(os.path.dirname(__file__), 'geography/data', 'District.shp'),
 )
 
 constituencies_shp = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), 'maps/data', 'Constituent.shp'),
+    os.path.join(os.path.dirname(__file__), 'geography/data', 'Constituent.shp'),
 )
 
 wards_shp = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), 'maps/data', 'Ward.shp'),
+    os.path.join(os.path.dirname(__file__), 'geography/data', 'Ward.shp'),
 )
 
 facility_shp = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), 'maps/data', 'Facility.shp'),
+    os.path.join(os.path.dirname(__file__), 'geography/data', 'Facility.shp'),
 )
 
 # Auto-generated `LayerMapping` dictionary for ZambiaProvince model
@@ -189,7 +189,7 @@ def load_operating_hours_table():
 
 
 # def load_provinces(apps, schema_editor):
-#     with open('maps/data/data.csv') as csv_file:
+#     with open('geography/data/data.csv') as csv_file:
 #         csv_reader = csv.reader(csv_file, delimiter=',')
 #         # csv_reader = csv.DictReader(csvfile)
 #

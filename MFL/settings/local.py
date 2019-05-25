@@ -43,7 +43,7 @@ INSTALLED_APPS = (
     'compressor',
     'leaflet',
     'MFL',
-    'maps',
+    'geography',
 )
 
 MIDDLEWARE_CLASSES = (

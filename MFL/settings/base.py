@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'compressor',
     'MFL',
-    'maps',
+    'geography',
 ]
 
 MIDDLEWARE = [

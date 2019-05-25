@@ -1,5 +1,5 @@
 /*
- Leaflet.draw 0.4.9, a plugin that adds drawing and editing tools to Leaflet powered maps.
+ Leaflet.draw 0.4.9, a plugin that adds drawing and editing tools to Leaflet powered geography.
  (c) 2012-2017, Jacob Toye, Jon West, Smartrak, Leaflet
 
  https://github.com/Leaflet/Leaflet.draw

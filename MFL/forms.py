@@ -1,5 +1,5 @@
 from django import forms
-from maps.models import Province, District, Constituency, Ward
+from geography.models import Province, District, Constituency, Ward
 from .models import Facility, FacilityType, Ownership, OperationStatus, Service, ServiceCategory
 
 

@@ -4,7 +4,7 @@ from django.db.models.signals import pre_save, post_save
 from django.urls import reverse
 from django.utils.translation import ugettext_lazy as _
 from .utils import unique_slug_generator
-from maps.models import District, Constituency, Ward, LocationType
+from geography.models import District, Constituency, Ward, LocationType
 
 
 class ServiceCategory(models.Model):

@@ -48,5 +48,5 @@ urlpatterns = [
     path('about', TemplateView.as_view(template_name='about.html'), name='about'),
     path('api/', include(router.urls)),
     path('admin', admin.site.urls),
-    path('', include('maps.urls')),
+    path('', include('geography.urls')),
 ]
