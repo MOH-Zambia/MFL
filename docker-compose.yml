@@ -1,0 +1,44 @@
+# Run docker-compose build
+# Run docker-compose up
+# Live long and prosper
+
+version: '3.7'
+
+services:
+  db:
+    container_name: MFL_postgres
+    image: postgres:latest
+    restart: 'always'
+    volumes:
+      - db:/var/lib/postgresql/data/
+    ports:
+      - '4321:5432'
+    environment:
+      - "MFL_DB_USER=MFL"
+      - "MFL_DB_PASSWORD=password"
+      - "MFL_DB_DATABASE=MFL"
+      - "POSTGRES_PASSWORD=password"
+
+  MFL:
+    container_name: MFL
+    image: python
+    restart: 'always'
+    build:
+      context: .
+      dockerfile: .docker/MFL.development.dockerfile
+    volumes:
+      - .:/var/lib/MFL
+    ports:
+      - "8000:8000"
+    environment:
+      - DJANGO_ENV=development
+      - SECRET_KEY='#d2=g30-#)u%kwm3ov59l^*jckl#bo)uqy#3mk@6a6xrxl&b60'
+    depends_on:
+      - db
+
+volumes:
+  db:
+
+networks:
+  default:
+      name: MFL

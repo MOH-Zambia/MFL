@@ -3,15 +3,15 @@ Central,Chibombo,Chamakubi HP, Chamakubi Health Post,101039,Rural,GRZ,Health Pos
 Central,Chibombo,Chibombo RHC, Chibombo Rural Health Centre,101010,Rural,GRZ,Rural Health Centre,Yes,,28.07594009,-14.6638325
 Central,Chibombo,Chikobo RHC, Chikobo Rural Health Centre,101011,Rural,GRZ,Rural Health Centre,Yes,,28.05468418,-14.77719348
 Central,Chibombo,Chipeso RHC, Chipeso Rural Health Centre,101013,Rural,GRZ,Urban Health Centre,Yes,,27.99719322,-15.1962087
-Central,Chibombo,Chitanda RHC, Chitanda Rural Health Centre,101016,Rural,GRZ,Rural Health Centre,Yes,,27.59347921,-14.63709401
-Central,Chibombo,Golden Valley RHC, Golden Valley Rural Health Centre,101017,Rural,GRZ,Rural Health Centre,Yes,,28.09350648,-14.96925977
+Central,Chibombo,Chitanda RHC,Chitanda Rural Health Centre,101016,Rural,GRZ,Rural Health Centre,Yes,,27.59347921,-14.63709401
+Central,Chibombo,Golden Valley RHC,Golden Valley Rural Health Centre,101017,Rural,GRZ,Rural Health Centre,Yes,,28.09350648,-14.96925977
 Central,Chibombo,Ipongo RHC, Ipongo Rural Health Centre,101018,Rural,GRZ,Rural Health Centre,Yes,,27.2893349,-14.57398766
 Central,Chibombo,Itumbwe HP, Itumbwe Health Post,101041,Rural,GRZ,Health Post,Yes,,27.13428738,-14.50490159
 Central,Chibombo,Kabangalala RHC, Kabangalala Rural Health Centre,101019,Rural,GRZ,Rural Health Centre,Yes,,27.72865541,-15.16894184
 Central,Chibombo,Kamaila HP, Kamaila Health Post,101045,Rural,GRZ,Health Post,Yes,,28.30933084,-15.09634356
 Central,Chibombo,Kanwanjiba HP, Kanwanjiba Health Post,101044,Rural,GRZ,Health Post,Yes,,27.81432343,-15.14574924
 Central,Chibombo,Kaparu RHC, Kaparu Rural Health Centre,101020,Rural,GRZ,Rural Health Centre,Yes,,27.75370533,-14.97392179
-Central,Chibombo,Kapopo HP,Kapopo HP,101046,Rural,GRZ,Health Post,Yes,,28.19412801,-15.26929144
+Central,Chibombo,Kapopo HP,Kapopo Health Post,101046,Rural,GRZ,Health Post,Yes,,28.19412801,-15.26929144
 Central,Chibombo,Kayosha RHC, Kayosha Rural Health Centre,101021,Peri-Urban,GRZ,Urban Health Centre,Yes,,28.23740849,-15.20378118
 Central,Chibombo,Keembe RHC, Keembe Rural Health Centre,101022,Rural,GRZ,Rural Health Centre,Yes,,27.78020143,-14.90235851
 Central,Chibombo,Makoka RHC, Makoka Rural Health Centre,101042,Rural,GRZ,Health Post,Yes,,27.77679665,-14.69138599
@@ -119,25 +119,25 @@ Central,Kapiri Mposhi,Chilumba RHC, Chilumba Rural Health Centre,103004,Rural,GR
 Central,Kapiri Mposhi,Chipepo RHC, Chipepo Rural Health Centre,103006,Rural,GRZ,Rural Health Centre,Yes,,28.10364341,-14.11263908
 Central,Kapiri Mposhi,Chishinka RHC, Chishinka Rural Health Centre,103030,Rural,GRZ,Health Post,Yes,,29.08329873,-14.31196041
 Central,Kapiri Mposhi,Chitaba RHC, Chitaba Rural Health Centre,103026,Rural,GRZ,Health Post,Yes,,28.34523024,-14.06185319
-Central,Kapiri Mposhi,Ilungu HP,Ilungu HP,103038,Rural,GRZ,Health Post,Yes,,28.90186144,-14.66403089
-Central,Kapiri Mposhi,Kabaka HP,Kabaka HP,103039,Rural,GRZ,Health Post,Yes,,28.47791507,-13.93723762
-Central,Kapiri Mposhi,Kabwale HP,Kabwale HP,103040,Rural,GRZ,Health Post,Yes,,28.52823307,-13.94108546
+Central,Kapiri Mposhi,Ilungu HP,Ilungu Health Post,103038,Rural,GRZ,Health Post,Yes,,28.90186144,-14.66403089
+Central,Kapiri Mposhi,Kabaka HP,Kabaka Health Post,103039,Rural,GRZ,Health Post,Yes,,28.47791507,-13.93723762
+Central,Kapiri Mposhi,Kabwale HP,Kabwale Health Post,103040,Rural,GRZ,Health Post,Yes,,28.52823307,-13.94108546
 Central,Kapiri Mposhi,Kafinda RHC, Kafinda Rural Health Centre,103029,Rural,GRZ,Health Post,Yes,,29.02766264,-14.13169384
 Central,Kapiri Mposhi,Kakulu RHC, Kakulu Rural Health Centre,103007,Rural,GRZ,Rural Health Centre,Yes,,28.60015341,-14.08824112
 Central,Kapiri Mposhi,Kampumba RHC, Kampumba Rural Health Centre,103008,Rural,GRZ,Rural Health Centre,Yes,,29.00553645,-14.56262318
 Central,Kapiri Mposhi,Kapiri Mposhi District Hospitale, Kapiri Mposhi District Hospital,103001,Urban,GRZ,Level 1 Hospital District,Yes,,28.6700521,-13.89647402
 Central,Kapiri Mposhi,Kapiri UHC, Kapiri Urban Health Centre,103024,Urban,GRZ,Urban Health Centre,Yes,,28.67745948,-13.96645138
-Central,Kapiri Mposhi,Kashitu HP,Kashitu HP,103041,Rural,GRZ,Health Post,Yes,,28.66834907,-13.70991544
-Central,Kapiri Mposhi,Kaswende HP,Kaswende HP,103036,Rural,GRZ,Health Post,Yes,,27.99661917,-14.43643665
-Central,Kapiri Mposhi,Katukwe HP,Katukwe HP,103042,Rural,GRZ,Health Post,Yes,,28.0603448,-13.9523709
+Central,Kapiri Mposhi,Kashitu HP,Kashitu Health Post,103041,Rural,GRZ,Health Post,Yes,,28.66834907,-13.70991544
+Central,Kapiri Mposhi,Kaswende HP,Kaswende Health Post,103036,Rural,GRZ,Health Post,Yes,,27.99661917,-14.43643665
+Central,Kapiri Mposhi,Katukwe HP,Katukwe Health Post,103042,Rural,GRZ,Health Post,Yes,,28.0603448,-13.9523709
 Central,Kapiri Mposhi,Kawama UHC, Kawama Urban Health Centre (Kapiri),103021,Urban,GRZ,Urban Health Centre,Yes,,28.68939367,-13.98783293
 Central,Kapiri Mposhi,Likumbi HP, Likumbi Health Post,103034,Rural,GRZ,Health Post,Yes,,28.94341031,-14.38667069
 Central,Kapiri Mposhi,Luanshimba RHC, Luanshimba Rural Health Centre,103009,Rural,GRZ,Rural Health Centre,Yes,,28.57162795,-14.22412078
-Central,Kapiri Mposhi,Lukanda B HP,Lukanda B HP,103043,Rural,GRZ,Health Post,Yes,,28.59032869,-13.89721265
+Central,Kapiri Mposhi,Lukanda B HP,Lukanda B Health Post,103043,Rural,GRZ,Health Post,Yes,,28.59032869,-13.89721265
 Central,Kapiri Mposhi,Lukomba HP, Lukomba Health Post,103032,Rural,GRZ,Rural Health Centre,Yes,,28.90010469,-13.87816455
 Central,Kapiri Mposhi,Lunchu B RHC, Lunchu B Rural Health Centre,103028,Rural,GRZ,Rural Health Centre,Yes,,28.88423202,-14.00112186
 Central,Kapiri Mposhi,Lunsemfwa RHC, Lunsemfwa Rural Health Centre,103010,Rural,GRZ,Rural Health Centre,Yes,,29.12248596,-14.50682938
-Central,Kapiri Mposhi,Material HP,Material HP,103044,Urban,GRZ,Health Post,Yes,,28.67347705,-13.97695174
+Central,Kapiri Mposhi,Material HP,Material Health Post,103044,Urban,GRZ,Health Post,Yes,,28.67347705,-13.97695174
 Central,Kapiri Mposhi,Mpunde RHC, Mpunde Rural Health Centre,103014,Rural,Faith Based,Rural Health Centre,Yes,,28.21613507,-14.20976302
 Central,Kapiri Mposhi,Mukonchi RHC, Mukonchi Rural Health Centre,103011,Rural,GRZ,Rural Health Centre,Yes,,28.81762467,-14.26338543
 Central,Kapiri Mposhi,Mulungushi RHC, Mulungushi Rural Health Centre,103013,Rural,Private,Rural Health Centre,Yes,,28.84413544,-14.73048601
@@ -145,8 +145,8 @@ Central,Kapiri Mposhi,Mulungushi University Rhc, Mulungushi University Clinic,10
 Central,Kapiri Mposhi,Mutaba UHC, Mutaba Urban Health Centre,103035,Urban,GRZ,Urban Health Centre,Yes,,28.66832019,-13.92537629
 Central,Kapiri Mposhi,Ndeke UHC, Ndeke Urban Health Centre,103023,Urban,GRZ,Urban Health Centre,Yes,,28.69249328,-13.96735774
 Central,Kapiri Mposhi,Nkole RHC, Nkole Rural Health Centre,103016,Rural,GRZ,Rural Health Centre,Yes,,28.80738133,-13.76562463
-Central,Kapiri Mposhi,S & F Surgery HP,S & F Surgery HP,103045,Urban,Private,Health Post,Yes,,28.68898439,-13.96697699
-Central,Kapiri Mposhi,Shamputa HP,Shamputa HP,103046,Rural,GRZ,Health Post,Yes,,27.87306961,-14.04701073
+Central,Kapiri Mposhi,S & F Surgery,S & F Surgery,103045,Urban,Private,Health Post,Yes,,28.68898439,-13.96697699
+Central,Kapiri Mposhi,Shamputa HP,Shamputa Health Post,103046,Rural,GRZ,Health Post,Yes,,27.87306961,-14.04701073
 Central,Kapiri Mposhi,St Pauls RHC, St Pauls Rural Health Centre,103018,Rural,Faith Based,Rural Health Centre,Yes,,28.61943228,-14.3335127
 Central,Kapiri Mposhi,Tazara UHC, Tazara Urban Health Centre,103025,Urban,GRZ,Health Post,Yes,,28.68066046,-13.95686479
 Central,Kapiri Mposhi,Waya RHC, Waya Rural Health Centre,103019,Rural,GRZ,Rural Health Centre,Yes,,28.00400128,-14.35151217
@@ -155,7 +155,7 @@ Central,LuaNo,Kampelembe HP, Kampelembe Health Post,104032,Rural,GRZ,Health Post
 Central,LuaNo,KanYesha Health Centre, KanYesha Health Centre,104036,Rural,GRZ,Rural Health Centre,Yes,1349,29.40500915,-14.46617765
 Central,LuaNo,Kaundula RHC, Kaundula Rural Health Centre,104026,Rural,GRZ,Rural Health Centre,Yes,4204,29.66103296,-14.19322751
 Central,LuaNo,Mboroma RHC, Mboroma Rural Health Centre,104017,Rural,GRZ,Rural Health Centre,Yes,3598,30.13253446,-14.11731392
-Central,LuaNo,Mkushi Copper Mine New HP,Mkushi Copper Mine New HP,104044,Rural,GRZ,Health Post,Yes,8060,29.15570654,-13.95348681
+Central,LuaNo,Mkushi Copper Mine New HP,Mkushi Copper Mine New Health Post,104044,Rural,GRZ,Health Post,Yes,8060,29.15570654,-13.95348681
 Central,LuaNo,Mkushi Copper Mine RHC, Mkushi Copper Mine Rural Health Centre,104024,Rural,GRZ,Health Post,Yes,8060,29.14873709,-13.95407746
 Central,LuaNo,Nyenje Health Centre, Old Mkushi Rural Health Centre,104021,Rural,GRZ,Rural Health Centre,Yes,3747,29.3972172,-14.4162421
 Central,LuaNo,Tuyu Health Centre, Tuyu Rural Health Centre,104035,Rural,GRZ,Health Post,Yes,1649,29.39664862,-13.62459665
@@ -163,19 +163,19 @@ Central,Mkushi,Chalata RHC, Chalata Rural Health Centre,104010,Rural,GRZ,Rural H
 Central,Mkushi,Changilo HP, Changilo Health Post,104053,Rural,GRZ,Health Post,Yes,,29.61581267,-13.54201185
 Central,Mkushi,Chengelo  RHC, Chengelo Clinic,104030,Rural,Private,Rural Health Centre,Yes,,29.60589445,-13.63561659
 Central,Mkushi,Chibefwe UHC, Chibefwe Rural Health Centre,104011,Urban,GRZ,Urban Health Centre,Yes,,29.39513179,-13.61692516
-Central,Mkushi,Chikabile  HP,Chikabile  HP,104059,Rural,GRZ,Health Post,No,,29.73892179,-13.84888074
+Central,Mkushi,Chikabile  HP,Chikabile  Health Post,104059,Rural,GRZ,Health Post,No,,29.73892179,-13.84888074
 Central,Mkushi,Chisanga HP, Chisanga Rural Health Centre,104040,Rural,Faith Based,Health Post,Yes,1124,28.89901444,-13.58670106
 Central,Mkushi,Chitina HP, Chitina Health Post,104043,Rural,GRZ,Health Post,Yes,,29.11293295,-13.65550523
 Central,Mkushi,Fiwila Mission, Fiwila Rural Health Centre,104014,Rural,Faith Based,Rural Health Centre,Yes,5139,29.60594608,-13.97088547
 Central,Mkushi,Kabengeshi  HP, Kabengeshi Rural Health Post,104039,Rural,GRZ,Health Post,Yes,1445,29.64246579,-13.87354743
 Central,Mkushi,Kakushi HP, Kakushi Health Post,104028,Rural,GRZ,Health Post,Yes,3183,29.63100202,-13.80320268
-Central,Mkushi,Kasalamakanga  HP,Kasalamakanga  HP,104051,Rural,GRZ,Health Post,No,964,29.49422579,-13.60497407
+Central,Mkushi,Kasalamakanga  HP,Kasalamakanga  Health Post,104051,Rural,GRZ,Health Post,No,964,29.49422579,-13.60497407
 Central,Mkushi,Kasokota HP, Kasokota Health Post,104070,Rural,GRZ,Health Post,Yes,,29.17005287,-13.70510688
-Central,Mkushi,Katuba HP,Katuba HP,104045,Peri-Urban,GRZ,Health Post,Yes,,29.26345402,-13.67694289
+Central,Mkushi,Katuba HP,Katuba Health Post,104045,Peri-Urban,GRZ,Health Post,Yes,,29.26345402,-13.67694289
 Central,Mkushi,Lesa Wesu UHC, Lesa Wesu Private Clinic,104056,Urban,Private,Urban Health Centre,Yes,,29.38676375,-13.61850977
-Central,Mkushi,Lilanda HP,Lilanda HP,104049,Rural,GRZ,Health Post,No,1606,29.63261629,-13.72600753
+Central,Mkushi,Lilanda HP,Lilanda Health Post,104049,Rural,GRZ,Health Post,No,1606,29.63261629,-13.72600753
 Central,Mkushi,Luashimba RHC, Luanshimba Rural Health Centre (Mkushi),104015,Rural,Military,Rural Health Centre,Yes,,29.58669494,-13.70575496
-Central,Mkushi,Malubila HP,Malubila HP,104041,Rural,GRZ,Health Post,Yes,,29.44733709,-13.79811575
+Central,Mkushi,Malubila HP,Malubila Health Post,104041,Rural,GRZ,Health Post,Yes,,29.44733709,-13.79811575
 Central,Mkushi,Masansa RHC, Masansa Rural Health Centre,104016,Rural,GRZ,Rural Health Centre,Yes,24000,29.38708874,-13.94506285
 Central,Mkushi,Mikunka  HP, Mikunku Rural Health centre,104038,Rural,GRZ,Health Post,Yes,2409,29.04339071,-13.79092592
 Central,Mkushi,Miloso HP, Miloso Health Post,104027,Rural,GRZ,Health Post,Yes,4015,29.54635084,-13.79749498
@@ -222,7 +222,7 @@ Central,Mumbwa,Nakanjoli RHC, Nakanjoli Rural Health Centre,105033,Rural,GRZ,Rur
 Central,Mumbwa,Nakatambo RHC, Nalubanda Rural Health Centre,105020,Rural,GRZ,Rural Health Centre,Yes,15801,27.07620789,-15.41208003
 Central,Mumbwa,Nalusanga HP, Naluvwi Health Post,105031,Rural,GRZ,Health Post,Yes,13000,26.94622519,-15.31173023
 Central,Mumbwa,Nalusanga HP, Nalusanga Health Post,105006,Rural,GRZ,Health Post,Yes,,26.71266903,-14.9757495
-Central,Mumbwa,Namabanga  HP,Namabanga  HP,105007,Rural,GRZ,Health Post,Yes,21350,27.18192632,-15.28078821
+Central,Mumbwa,Namabanga  HP,Namabanga  Health Post,105007,Rural,GRZ,Health Post,Yes,21350,27.18192632,-15.28078821
 Central,Mumbwa,Nambala RHC, Nambala Rural Health Centre,105021,Rural,GRZ,Rural Health Centre,Yes,8817,27.02992782,-15.10670788
 Central,Mumbwa,Nangoma HAHC, Nangoma Hospital Affiliated Health Centre,105098,Rural,Faith Based,Rural Health Centre,Yes,22656,27.36265585,-15.12753584
 Central,Mumbwa,Nangoma Mission Hospital, Nangoma Mission Hospital,105008,Rural,Faith Based,Level 1 Hospital District,Yes,77000,27.36267126,-15.12743179
@@ -232,7 +232,7 @@ Central,Ngabwe,Chilwa RHC, Chilwa Rural Health Centre,1055010,Rural,GRZ,Rural He
 Central,Ngabwe,Mukubwe RHC, Mukubwe Rural Health Centre,1055112,Rural,GRZ,Rural Health Centre,Yes,,27.74665355,-13.8983895
 Central,Ngabwe,Mumbachala Health Centre, Mumbachala Health Centre,1055116,Rural,GRZ,Health Post,Yes,,27.41752169,-14.09891128
 Central,Ngabwe,Ngabwe RHC, Ngabwe Rural Health Centre,1055115,Rural,GRZ,Rural Health Centre,Yes,,27.254302,-14.0857422
-Central,Ngabwe,Nsengwe HP,Nsengwe HP,1055113,Rural,GRZ,Health Post,Yes,,27.58422869,-14.02190477
+Central,Ngabwe,Nsengwe HP,Nsengwe Health Post,1055113,Rural,GRZ,Health Post,Yes,,27.58422869,-14.02190477
 Central,Serenje,Chibale RHC, Chibale Rural Health Centre,1060110,Rural,GRZ,Rural Health Centre,Yes,14058,30.14766044,-13.59222926
 Central,Serenje,Chibobo HP, Chibobo Health Post,1060134,Rural,GRZ,Health Post,Yes,7785,30.02086488,-13.01810212
 Central,Serenje,Chisomo RHC, Chisomo Rural Health Centre,1060112,Rural,GRZ,Rural Health Centre,Yes,7196,30.66944833,-13.59165476
@@ -249,7 +249,7 @@ Central,Serenje,Mailo RHC, Mailo Rural Health Centre,1060117,Rural,GRZ,Rural Hea
 Central,Serenje,Malcom Moffat RHC, Malcom Moffat Rural Health Centre,1060118,Urban,GRZ,Rural Health Centre,Yes,14422,30.24029145,-13.22078149
 Central,Serenje,Masase HP, Masase Health Post,1060133,Rural,GRZ,Health Post,Yes,4208,31.07682944,-13.19359872
 Central,Serenje,Miswema HP, Miswema Health Post,1060132,Rural,GRZ,Health Post,Yes,4208,30.65368935,-13.17409098
-Central,Serenje,Mukopa  HP,Mukopa  HP,1060206,Rural,GRZ,Health Post,Yes,2186,30.16319554,-13.74270076
+Central,Serenje,Mukopa  HP,Mukopa  Health Post,1060206,Rural,GRZ,Health Post,Yes,2186,30.16319554,-13.74270076
 Central,Serenje,Mulilima RHC, Mulilima Rural Health Centre,1060123,Rural,GRZ,Rural Health Centre,Yes,20351,29.91655468,-13.36581432
 Central,Serenje,Mupepetwe RHC,Mupepetwe RHC,1060120,Rural,Military,Rural Health Centre,Yes,7268,30.65840542,-13.16802508
 Central,Serenje,Muunga RHC, Muzumani Health Post,1060200,Rural,GRZ,Health Post,Yes,6011,30.81228895,-13.13638486
@@ -258,7 +258,7 @@ Central,Serenje,Nchimishi RHC,Nchimishi RHC,1060205,Rural,GRZ,Health Post,Yes,38
 Central,Serenje,Prisons HP, Serenje District Hospital,1060198,Urban,GRZ,Level 1 Hospital District,Yes,215926,30.24170933,-13.25322645
 Central,Serenje,Serenje District Hospital, Serenje Hospital Affiliated Health Centre,10602010,Urban,GRZ,Urban Health Centre,Yes,21766,30.23465856,-13.23521982
 Central,Serenje,Sote HP, Sote Health Post,1060203,Rural,GRZ,Health Post,Yes,3025,30.7261405,-12.93539734
-Central,Serenje,Tazara HP,Tazara HP,1060201,Urban,GRZ,Health Post,Yes,4994,30.21699496,-13.22860817
+Central,Serenje,Tazara HP,Tazara Health Post,1060201,Urban,GRZ,Health Post,Yes,4994,30.21699496,-13.22860817
 Central,Mkushi,Luanshimba ZNS,Luanshimba ZNS,104015,Rural,Military,Rural  Health Centre,,4468,28.26013409,-12.5671876
 Central,Mkushi,Munsakamba ZNS,Munsakamba ZNS,104035,Peri-Urban,Military,Health Post,,7067,29.58662161,-13.7058017
 Central,Serenje,Kanona,Kanona,106029,Rural,Military,Rural Health Centre,,6154,29.34953093,-13.56229413
@@ -270,25 +270,25 @@ Copperbelt,Chililabombwe,Chimfunshi RHC, Chimfunshi Rural Health Centre,201020,R
 Copperbelt,Chililabombwe,Clinic 1 UHC,Clinic 1 UHC,201003,Urban,Private,Urban Health Centre,Yes,13102,27.82793349,-12.36074109
 Copperbelt,Chililabombwe,Clinic 4 UHC,Clinic 4 UHC,201004,Urban,Private,Urban Health Centre,Yes,11882,27.82155408,-12.36671364
 Copperbelt,Chililabombwe,Esthada UHC,Esthada UHC,201016,Peri-Urban,Private,Urban Health Centre,Yes,2067,27.75974556,-12.29610268
-Copperbelt,Chililabombwe,Fikolongo HP,Fikolongo HP,201006,Rural,GRZ,Health Post,Yes,,27.90979557,-12.45707184
+Copperbelt,Chililabombwe,Fikolongo HP,Fikolongo Health Post,201006,Rural,GRZ,Health Post,Yes,,27.90979557,-12.45707184
 Copperbelt,Chililabombwe,Fitobaula HP, Fitobaula Health Post,201009,Rural,GRZ,Health Post,Yes,,27.86794386,-12.45587102
 Copperbelt,Chililabombwe,Health Center 5 UHC,Health Center 5 UHC,201030,Urban,Private,Urban Health Centre,Yes,6096,27.84818502,-12.3730812
 Copperbelt,Chililabombwe,Kakoso UHC, Kakoso Urban Health Centre,201010,Urban,GRZ,Urban Health Centre,Yes,18080,27.85547211,-12.37306069
-Copperbelt,Chililabombwe,Kasumbalesa HP,Kasumbalesa HP,201013,Urban,GRZ,Health Post,Yes,,27.79649669,-12.27139578
+Copperbelt,Chililabombwe,Kasumbalesa HP,Kasumbalesa Health Post,201013,Urban,GRZ,Health Post,Yes,,27.79649669,-12.27139578
 Copperbelt,Chililabombwe,Kasumbalesa UHC, Kasumbalesa Urban Health Centre,201011,Urban,GRZ,Urban Health Centre,Yes,10187,27.79684325,-12.26756717
 Copperbelt,Chililabombwe,Konkola HP, Konkola Health Post,201001,Rural,GRZ,Health Post,Yes,3471,27.75720412,-12.29901243
 Copperbelt,Chililabombwe,Konkola Mine Private Hospital, Konkola Mine Private Hospital,201033,Urban,Private,Level 2 Hospital Provincial,Yes,,27.82800589,-12.36861836
-Copperbelt,Chililabombwe,Lubansa HP,Lubansa HP,201029,Rural,GRZ,Health Post,Yes,,27.9153159,-12.34064377
+Copperbelt,Chililabombwe,Lubansa HP,Lubansa Health Post,201029,Rural,GRZ,Health Post,Yes,,27.9153159,-12.34064377
 Copperbelt,Chililabombwe,Lubengele UHC, Lubengele Urban Health Centre,201015,Urban,GRZ,Urban Health Centre,Yes,50028,27.8323861,-12.3618881
-Copperbelt,Chililabombwe,Malubeni HP,Malubeni HP,201019,Rural,GRZ,Health Post,Yes,,27.66048262,-12.33683686
-Copperbelt,Chililabombwe,Miliyashi HP,Miliyashi HP,201021,Rural,GRZ,Health Post,Yes,,27.9651517,-12.41933861
-Copperbelt,Chililabombwe,Miteta HP,Miteta HP,201022,Rural,GRZ,Health Post,Yes,,27.76390553,-12.38984911
-Copperbelt,Chililabombwe,Ppz HP,Ppz HP,201025,Urban,GRZ,Health Post,Yes,,27.83211698,-12.34879623
-Copperbelt,Chililabombwe,Sadc HP,Sadc HP,201026,Urban,GRZ,Health Post,Yes,,27.79363935,-12.26564719
+Copperbelt,Chililabombwe,Malubeni HP,Malubeni Health Post,201019,Rural,GRZ,Health Post,Yes,,27.66048262,-12.33683686
+Copperbelt,Chililabombwe,Miliyashi HP,Miliyashi Health Post,201021,Rural,GRZ,Health Post,Yes,,27.9651517,-12.41933861
+Copperbelt,Chililabombwe,Miteta HP,Miteta Health Post,201022,Rural,GRZ,Health Post,Yes,,27.76390553,-12.38984911
+Copperbelt,Chililabombwe,Ppz HP,PPZ Health Post,201025,Urban,GRZ,Health Post,Yes,,27.83211698,-12.34879623
+Copperbelt,Chililabombwe,Sadc HP,SADC Health Post,201026,Urban,GRZ,Health Post,Yes,,27.79363935,-12.26564719
 Copperbelt,Chililabombwe,Shaft 1 UHC, Shaft 1 Urban Health Centre,201017,Urban,Private,Urban Health Centre,Yes,,27.82944642,-12.3766275
 Copperbelt,Chililabombwe,Shaft 3 UHC, Shaft 3 Urban Health Centre,201018,Urban,Private,Urban Health Centre,Yes,,27.81919724,-12.35954606
 Copperbelt,Chingola,Chawama UHC, Chawama Urban Health Centre,202010,Urban,GRZ,Urban Health Centre,Yes,40969,27.84036779,-12.55787711
-Copperbelt,Chingola,Chimfunshi HP,Chimfunshi HP,202037,Rural,GRZ,Health Post,Yes,,27.48016333,-12.36728
+Copperbelt,Chingola,Chimfunshi HP,Chimfunshi Health Post,202037,Rural,GRZ,Health Post,Yes,,27.48016333,-12.36728
 Copperbelt,Chingola,Chingola Municipal Council UHC, Chingola Municipal Council Urban Health Centre,202011,Urban,GRZ,Urban Health Centre,Yes,10925,27.86586002,-12.54462292
 Copperbelt,Chingola,Chiwempala UHC, Chiwempala Urban Health Centre,202012,Urban,GRZ,Urban Health Centre,Yes,35506,27.84371403,-12.54878134
 Copperbelt,Chingola,Eye And Dental Clinic,Eye And Dental Clinic,202038,Urban,GRZ,Urban Health Centre,Yes,,27.86518417,-12.54000713
@@ -297,10 +297,10 @@ Copperbelt,Chingola,Ipafu RHC, Ipafu Rural Health Centre,202023,Rural,GRZ,Rural 
 Copperbelt,Chingola,Kabundi East UHC, Kabundi East Urban Health Centre,202013,Urban,GRZ,Urban Health Centre,Yes,49163,27.89128411,-12.52789409
 Copperbelt,Chingola,Kalilo RHC, Kalilo Rural Health Centre,202014,Rural,GRZ,Rural Health Centre,Yes,8194,27.76716007,-12.49161665
 Copperbelt,Chingola,Kasompe UHC, Kasompe Urban Health Centre,202015,Peri-Urban,GRZ,Urban Health Centre,Yes,24581,27.89390797,-12.59181349
-Copperbelt,Chingola,Katuba HP,Katuba HP,202031,Rural,GRZ,Health Post,Yes,,27.940221,-12.71209944
-Copperbelt,Chingola,Kawama HP,Kawama HP,202036,Rural,GRZ,Health Post,Yes,,27.68359167,-12.551175
+Copperbelt,Chingola,Katuba HP,Katuba Health Post,202031,Rural,GRZ,Health Post,Yes,,27.940221,-12.71209944
+Copperbelt,Chingola,Kawama HP,Kawama Health Post,202036,Rural,GRZ,Health Post,Yes,,27.68359167,-12.551175
 Copperbelt,Chingola,Lulamba UHC, Lulamba Urban Health Centre,202016,Urban,Private,Urban Health Centre,Yes,13656,27.84790912,-12.57511952
-Copperbelt,Chingola,Lushishi HP,Lushishi HP,202034,Rural,GRZ,Health Post,Yes,,27.81907579,-12.66383452
+Copperbelt,Chingola,Lushishi HP,Lushishi Health Post,202034,Rural,GRZ,Health Post,Yes,,27.81907579,-12.66383452
 Copperbelt,Chingola,Muchinshi RHC, Muchinshi Rural Health Centre,202017,Rural,GRZ,Rural Health Centre,Yes,13656,27.52479833,-12.49011
 Copperbelt,Chingola,Musenga HP, Musenga Health Post,202032,Peri-Urban,GRZ,Health Post,Yes,,27.96131669,-12.59651023
 Copperbelt,Chingola,Mutenda RHC, Mutenda Rural Health Centre,202018,Rural,GRZ,Rural Health Centre,Yes,10925,27.36086167,-12.39198
@@ -309,25 +309,25 @@ Copperbelt,Chingola,Nchanga Iii UHC, Nchanga III Urban Health Centre,202021,Urba
 Copperbelt,Chingola,Nchanga North Referral Hospital, Nchanga North Referral Hospital,202040,Urban,GRZ,Level 2 Hospital Provincial,Yes,,27.85957175,-12.5257377
 Copperbelt,Chingola,Nchanga South Referral Hospital, Nchanga South Referral Hospital,202050,Urban,Private,Level 2 Hospital Provincial,Yes,,27.86570224,-12.53219427
 Copperbelt,Chingola,Nchanga UHC, Nchanga Urban Health Centre,202022,Urban,Private,Urban Health Centre,Yes,8194,27.86082513,-12.53975557
-Copperbelt,Chingola,Shimulala HP,Shimulala HP,202035,Rural,GRZ,Rural Health Centre,Yes,,27.815402,-12.47773357
+Copperbelt,Chingola,Shimulala HP,Shimulala Health Post,202035,Rural,GRZ,Rural Health Centre,Yes,,27.815402,-12.47773357
 Copperbelt,Kalulushi,Chambishi Government UHC, Chambishi Government Urban Health Centre,203010,Peri-Urban,GRZ,Urban Health Centre,Yes,,28.06259945,-12.63999712
 Copperbelt,Kalulushi,Chambishi Mine UHC, Chambishi Mine Urban Health Centre,203011,Peri-Urban,Private,Urban Health Centre,Yes,,28.06267623,-12.63762872
 Copperbelt,Kalulushi,Chati RHC, Chati Rural Health Centre,203021,Rural,GRZ,Health Post,Yes,,27.80458667,-12.80380167
 Copperbelt,Kalulushi,Chembe HP, Chembe Health Post,203024,Rural,GRZ,Health Post,Yes,,27.98731333,-12.83937333
-Copperbelt,Kalulushi,Chembe HP,Chembe HP,203029,Rural,GRZ,Health Post,Yes,,27.996865,-12.79151167
+Copperbelt,Kalulushi,Chembe HP,Chembe Health Post,203029,Rural,GRZ,Health Post,Yes,,27.996865,-12.79151167
 Copperbelt,Kalulushi,Chibote HP, Chibote Health Post,203023,Peri-Urban,GRZ,Health Post,Yes,,28.14030757,-12.8676759
 Copperbelt,Kalulushi,Chibuluma UHC, Chibuluma Urban Health Centre,203012,Urban,GRZ,Rural Health Centre,Yes,,28.13713367,-12.85161893
-Copperbelt,Kalulushi,Chisangwa HP,Chisangwa HP,203035,Rural,GRZ,Health Post,Yes,,27.73723167,-12.74659
-Copperbelt,Kalulushi,Chiwembashi HP,Chiwembashi HP,203033,Rural,GRZ,Health Post,Yes,,27.89154833,-12.757855
+Copperbelt,Kalulushi,Chisangwa HP,Chisangwa Health Post,203035,Rural,GRZ,Health Post,Yes,,27.73723167,-12.74659
+Copperbelt,Kalulushi,Chiwembashi HP,Chiwembashi Health Post,203033,Rural,GRZ,Health Post,Yes,,27.89154833,-12.757855
 Copperbelt,Kalulushi,DeNovan HP , DeNovan Health Post ,203031,Rural,GRZ,Health Post,Yes,,28.05297719,-12.73928716
-Copperbelt,Kalulushi,Fitanda HP,Fitanda HP,203032,Peri-Urban,GRZ,Health Post,Yes,,27.99785577,-12.64697438
+Copperbelt,Kalulushi,Fitanda HP,Fitanda Health Post,203032,Peri-Urban,GRZ,Health Post,Yes,,27.99785577,-12.64697438
 Copperbelt,Kalulushi,Ichimpe RHC, Ichimpe Rural Health Centre,203013,Rural,GRZ,Rural Health Centre,Yes,,28.12537792,-12.74098908
 Copperbelt,Kalulushi,Kalengwa South HP, Kalengwa South Health Post,203027,Peri-Urban,GRZ,Health Post,Yes,,28.07873302,-12.85341434
 Copperbelt,Kalulushi,Kalulushi General Hospital, Kalulushi General Hospital,203001,Urban,GRZ,Level 2 Hospital Provincial,Yes,,28.10039318,-12.83294427
 Copperbelt,Kalulushi,Kalulushi Government UHC, Kalulushi Government Urban Health Centre,203036,Urban,GRZ,Rural Health Centre,Yes,,28.09905123,-12.84858431
 Copperbelt,Kalulushi,Kalulushi Main UHC, Kalulushi Main Urban Health Centre,203037,Urban,GRZ,Urban Health Centre,Yes,,28.10074653,-12.83996401
 Copperbelt,Kalulushi,Kalulushi Township UHC, Kalulushi Township Urban Health Centre,203014,Urban,GRZ,Urban Health Centre,Yes,,28.09806054,-12.8462157
-Copperbelt,Kalulushi,Kameme HP,Kameme HP,203034,Rural,GRZ,Health Post,Yes,,28.05824,-12.79832833
+Copperbelt,Kalulushi,Kameme HP,Kameme Health Post,203034,Rural,GRZ,Health Post,Yes,,28.05824,-12.79832833
 Copperbelt,Kalulushi,Kite RHC, Kite Rural Health Centre,203022,Rural,GRZ,Health Post,Yes,,27.87527,-12.84990833
 Copperbelt,Kalulushi,Lukoshi RHC, Lukoshi Rural Health Centre,203017,Rural,GRZ,Urban Health Centre,Yes,,28.14382171,-12.61752966
 Copperbelt,Kalulushi,Mindolo Training Farms UHC, Mindolo Training Farms Urban Health Centre,203018,Peri-Urban,GRZ,Health Post,Yes,,28.12688036,-12.89726979
@@ -423,7 +423,7 @@ Copperbelt,Luanshya,New Town UHC, New Town Urban Health Centre,205032,Urban,GRZ,
 Copperbelt,Luanshya,Nkulumashiba HP, Nkulumashiba Health Post,205045,Peri-Urban,GRZ,Health Post,Yes,,28.2035907,-13.07941425
 Copperbelt,Luanshya,Poleline HP, Poleline Health Post,205053,Peri-Urban,GRZ,Health Post,Yes,,28.44642268,-13.0084499
 Copperbelt,Luanshya,Roan Antelope Referral Hospital, Roan Antelope Referral Hospital,205002,Urban,GRZ,Level 2 Hospital Provincial,Yes,,28.38747906,-13.13689633
-Copperbelt,Luanshya,Section 2 HP,Section 2 HP,205060,Urban,GRZ,Health Post,Yes,,28.37960464,-13.13434989
+Copperbelt,Luanshya,Section 2 HP,Section 2 Health Post,205060,Urban,GRZ,Health Post,Yes,,28.37960464,-13.13434989
 Copperbelt,Luanshya,Section 23 UHC, Section 23 Urban Health Centre,205026,Urban,Private,Urban Health Centre,Yes,,28.32081634,-13.10601119
 Copperbelt,Luanshya,Section 25 UHC,Section 25 UHC,205049,Urban,GRZ,Urban Health Centre,Yes,,28.3178151,-13.10948454
 Copperbelt,Luanshya,Section 4 Clinic,Section 4 Clinic,205058,Urban,Private,Urban Health Centre,Yes,3467,28.38040732,-13.12996055
@@ -439,14 +439,14 @@ Copperbelt,Lufwanyama,Fungulwe RHC, Fungulwe Rural Health Centre,206014,Rural,GR
 Copperbelt,Lufwanyama,Kamakanga RHC, Kamakanga Rural Health Centre,206027,Rural,GRZ,Health Post,Yes,2452,28.09197876,-13.10823801
 Copperbelt,Lufwanyama,Kansoka RHC, Kansoka Rural Health Centre,206024,Rural,GRZ,Health Post,Yes,2649,27.70262032,-12.63076004
 Copperbelt,Lufwanyama,Kapilamikwa HP, Kapilamikwa Health Post,206034,Rural,GRZ,Rural Health Centre,Yes,3924,27.5144402,-12.92478275
-Copperbelt,Lufwanyama,Kasanda HP,Kasanda HP,206030,Rural,GRZ,Health Post,Yes,,27.47424211,-12.57529995
+Copperbelt,Lufwanyama,Kasanda HP,Kasanda Health Post,206030,Rural,GRZ,Health Post,Yes,,27.47424211,-12.57529995
 Copperbelt,Lufwanyama,Lufwanyama District Hospital, Lufwanyama District Hospital,206001,Rural,GRZ,Level 1 Hospital District,Yes,98094,27.63671754,-12.85805631
 Copperbelt,Lufwanyama,Lumpuma RHC, Lumpuma Rural Health Centre,206016,Rural,GRZ,Rural Health Centre,Yes,,27.9119026,-13.12580116
-Copperbelt,Lufwanyama,Lumwana HP,Lumwana HP,206031,Rural,GRZ,Health Post,Yes,,27.23838083,-12.95137904
+Copperbelt,Lufwanyama,Lumwana HP,Lumwana Health Post,206031,Rural,GRZ,Health Post,Yes,,27.23838083,-12.95137904
 Copperbelt,Lufwanyama,Mbalango HP, Mbalango Health Post,206028,Rural,GRZ,Health Post,Yes,1962,27.5282763,-12.81133611
 Copperbelt,Lufwanyama,Mibenge HP, Mibenge Health Post,206023,Rural,GRZ,Health Post,Yes,3237,27.91052009,-12.96839191
 Copperbelt,Lufwanyama,Mibila RHC, Mibila Rural Health Centre,206025,Rural,GRZ,Health Post,Yes,2415,27.55048204,-12.61159121
-Copperbelt,Lufwanyama,Milopa HP,Milopa HP,206032,Rural,GRZ,Health Post,Yes,,27.6248248,-12.55996384
+Copperbelt,Lufwanyama,Milopa HP,Milopa Health Post,206032,Rural,GRZ,Health Post,Yes,,27.6248248,-12.55996384
 Copperbelt,Lufwanyama,Mukumbo RHC, Mukumbo Rural Health Centre,206017,Rural,GRZ,Health Post,Yes,6475,28.07933498,-13.29484847
 Copperbelt,Lufwanyama,Mukutuma RHC, Mukutuma Rural Health Centre,206018,Rural,GRZ,Rural Health Centre,Yes,7848,27.81718676,-12.97134674
 Copperbelt,Lufwanyama,Mushingashi RHC, Mushingashi Rural Health Centre,206019,Rural,GRZ,Rural Health Centre,Yes,6867,27.07479087,-12.85525336
@@ -467,17 +467,17 @@ Copperbelt,Masaiti,Kaloko RHC, Kaloko Rural Health Centre,207018,Rural,GRZ,Rural
 Copperbelt,Masaiti,Kambowa RHC, Kambowa Rural Health Centre,207031,Rural,GRZ,Rural Health Centre,Yes,,28.80121602,-13.10596501
 Copperbelt,Masaiti,Kamifungo HP, Kamifungo Health Post,207019,Rural,GRZ,Rural Health Centre,Yes,,28.2036028,-13.21419899
 Copperbelt,Masaiti,Kashitu RHC, Kashitu Rural Health Centre,207020,Rural,GRZ,Rural Health Centre,Yes,,28.66431141,-13.68206979
-Copperbelt,Masaiti,Katonte Rural  HP,Katonte Rural  HP,207038,Rural,GRZ,Health Post,Yes,,28.97986557,-13.47370811
-Copperbelt,Masaiti,LumaNo Rural HP,LumaNo Rural HP,20070015,Rural,GRZ,Health Post,Yes,,28.69551015,-13.14315305
+Copperbelt,Masaiti,Katonte Rural  HP,Katonte Rural  Health Post,207038,Rural,GRZ,Health Post,Yes,,28.97986557,-13.47370811
+Copperbelt,Masaiti,LumaNo Rural HP,LumaNo Rural Health Post,20070015,Rural,GRZ,Health Post,Yes,,28.69551015,-13.14315305
 Copperbelt,Masaiti,Lupiya HP, Lupiya Health Post,207025,Rural,GRZ,Health Post,Yes,,28.81070067,-13.01060187
-Copperbelt,Masaiti,Masaiti Boarding HP,Masaiti Boarding HP,207033,Rural,GRZ,Health Post,Yes,,28.41776467,-13.28543693
+Copperbelt,Masaiti,Masaiti Boarding HP,Masaiti Boarding Health Post,207033,Rural,GRZ,Health Post,Yes,,28.41776467,-13.28543693
 Copperbelt,Masaiti,Masaiti Boma RHC, Masaiti Boma Rural Health Centre,207021,Rural,GRZ,Rural Health Centre,Yes,,28.41526007,-13.32166609
 Copperbelt,Masaiti,Masaiti Council RHC, Masaiti Council Rural Health Centre,2070001,Rural,GRZ,Rural Health Centre,Yes,,28.40570083,-13.25959573
 Copperbelt,Masaiti,Masaiti District Hospital, Masaiti District Hospital,207022,Rural,GRZ,Level 1 Hospital District,Yes,,28.68781612,-13.3340159
 Copperbelt,Masaiti,Matipa RHC, Matipa Rural Health Centre,207034,Rural,GRZ,Health Post,Yes,,28.67390401,-13.46798652
 Copperbelt,Masaiti,Michinka HP, Michinka Health Post,20070022,Rural,GRZ,Health Post,Yes,,28.61942396,-13.4143626
 Copperbelt,Masaiti,Miengwe RHC, Miengwe Rural Health Centre,207023,Rural,GRZ,Rural Health Centre,Yes,,28.73612988,-13.44841454
-Copperbelt,Masaiti,Miputu HP,Miputu HP,207035,Rural,GRZ,Health Post,Yes,,28.28427094,-13.20342443
+Copperbelt,Masaiti,Miputu HP,Miputu Health Post,207035,Rural,GRZ,Health Post,Yes,,28.28427094,-13.20342443
 Copperbelt,Masaiti,Mishikishi RHC, Mishikishi Rural Health Centre,207024,Rural,GRZ,Rural Health Centre,Yes,,28.67713566,-13.38446673
 Copperbelt,Masaiti,Mukolwe RHC, Mukolwe Rural Health Centre,207036,Rural,GRZ,Health Post,Yes,,28.59792471,-13.18359689
 Copperbelt,Masaiti,Mupapa RHC, Mupapa Rural Health Centre,207030,Rural,GRZ,Rural Health Centre,Yes,,28.70151622,-13.29688697
@@ -485,15 +485,15 @@ Copperbelt,Masaiti,Mutaba UHC, Mutaba Rural Health Centre,207026,Rural,GRZ,Rural
 Copperbelt,Masaiti,Njelemani RHC, Njelemani Rural Health Centre,207027,Rural,GRZ,Rural Health Centre,Yes,,28.73560946,-12.97513919
 Copperbelt,Masaiti,Silangwa HP, Silangwa Health Post,207032,Rural,GRZ,Health Post,Yes,,28.79955987,-13.48342821
 Copperbelt,Mpongwe,Butikili HP, Butikili Health Post,208025,Rural,GRZ,Health Post,Yes,,28.38431991,-13.42683863
-Copperbelt,Mpongwe,Bwembelelo HP ,Bwembelelo HP ,208032,Rural,GRZ,Health Post,Yes,,28.22742543,-13.52481642
+Copperbelt,Mpongwe,Bwembelelo HP ,Bwembelelo Health Post ,208032,Rural,GRZ,Health Post,Yes,,28.22742543,-13.52481642
 Copperbelt,Mpongwe,Chibuli HP, Chibuli Health Post,208023,Rural,GRZ,Health Post,Yes,,28.33566246,-13.39541023
-Copperbelt,Mpongwe,Chimbofuma  HP,Chimbofuma  HP,208034,Rural,GRZ,Health Post,Yes,,27.51825381,-13.64792927
-Copperbelt,Mpongwe,Chipese  HP,Chipese  HP,208035,Peri-Urban,GRZ,Health Post,Yes,,28.11777052,-13.51933889
-Copperbelt,Mpongwe,Chisanga HP,Chisanga HP,208027,Rural,GRZ,Health Post,Yes,,27.83660833,-13.83227167
-Copperbelt,Mpongwe,Chisapa  HP,Chisapa  HP,208026,Rural,GRZ,Health Post,Yes,,28.5040357,-13.67345392
+Copperbelt,Mpongwe,Chimbofuma  HP,Chimbofuma  Health Post,208034,Rural,GRZ,Health Post,Yes,,27.51825381,-13.64792927
+Copperbelt,Mpongwe,Chipese  HP,Chipese  Health Post,208035,Peri-Urban,GRZ,Health Post,Yes,,28.11777052,-13.51933889
+Copperbelt,Mpongwe,Chisanga HP,Chisanga Health Post,208027,Rural,GRZ,Health Post,Yes,,27.83660833,-13.83227167
+Copperbelt,Mpongwe,Chisapa  HP,Chisapa  Health Post,208026,Rural,GRZ,Health Post,Yes,,28.5040357,-13.67345392
 Copperbelt,Mpongwe,Ipumbu RHC, Ipumbu Rural Health Centre,208010,Rural,GRZ,Rural Health Centre,Yes,,27.84498167,-13.637755
 Copperbelt,Mpongwe,Kalweo RHC, Kalweo Rural Health Centre,208021,Rural,GRZ,Rural Health Centre,Yes,,28.64446091,-13.80242145
-Copperbelt,Mpongwe,Kangololo HP,Kangololo HP,208036,Rural,GRZ,Health Post,Yes,,27.877995,-13.76423
+Copperbelt,Mpongwe,Kangololo HP,Kangololo Health Post,208036,Rural,GRZ,Health Post,Yes,,27.877995,-13.76423
 Copperbelt,Mpongwe,Kanyenda RHC, Kanyenda Rural Health Centre,208011,Rural,GRZ,Rural Health Centre,Yes,,28.23784741,-13.43514988
 Copperbelt,Mpongwe,Kasamba RHC, Kasamba Rural Health Centre,208012,Rural,GRZ,Rural Health Centre,Yes,,28.26184446,-13.26246645
 Copperbelt,Mpongwe,Luamabwe RHC, Luamabwe Rural Health Centre,208024,Rural,GRZ,Health Post,Yes,,28.50467163,-13.78536293
@@ -505,14 +505,14 @@ Copperbelt,Mpongwe,Mfulabunga RHC, Mfulabunga Rural Health Centre,208037,Rural,G
 Copperbelt,Mpongwe,Mikata RHC, Mikata Rural Health Centre,208014,Rural,GRZ,Rural Health Centre,Yes,,28.34633111,-13.55892624
 Copperbelt,Mpongwe,Mpongwe Mission Hospital, Mpongwe Mission Hospital,208001,Rural,Faith Based,Level 1 Hospital District,Yes,,28.16314152,-13.51568165
 Copperbelt,Mpongwe,Muchindushi HP, Muchindushi Health Post,208030,Rural,GRZ,Health Post,Yes,,28.141825,-13.78488167
-Copperbelt,Mpongwe,Munkumpu HP,Munkumpu HP,208015,Rural,GRZ,Health Post,Yes,,27.81463333,-13.58827333
+Copperbelt,Mpongwe,Munkumpu HP,Munkumpu Health Post,208015,Rural,GRZ,Health Post,Yes,,27.81463333,-13.58827333
 Copperbelt,Mpongwe,Munkumpu RHC, Munkumpu Rural Health Centre,20080019,Rural,Private,Rural Health Centre,Yes,2588,27.71793053,-13.63268225
 Copperbelt,Mpongwe,Munkumpu Sub RHC,Munkumpu Sub RHC,20080020,Rural,Private,Rural Health Centre,Yes,2588,27.76212688,-13.67636609
 Copperbelt,Mpongwe,Mushipashi RHC, Mushipashi Rural Health Centre,208020,Rural,GRZ,Health Post,Yes,,27.88742167,-13.86712667
 Copperbelt,Mpongwe,Mushiwe Zfds RHC, Mushiwe ZFDS Rural Health Centre,208016,Rural,GRZ,Health Post,Yes,,27.52479119,-13.76141097
 Copperbelt,Mpongwe,Mwinuna RHC, Mwinuna Rural Health Centre,208017,Rural,GRZ,Rural Health Centre,Yes,,28.03662333,-13.880235
 Copperbelt,Mpongwe,Nampamba RHC, Nampamba Rural Health Centre,208018,Rural,Private,Rural Health Centre,Yes,,28.07469341,-13.57387318
-Copperbelt,Mpongwe,Ntunda HP,Ntunda HP,208039,Rural,GRZ,Health Post,Yes,,28.26101214,-13.82922451
+Copperbelt,Mpongwe,Ntunda HP,Ntunda Health Post,208039,Rural,GRZ,Health Post,Yes,,28.26101214,-13.82922451
 Copperbelt,Mpongwe,St Anthony RHC, St Anthony Rural Health Centre,208019,Rural,Faith Based,Rural Health Centre,Yes,,27.93332758,-13.45201469
 Copperbelt,Mpongwe,St Theresa Mission Hospital, St Theresa Mission Hospital,208040,Rural,Faith Based,Level 1 Hospital District,Yes,,28.42077306,-13.35400425
 Copperbelt,Mpongwe,St Theresas HAHC, St Theresas Hospital Affiliated Health Centre,208002,Urban,Faith Based,Urban Health Centre,Yes,9704,28.42082469,-13.35400367
@@ -539,7 +539,7 @@ Copperbelt,Mufulira,Mufulira Clinic 6 UHC, Mufulira Clinic 6 Urban Health Centre
 Copperbelt,Mufulira,Mufulira Clinic 7 UHC, Mufulira Clinic 7 Urban Health Centre,2090240,Urban,GRZ,Urban Health Centre,Yes,4323,28.20082238,-12.51949242
 Copperbelt,Mufulira,Mufulira Clinic 9 UHC, Mufulira Clinic 9 Urban Health Centre,2090440,Urban,Private,Urban Health Centre,Yes,3801,28.27186905,-12.5609644
 Copperbelt,Mufulira,Mufulira Teachers College HP, Mufulira Teachers College Health Post,2090360,Urban,GRZ,Health Post,Yes,,28.232225,-12.56387167
-Copperbelt,Mufulira,Mupambe HP,Mupambe HP,2090380,Peri-Urban,GRZ,Health Post,Yes,,28.27325236,-12.54000418
+Copperbelt,Mufulira,Mupambe HP,Mupambe Health Post,2090380,Peri-Urban,GRZ,Health Post,Yes,,28.27325236,-12.54000418
 Copperbelt,Mufulira,Mupena HP, Mupena Health Post,2090960,Rural,GRZ,Health Post,Yes,3710,28.39977329,-12.55143958
 Copperbelt,Mufulira,Murundu RHC, Murundu Rural Health Centre,2090280,Peri-Urban,GRZ,Urban Health Centre,Yes,10275,28.31936435,-12.48643264
 Copperbelt,Mufulira,Mutundu RHC, Mutundu Rural Health Centre,2090290,Rural,GRZ,Rural Health Centre,Yes,2510,28.35107954,-12.59338887
@@ -550,12 +550,12 @@ Copperbelt,Mufulira,Twatasha UHC, Twatasha Urban Health Centre,2090320,Urban,GRZ
 Copperbelt,Ndola,21 Miles HP, 21 Miles Health Post,210069,Peri-Urban,GRZ,Health Post,Yes,1500,28.46853617,-12.75245104
 Copperbelt,Ndola,Arthur Davison Hospital, Arthur Davison Hospital,210001,Urban,GRZ,Level 3 Hospital Tertiary,Yes,,28.64721196,-12.94800022
 Copperbelt,Ndola,Bank Of Zambia UHC, Bank of Zambia Urban Health Centre,210011,Urban,Private,Urban Health Centre,Yes,,28.64974167,-12.97083
-Copperbelt,Ndola,Catholic Diocese HP,Catholic Diocese HP,210071,Urban,Faith Based,Health Post,Yes,,28.62709211,-13.02005091
+Copperbelt,Ndola,Catholic Diocese HP,Catholic Diocese Health Post,210071,Urban,Faith Based,Health Post,Yes,,28.62709211,-13.02005091
 Copperbelt,Ndola,Chichetekelo UHC, Chichetekelo Urban Health Centre,210017,Urban,Faith Based,Urban Health Centre,Yes,,28.6164881,-13.00012335
 Copperbelt,Ndola,Chilanga Cement UHC, Chilanga Cement Urban Health Centre,210013,Urban,Private,Rural Health Centre,No,,28.68534067,-12.97659158
 Copperbelt,Ndola,Chinan UHC, CHINAN Urban Health Centre,210014,Urban,Private,Urban Health Centre,Yes,,28.6466491,-12.96882446
 Copperbelt,Ndola,Chipokota Mayamba UHC, Chipokota Mayamba Urban Health Centre,210012,Urban,GRZ,Health Post,Yes,53574,28.60939833,-12.93191667
-Copperbelt,Ndola,Chipolopolo HP,Chipolopolo HP,210083,Rural,GRZ,Health Post,No,,28.4664558,-12.8314796
+Copperbelt,Ndola,Chipolopolo HP,Chipolopolo Health Post,210083,Rural,GRZ,Health Post,No,,28.4664558,-12.8314796
 Copperbelt,Ndola,Daghamskhoeld HP, Daghamskhoeld Health Post,210066,Urban,GRZ,Health Post,Yes,,28.59667861,-12.96912114
 Copperbelt,Ndola,Dola Hill UHC, Dola Hill Urban Health Centre,210073,Urban,GRZ,Urban Health Centre,Yes,8548,28.59434015,-12.9607682
 Copperbelt,Ndola,Dr. Bhatts UHC,Dr. Bhatts UHC,210074,Urban,Private,Urban Health Centre,Yes,,28.64581788,-12.97580347
@@ -569,7 +569,7 @@ Copperbelt,Ndola,Kaloko UHC, Kaloko Urban Health Centre,210020,Urban,GRZ,Rural H
 Copperbelt,Ndola,Kamensopanshi HP, Kamensopanshi Health Post,210057,Peri-Urban,GRZ,Health Post,Yes,,28.49407032,-12.97892654
 Copperbelt,Ndola,Kaniki UHC, Kaniki Urban Health Centre,210021,Urban,GRZ,Urban Health Centre,Yes,10337,28.53224271,-12.86054187
 Copperbelt,Ndola,Kansheshi Prison UHC, Kansheshi Prison Urban Health Centre,210022,Urban,GRZ,Urban Health Centre,Yes,11647,28.62507167,-12.94328667
-Copperbelt,Ndola,Kantolomba HP Kansime Anne. HP,Kantolomba HP Kansime Anne. HP,210054,Urban,NGO,Health Post,No,,28.60101939,-13.00757203
+Copperbelt,Ndola,Kantolomba HP Kansime Anne. HP,Kantolomba Health Post Kansime Anne. Health Post,210054,Urban,NGO,Health Post,No,,28.60101939,-13.00757203
 Copperbelt,Ndola,Katondo Health Centre, Katondo Health Centre,210053,Urban,GRZ,Health Post,Yes,4000,28.69767423,-13.02220908
 Copperbelt,Ndola,Kavu UHC, Kavu Urban Health Centre,210023,Peri-Urban,Faith Based,Level 1 Hospital District,Yes,1500,28.66689961,-13.09352553
 Copperbelt,Ndola,Kawama UHC, Kawama Urban Health Centre (Ndola),210024,Urban,GRZ,Urban Health Centre,Yes,22136,28.61804,-12.91422833
@@ -583,7 +583,7 @@ Copperbelt,Ndola,Maternal Child Health UHC,Maternal Child Health UHC,210079,Urba
 Copperbelt,Ndola,Mery Berg UHC, Mery Berg Urban Health Centre,210050,Urban,Private,Urban Health Centre,Yes,,28.63379489,-12.96185629
 Copperbelt,Ndola,Miramar UHC, Miramar Urban Health Centre,210089,Urban,Private,Urban Health Centre,Yes,,28.6282891,-12.95559211
 Copperbelt,Ndola,Misaka HP, Misaka Health Post (Ndola),210060,Peri-Urban,GRZ,Health Post,Yes,1000,28.52997823,-12.92343678
-Copperbelt,Ndola,Misundu HP,Misundu HP,210062,Urban,GRZ,Health Post,Yes,,28.63977544,-12.89092203
+Copperbelt,Ndola,Misundu HP,Misundu Health Post,210062,Urban,GRZ,Health Post,Yes,,28.63977544,-12.89092203
 Copperbelt,Ndola,Mpendwa UHC, Mpendwa Urban Health Centre,210049,Urban,Private,Urban Health Centre,Yes,,28.64288818,-12.97908719
 Copperbelt,Ndola,Mushili UHC, Mushili Urban Health Centre,210032,Urban,GRZ,Urban Health Centre,Yes,5742,28.62735749,-13.01718572
 Copperbelt,Ndola,Nalwange Family Clinic, Nalwange Family Clinic,210035,Urban,Private,Urban Health Centre,No,,28.61359051,-12.93662839
@@ -600,7 +600,7 @@ Copperbelt,Ndola,Peter Singogo Police UHC, Peter Singogo Police Urban Health Cen
 Copperbelt,Ndola,Railway Surgery UHC, Railway Surgery Urban Health Centre,210039,Urban,GRZ,Urban Health Centre,Yes,,28.6450057,-12.97052554
 Copperbelt,Ndola,Roma HP, Roma Health Post,210059,Rural,GRZ,Health Post,Yes,1420,28.54715412,-13.09929663
 Copperbelt,Ndola,Sathya Sai UHC, Sathya Sai Urban Health Centre,210040,Urban,GRZ,Urban Health Centre,Yes,21387,28.61968333,-12.92917167
-Copperbelt,Ndola,Sunga Bukanda HP,Sunga Bukanda HP,210065,Rural,GRZ,Health Post,No,,28.7395005,-13.0390517
+Copperbelt,Ndola,Sunga Bukanda HP,Sunga Bukanda Health Post,210065,Rural,GRZ,Health Post,No,,28.7395005,-13.0390517
 Copperbelt,Ndola,Tdrc UHC, TDRC Urban Health Centre,210046,Urban,GRZ,Urban Health Centre,Yes,,28.63395398,-12.97037815
 Copperbelt,Ndola,TelNor UHC, TelNor Urban Health Centre,210044,Urban,Private,Urban Health Centre,Yes,,28.64710372,-12.97272466
 Copperbelt,Ndola,Tug-Argan UHC, Tug-Argan Urban Health Centre,210043,Urban,Military,Urban Health Centre,Yes,8328,28.75756667,-13.08660333
@@ -617,7 +617,7 @@ Eastern,Chadiza,Bwanunkha RHC, Bwanunkha Rural Health Centre,301010,Rural,GRZ,Ru
 Eastern,Chadiza,Chadiza District Hospital, Chadiza District Hospital,301001,Peri-Urban,GRZ,Level 1 Hospital District,Yes,,32.42161449,-14.06219561
 Eastern,Chadiza,Chadiza UHC, Chadiza Rural Health Centre,301011,Peri-Urban,GRZ,Urban Health Centre,Yes,9816,32.47843285,-13.9605166
 Eastern,Chadiza,Chamandala HP , Chamandala Health Post,301034,Rural,GRZ,Health Post,Yes,3924,32.38524762,-14.19683498
-Eastern,Chadiza,Chanida HP,Chanida HP,301035,Rural,GRZ,Health Post,No,,32.35030757,-14.29901763
+Eastern,Chadiza,Chanida HP,Chanida Health Post,301035,Rural,GRZ,Health Post,No,,32.35030757,-14.29901763
 Eastern,Chadiza,Chanida RHC, Chanida Rural Health Centre,301012,Rural,GRZ,Rural Health Centre,Yes,4444,32.33205202,-14.24854599
 Eastern,Chadiza,Chanjowe HP, Chanjowe Health Post,301022,Rural,GRZ,Rural Health Centre,Yes,5900,32.429564,-14.01684856
 Eastern,Chadiza,Chilenga HP, Chilenga Health Post,311020,Rural,GRZ,Health Post,Yes,4320,32.36836823,-14.11692008
@@ -627,13 +627,13 @@ Eastern,Chadiza,Kapirimpika HP, Kapirimphika Health Post,301030,Rural,GRZ,Health
 Eastern,Chadiza,Madzaela HP, Madzaela Health Post,301021,Rural,GRZ,Health Post,Yes,5727,32.3648281,-13.95709207
 Eastern,Chadiza,Miti RHC, Miti Rural Health Centre,301014,Rural,GRZ,Rural Health Centre,Yes,10114,32.62629222,-14.08735636
 Eastern,Chadiza,Mkumbuzi RHC, Mkumbuzi Rural Health Centre,301020,Rural,GRZ,Rural Health Centre,Yes,3734,32.5070323,-14.22112665
-Eastern,Chadiza,Msokosela HP,Msokosela HP,301032,Rural,GRZ,Health Post,No,,32.55928587,-14.0370719
+Eastern,Chadiza,Msokosela HP,Msokosela Health Post,301032,Rural,GRZ,Health Post,No,,32.55928587,-14.0370719
 Eastern,Chadiza,Mtaya HP, Mtaya Health Post,301029,Rural,GRZ,Health Post,Yes,3759,32.65510312,-14.01561369
 Eastern,Chadiza,Naviruli HP, Naviruli Health post,301033,Rural,GRZ,Health Post,Yes,3000,32.32043386,-14.11367635
 Eastern,Chadiza,Nsadzu RHC, Nsadzu Rural Health Centre,301015,Rural,GRZ,Rural Health Centre,Yes,6851,32.3390548,-14.07009852
 Eastern,Chadiza,Sinalo HP , Sinalo Health Post,301023,Rural,GRZ,Health Post,Yes,2125,32.33221289,-14.24861399
 Eastern,Chadiza,Tafelansoni RHC, Tafelansoni Rural Health Centre,301017,Rural,GRZ,Rural Health Centre,Yes,4665,32.43186057,-14.21630486
-Eastern,Chadiza,Welele HP,Welele HP,301036,Rural,GRZ,Health Post,No,,32.63766546,-14.15513759
+Eastern,Chadiza,Welele HP,Welele Health Post,301036,Rural,GRZ,Health Post,No,,32.63766546,-14.15513759
 Eastern,Chadiza,Zemba RHC, Zemba Rural Health Centre,301018,Rural,GRZ,Rural Health Centre,Yes,9222,32.33912861,-14.07035604
 Eastern,Chadiza,Zingalume HP, Zingalume Health Post,301031,Rural,GRZ,Health Post,Yes,2955,32.62618685,-14.08734766
 Eastern,Chipata,Chakoloma HP, Chakoloma Health Post,303010166,Rural,GRZ,Health Post,Yes,3562,32.83396544,-13.1045146
@@ -653,7 +653,7 @@ Eastern,Chipata,Chipata HAHC, Chipata Hospital Affiliated Health Centre,30302013
 Eastern,Chipata,Chipungo RHC, Chipungo Rural Health Centre,303040115,Rural,GRZ,Health Post,Yes,6153,32.48713461,-13.76145544
 Eastern,Chipata,Chiswa HP, Chiswa Health Post,303040154,Rural,GRZ,Health Post,Yes,5447,32.30491262,-13.91564122
 Eastern,Chipata,Chizenje RHC, Chizenje Rural Health Centre,303030140,Rural,GRZ,Rural Health Centre,Yes,14321,32.30755325,-13.62882797
-Eastern,Chipata,Dambwe HP,Dambwe HP,303020168,Rural,GRZ,Health Post,Yes,3882,32.80138046,-13.69375477
+Eastern,Chipata,Dambwe HP,Dambwe Health Post,303020168,Rural,GRZ,Health Post,Yes,3882,32.80138046,-13.69375477
 Eastern,Chipata,Dwankhozi RHC, Dwankhozi Rural Health Centre,303058,Rural,GRZ,Health Post,Yes,4360,32.89640023,-13.25215879
 Eastern,Chipata,Feni HP, Feni Health Post,303040165,Rural,GRZ,Health Post,Yes,3225,32.74302793,-13.78492869
 Eastern,Chipata,Jerusalem RHC, Jerusalem Rural Health Centre,303040116,Rural,GRZ,Rural Health Centre,Yes,10312,32.61260641,-13.84982521
@@ -666,7 +666,7 @@ Eastern,Chipata,Katambo HP, Katambo Health Post,303040159,Rural,GRZ,Health Post,
 Eastern,Chipata,Katandala RHC, Katandala Rural Health Centre,303040120,Rural,GRZ,Rural Health Centre,Yes,6480,32.74715459,-13.71821658
 Eastern,Chipata,Katondo HP, Katondo Health Post,303030139,Rural,GRZ,Health Post,Yes,5086,32.37604957,-13.63752217
 Eastern,Chipata,Kayeka HP, Kayeka Health Post,303040138,Rural,GRZ,Health Post,Yes,4391,32.67706471,-13.75018029
-Eastern,Chipata,Khoza HP,Khoza HP,303030198,Rural,GRZ,Health Post,Yes,,32.22535583,-13.6604645
+Eastern,Chipata,Khoza HP,Khoza Health Post,303030198,Rural,GRZ,Health Post,Yes,,32.22535583,-13.6604645
 Eastern,Chipata,Kwenje RHC, Kwenje Rural Health Centre,303030121,Rural,GRZ,Rural Health Centre,Yes,11591,32.23551893,-13.8299476
 Eastern,Chipata,Lunkwakwa UHC, Lunkwakwa Urban Health Centre,311013,Rural,GRZ,Urban Health Centre,Yes,7310,32.61758711,-13.59786659
 Eastern,Chipata,Madziatuwa RHC, Madziatuwa Rural Health Centre,303010143,Rural,GRZ,Rural Health Centre,Yes,5023,32.69763613,-13.08621699
@@ -705,31 +705,31 @@ Eastern,Katete,Kafumbwe RHC, Kafumbwe Rural Health Centre,304011,Rural,GRZ,Rural
 Eastern,Katete,Kafunkha HP, Kafunkha Health Post,304033,Rural,GRZ,Health Post,Yes,8829,31.94832445,-14.08686642
 Eastern,Katete,Kagoro RHC, Kagoro Rural Health Centre,304012,Rural,GRZ,Rural Health Centre,Yes,16936,32.07140603,-14.24342775
 Eastern,Katete,Kakula HP, Kakula Health Post,304026,Rural,GRZ,Health Post,Yes,5622,32.07365392,-14.35021915
-Eastern,Katete,Kalimeta HP,Kalimeta HP,304042,Rural,GRZ,Health Post,Yes,,32.1592758,-14.08304371
+Eastern,Katete,Kalimeta HP,Kalimeta Health Post,304042,Rural,GRZ,Health Post,Yes,,32.1592758,-14.08304371
 Eastern,Katete,Kamiza RHC, Kamiza Rural Health Centre,304020,Rural,GRZ,Rural Health Centre,Yes,9136,32.10578325,-13.83956015
 Eastern,Katete,Kamphambe RHC, Kamphambe Rural Health Centre,304032,Rural,GRZ,Rural Health Centre,Yes,5390,32.15854095,-14.02322117
 Eastern,Katete,Katete Boma Health Centre, Katete Boma Health Centre,304014,Peri-Urban,GRZ,Urban Health Centre,Yes,15275,32.06454012,-14.09112773
 Eastern,Katete,Katiula HP, Katiula Health Post,304037,Rural,GRZ,Rural Health Centre,Yes,,32.25779275,-14.10692032
-Eastern,Katete,Kawaza HP,Kawaza HP,304044,Rural,GRZ,Health Post,No,,32.16433793,-14.25626292
+Eastern,Katete,Kawaza HP,Kawaza Health Post,304044,Rural,GRZ,Health Post,No,,32.16433793,-14.25626292
 Eastern,Katete,Kwenje HP, Kwenje Health Post,304045,Rural,GRZ,Health Post,No,,31.84877342,-14.0285661
 Eastern,Katete,Lukweta HP, Lukweta Health Post,304036,Rural,GRZ,Health Post,Yes,5253,31.93226119,-13.84639441
 Eastern,Katete,Lunga HP, Lunga Health Post,304040,Rural,GRZ,Health Post,Yes,3329,32.21234037,-14.29769284
-Eastern,Katete,Lupando HP,Lupando HP,304046,Rural,GRZ,Health Post,No,,31.92151867,-14.11731931
-Eastern,Katete,Magobo HP,Magobo HP,304047,Rural,GRZ,Health Post,No,,32.02570116,-13.78250945
+Eastern,Katete,Lupando HP,Lupando Health Post,304046,Rural,GRZ,Health Post,No,,31.92151867,-14.11731931
+Eastern,Katete,Magobo HP,Magobo Health Post,304047,Rural,GRZ,Health Post,No,,32.02570116,-13.78250945
 Eastern,Katete,Makwenda HP, Makwenda Health Post,304038,Rural,GRZ,Health Post,Yes,4863,31.91500333,-14.00684744
 Eastern,Katete,Matunga HP, Matunga Health Post,304041,Rural,GRZ,Health Post,Yes,2580,32.15475554,-13.84245909
 Eastern,Katete,Mbinga HP, Mbinga Health Post,304034,Rural,GRZ,Health Post,Yes,7129,32.14479034,-14.14532687
 Eastern,Katete,Mindola RHC, Mindola Rural Health Centre,304015,Rural,GRZ,Rural Health Centre,Yes,10574,32.14198912,-14.17616686
 Eastern,Katete,Mphangwe HP, Mphangwe Health Post,304016,Rural,GRZ,Health Post,Yes,9022,32.06420962,-14.04114968
 Eastern,Katete,Mtetezi Zambia National Service RHC, Mtetezi Zambia National Service Rural Health Centre,304013,Rural,Military,Rural Health Centre,Yes,7975,32.15611298,-13.95432013
-Eastern,Katete,Mutipa HP,Mutipa HP,304048,Rural,GRZ,Health Post,No,,32.25670818,-14.28372697
-Eastern,Katete,Muzime HP,Muzime HP,304091,Rural,GRZ,Health Post,No,,32.00748164,-14.18429408
-Eastern,Katete,Mwandafisi HP,Mwandafisi HP,304043,Rural,GRZ,Health Post,Yes,3227,32.22787444,-14.05307236
-Eastern,Katete,Mwaziputa HP,Mwaziputa HP,304049,Rural,GRZ,Health Post,No,,32.11619351,-13.99756035
+Eastern,Katete,Mutipa HP,Mutipa Health Post,304048,Rural,GRZ,Health Post,No,,32.25670818,-14.28372697
+Eastern,Katete,Muzime HP,Muzime Health Post,304091,Rural,GRZ,Health Post,No,,32.00748164,-14.18429408
+Eastern,Katete,Mwandafisi HP,Mwandafisi Health Post,304043,Rural,GRZ,Health Post,Yes,3227,32.22787444,-14.05307236
+Eastern,Katete,Mwaziputa HP,Mwaziputa Health Post,304049,Rural,GRZ,Health Post,No,,32.11619351,-13.99756035
 Eastern,Katete,Mzunza HP, Mzunza Health Post,304039,Rural,GRZ,Health Post,Yes,1906,31.98135133,-13.87646762
 Eastern,Katete,Nyembe RHC, Nyembe Rural Health Centre,304022,Rural,GRZ,Rural Health Centre,Yes,5564,31.95432998,-14.03243797
 Eastern,Katete,St Francis General Hospital, St Francis General Hospital,304050,Urban,Faith Based,Level 1 Hospital District,Yes,,32.01460952,-14.06562985
-Eastern,Katete,Umodzi HP,Umodzi HP,304051,Rural,GRZ,Health Post,No,,32.22275927,-13.98169516
+Eastern,Katete,Umodzi HP,Umodzi Health Post,304051,Rural,GRZ,Health Post,No,,32.22275927,-13.98169516
 Eastern,Katete,Undi RHC, Undi Rural Health Centre,304023,Rural,GRZ,Rural Health Centre,Yes,8006,32.05591509,-13.99853298
 Eastern,Katete,Vulamkoko RHC, Vulamkoko Rural Health Centre,304019,Rural,GRZ,Rural Health Centre,Yes,15254,31.8511584,-14.10499511
 Eastern,Lundazi,Boyole  HP, Boyole Health Post,305056,Rural,GRZ,Health Post,Yes,3099,33.08220414,-12.1131222
@@ -738,7 +738,7 @@ Eastern,Lundazi,Chasefu RHC, Chasefu Rural Health Centre,305017,Rural,GRZ,Rural 
 Eastern,Lundazi,Chijemu HP, Chijemu Health Post,305033,Rural,GRZ,Health Post,Yes,4438,33.24021282,-12.31593136
 Eastern,Lundazi,Chikomeni RHC, Chikomeni Rural Health Centre,305026,Rural,GRZ,Rural Health Centre,Yes,7943,32.87486977,-12.69110074
 Eastern,Lundazi,Chitungulu RHC, Chitungulu Rural Health Centre,305028,Rural,GRZ,Rural Health Centre,Yes,9558,32.28734834,-12.42419596
-Eastern,Lundazi,Chiwe  HP,Chiwe  HP,305090,Rural,GRZ,Health Post,No,,33.31365589,-12.29711608
+Eastern,Lundazi,Chiwe  HP,Chiwe  Health Post,305090,Rural,GRZ,Health Post,No,,33.31365589,-12.29711608
 Eastern,Lundazi,Egichikeni RHC, Egichikeni Rural Health Centre,305045,Rural,GRZ,Rural Health Centre,Yes,6006,33.16436489,-11.95925171
 Eastern,Lundazi,Hoya HP, Hoya Health Post,305042,Rural,GRZ,Health Post,Yes,4283,33.16594128,-12.10257873
 Eastern,Lundazi,Kakumba HP, Kakumba Health Post,305054,Rural,GRZ,Health Post,Yes,7035,33.15679383,-12.3911548
@@ -747,15 +747,15 @@ Eastern,Lundazi,Kamsaro HP, Kamsaro Health Post,305034,Rural,GRZ,Health Post,Yes
 Eastern,Lundazi,Kanyanga RHC, Kanyanga Rural Health Centre,305012,Rural,Faith Based,Rural Health Centre,Yes,13697,33.11966001,-12.0024802
 Eastern,Lundazi,Kapichila RHC, Kapichila Rural Health Centre,305023,Rural,GRZ,Rural Health Centre,Yes,10931,33.27972658,-12.37746936
 Eastern,Lundazi,Kapongolo HP, Kapongolo Health Post,305055,Rural,GRZ,Health Post,Yes,5910,32.96304138,-12.48252542
-Eastern,Lundazi,Kataba HP,Kataba HP,305092,Rural,GRZ,Health Post,No,1215,32.4111898,-12.4431291
+Eastern,Lundazi,Kataba HP,Kataba Health Post,305092,Rural,GRZ,Health Post,No,1215,32.4111898,-12.4431291
 Eastern,Lundazi,Katube HP, Katube Health Post,305051,Rural,GRZ,Health Post,Yes,5706,32.92243756,-12.55784614
 Eastern,Lundazi,Kazembe RHC, Kazembe Rural Health Centre,305029,Rural,GRZ,Rural Health Centre,Yes,7024,32.56372643,-12.17520759
-Eastern,Lundazi,Kazonde HP,Kazonde HP,305093,Rural,GRZ,Health Post,No,,32.97799084,-12.61166943
+Eastern,Lundazi,Kazonde HP,Kazonde Health Post,305093,Rural,GRZ,Health Post,No,,32.97799084,-12.61166943
 Eastern,Lundazi,Khuli-Khuli HP, Khuli-khuli Health Post,305050,Rural,GRZ,Health Post,Yes,4561,33.01093114,-11.92144086
 Eastern,Lundazi,Lukwizizi HP, Lukwizizi Health Post,311012,Rural,GRZ,Health Post,Yes,4958,32.99010588,-12.23865667
 Eastern,Lundazi,Lumezi HAHC, Lumezi Hospital Affiliated Health Centre,305002,Rural,GRZ,Urban Health Centre,Yes,27360,33.03753128,-12.54152913
 Eastern,Lundazi,Lumezi Mission Hospital, Lumezi Mission Hospital,305057,Rural,Faith Based,Level 1 Hospital District,Yes,,33.03762143,-12.54137476
-Eastern,Lundazi,Lumimba HP ,Lumimba HP ,305094,Rural,GRZ,Health Post,Yes,,32.36187427,-12.43843292
+Eastern,Lundazi,Lumimba HP ,Lumimba Health Post ,305094,Rural,GRZ,Health Post,Yes,,32.36187427,-12.43843292
 Eastern,Lundazi,Lundazi District Hospital, Lundazi Urban Health Centre,305099,Urban,GRZ,Urban Health Centre,Yes,43154,33.17769626,-12.29942365
 Eastern,Lundazi,Lundazi District Hospital, Lundazi District Hospital,305001,Urban,GRZ,Level 1 Hospital District,Yes,263713,33.16932874,-12.29353257
 Eastern,Lundazi,Lunzi RHC, Lunzi Rural Health Centre,311015,Rural,GRZ,Rural Health Centre,Yes,8962,33.23123848,-11.69572057
@@ -780,7 +780,7 @@ Eastern,Lundazi,Nkhanyu HP, Nkhanyu Health Post,305046,Rural,GRZ,Health Post,Yes
 Eastern,Lundazi,Nthitimila HP, Nthitimila Health Post,305053,Rural,GRZ,Health Post,Yes,5708,33.21316194,-12.55046139
 Eastern,Lundazi,Nyangwe RHC, Nyangwe Rural Health Centre,305022,Rural,GRZ,Rural Health Centre,Yes,7696,33.47167505,-12.37793901
 Eastern,Lundazi,Phikamalaza RHC, Phikamalaza Rural Health Centre,305020,Rural,GRZ,Rural Health Centre,Yes,6354,33.2243692,-12.20145116
-Eastern,Lundazi,Sikatengwa HP,Sikatengwa HP,3050103,Rural,GRZ,Health Post,Yes,,33.07231149,-12.48522416
+Eastern,Lundazi,Sikatengwa HP,Sikatengwa Health Post,3050103,Rural,GRZ,Health Post,Yes,,33.07231149,-12.48522416
 Eastern,Lundazi,Umi HP, Umi Health Post,305047,Rural,GRZ,Health Post,Yes,5222,33.2613767,-12.5410156
 Eastern,Lundazi,Zasp HP, Zasp Health Post,305019,Rural,GRZ,Health Post,Yes,5533,33.23112239,-12.15636771
 Eastern,Lundazi,Zokwe HP, Zokwe Health Post,305043,Rural,GRZ,Health Post,Yes,2285,32.27584309,-12.42139947
@@ -788,7 +788,7 @@ Eastern,Lundazi,Zumwanda RHC, Zumwanda Rural Health Centre,305024,Rural,GRZ,Rura
 Eastern,Mambwe,Airport RHC,Airport RHC,306010125,Rural,GRZ,Rural Health Centre,Yes,,31.93344519,-13.25135591
 Eastern,Mambwe,Chikowa RHC, Chikowa Rural Health Centre,306014,Rural,GRZ,Health Post,Yes,5260,32.08626453,-13.40883558
 Eastern,Mambwe,Chilanga HP, Chilanga Health Post,306010116,Rural,GRZ,Rural Health Centre,Yes,4428,31.83247972,-13.19931531
-Eastern,Mambwe,Chipako HP,Chipako HP,306010120,Rural,GRZ,Health Post,Yes,,31.92624113,-13.42218419
+Eastern,Mambwe,Chipako HP,Chipako Health Post,306010120,Rural,GRZ,Health Post,Yes,,31.92624113,-13.42218419
 Eastern,Mambwe,Chisengu HP, Chisengu Health Post,306021,Rural,GRZ,Health Post,Yes,2901,32.21903602,-13.29959454
 Eastern,Mambwe,Chiwawatala,Chiwawatala,306010114,Rural,GRZ,Rural Health Centre,Yes,,31.86934392,-13.16744962
 Eastern,Mambwe,Jumbe HP, Jumbe Clinic,306010119,Rural,GRZ,Health Post,Yes,3874,32.08417032,-13.2918602
@@ -811,16 +811,16 @@ Eastern,Nyimba,Chifukuzi HP, Chifukuzi Health Post,307029,Rural,GRZ,Health Post,
 Eastern,Nyimba,Chimphanje  RHC, Chimphanje Health Post,307024,Rural,GRZ,Rural Health Centre,Yes,5283,31.04591807,-14.3923079
 Eastern,Nyimba,Chinambi RHC, Chinambi Rural Health Centre,307018,Rural,GRZ,Urban Health Centre,Yes,6604,30.67061308,-14.46856821
 Eastern,Nyimba,Chinsimbwe RHC, Chinsimbwe Rural Health Centre,307017,Rural,GRZ,Rural Health Centre,Yes,3334,30.98144791,-14.05052649
-Eastern,Nyimba,Chinyinku HP,Chinyinku HP,307032,Rural,GRZ,Health Post,No,,30.98651519,-14.58448424
+Eastern,Nyimba,Chinyinku HP,Chinyinku Health Post,307032,Rural,GRZ,Health Post,No,,30.98651519,-14.58448424
 Eastern,Nyimba,Chipembe RHC, Chipembe Rural Health Centre,307010,Rural,GRZ,Rural Health Centre,Yes,11400,31.01920034,-14.53577545
-Eastern,Nyimba,Chiwa HP,Chiwa HP,307033,Rural,GRZ,Health Post,No,,31.03516772,-14.13377176
+Eastern,Nyimba,Chiwa HP,Chiwa Health Post,307033,Rural,GRZ,Health Post,No,,31.03516772,-14.13377176
 Eastern,Nyimba,Hofmeyr Zonal RHC, Hofmeyr Zonal Rural Health Centre,307011,Rural,GRZ,Rural Health Centre,Yes,12500,30.84663288,-14.6664675
 Eastern,Nyimba,Kacholola RHC, Kacholola Rural Health Centre,307012,Rural,GRZ,Rural Health Centre,Yes,6398,30.57640141,-14.78221551
 Eastern,Nyimba,Kalingindi HP, Kalingindi Health Post,307022,Rural,GRZ,Health Post,Yes,5513,30.70164967,-14.57577372
-Eastern,Nyimba,Luangazi  HP,Luangazi  HP,307036,Rural,GRZ,Health Post,No,,30.74978929,-14.49582583
+Eastern,Nyimba,Luangazi  HP,Luangazi  Health Post,307036,Rural,GRZ,Health Post,No,,30.74978929,-14.49582583
 Eastern,Nyimba,Luembe Fds E16 RHC, Luembe FDS E16 Rural Health Centre,307013,Rural,GRZ,Rural Health Centre,Yes,3534,30.59652912,-14.37016568
-Eastern,Nyimba,Mabanda  HP,Mabanda  HP,307031,Rural,GRZ,Health Post,No,,30.90371456,-14.55142907
-Eastern,Nyimba,Mchmadzi  HP,Mchmadzi  HP,307035,Rural,GRZ,Health Post,No,,30.76260354,-14.72182763
+Eastern,Nyimba,Mabanda  HP,Mabanda  Health Post,307031,Rural,GRZ,Health Post,No,,30.90371456,-14.55142907
+Eastern,Nyimba,Mchmadzi  HP,Mchmadzi  Health Post,307035,Rural,GRZ,Health Post,No,,30.76260354,-14.72182763
 Eastern,Nyimba,Mkopeka RHC, Mkopeka Rural Health Centre,307016,Rural,GRZ,Rural Health Centre,Yes,8102,31.0224257,-14.441888
 Eastern,Nyimba,Msima HP, Msima Health Post,307027,Rural,GRZ,Health Post,Yes,4442,30.94752794,-14.63713876
 Eastern,Nyimba,Mtilizi HP, Mtilizi Rural Health Post,307023,Rural,GRZ,Rural Health Centre,Yes,3042,31.04661503,-14.47340985
@@ -831,7 +831,7 @@ Eastern,Nyimba,Nyalugwe RHC, Nyalugwe Rural Health Centre,307015,Rural,GRZ,Rural
 Eastern,Nyimba,Nyimba District Hospital, Nyimba District Hospital,307001,Peri-Urban,GRZ,Level 1 Hospital District,Yes,,30.83187553,-14.54360494
 Eastern,Nyimba,Nyimba HAHC, Nyimba Hospital Affiliated Health Centre,307099,Peri-Urban,GRZ,Rural Health Centre,Yes,17079,30.81468919,-14.55569474
 Eastern,Nyimba,St. Josephs RHC, St Josephs Rural Health Centre,307030,Rural,Faith Based,Rural Health Centre,Yes,3452,30.39469717,-14.89797852
-Eastern,Nyimba,Vizimumba  HP,Vizimumba  HP,307034,Rural,GRZ,Health Post,No,,30.99770285,-14.47464912
+Eastern,Nyimba,Vizimumba  HP,Vizimumba  Health Post,307034,Rural,GRZ,Health Post,No,,30.99770285,-14.47464912
 Eastern,Nyimba,Zns HP, ZNS Health Post,307026,Rural,GRZ,Health Post,Yes,4318,30.87858343,-14.46895307
 Eastern,Petauke,Benard Health Care Services, Benard Health Post,308057,Rural,Private,Health Post,Yes,,31.32764054,-14.24256935
 Eastern,Petauke,Chaka RHC, Chaka Rural Health Centre,30508039,Rural,GRZ,Rural Health Centre,Yes,6816,31.25858976,-14.61167312
@@ -843,7 +843,7 @@ Eastern,Petauke,Chisenjere RHC, Chisenjere Rural Health Centre,308031,Rural,GRZ,
 Eastern,Petauke,Chisonso  HP, Chisonso Health Post,308054,Rural,GRZ,Health Post,Yes,3107,31.25619924,-14.37993696
 Eastern,Petauke,Kakwiya RHC, Kakwiya Rural Health Centre,308021,Rural,GRZ,Rural Health Centre,Yes,10059,31.19682929,-14.14050501
 Eastern,Petauke,Kalindawalo RHC, Kalindawalo Rural Health Centre,308014,Rural,GRZ,Rural Health Centre,Yes,16962,31.38061258,-14.3411373
-Eastern,Petauke,Kamvumbe  HP,Kamvumbe  HP,308060,Rural,GRZ,Health Post,Yes,6648,31.47241496,-14.29791552
+Eastern,Petauke,Kamvumbe  HP,Kamvumbe  Health Post,308060,Rural,GRZ,Health Post,Yes,6648,31.47241496,-14.29791552
 Eastern,Petauke,Kaselo HP, Kaselo Health Post,308050,Rural,GRZ,Health Post,Yes,5048,31.16744134,-14.52108423
 Eastern,Petauke,Luamphaande RHC, Luamphaande Rural Health Centre,308080,Rural,GRZ,Health Post,Yes,16962,31.46699077,-14.20348202
 Eastern,Petauke,Makale HP, Makale Health Post,308052,Rural,GRZ,Health Post,Yes,3740,31.5369189,-14.01656499
@@ -880,26 +880,26 @@ Eastern,Petauke,Sichilima HP, Sichilima Health Post,308056,Rural,GRZ,Health Post
 Eastern,Petauke,Ukwimi A RHC, Ukwimi A Rural Health Centre,308025,Rural,GRZ,Health Post,Yes,3635,31.64928979,-13.89131304
 Eastern,Petauke,Ukwimi B RHC, Ukwimi B Rural Health Centre,308026,Rural,GRZ,Rural Health Centre,Yes,4180,31.79467332,-13.86109083
 Eastern,Petauke,Zuze HP, Zuze Health Post,308048,Rural,GRZ,Health Post,Yes,3795,31.32501072,-14.20686516
-Eastern,Sinda,Chafulu HP,Chafulu HP,3085199,Rural,GRZ,Health Post,Yes,,31.79512875,-14.16058326
-Eastern,Sinda,Champala HP,Champala HP,3085200,Rural,GRZ,Health Post,Yes,,32.00187927,-14.24137367
+Eastern,Sinda,Chafulu HP,Chafulu Health Post,3085199,Rural,GRZ,Health Post,Yes,,31.79512875,-14.16058326
+Eastern,Sinda,Champala HP,Champala Health Post,3085200,Rural,GRZ,Health Post,Yes,,32.00187927,-14.24137367
 Eastern,Sinda,Chanjobvu RHC,Chanjobvu RHC,3085201,Rural,GRZ,Rural Health Centre,Yes,,31.64541449,-14.11654994
 Eastern,Sinda,Chanjoka HP, Chanjoka Health Post,3085113,Rural,GRZ,Health Post,Yes,4545,31.90740752,-14.22171977
 Eastern,Sinda,Chataika RHC, Chataika Rural Health Centre,3085119,Rural,GRZ,Rural Health Centre,Yes,9070,31.68315285,-14.34496459
-Eastern,Sinda,Chikalawa HP,Chikalawa HP,3085202,Rural,GRZ,Health Post,Yes,,31.62984294,-14.48875562
+Eastern,Sinda,Chikalawa HP,Chikalawa Health Post,3085202,Rural,GRZ,Health Post,Yes,,31.62984294,-14.48875562
 Eastern,Sinda,Chilasa RHC, Chilasa Rural Health Centre,311018,Rural,GRZ,Rural Health Centre,Yes,7337,31.9494679,-14.26650455
 Eastern,Sinda,Chimtengo HP, Chimtengo Health Post,3085130,Rural,GRZ,Health Post,Yes,4361,31.62910345,-14.24480811
 Eastern,Sinda,Chimunsi RHC, Chimunsi Rural Health Centre,3085121,Rural,GRZ,Rural Health Centre,Yes,7972,31.56442802,-14.23645797
 Eastern,Sinda,Chindeza RHC, Chindeza Rural Health Centre,3085137,Rural,GRZ,Rural Health Centre,Yes,8563,31.78215356,-14.1148097
 Eastern,Sinda,Chitawe RHC, Chitawe Rural Health Centre,3085128,Rural,GRZ,Rural Health Centre,Yes,5223,31.66035486,-14.03146492
 Eastern,Sinda,Chiwuyu RHC, Chiwuyu Rural Health Centre,3085125,Rural,GRZ,Rural Health Centre,Yes,9326,31.83123347,-14.19511255
-Eastern,Sinda,Kalole HP,Kalole HP,3085204,Rural,GRZ,Health Post,Yes,,31.67813685,-14.26492938
+Eastern,Sinda,Kalole HP,Kalole Health Post,3085204,Rural,GRZ,Health Post,Yes,,31.67813685,-14.26492938
 Eastern,Sinda,Kampamule HP, Kampamule Health Post,3085132,Rural,GRZ,Health Post,Yes,3833,31.61421085,-14.015492
 Eastern,Sinda,Kanjiwa RHC, Kanjiwa Rural Health Centre,3085136,Rural,GRZ,Rural Health Centre,Yes,10269,31.60836941,-14.33923298
 Eastern,Sinda,Kapungwe HP, Kapungwe Health Post,3085141,Rural,GRZ,Health Post,Yes,7613,31.52862124,-14.42120854
 Eastern,Sinda,Kasamba RHC, Kasamba Rural Health Centre,3085129,Rural,GRZ,Rural Health Centre,Yes,6587,31.70400833,-14.0592978
 Eastern,Sinda,Kasamba RHC,Kasamba RHC,3085203,Rural,GRZ,Health Post,Yes,,31.92989419,-14.32342414
 Eastern,Sinda,Katema HP, Katema Health Post,8085143,Rural,GRZ,Health Post,Yes,7924,31.86674979,-14.27083391
-Eastern,Sinda,Kondwelani  HP,Kondwelani  HP,3085205,Rural,GRZ,Health Post,Yes,,31.92600856,-14.38597333
+Eastern,Sinda,Kondwelani  HP,Kondwelani Health Post,3085205,Rural,GRZ,Health Post,Yes,,31.92600856,-14.38597333
 Eastern,Sinda,Maela HP, Maela Health Post,3085122,Rural,GRZ,Health Post,Yes,3546,31.89647458,-14.42546301
 Eastern,Sinda,Matambazi RHC, Matambazi Rural Health Centre,3085118,Rural,GRZ,Rural Health Centre,Yes,11708,31.61927477,-14.42071267
 Eastern,Sinda,Mng'Omba RHC, Mng'omba Rural Health Centre,3085124,Rural,GRZ,Rural Health Centre,Yes,9122,31.57321621,-14.11481243
@@ -907,7 +907,7 @@ Eastern,Sinda,Mngona HP, Mngona Health Post,3085138,Rural,GRZ,Health Post,Yes,32
 Eastern,Sinda,Mtandaza RHC, Mtandaza Rural Health Centre,3085117,Rural,GRZ,Rural Health Centre,Yes,13636,31.97062723,-14.34341784
 Eastern,Sinda,Mthunya RHC, Mthunya Rural Health Centre,3085120,Rural,GRZ,Rural Health Centre,Yes,12672,31.64748724,-14.16563748
 Eastern,Sinda,Nyaluwiro HP, Nyaluwiro Health Post,3085133,Rural,GRZ,Health Post,Yes,1631,31.49222906,-14.08466759
-Eastern,Sinda,Nyamutuma HP,Nyamutuma HP,3085206,Rural,GRZ,Health Post,Yes,,31.8036508,-14.3001152
+Eastern,Sinda,Nyamutuma HP,Nyamutuma Health Post,3085206,Rural,GRZ,Health Post,Yes,,31.8036508,-14.3001152
 Eastern,Sinda,Nyanje HAHC, Nyanje Hospital Affiliated Health Centre,3085198,Rural,Faith Based,Rural Health Centre,Yes,22025,31.79628308,-14.38088027
 Eastern,Sinda,Nyanje Mission Hospital, Nyanje Mission Hospital,3085002,Rural,Faith Based,Level 1 Hospital District,Yes,,31.79696284,-14.38031382
 Eastern,Sinda,Seya HP, Seya Health Post,3085139,Rural,GRZ,Health Post,Yes,5516,31.70585901,-14.12856786
@@ -916,7 +916,7 @@ Eastern,Vubwe,Chigwe HP, Chigwe Health Post,311010,Rural,GRZ,Health Post,Yes,321
 Eastern,Vubwe,Chikoma RHC, Chikoma Rural Health Centre,311030,Rural,GRZ,Rural Health Centre,Yes,8595,32.86416005,-14.03808764
 Eastern,Vubwe,Likawe HP, Likawe Health Post,311022,Rural,GRZ,Health Post,Yes,952,32.94411906,-13.90197427
 Eastern,Vubwe,MaNota HP, MaNota Health Post,311023,Rural,GRZ,Health Post,Yes,1053,33.11789579,-13.9729323
-Eastern,Vubwe,Matemba HP,Matemba HP,311024,Rural,GRZ,Health Post,Yes,2007,32.87804605,-13.81149224
+Eastern,Vubwe,Matemba HP,Matemba Health Post,311024,Rural,GRZ,Health Post,Yes,2007,32.87804605,-13.81149224
 Eastern,Vubwe,Maumba HP, Maumba Health Post,311014,Rural,GRZ,Health Post,Yes,1479,32.75992758,-14.12954221
 Eastern,Vubwe,Mbande HP, Mbande Health Post,311025,Rural,GRZ,Health Post,Yes,2130,32.87261554,-13.95485027
 Eastern,Vubwe,Mchenjeza RHC, Mchenjeza Rural Health Centre,311027,Rural,GRZ,Rural Health Centre,Yes,3582,32.95376205,-13.94648273
@@ -929,7 +929,7 @@ Eastern,Chipata,Gondar,Gondar,303037,Peri Urban,Military,Level 1 Hospital Distri
 Eastern,Lundazi,LumeziMission Hospital,LumeziMission Hospital,50060269,Rural,Military,Rural Health Centre,,7445,28.26501333,-15.26394667
 Luapula,Chembe,Chembe RHC, Chembe Rural Health Centre,403013,Rural,GRZ,Rural Health Centre,Yes,14670,28.74586518,-11.96781711
 Luapula,Chembe,Chipete RHC, Chipete Rural Health Centre,403014,Rural,GRZ,Rural Health Centre,Yes,5022,28.50107548,-11.84547426
-Luapula,Chembe,Fikombo HP,Fikombo HP,401312,Rural,GRZ,Health Post,Yes,,28.93828294,-12.0912118
+Luapula,Chembe,Fikombo HP,Fikombo Health Post,401312,Rural,GRZ,Health Post,Yes,,28.93828294,-12.0912118
 Luapula,Chembe,Kasomalwela RHC, Kasomalwela Rural Health Centre,403021,Rural,GRZ,Rural Health Centre,Yes,5600,28.91284119,-11.9345915
 Luapula,Chembe,Kundamfumu RHC, Kundamfumu Rural Health Centre,403023,Rural,GRZ,Rural Health Centre,Yes,5318,28.75334252,-11.54700854
 Luapula,Chembe,Lukola RHC, Lukola Rural Health Centre,403027,Rural,GRZ,Rural Health Centre,Yes,4238,28.73639591,-11.73373911
@@ -938,7 +938,7 @@ Luapula,Chiengi,Chipungu RHC, Chipungu Rural Health Centre,401010,Rural,GRZ,Rura
 Luapula,Chiengi,Kabole RHC, Kabole Rural Health Centre,401011,Rural,GRZ,Rural Health Centre,Yes,21296,29.04720121,-9.043690595
 Luapula,Chiengi,Kabwe RHC, Kabwe Rural Health Centre,401018,Rural,GRZ,Rural Health Centre,Yes,7333,28.98742206,-9.077180699
 Luapula,Chiengi,Kalembwe RHC, Kalembwe Rural Health Centre,401017,Rural,GRZ,Health Post,Yes,13876,29.11786267,-8.782562711
-Luapula,Chiengi,Kapako HP,Kapako HP,401021,Rural,GRZ,Rural Health Centre,Yes,,29.07401249,-9.105128562
+Luapula,Chiengi,Kapako HP,Kapako Health Post,401021,Rural,GRZ,Rural Health Centre,Yes,,29.07401249,-9.105128562
 Luapula,Chiengi,Lambwe Chikwama HP, Lambwe Chikwama Health Post,401020,Rural,GRZ,Health Post,Yes,4253,29.37941434,-8.428054894
 Luapula,Chiengi,Lambwe Chomba RHC, Lambwe Chomba Rural Health Centre,401012,Rural,GRZ,Rural Health Centre,Yes,19967,29.5991031,-8.41134205
 Luapula,Chiengi,Lunchinda HP, Lunchinda Health Post,401019,Rural,GRZ,Health Post,Yes,17039,28.99097926,-8.507264927
@@ -949,10 +949,10 @@ Luapula,Chiengi,Sambula RHC, Sambula Rural Health Centre,401015,Rural,GRZ,Rural 
 Luapula,Chipili,Chinshinki HP, Chinshinki Health Post,401510136,Rural,GRZ,Health Post,Yes,1710,29.13815142,-10.79598403
 Luapula,Chipili,Chipili RHC, Chipili Rural Health Centre,401510111,Rural,GRZ,Rural Health Centre,Yes,10700,29.09371995,-10.73163353
 Luapula,Chipili,Chisheta RHC, Chisheta Rural Health Centre,401510112,Rural,GRZ,Rural Health Centre,Yes,2209,28.9153907,-10.65074518
-Luapula,Chipili,Kabongo HP,Kabongo HP,401510137,Rural,GRZ,Health Post,Yes,1710,29.07597379,-10.34892268
+Luapula,Chipili,Kabongo HP,Kabongo Health Post,401510137,Rural,GRZ,Health Post,Yes,1710,29.07597379,-10.34892268
 Luapula,Chipili,Kalundu RHC, Kalundu Rural Health Centre,401510113,Rural,GRZ,Rural Health Centre,Yes,4547,29.3882602,-10.28760626
 Luapula,Chipili,Kamami HP, Kamami Health Post,40151033,Rural,Private,Health Post,Yes,,29.04798761,-10.47732407
-Luapula,Chipili,Kansonta HP HP,Kansonta HP HP,401510138,Rural,GRZ,Health Post,Yes,1580,29.38532413,-10.42831959
+Luapula,Chipili,Kansonta HP HP,Kansonta Health Post,401510138,Rural,GRZ,Health Post,Yes,1580,29.38532413,-10.42831959
 Luapula,Chipili,Kaoma Makasa RHC, Kaoma Makasa Rural Health Centre,401510132,Rural,GRZ,Rural Health Centre,Yes,1819,29.31339511,-10.56231135
 Luapula,Chipili,Luminu RHC, Luminu Rural Health Centre,401510120,Rural,GRZ,Rural Health Centre,Yes,4363,29.16549683,-10.38471738
 Luapula,Chipili,Lupososhi RHC, Lupososhi Rural Health Centre,401510131,Rural,GRZ,Rural Health Centre,Yes,2210,29.47501305,-10.35055115
@@ -963,103 +963,103 @@ Luapula,Chipili,Mukonshi RHC, Mukonshi Rural Health Centre,401510123,Rural,GRZ,R
 Luapula,Chipili,Mulunda HP, Mulunda Health Post,401510142,Rural,GRZ,Health Post,Yes,1530,29.18417063,-10.33975455
 Luapula,Chipili,Mupeta RHC, Mupeta Rural Health Centre,401510125,Rural,GRZ,Rural Health Centre,Yes,1930,29.01561234,-10.40848283
 Luapula,Chipili,Musalango HP, Musalango Health Post,401510133,Rural,GRZ,Health Post,Yes,1710,28.91343427,-10.29866573
-Luapula,Chipili,Musele HP,Musele HP,401510143,Rural,GRZ,Health Post,Yes,1600,29.36589213,-10.36710869
+Luapula,Chipili,Musele HP,Musele Health Post,401510143,Rural,GRZ,Health Post,Yes,1600,29.36589213,-10.36710869
 Luapula,Chipili,Musonda RHC, Musonda Rural Health Centre,401510135,Rural,GRZ,Rural Health Centre,Yes,2079,28.81453385,-10.70677344
 Luapula,Chipili,Mutipula RHC, Mutipula Rural Health Centre,401510128,Rural,GRZ,Rural Health Centre,Yes,3638,28.9842602,-10.60253687
 Luapula,Chipili,Mwenda RHC, Mwenda Rural Health Centre,401510129,Rural,GRZ,Rural Health Centre,Yes,5829,29.18267978,-10.48044399
-Luapula,Kawambwa,Buyaka HP,Buyaka HP,402020130,Rural,GRZ,Health Post,Yes,,29.40385,-9.735878333
+Luapula,Kawambwa,Buyaka HP,Buyaka Health Post,402020130,Rural,GRZ,Health Post,Yes,,29.40385,-9.735878333
 Luapula,Kawambwa,Chama RHC, Chama Rural Health Centre,402020110,Rural,GRZ,Rural Health Centre,Yes,7260,29.42473333,-9.777655
 Luapula,Kawambwa,Chibote RHC, Chibote Rural Health Centre,402020111,Rural,GRZ,Rural Health Centre,Yes,9995,29.54712833,-9.863755
-Luapula,Kawambwa,Chimfuntu  HP,Chimfuntu  HP,402010130,Rural,GRZ,Health Post,Yes,,29.13455333,-10.07249333
+Luapula,Kawambwa,Chimfuntu  HP,Chimfuntu Health Post,402010130,Rural,GRZ,Health Post,Yes,,29.13455333,-10.07249333
 Luapula,Kawambwa,Chimpempe RHC, Chimpempe Rural Health Centre,402010112,Rural,Faith Based,Rural Health Centre,Yes,3304,29.43202333,-9.54766
 Luapula,Kawambwa,Chimpili RHC, Chimpili Rural Health Centre,402020113,Rural,GRZ,Rural Health Centre,Yes,2358,29.89878,-10.01353667
-Luapula,Kawambwa,Chisulo HP,Chisulo HP,402020115,Rural,GRZ,Health Post,Yes,,29.09165833,-9.875498333
+Luapula,Kawambwa,Chisulo HP,Chisulo Health Post,402020115,Rural,GRZ,Health Post,Yes,,29.09165833,-9.875498333
 Luapula,Kawambwa,Chitondo RHC, Chitondo Rural Health Centre,402010115,Rural,GRZ,Rural Health Centre,Yes,5976,29.27883,-9.9095
-Luapula,Kawambwa,Chitotela HP,Chitotela HP,402020131,Rural,GRZ,Health Post,Yes,,29.45595333,-9.624773333
+Luapula,Kawambwa,Chitotela HP,Chitotela Health Post,402020131,Rural,GRZ,Health Post,Yes,,29.45595333,-9.624773333
 Luapula,Kawambwa,Kabanda RHC, Kabanda Rural Health Centre,402010116,Rural,GRZ,Rural Health Centre,Yes,3026,29.44569833,-9.660711667
 Luapula,Kawambwa,Kabila RHC, Kabila Rural Health Centre,402010129,Rural,GRZ,Rural Health Centre,Yes,4518,29.31109333,-9.796843333
 Luapula,Kawambwa,Kanengo RHC, Kanengo Rural Health Centre,402020117,Rural,GRZ,Rural Health Centre,Yes,7727,29.34632333,-9.953526667
-Luapula,Kawambwa,Kapako HP,Kapako HP,402010126,Rural,GRZ,Rural Health Centre,Yes,1200,29.20506833,-9.716565
+Luapula,Kawambwa,Kapako HP,Kapako Health Post,402010126,Rural,GRZ,Rural Health Centre,Yes,1200,29.20506833,-9.716565
 Luapula,Kawambwa,Kawambwa District Hospital, Kawambwa District Hospital,402010132,Urban,GRZ,Level 1 Hospital District,Yes,,29.074835,-9.7998
 Luapula,Kawambwa,Kawambwa HAHC, Kawambwa Hospital Affiliated Health Centre,402010128,Peri-Urban,GRZ,Urban Health Centre,Yes,16597,29.07675,-9.793458333
 Luapula,Kawambwa,Ktc RHC, Ktc Rural Health Centre,402010119,Rural,Private,Rural Health Centre,Yes,6682,29.276355,-9.744961667
-Luapula,Kawambwa,Luatula HP,Luatula HP,402020139,Rural,GRZ,Health Post,Yes,,29.079975,-9.734811667
+Luapula,Kawambwa,Luatula HP,Luatula Health Post,402020139,Rural,GRZ,Health Post,Yes,,29.079975,-9.734811667
 Luapula,Kawambwa,Lusambo HP, Lusambo Health Post,402010138,Rural,GRZ,Health Post,Yes,4061,29.12663333,-9.815676667
-Luapula,Kawambwa,Mambwe HP,Mambwe HP,402020127,Rural,GRZ,Health Post,Yes,900,29.62279167,-9.674621667
+Luapula,Kawambwa,Mambwe HP,Mambwe Health Post,402020127,Rural,GRZ,Health Post,Yes,900,29.62279167,-9.674621667
 Luapula,Kawambwa,Mufwaya RHC, Mufwaya Rural Health Centre,402010121,Rural,GRZ,Rural Health Centre,Yes,8063,29.08427667,-9.677256667
 Luapula,Kawambwa,Munkanta RHC, Munkanta Rural Health Centre,402010122,Rural,GRZ,Rural Health Centre,Yes,8631,29.051125,-9.80431
-Luapula,Kawambwa,Musambeshi HP,Musambeshi HP,402020133,Rural,GRZ,Health Post,Yes,,29.3365,-9.682801667
+Luapula,Kawambwa,Musambeshi HP,Musambeshi Health Post,402020133,Rural,GRZ,Health Post,Yes,,29.3365,-9.682801667
 Luapula,Kawambwa,Mushota Zonal RHC, Mushota Zonal Rural Health Centre,402020123,Rural,GRZ,Rural Health Centre,Yes,8326,29.39058667,-9.815786667
 Luapula,Kawambwa,Musungu RHC, Musungu Rural Health Centre,402020124,Rural,GRZ,Rural Health Centre,Yes,6261,29.70757,-10.19427333
 Luapula,Kawambwa,Muyembe RHC, Muyembe Rural Health Centre,402010125,Rural,GRZ,Rural Health Centre,Yes,3316,29.11726667,-9.992125
 Luapula,Kawambwa,New Kawambwa District Hospital,New Kawambwa District Hospital,402020134,Rural,GRZ,Level 1 Hospital District,Yes,,29.09214667,-9.81666
-Luapula,Kawambwa,Ntumba Chushi HP,Ntumba Chushi HP,402020135,Rural,GRZ,Health Post,Yes,,28.97301,-9.827268333
-Luapula,Kawambwa,Pomika HP,Pomika HP,402020136,Rural,GRZ,Health Post,Yes,,29.023,-9.799715
-Luapula,Kawambwa,Shikalaba,Shikalaba,402020137,Rural,GRZ,Health Post,Yes,,29.226685,-9.799655
+Luapula,Kawambwa,Ntumba Chushi HP,Ntumba Chushi Health Post,402020135,Rural,GRZ,Health Post,Yes,,28.97301,-9.827268333
+Luapula,Kawambwa,Pomika HP,Pomika Health Post,402020136,Rural,GRZ,Health Post,Yes,,29.023,-9.799715
+Luapula,Kawambwa,Shikalaba,Shikalaba Health Post,402020137,Rural,GRZ,Health Post,Yes,,29.226685,-9.799655
 Luapula,Lunga,Bwalya Mponda RHC, Bwalya Mponda Rural Health Centre,402510110,Rural,GRZ,Rural Health Centre,Yes,2934,30.06812096,-11.66778741
 Luapula,Lunga,Kalima Nkonde RHC, Kalima Nkonde Rural Health Centre,402510132,Rural,GRZ,Rural Health Centre,Yes,3102,30.06845355,-11.44171883
 Luapula,Lunga,Kasoma Lunga RHC, Kasoma Lunga Rural Health Centre,402510119,Rural,GRZ,Rural Health Centre,Yes,6024,30.1391834,-11.40707037
 Luapula,Lunga,Nsalushi RHC, Nsalushi Rural Health Centre,402510127,Rural,GRZ,Rural Health Centre,Yes,6737,30.32072067,-11.54301867
 Luapula,Mansa,Buntungwa UHC, Buntungwa Urban Health Centre,403020111,Peri-Urban,GRZ,Rural Health Centre,Yes,30587,28.88253167,-11.20572333
 Luapula,Mansa,Central UHC, Central Urban Health Centre,403020112,Urban,GRZ,Urban Health Centre,Yes,30587,28.889355,-11.20568667
-Luapula,Mansa,Changila  HP,Changila  HP,403020113,Rural,GRZ,Health Post,Yes,,28.7609013,-11.33676385
-Luapula,Mansa,Chansa  HP,Chansa  HP,403020114,Rural,GRZ,Health Post,Yes,2441,28.51417383,-11.22519277
-Luapula,Mansa,Chibinde HP,Chibinde HP,403020110,Rural,GRZ,Health Post,Yes,2560,29.54901343,-11.3341041
-Luapula,Mansa,Chikonshi HP,Chikonshi HP,403020153,Rural,GRZ,Health Post,Yes,1918,28.65915421,-11.33796682
-Luapula,Mansa,Chisembe HP,Chisembe HP,403020115,Rural,GRZ,Health Post,Yes,11572,28.91067929,-11.07524264
-Luapula,Mansa,Chisongo  HP,Chisongo  HP,403020142,Rural,GRZ,Health Post,Yes,3150,29.10845255,-11.26883673
+Luapula,Mansa,Changila  HP,Changila Health Post,403020113,Rural,GRZ,Health Post,Yes,,28.7609013,-11.33676385
+Luapula,Mansa,Chansa  HP,Chansa Health Post,403020114,Rural,GRZ,Health Post,Yes,2441,28.51417383,-11.22519277
+Luapula,Mansa,Chibinde HP,Chibinde Health Post,403020110,Rural,GRZ,Health Post,Yes,2560,29.54901343,-11.3341041
+Luapula,Mansa,Chikonshi HP,Chikonshi Health Post,403020153,Rural,GRZ,Health Post,Yes,1918,28.65915421,-11.33796682
+Luapula,Mansa,Chisembe HP,Chisembe Health Post,403020115,Rural,GRZ,Health Post,Yes,11572,28.91067929,-11.07524264
+Luapula,Mansa,Chisongo  HP,Chisongo  Health Post,403020142,Rural,GRZ,Health Post,Yes,3150,29.10845255,-11.26883673
 Luapula,Mansa,Chisunka RHC, Chisunka Rural Health Centre,403010116,Rural,GRZ,Rural Health Centre,Yes,3326,28.8312565,-10.76601881
-Luapula,Mansa,Fibale HP,Fibale HP,403020159,Rural,GRZ,Health Post,Yes,5000,28.86430167,-11.22233
+Luapula,Mansa,Fibale HP,Fibale Health Post,403020159,Rural,GRZ,Health Post,Yes,5000,28.86430167,-11.22233
 Luapula,Mansa,Fimpulu  RHC,Fimpulu  RHC,403020117,Rural,GRZ,Rural Health Centre,Yes,6081,28.82668273,-11.40716626
-Luapula,Mansa,Fiyongoli HP,Fiyongoli HP,403020161,Rural,GRZ,Health Post,Yes,5395,28.90272667,-11.16229333
+Luapula,Mansa,Fiyongoli HP,Fiyongoli Health Post,403020161,Rural,GRZ,Health Post,Yes,5395,28.90272667,-11.16229333
 Luapula,Mansa,James HP, James Health Post,403020149,Rural,GRZ,Health Post,Yes,1508,29.27763968,-11.40418414
 Luapula,Mansa,Kabunda RHC, Kabunda Rural Health Centre,4030118,Rural,GRZ,Rural Health Centre,Yes,5103,28.79353603,-11.21137774
 Luapula,Mansa,Kafula UHC,Kafula UHC,403020146,Rural,GRZ,Urban Health Centre,Yes,3113,29.36531338,-11.30718231
 Luapula,Mansa,Kalaba RHC, Kalaba Rural Health Centre,403020119,Rural,GRZ,Rural Health Centre,Yes,14737,29.15659452,-11.07120295
-Luapula,Mansa,Kale HP,Kale HP,403020143,Rural,GRZ,Health Post,Yes,2507,29.20155572,-11.2717779
+Luapula,Mansa,Kale HP,Kale Health Post,403020143,Rural,GRZ,Health Post,Yes,2507,29.20155572,-11.2717779
 Luapula,Mansa,Kalyongo RHC, Kalyongo Rural Health Centre,403020120,Rural,GRZ,Rural Health Centre,Yes,5765,28.40180791,-11.509423
 Luapula,Mansa,Kansenga RHC, Kansenga Rural Health Centre,403020138,Rural,GRZ,Health Post,Yes,15160,29.180896,-11.32163363
-Luapula,Mansa,Kapisha HP,Kapisha HP,403020145,Rural,GRZ,Health Post,Yes,445,29.30887559,-11.34568856
-Luapula,Mansa,Kapompwa  HP,Kapompwa  HP,403020165,Rural,GRZ,Health Post,Yes,,28.87937598,-11.25612474
-Luapula,Mansa,Kasanse HP,Kasanse HP,403010150,Rural,GRZ,Health Post,Yes,5460,29.56374345,-11.28798834
+Luapula,Mansa,Kapisha HP,Kapisha Health Post,403020145,Rural,GRZ,Health Post,Yes,445,29.30887559,-11.34568856
+Luapula,Mansa,Kapompwa  HP,Kapompwa Health Post,403020165,Rural,GRZ,Health Post,Yes,,28.87937598,-11.25612474
+Luapula,Mansa,Kasanse HP,Kasanse Health Post,403010150,Rural,GRZ,Health Post,Yes,5460,29.56374345,-11.28798834
 Luapula,Mansa,Katangwe RHC, Katangwe Rural Health Centre,403020166,Rural,GRZ,Urban Health Centre,Yes,5055,28.98271822,-11.29034671
 Luapula,Mansa,Lubende RHC, Lubende Rural Health Centre,403020139,Rural,GRZ,Rural Health Centre,Yes,7957,29.28537014,-11.27704526
-Luapula,Mansa,Mabo HP,Mabo HP,403020154,Rural,GRZ,Health Post,Yes,572,28.43197572,-11.45568432
+Luapula,Mansa,Mabo HP,Mabo Health Post,403020154,Rural,GRZ,Health Post,Yes,572,28.43197572,-11.45568432
 Luapula,Mansa,Mabumba RHC, Mabumba Rural Health Centre,403020125,Rural,GRZ,Rural Health Centre,Yes,8131,29.05366139,-11.26628528
-Luapula,Mansa,Malamba HP,Malamba HP,403020158,Rural,GRZ,Health Post,Yes,2034,28.79269335,-11.47640639
+Luapula,Mansa,Malamba HP,Malamba Health Post,403020158,Rural,GRZ,Health Post,Yes,2034,28.79269335,-11.47640639
 Luapula,Mansa,MaNo RHC, Mano Rural Health Centre,403020126,Rural,GRZ,Rural Health Centre,Yes,8113,29.0014382,-10.89634366
 Luapula,Mansa,Mansa District Hospital, Mansa General Hospital,403020170,Peri-Urban,GRZ,Level 1 Hospital District,Yes,,28.895245,-11.246015
 Luapula,Mansa,Mantumbusa RHC, Mantumbusa Rural Health Centre,403020127,Rural,GRZ,Rural Health Centre,Yes,1809,28.97086705,-11.22446449
-Luapula,Mansa,Masaba HP,Masaba HP,403020160,Rural,GRZ,Health Post,Yes,1345,28.78015,-11.23846333
-Luapula,Mansa,Mashimi  HP,Mashimi  HP,403020147,Rural,GRZ,Health Post,Yes,614,29.37988339,-11.3790407
+Luapula,Mansa,Masaba HP,Masaba Health Post,403020160,Rural,GRZ,Health Post,Yes,1345,28.78015,-11.23846333
+Luapula,Mansa,Mashimi  HP,Mashimi  Health Post,403020147,Rural,GRZ,Health Post,Yes,614,29.37988339,-11.3790407
 Luapula,Mansa,Matanda RHC, Matanda Rural Health Centre,403020128,Rural,GRZ,Rural Health Centre,Yes,5793,28.46097945,-11.37843452
 Luapula,Mansa,Matelo HP, Matelo Health Post,403020172,Rural,GRZ,Health Post,Yes,2951,28.71666992,-11.1848581
 Luapula,Mansa,Mibenge RHC, Mibenge Rural Health Centre,403020129,Rural,GRZ,Rural Health Centre,Yes,7413,29.38873812,-11.31970768
 Luapula,Mansa,Mikula RHC,Mikula RHC,403020157,Rural,GRZ,Rural Health Centre,Yes,2685,28.92669132,-11.34486919
-Luapula,Mansa,Moloshi RHC, Moloshi Rural Health Centre,403020130,Rural,GRZ,Urban Health Centre,Yes,4882,29.45853431,-11.20752969
-Luapula,Mansa,Mufuma  HP,Mufuma  HP,403020144,Rural,GRZ,Health Post,Yes,3800,29.15536975,-11.27544079
-Luapula,Mansa,Mulonga HP,Mulonga HP,403020175,Rural,GRZ,Health Post,Yes,,28.73771746,-11.33971855
-Luapula,Mansa,Mupita  HP,Mupita  HP,403020188,Rural,GRZ,Health Post,Yes,,29.09740479,-11.31037992
-Luapula,Mansa,Mupofwe  HP,Mupofwe  HP,403020176,Rural,GRZ,Health Post,Yes,,29.12463843,-11.36181279
+Luapula,Mansa,Moloshi RHC,Moloshi Rural Health Centre,403020130,Rural,GRZ,Urban Health Centre,Yes,4882,29.45853431,-11.20752969
+Luapula,Mansa,Mufuma  HP,Mufuma Health Post,403020144,Rural,GRZ,Health Post,Yes,3800,29.15536975,-11.27544079
+Luapula,Mansa,Mulonga HP,Mulonga Health Post,403020175,Rural,GRZ,Health Post,Yes,,28.73771746,-11.33971855
+Luapula,Mansa,Mupita  HP,Mupita Health Post,403020188,Rural,GRZ,Health Post,Yes,,29.09740479,-11.31037992
+Luapula,Mansa,Mupofwe  HP,Mupofwe Health Post,403020176,Rural,GRZ,Health Post,Yes,,29.12463843,-11.36181279
 Luapula,Mansa,Musaba RHC,Musaba RHC,403020148,Rural,GRZ,Rural Health Centre,Yes,2501,29.44430578,-11.4958799
-Luapula,Mansa,Musaila RHC, Musaila Rural Health Centre,403020137,Rural,GRZ,Rural Health Centre,Yes,10248,29.48882466,-11.35445444
-Luapula,Mansa,Musesha  HP,Musesha  HP,403020177,Rural,GRZ,Health Post,Yes,,28.49742271,-11.29172281
+Luapula,Mansa,Musaila RHC,Musaila Rural Health Centre,403020137,Rural,GRZ,Rural Health Centre,Yes,10248,29.48882466,-11.35445444
+Luapula,Mansa,Musesha  HP,Musesha Health Post,403020177,Rural,GRZ,Health Post,Yes,,28.49742271,-11.29172281
 Luapula,Mansa,Musomali UHC,Musomali UHC,403020179,Peri-Urban,GRZ,Urban Health Centre,Yes,,28.90073333,-11.220595
 Luapula,Mansa,Mutiti RHC, Mutiti Rural Health Centre,403010131,Rural,GRZ,Rural Health Centre,Yes,8739,28.95176418,-11.14441642
-Luapula,Mansa,Mutwewankoko HP,Mutwewankoko HP,403010138,Rural,GRZ,Rural Health Centre,Yes,3288,28.92489142,-10.69605977
+Luapula,Mansa,Mutwewankoko HP,Mutwewankoko Health Post,403010138,Rural,GRZ,Rural Health Centre,Yes,3288,28.92489142,-10.69605977
 Luapula,Mansa,Muwanguni RHC, Muwanguni Rural Health Centre,403020189,Rural,GRZ,Rural Health Centre,Yes,7773,28.86933555,-11.2847947
 Luapula,Mansa,Mwela RHC,Mwela RHC,403020180,Rural,GRZ,Rural Health Centre,Yes,,29.00462131,-11.25127526
-Luapula,Mansa,Namwandwe  HP,Namwandwe  HP,403020181,Rural,GRZ,Health Post,Yes,8500,28.91947833,-11.20611667
+Luapula,Mansa,Namwandwe  HP,Namwandwe Health Post,403020181,Rural,GRZ,Health Post,Yes,8500,28.91947833,-11.20611667
 Luapula,Mansa,Ndoba RHC, Ndoba Rural Health Centre,403020140,Rural,GRZ,Rural Health Centre,Yes,6798,29.52824391,-11.26679549
 Luapula,Mansa,Nsange HP, Nsange Health Post,403020134,Rural,GRZ,Rural Health Centre,Yes,4859,29.27194552,-11.46400545
 Luapula,Mansa,Paul Mambilima RHC, Paul Mambilima Rural Health Centre,403020183,Rural,GRZ,Rural Health Centre,Yes,5524,28.55463529,-11.13561959
-Luapula,Mansa,Sande HP,Sande HP,403020155,Rural,GRZ,Health Post,Yes,2060,28.93166167,-11.25080167
+Luapula,Mansa,Sande HP,Sande Health Post,403020155,Rural,GRZ,Health Post,Yes,2060,28.93166167,-11.25080167
 Luapula,Mansa,Senama UHC, Senama Urban Health Centre,403010136,Peri-Urban,GRZ,Urban Health Centre,Yes,46295,28.884805,-11.17775333
-Luapula,Mansa,Shoti  HP,Shoti  HP,403020141,Rural,GRZ,Health Post,Yes,810,29.0495323,-11.22203114
-Luapula,Mansa,Sumbu HP,Sumbu HP,403020184,Rural,GRZ,Health Post,Yes,,28.88050167,-11.22568333
-Luapula,Mansa,Tayali HP,Tayali HP,403020156,Rural,GRZ,Health Post,Yes,1005,28.92958167,-11.27845
-Luapula,Mansa,Zns Luamfumu,Zns Luamfumu,403020124,Rural,GRZ,Rural Health Centre,Yes,15546,28.8094223,-10.9430409
-Luapula,Milenge,Changwe Lungo HP,Changwe Lungo HP,40401018,Rural,GRZ,Health Post,Yes,2664,29.1662503,-12.33721272
+Luapula,Mansa,Shoti  HP,Shoti Health Post,403020141,Rural,GRZ,Health Post,Yes,810,29.0495323,-11.22203114
+Luapula,Mansa,Sumbu HP,Sumbu Health Post,403020184,Rural,GRZ,Health Post,Yes,,28.88050167,-11.22568333
+Luapula,Mansa,Tayali HP,Tayali Health Post,403020156,Rural,GRZ,Health Post,Yes,1005,28.92958167,-11.27845
+Luapula,Mansa,Zns Luamfumu,ZNS Luamfumu,403020124,Rural,GRZ,Rural Health Centre,Yes,15546,28.8094223,-10.9430409
+Luapula,Milenge,Changwe Lungo HP,Changwe Lungo Health Post,40401018,Rural,GRZ,Health Post,Yes,2664,29.1662503,-12.33721272
 Luapula,Milenge,Chibende RHC, Chibende Rural Health Centre,40401016,Rural,GRZ,Rural Health Centre,Yes,2901,29.04899487,-11.87074341
 Luapula,Milenge,Chipundu HP, Chipundu Health Post,40401021,Rural,GRZ,Rural Health Centre,Yes,,29.441915,-12.23648667
 Luapula,Milenge,Kabange RHC, Kabange Rural Health Centre,40401017,Rural,GRZ,Rural Health Centre,Yes,4602,29.00384903,-11.43870218
@@ -1074,30 +1074,30 @@ Luapula,Milenge,Moffat HP, Moffat Health Post,40401027,Rural,GRZ,Health Post,Yes
 Luapula,Milenge,Mulumbi RHC, Mulumbi Rural Health Centre,40401014,Rural,GRZ,Rural Health Centre,Yes,10065,29.16615323,-11.55640204
 Luapula,Milenge,Mulungushi HP, Mulungushi Health Post,40401024,Rural,GRZ,Health Post,Yes,,29.26887311,-11.76281367
 Luapula,Milenge,Mumanse HP, Mumanse Health Post,40401022,Rural,GRZ,Health Post,Yes,,29.37777833,-11.59742667
-Luapula,Milenge,Shitambuli HP,Shitambuli HP,40401025,Rural,GRZ,Health Post,Yes,,29.1612914,-12.3633591
+Luapula,Milenge,Shitambuli HP,Shitambuli Health Post,40401025,Rural,GRZ,Health Post,Yes,,29.1612914,-12.3633591
 Luapula,Milenge,Sokontwe RHC, Sokontwe Rural Health Centre,40401035,Rural,GRZ,Rural Health Centre,Yes,9949,29.45139167,-12.30616833
 Luapula,Mwansabombwe,Chipunka RHC, Chipunka Rural Health Centre,404510114,Rural,GRZ,Rural Health Centre,Yes,6163,28.70501898,-10.01360516
-Luapula,Mwansabombwe,Chitapa HP,Chitapa HP,40401050,Rural,GRZ,Health Post,Yes,1047,28.70221574,-10.01489643
-Luapula,Mwansabombwe,Katotoma HP,Katotoma HP,40401051,Rural,GRZ,Health Post,Yes,2067,28.73756491,-9.89666265
+Luapula,Mwansabombwe,Chitapa HP,Chitapa Health Post,40401050,Rural,GRZ,Health Post,Yes,1047,28.70221574,-10.01489643
+Luapula,Mwansabombwe,Katotoma HP,Katotoma Health Post,40401051,Rural,GRZ,Health Post,Yes,2067,28.73756491,-9.89666265
 Luapula,Mwansabombwe,Kazembe Zonal RHC, Kazembe Zonal Rural Health Centre,404510118,Rural,GRZ,Rural Health Centre,Yes,27145,28.7613327,-9.82010752
 Luapula,Mwansabombwe,Lufubu RHC, Lufubu Rural Health Centre,404510145,Rural,GRZ,Rural Health Centre,Yes,4426,28.79509495,-9.893433516
 Luapula,Mwansabombwe,Mbereshi Mission HAHC,Mbereshi Mission HAHC,404510125,Rural,Faith Based,Rural Health Centre,Yes,4050,28.79640257,-9.75328069
 Luapula,Mwansabombwe,Mbereshi Mission Hospital, Mbereshi Mission Hospital,404510002,Rural,Faith Based,Level 1 Hospital District,Yes,,28.79638783,-9.75328703
 Luapula,Mwansabombwe,Mukamba RHC, Mukamba Rural Health Centre,404510130,Rural,GRZ,Rural Health Centre,Yes,5034,28.76614836,-9.74829767
-Luapula,Mwansabombwe,Mulele HP,Mulele HP,404510150,Rural,GRZ,Health Post,Yes,,28.79235095,-9.992673495
+Luapula,Mwansabombwe,Mulele HP,Mulele Health Post,404510150,Rural,GRZ,Health Post,Yes,,28.79235095,-9.992673495
 Luapula,Mwansabombwe,Salanga RHC, Salanga Rural Health Centre,404510126,Rural,GRZ,Rural Health Centre,Yes,7901,28.73053945,-9.962209971
 Luapula,Mwense,Chalwe HP, Chalwe Health Post,40501036,Rural,GRZ,Health Post,Yes,1744,28.64776812,-10.60600586
 Luapula,Mwense,Chibondo RHC, Chibondo Rural Health Centre,40501010,Rural,GRZ,Rural Health Centre,Yes,4997,28.67098785,-10.72499719
-Luapula,Mwense,Kabila HP,Kabila HP,40501037,Rural,GRZ,Health Post,Yes,,28.69399577,-10.5578342
-Luapula,Mwense,Kankomba HP,Kankomba HP,40502038,Rural,GRZ,Health Post,Yes,1705,28.67905833,-10.33712667
+Luapula,Mwense,Kabila HP,Kabila Health Post,40501037,Rural,GRZ,Health Post,Yes,,28.69399577,-10.5578342
+Luapula,Mwense,Kankomba HP,Kankomba Health Post,40502038,Rural,GRZ,Health Post,Yes,1705,28.67905833,-10.33712667
 Luapula,Mwense,Kapamba RHC, Kapamba Rural Health Centre,40502014,Rural,GRZ,Rural Health Centre,Yes,3378,28.76555333,-10.17733667
 Luapula,Mwense,Kashiba RHC, Kashiba Rural Health Centre,40501015,Rural,GRZ,Rural Health Centre,Yes,8942,28.65509888,-10.44748953
 Luapula,Mwense,Katuta RHC, Katuta Rural Health Centre,40501016,Rural,GRZ,Rural Health Centre,Yes,3419,28.59797608,-10.69542299
 Luapula,Mwense,Kawama RHC, Kawama Rural Health Centre,40502017,Rural,GRZ,Rural Health Centre,Yes,9354,28.63724,-10.09489
-Luapula,Mwense,Loto HP,Loto HP,40502039,Rural,GRZ,Health Post,Yes,,28.727125,-10.29355833
+Luapula,Mwense,Loto HP,Loto Health Post,40502039,Rural,GRZ,Health Post,Yes,,28.727125,-10.29355833
 Luapula,Mwense,Lubunda RHC, Lubunda Rural Health Centre,40502018,Rural,GRZ,Rural Health Centre,Yes,8055,28.67323333,-10.31223333
 Luapula,Mwense,Lukwesa RHC, Lukwesa Rural Health Centre,40502019,Rural,GRZ,Rural Health Centre,Yes,9354,28.636095,-10.168825
-Luapula,Mwense,Lwamfwe HP,Lwamfwe HP,40502040,Rural,GRZ,Health Post,Yes,,28.67307167,-10.05956
+Luapula,Mwense,Lwamfwe HP,Lwamfwe Health Post,40502040,Rural,GRZ,Health Post,Yes,,28.67307167,-10.05956
 Luapula,Mwense,Mambilima RHC, Mambilima Rural Health Centre,40501020,Urban,Faith Based,Level 1 Hospital District,Yes,12985,28.65037208,-10.52580598
 Luapula,Mwense,Mubende RHC, Mubende Rural Health Centre,40502022,Rural,GRZ,Rural Health Centre,Yes,1559,28.77848667,-10.28761833
 Luapula,Mwense,Mununshi RHC, Mununshi Rural Health Centre,40502024,Rural,GRZ,Rural Health Centre,Yes,3898,28.694275,-10.01651833
@@ -1105,10 +1105,10 @@ Luapula,Mwense,Musangu RHC, Musangu Rural Health Centre,40502026,Rural,GRZ,Rural
 Luapula,Mwense,Musonda Falls RHC,Musonda Falls RHC,40501027,Rural,Private,Rural Health Centre,Yes,,28.7965666,-10.71410321
 Luapula,Mwense,Mwense District Hospital, Mwense District Hospital,40502042,Rural,GRZ,Level 1 Hospital District,Yes,,28.69394833,-10.35948667
 Luapula,Mwense,Mwense RHC, Mwense Rural Health Centre,40502030,Urban,GRZ,Urban Health Centre,Yes,,28.7091,-10.39262
-Luapula,Mwense,Mweshi HP,Mweshi HP,40501041,Rural,GRZ,Health Post,Yes,,28.70190374,-10.69864616
+Luapula,Mwense,Mweshi HP,Mweshi Health Post,40501041,Rural,GRZ,Health Post,Yes,,28.70190374,-10.69864616
 Luapula,Mwense,Zesco Musonda RHC, Zesco Musonda Rural Health Centre,40501027,Rural,Private,Rural Health Centre,Yes,,28.80187808,-10.71172343
 Luapula,Nchelenge,Chabilikila RHC, Chabilikila Rural Health Centre,406010110,Rural,GRZ,Rural Health Centre,Yes,7356,28.73696708,-9.548185513
-Luapula,Nchelenge,Chilongo HP,Chilongo HP,406010125,Rural,GRZ,Health Post,Yes,,28.7956573,-9.36568748
+Luapula,Nchelenge,Chilongo HP,Chilongo Health Post,406010125,Rural,GRZ,Health Post,Yes,,28.7956573,-9.36568748
 Luapula,Nchelenge,Chisenga RHC, Chisenga Rural Health Centre,406010111,Rural,GRZ,Rural Health Centre,Yes,13346,28.60318334,-9.549099325
 Luapula,Nchelenge,Kabalenge RHC, Kabalenge Rural Health Centre,406010112,Rural,GRZ,Rural Health Centre,Yes,10100,28.86143231,-9.770244326
 Luapula,Nchelenge,Kabuta RHC, Kabuta Rural Health Centre,406010113,Rural,GRZ,Rural Health Centre,Yes,29292,28.84779393,-9.174685992
@@ -1120,24 +1120,24 @@ Luapula,Nchelenge,Kashikishi HAHC, Kashikishi Hospital Affiliated Health Centre,
 Luapula,Nchelenge,Kashikishi UHC,Kashikishi UHC,406010126,Urban,GRZ,Urban Health Centre,Yes,28000,28.74936623,-9.318631982
 Luapula,Nchelenge,Kefulwa HP, Kefulwa Health Post,406010122,Rural,GRZ,Health Post,Yes,11466,28.94662599,-9.1094308
 Luapula,Nchelenge,Kilwa RHC, Kilwa Rural Health Centre,406010117,Rural,GRZ,Rural Health Centre,Yes,13511,28.40808349,-9.271589383
-Luapula,Nchelenge,Lushiba HP,Lushiba HP,406010123,Rural,GRZ,Health Post,Yes,6879,28.74535366,-9.33587988
+Luapula,Nchelenge,Lushiba HP,Lushiba Health Post,406010123,Rural,GRZ,Health Post,Yes,6879,28.74535366,-9.33587988
 Luapula,Nchelenge,Mulwe HP, Mulwe Health Post,406010121,Rural,GRZ,Health Post,Yes,12612,28.74847821,-9.45714942
 Luapula,Nchelenge,Nchelenge RHC, Nchelenge Rural Health Centre,406010118,Rural,GRZ,Rural Health Centre,Yes,17963,28.74653486,-9.345613
 Luapula,Nchelenge,St Pauls Mission Hospital, St Pauls Mission Hospital,406010128,Urban,Faith Based,Level 1 Hospital District,Yes,40700,28.74129681,-9.306690063
-Luapula,Nchelenge,Toka Toka HP,Toka Toka HP,406010124,Rural,GRZ,Health Post,Yes,,28.75704352,-9.69130448
+Luapula,Nchelenge,Toka Toka HP,Toka Toka Health Post,406010124,Rural,GRZ,Health Post,Yes,,28.75704352,-9.69130448
 Luapula,Samfya,Chibuye RHC, Chibuye Rural Health Centre,407011,Rural,GRZ,Health Post,Yes,3692,29.47934167,-11.14220333
 Luapula,Samfya,Chikunyu RHC,Chikunyu RHC,40701043,Rural,GRZ,Rural Health Centre,Yes,2538,29.65923635,-11.47082848
-Luapula,Samfya,Chikwa HP,Chikwa HP,407061,Rural,GRZ,Health Post,No,,29.79623281,-10.86133195
+Luapula,Samfya,Chikwa HP,Chikwa Health Post,407061,Rural,GRZ,Health Post,No,,29.79623281,-10.86133195
 Luapula,Samfya,Chimanda RHC, Chimanda Rural Health Centre,407036,Rural,GRZ,Rural Health Centre,Yes,3602,29.486035,-10.82169833
 Luapula,Samfya,Chimembe RHC, Chimembe Rural Health Centre,407037,Rural,GRZ,Rural Health Centre,Yes,5587,29.78610481,-11.5199352
 Luapula,Samfya,Chinsaka RHC, Chinsaka Rural Health Centre,40701042,Rural,GRZ,Rural Health Centre,Yes,4394,29.79634337,-11.5638376
-Luapula,Samfya,Chinweshiba HP,Chinweshiba HP,407041,Rural,GRZ,Health Post,Yes,,29.55146655,-11.43413167
+Luapula,Samfya,Chinweshiba HP,Chinweshiba Health Post,407041,Rural,GRZ,Health Post,Yes,,29.55146655,-11.43413167
 Luapula,Samfya,Chipako RHC, Chipako Rural Health Centre,407038,Rural,GRZ,Rural Health Centre,Yes,3917,29.67585091,-11.54865372
 Luapula,Samfya,Chishi RHC, Chishi Rural Health Centre,4070120,Rural,GRZ,Rural Health Centre,Yes,7066,29.84195709,-11.08542763
 Luapula,Samfya,Fwaka East 8 RHC, Fwaka East 8 Rural Health Centre,407013,Rural,GRZ,Health Post,Yes,7317,29.43861333,-12.14958942
 Luapula,Samfya,Kabongo RHC, Kabongo Rural Health Centre,407014,Rural,GRZ,Rural Health Centre,Yes,3737,29.51318047,-11.75995789
 Luapula,Samfya,Kalasa Mukoso RHC, Kalasa Mukoso Rural Health Centre,407015,Rural,GRZ,Rural Health Centre,Yes,4570,29.59431181,-11.81811284
-Luapula,Samfya,Kandolo HP,Kandolo HP,407012,Rural,GRZ,Health Post,No,,29.42638,-10.91424833
+Luapula,Samfya,Kandolo HP,Kandolo Health Post,407012,Rural,GRZ,Health Post,No,,29.42638,-10.91424833
 Luapula,Samfya,Kapata East 1 RHC, Kapata East 1 Rural Health Centre,407017,Rural,GRZ,Rural Health Centre,Yes,5467,29.73878164,-11.63748182
 Luapula,Samfya,Kapata RHC,Kapata RHC,407016,Rural,GRZ,Rural Health Centre,Yes,6934,29.71140344,-11.68174904
 Luapula,Samfya,Kasaba HAHC, Kasaba Hospital Affiliated Health Centre,407098,Rural,GRZ,Rural Health Centre,Yes,7249,29.73430806,-10.75545792
@@ -1152,16 +1152,16 @@ Luapula,Samfya,MaNo RHC,MaNo RHC,407040,Rural,GRZ,Rural Health Centre,Yes,3406,2
 Luapula,Samfya,Mbabala RHC, Mbabala Rural Health Centre,407022,Rural,GRZ,Rural Health Centre,Yes,5245,29.80126731,-11.22001655
 Luapula,Samfya,Miponda RHC, Miponda Rural Health Centre,407023,Rural,GRZ,Rural Health Centre,Yes,7137,29.547375,-10.94085667
 Luapula,Samfya,Mpanta RHC, Mpanta Rural Health Centre,407046,Rural,GRZ,Rural Health Centre,Yes,2585,29.81839008,-11.45676559
-Luapula,Samfya,Mpolo HP,Mpolo HP,407052,Rural,GRZ,Health Post,Yes,,29.47620986,-12.05132351
+Luapula,Samfya,Mpolo HP,Mpolo Health Post,407052,Rural,GRZ,Health Post,Yes,,29.47620986,-12.05132351
 Luapula,Samfya,Mundubi RHC, Mundubi Rural Health Centre,407034,Rural,GRZ,Rural Health Centre,Yes,9028,29.573995,-11.175435
 Luapula,Samfya,Mungulube RHC, Mungulube Rural Health Centre,407030,Rural,GRZ,Rural Health Centre,Yes,3535,29.44822346,-11.60906487
 Luapula,Samfya,Mushili RHC, Mushili Rural Health Centre,407024,Rural,GRZ,Rural Health Centre,Yes,8172,29.55229937,-12.14484809
 Luapula,Samfya,Mwansakombe RHC, Mwansakombe Rural Health Centre,407035,Rural,GRZ,Rural Health Centre,Yes,5538,29.66035549,-10.88895273
-Luapula,Samfya,Mwewe HP,Mwewe HP,407049,Rural,GRZ,Health Post,No,,29.64303763,-10.94093884
+Luapula,Samfya,Mwewe HP,Mwewe Health Post,407049,Rural,GRZ,Health Post,No,,29.64303763,-10.94093884
 Luapula,Samfya,Nambale RHC, Nambale Rural Health Centre,407025,Rural,GRZ,Rural Health Centre,Yes,7700,29.78096891,-10.74523572
 Luapula,Samfya,Ninge RHC, Ninge Rural Health Centre,407031,Rural,GRZ,Rural Health Centre,Yes,3692,29.62815758,-11.66306969
 Luapula,Samfya,Njipi RHC, Njipi Rural Health Centre,407026,Rural,GRZ,Rural Health Centre,Yes,5664,29.71792098,-11.53113471
-Luapula,Samfya,Nshungu HP,Nshungu HP,407050,Rural,GRZ,Health Post,No,,29.62665,-11.08356667
+Luapula,Samfya,Nshungu HP,Nshungu Health Post,407050,Rural,GRZ,Health Post,No,,29.62665,-11.08356667
 Luapula,Samfya,Samfya District Hospital, Samfya District Hospital,407003,Urban,GRZ,Level 1 Hospital District,Yes,110000,29.55388645,-11.36948498
 Luapula,Samfya,Samfya Stage Ii RHC, Samfya Stage II Rural Health Centre,407028,Urban,GRZ,Urban Health Centre,Yes,26102,29.55425398,-11.36983177
 Luapula,Samfya,Shikamushile RHC, Shikamushile Rural Health Centre,407029,Rural,GRZ,Rural Health Centre,Yes,,29.69584781,-10.97293072
@@ -1171,7 +1171,7 @@ Lusaka,Chilanga,Kazimva RHC, Kazimva Rural Health Centre,505012,Rural,GRZ,Rural 
 Lusaka,Chilanga,Kris Katumba HP, Kris Katumba Health Post,505014,Rural,GRZ,Health Post,Yes,20667,28.10382002,-15.41815247
 Lusaka,Chilanga,LukamantaNo  RHC,LukamantaNo  RHC,505026,Rural,Faith Based,Rural Health Centre,Yes,,28.25535909,-15.62406994
 Lusaka,Chilanga,Makeni Konga RHC, Makeni Konga Rural Health Centre,505013,Rural,GRZ,Rural Health Centre,Yes,22855,28.17733491,-15.48546684
-Lusaka,Chilanga,Manyeu HP,Manyeu HP,505027,Rural,GRZ,Health Post,Yes,,27.90551618,-15.30638047
+Lusaka,Chilanga,Manyeu HP,Manyeu Health Post,505027,Rural,GRZ,Health Post,Yes,,27.90551618,-15.30638047
 Lusaka,Chilanga,Mother Of Mercy Hospice And Health Centre,Mother Of Mercy Hospice And Health Centre,505025,Urban,Faith Based,Urban Health Centre,Yes,19336,28.26931131,-15.55206998
 Lusaka,Chilanga,Mt Makulu UHC, Mt Makulu Urban Health Centre,505015,Peri-Urban,GRZ,Urban Health Centre,Yes,25792,28.2428104,-15.54508402
 Lusaka,Chilanga,Mwembeshi Prisons HP, Mwembeshi Prisons Health Post,505017,Rural,GRZ,Health Post,Yes,,27.93115541,-15.32793855
@@ -1192,8 +1192,8 @@ Lusaka,Chirundu,Mtendere Mission HAHC, Mtendere Mission Hospital Affiliated Heal
 Lusaka,Chirundu,Mtendere Mission Hospital, Mtendere Mission Hospital,506016,Urban,Faith Based,Level 1 Hospital District,Yes,13395,28.85631132,-16.02753362
 Lusaka,Chirundu,Nabbanda HP, Nabbanda Health Post,506022,Rural,GRZ,Health Post,Yes,,28.6604043,-16.1655674
 Lusaka,Chirundu,Sikoongo RHC, Sikoongo Rural Health Centre,506019,Rural,GRZ,Rural Health Centre,Yes,5741,28.69867661,-16.08789597
-Lusaka,Chirundu,Zaluanga,Zaluanga,506024,Rural,GRZ,Health Post,Yes,,28.70615141,-15.95138248
-Lusaka,Chongwe,Bimbe HP,Bimbe HP,501048,Rural,GRZ,Health Post,Yes,,28.72490898,-15.37700659
+Lusaka,Chirundu,Zaluanga HP,Zaluanga Health Post,506024,Rural,GRZ,Health Post,Yes,,28.70615141,-15.95138248
+Lusaka,Chongwe,Bimbe HP,Bimbe Health Post,501048,Rural,GRZ,Health Post,Yes,,28.72490898,-15.37700659
 Lusaka,Chongwe,Chainda RHC, Chainda Rural Health Centre,501010,Rural,GRZ,Rural Health Centre,Yes,11441,28.60598157,-15.32339471
 Lusaka,Chongwe,Chalimbana RHC, Chalimbana Rural Health Centre,501011,Rural,GRZ,Rural Health Centre,Yes,5799,28.70249453,-15.38639428
 Lusaka,Chongwe,Chaminuka HP, Chaminuka Health Post,501055,Rural,Private,Urban Health Centre,Yes,,28.47643945,-15.17623654
@@ -1209,15 +1209,15 @@ Lusaka,Chongwe,Kapete HP, Kapete Health Post,501051,Rural,GRZ,Health Post,Yes,14
 Lusaka,Chongwe,Kasenga HP, Kasenga Health Post,501041,Rural,GRZ,Health Post,Yes,2972,28.48575988,-15.18293842
 Lusaka,Chongwe,Kasisi RHC, Kasisi Rural Health Centre,501016,Rural,GRZ,Health Post,Yes,10164,28.47100069,-15.27149088
 Lusaka,Chongwe,Katoba RHC, Katoba Rural Health Centre,501017,Rural,GRZ,Rural Health Centre,Yes,9802,28.73799554,-15.60291192
-Lusaka,Chongwe,Lwiimba RHC, Lwiimba Rural Health Centre,501018,Rural,GRZ,Rural Health Centre,Yes,7426,28.81757822,-15.50627972
+Lusaka,Chongwe,Lwiimba RHC,Lwiimba Rural Health Centre,501018,Rural,GRZ,Rural Health Centre,Yes,7426,28.81757822,-15.50627972
 Lusaka,Chongwe,Margrete Mwachiyeya School Clinic,Margrete Mwachiyeya School Clinic,501052,Rural,GRZ,Urban Health Centre,Yes,470,28.78234229,-15.48650723
-Lusaka,Chongwe,Mpango RHC, Mpango Rural Health Centre,501021,Rural,GRZ,Rural Health Centre,Yes,9107,28.75658231,-15.20479761
-Lusaka,Chongwe,Mri HP,Mri HP,501053,Rural,Private,Health Post,Yes,,28.58859294,-15.39064306
+Lusaka,Chongwe,Mpango RHC,Mpango Rural Health Centre,501021,Rural,GRZ,Rural Health Centre,Yes,9107,28.75658231,-15.20479761
+Lusaka,Chongwe,MRI,MRI,501053,Rural,Private,Health Post,Yes,,28.58859294,-15.39064306
 Lusaka,Chongwe,Mulalika HP, Mulalika Health Post,501054,Rural,GRZ,Health Post,Yes,3266,28.80760903,-15.56199913
 Lusaka,Chongwe,MutamiNo HP, Mutamino Health Post,501044,Rural,GRZ,Health Post,Yes,2506,28.56135633,-15.30193683
 Lusaka,Chongwe,Mwalumina RHC, Mwalumina Rural Health Centre,501032,Rural,GRZ,Rural Health Centre,Yes,,28.85757607,-15.45517777
 Lusaka,Chongwe,Nachitete HP, Nachitete Health Post,501058,Rural,GRZ,Health Post,Yes,3250,28.48721441,-15.55601055
-Lusaka,Chongwe,Ndapula HP,Ndapula HP,501057,Rural,GRZ,Health Post,Yes,2968,28.87466292,-15.51756247
+Lusaka,Chongwe,Ndapula HP,Ndapula Health Post,501057,Rural,GRZ,Health Post,Yes,2968,28.87466292,-15.51756247
 Lusaka,Chongwe,Ngwerere HP, Ngwerere Health Post,501042,Rural,GRZ,Health Post,Yes,,28.40467016,-15.27502406
 Lusaka,Chongwe,Palabana RHC, Palabana Rural Health Centre,501024,Rural,GRZ,Rural Health Centre,Yes,8849,28.53503077,-15.44778409
 Lusaka,Chongwe,Shiyala HP, Shiyala Health Post,501045,Rural,GRZ,Health Post,Yes,2690,28.67130423,-15.28932217
@@ -1234,12 +1234,12 @@ Lusaka,Kafue,Kafue District Hospital, Kafue District Hospital,502001,Urban,GRZ,L
 Lusaka,Kafue,Kafue Estate UHC, Estate Urban Health Centre,502017,Urban,GRZ,Urban Health Centre,Yes,29371,28.16401361,-15.74147789
 Lusaka,Kafue,Kafue Mission RHC, Kafue Mission Rural Health Centre,502018,Rural,GRZ,Rural Health Centre,Yes,9815,28.18095105,-15.77748439
 Lusaka,Kafue,Kambale RHC, Kambale Rural Health Centre,502035,Rural,GRZ,Rural Health Centre,Yes,6468,28.86950502,-15.92562323
-Lusaka,Kafue,Kanyangala HP,Kanyangala HP,502024,Rural,GRZ,Health Post,Yes,,28.90606395,-15.83501459
-Lusaka,Kafue,Lukolongo HP,Lukolongo HP,502040,Rural,GRZ,Health Post,Yes,,28.25484958,-15.71810934
-Lusaka,Kafue,MugurameNo HP, Mugurameno Health Post,502038,Rural,GRZ,Health Post,Yes,2211,29.10778258,-15.83169601
-Lusaka,Kafue,Mungu HP,Mungu HP,502041,Rural,GRZ,Health Post,Yes,,28.01867073,-15.66910767
-Lusaka,Kafue,Mutendere HP HP,Mutendere HP HP,502014,Urban,GRZ,Health Post,Yes,,28.16735756,-15.76222797
-Lusaka,Kafue,Nangongwe Opd/Maternity Health Centre, Nangongwe OPD/Maternity Health Centre,502026,Urban,GRZ,Urban Health Centre,Yes,22520,28.17094422,-15.76097163
+Lusaka,Kafue,Kanyangala HP,Kanyangala Health Post,502024,Rural,GRZ,Health Post,Yes,,28.90606395,-15.83501459
+Lusaka,Kafue,Lukolongo HP,Lukolongo Health Post,502040,Rural,GRZ,Health Post,Yes,,28.25484958,-15.71810934
+Lusaka,Kafue,MugurameNo HP,Mugurameno Health Post,502038,Rural,GRZ,Health Post,Yes,2211,29.10778258,-15.83169601
+Lusaka,Kafue,Mungu HP,Mungu Health Post,502041,Rural,GRZ,Health Post,Yes,,28.01867073,-15.66910767
+Lusaka,Kafue,Mutendere HP,Mutendere Health Post,502014,Urban,GRZ,Health Post,Yes,,28.16735756,-15.76222797
+Lusaka,Kafue,Nangongwe Opd/Maternity Urban Health Centre,Nangongwe OPD/Maternity Urban Health Centre,502026,Urban,GRZ,Urban Health Centre,Yes,22520,28.17094422,-15.76097163
 Lusaka,Kafue,Old Kabewza,Old Kabewza,502021,Rural,GRZ,Health Post,Yes,2529,28.49780717,-15.65579665
 Lusaka,Kafue,Railway Grz UHC, Railway GRZ Urban Health Centre,502028,Urban,GRZ,Urban Health Centre,Yes,24024,28.16699774,-15.75384862
 Lusaka,Kafue,Shikoswe Health Centre,Shikoswe Health Centre,502042,Peri-Urban,GRZ,Rural Health Centre,Yes,,28.17181248,-15.74432969
@@ -1269,7 +1269,7 @@ Lusaka,Lusaka Urban,Chainama UHC, Chainama Urban Health Centre,5040350,Urban,GRZ
 Lusaka,Lusaka Urban,Chainda South Clinic, Chainda South Clinic,5040360,Urban,NGO,Rural Health Centre,Yes,,28.38073128,-15.41013667
 Lusaka,Lusaka Urban,Chainda UHC, Chainda Urban Health Centre,5040370,Urban,GRZ,Urban Health Centre,Yes,14000,28.40427613,-15.38927961
 Lusaka,Lusaka Urban,Chaisa UHC, Chaisa Urban Health Centre,5040470,Urban,GRZ,Urban Health Centre,Yes,76897,28.28295979,-15.38430673
-Lusaka,Lusaka Urban,Chalala HP,Chalala HP,5040630,Urban,GRZ,Health Post,Yes,,28.28000216,-15.44839577
+Lusaka,Lusaka Urban,Chalala HP,Chalala Health Post,5040630,Urban,GRZ,Health Post,Yes,,28.28000216,-15.44839577
 Lusaka,Lusaka Urban,Chawama UHC, Chawama Urban Health Centre,5040120,Urban,GRZ,Level 1 Hospital District,Yes,150648,28.28289296,-15.46169301
 Lusaka,Lusaka Urban,Chazanga UHC, Chazanga Urban Health Centre,5040340,Urban,GRZ,Urban Health Centre,Yes,51264,28.28558592,-15.33868401
 Lusaka,Lusaka Urban,Chelstone UHC, Chelstone Urban Health Centre,5040130,Urban,GRZ,Urban Health Centre,Yes,123501,28.38329692,-15.36766532
@@ -1279,18 +1279,18 @@ Lusaka,Lusaka Urban,Chipata UHC, Chipata Urban Health Centre,5040150,Urban,GRZ,L
 Lusaka,Lusaka Urban,Chisomo Hospital, Chisomo Hospital,5040800,Urban,Private,Level 1 Hospital District,Yes,,28.25828756,-15.41879415
 Lusaka,Lusaka Urban,Chunga Sub-Centre HP, Chunga Sub-Centre Health Post,5040910,Urban,GRZ,Health Post,Yes,63800,28.25189462,-15.35750497
 Lusaka,Lusaka Urban,Civic Centre UHC, Civic Centre Urban Health Centre,5040160,Urban,GRZ,Urban Health Centre,Yes,,28.30247209,-15.42087859
-Lusaka,Lusaka Urban,Eden HP,Eden HP,5040680,Urban,GRZ,Health Post,Yes,,28.22908267,-15.36364978
+Lusaka,Lusaka Urban,Eden HP,Eden Health Post,5040680,Urban,GRZ,Health Post,Yes,,28.22908267,-15.36364978
 Lusaka,Lusaka Urban,Evelyn Hone College HP, Evelyn Hone College Health Post,5040830,Urban,GRZ,Health Post,Yes,8000,28.2903338,-15.41635608
 Lusaka,Lusaka Urban,Fairview Hospital, Fairview Hospital,5040890,Urban,Private,Level 2 Hospital Provincial,Yes,,28.2957661,-15.416781
 Lusaka,Lusaka Urban,Freedom UHC, Freedom Urban Health Centre,5040760,Urban,GRZ,Health Post,Yes,11561,28.2714221,-15.53623705
-Lusaka,Lusaka Urban,Fumbelo HP,Fumbelo HP,5040720,Urban,GRZ,Health Post,Yes,,28.30952456,-15.33573244
+Lusaka,Lusaka Urban,Fumbelo HP,Fumbelo Health Post,5040720,Urban,GRZ,Health Post,Yes,,28.30952456,-15.33573244
 Lusaka,Lusaka Urban,Garden HP, Garden Health Post,5040390,Urban,GRZ,Health Post,Yes,,28.29355563,-15.39820912
 Lusaka,Lusaka Urban,George UHC, George Urban Health Centre,5040170,Urban,GRZ,Urban Health Centre,Yes,172435,28.23875386,-15.37944064
 Lusaka,Lusaka Urban,Hill Top Hospital, Hilltop Hospital,5040900,Urban,Private,Level 2 Hospital Provincial,Yes,,28.35734661,-15.42042234
-Lusaka,Lusaka Urban,John Howard HP,John Howard HP,5040650,Urban,GRZ,Health Post,Yes,,28.28908857,-15.48157778
-Lusaka,Lusaka Urban,Kabanana HP,Kabanana HP,5040920,Urban,GRZ,Health Post,Yes,17200,28.30746253,-15.35248146
+Lusaka,Lusaka Urban,John Howard HP,John Howard Health Post,5040650,Urban,GRZ,Health Post,Yes,,28.28908857,-15.48157778
+Lusaka,Lusaka Urban,Kabanana HP,Kabanana Health Post,5040920,Urban,GRZ,Health Post,Yes,17200,28.30746253,-15.35248146
 Lusaka,Lusaka Urban,Kabwata UHC, Kabwata Urban Health Centre,5040930,Urban,GRZ,Urban Health Centre,Yes,107189,28.30869025,-15.43504529
-Lusaka,Lusaka Urban,Kalikiliki HP,Kalikiliki HP,5040750,Urban,GRZ,Health Post,Yes,,28.36924239,-15.40607126
+Lusaka,Lusaka Urban,Kalikiliki HP,Kalikiliki Health Post,5040750,Urban,GRZ,Health Post,Yes,,28.36924239,-15.40607126
 Lusaka,Lusaka Urban,Kalingalinga UHC, Kalingalinga Urban Health Centre,5040180,Urban,GRZ,Urban Health Centre,Yes,90878,28.33005532,-15.40664087
 Lusaka,Lusaka Urban,Kamulanga HP, Kamulanga Health Post,5040480,Urban,GRZ,Health Post,Yes,,28.30509918,-15.47980405
 Lusaka,Lusaka Urban,Kamwala UHC, Kamwala Urban Health Centre,5040200,Urban,GRZ,Urban Health Centre,Yes,130491,28.28969438,-15.42852385
@@ -1302,18 +1302,18 @@ Lusaka,Lusaka Urban,Lilanda HP, Lilanda Health Post,5040580,Urban,GRZ,Health Pos
 Lusaka,Lusaka Urban,Lilayi UHC, Lilayi Urban Health Centre,5040230,Urban,GRZ,Urban Health Centre,Yes,18642,28.30193696,-15.52280568
 Lusaka,Lusaka Urban,Lusaka Central Prison UHC, Lusaka Central Prison Urban Health Centre,5040950,Urban,Military,Urban Health Centre,Yes,11185,28.30839318,-15.43141031
 Lusaka,Lusaka Urban,Lusungu Clinic,Lusungu Clinic,5040970,Urban,NGO,Urban Health Centre,Yes,,28.28138293,-15.42344619
-Lusaka,Lusaka Urban,Mahopo HP,Mahopo HP,5040640,Urban,GRZ,Health Post,Yes,,28.34083398,-15.50557616
+Lusaka,Lusaka Urban,Mahopo HP,Mahopo Health Post,5040640,Urban,GRZ,Health Post,Yes,,28.34083398,-15.50557616
 Lusaka,Lusaka Urban,Maina Soko Hospital, Maina Soko Hospital,5040980,Urban,GRZ,Level 2 Hospital Provincial,Yes,,28.33576673,-15.43550171
 Lusaka,Lusaka Urban,Makeni UHC, Makeni Urban Health Centre,5040240,Urban,Faith Based,Urban Health Centre,Yes,53392,28.2446992,-15.46302409
-Lusaka,Lusaka Urban,Makeni Villa HP,Makeni Villa HP,5040690,Urban,GRZ,Health Post,Yes,,28.22665288,-15.4440653
+Lusaka,Lusaka Urban,Makeni Villa HP,Makeni Villa Health Post,5040690,Urban,GRZ,Health Post,Yes,,28.22665288,-15.4440653
 Lusaka,Lusaka Urban,Mandevu UHC, Mandevu Urban Health Centre,5040250,Urban,GRZ,Urban Health Centre,Yes,86731,28.28919003,-15.37203313
 Lusaka,Lusaka Urban,Matero Main UHC, Matero Main Urban Health Centre,5040260,Urban,GRZ,Urban Health Centre,Yes,11418,28.26345486,-15.38162639
 Lusaka,Lusaka Urban,Matero Reference UHC, Matero Reference Urban Health Centre,5040270,Urban,GRZ,Level 1 Hospital District,Yes,,28.26445361,-15.37282778
 Lusaka,Lusaka Urban,Ministry Of Health Staff Health Centre, Ministry Of Health HQ Health Post,5040990,Urban,GRZ,Urban Health Centre,Yes,300,28.31893327,-15.4155313
-Lusaka,Lusaka Urban,Misisi HP,Misisi HP,5040670,Urban,GRZ,Health Post,Yes,35000,28.2797786,-15.44821981
+Lusaka,Lusaka Urban,Misisi HP,Misisi Health Post,5040670,Urban,GRZ,Health Post,Yes,35000,28.2797786,-15.44821981
 Lusaka,Lusaka Urban,Mkp/Tms Private Hospital, MKP/TMS Private Hospital,5040590,Urban,Private,Urban Health Centre,Yes,,28.35350416,-15.41394895
 Lusaka,Lusaka Urban,Mtendere UHC, Mtendere Urban Health Centre,5040280,Urban,GRZ,Urban Health Centre,Yes,109519,28.35775465,-15.40246774
-Lusaka,Lusaka Urban,Ngombe Kasisi HP,Ngombe Kasisi HP,5040740,Urban,GRZ,Health Post,Yes,,28.33419457,-15.35051842
+Lusaka,Lusaka Urban,Ngombe Kasisi HP,Ngombe Kasisi Health Post,5040740,Urban,GRZ,Health Post,Yes,,28.33419457,-15.35051842
 Lusaka,Lusaka Urban,Ng'Ombe UHC, Ng'ombe Urban Health Centre,5040290,Urban,GRZ,Urban Health Centre,Yes,58246,28.32386913,-15.36727264
 Lusaka,Lusaka Urban,Nipa HP, Nipa Health Post,5040520,Urban,Private,Health Post,Yes,,28.29060277,-15.41898886
 Lusaka,Lusaka Urban,Old Lady'S Hospital, Old Lady's Hospital,5040530,Urban,Private,Urban Health Centre,Yes,,28.25865927,-15.42635896
@@ -1326,14 +1326,14 @@ Lusaka,Lusaka Urban,State Lodge UHC, State Lodge Urban Health Centre,5040320,Urb
 Lusaka,Lusaka Urban,University Of Zambia Clinic, University of Zambia Clinic,5040547,Urban,Private,Urban Health Centre,Yes,62000,28.32645732,-15.39222886
 Lusaka,Lusaka Urban,Universty Teaching Hospital, Universty Teaching Hospital,5040548,Urban,GRZ,Level 3 Hospital Tertiary,Yes,,28.31334706,-15.4322311
 Lusaka,Lusaka Urban,Victoria Hospital, Victoria Hospital,5040549,Urban,Private,Level 2 Hospital Provincial,Yes,,28.322235,-15.3863924
-Lusaka,Lusaka Urban,Zasti UHC,Zasti UHC,5040612,Urban,GRZ,Urban Health Centre,Yes,2065,28.44170744,-15.31858773
-Lusaka,Rufunsa, Lusenfwa  HP, Lusenfwa  HP,507021,Rural,GRZ,Health Post,Yes,,29.63182628,-14.78532998
+Lusaka,Lusaka Urban,ZASTI UHC,ZASTI UHC,5040612,Urban,GRZ,Urban Health Centre,Yes,2065,28.44170744,-15.31858773
+Lusaka,Rufunsa,Lusenfwa  HP,Lusenfwa Health Post,507021,Rural,GRZ,Health Post,Yes,,29.63182628,-14.78532998
 Lusaka,Rufunsa,Bunda Bunda HP, Bunda Bunda Health Post,507001,Rural,GRZ,Health Post,Yes,4324,29.03036054,-15.26459634
 Lusaka,Rufunsa,Chifundo RHC, Chifundo Rural Health Centre,507003,Rural,NGO,Rural Health Centre,Yes,,28.82162722,-15.37004842
-Lusaka,Rufunsa,Chilimba HP,Chilimba HP,507004,Rural,GRZ,Health Post,Yes,,29.23903087,-15.34593928
+Lusaka,Rufunsa,Chilimba HP,Chilimba Health Post,507004,Rural,GRZ,Health Post,Yes,,29.23903087,-15.34593928
 Lusaka,Rufunsa,Chimusanya HP, Chimusanya Health Post,507011,Rural,GRZ,Health Post,Yes,5433,29.57155083,-15.08668468
 Lusaka,Rufunsa,Chinyunyu RHC, Chinyunyu Rural Health Centre,507005,Rural,GRZ,Rural Health Centre,Yes,4838,28.99804682,-15.2638769
-Lusaka,Rufunsa,Chipeketi  HP,Chipeketi  HP,507008,Rural,GRZ,Health Post,Yes,764,29.90100341,-15.19455934
+Lusaka,Rufunsa,Chipeketi  HP,Chipeketi Health Post,507008,Rural,GRZ,Health Post,Yes,764,29.90100341,-15.19455934
 Lusaka,Rufunsa,Chitemalesa HP, Chitemalesa Health Post,507009,Rural,GRZ,Health Post,Yes,4852,28.91210144,-15.26787953
 Lusaka,Rufunsa,Chiyota HP, Chiyota Health Post,507014,Rural,GRZ,Health Post,Yes,2298,28.83653532,-15.21264979
 Lusaka,Rufunsa,Kankumba RHC, Kankumba Rural Health Centre,507010,Rural,GRZ,Rural Health Centre,Yes,3939,29.15824017,-15.24311502
@@ -1347,7 +1347,7 @@ Lusaka,Rufunsa,Mulamba HP, Mulamba Health Post,507002,Rural,GRZ,Health Post,Yes,
 Lusaka,Rufunsa,Munyeta HP, Munyeta Health Post,507023,Rural,GRZ,Health Post,Yes,624,28.920999,-15.11514294
 Lusaka,Rufunsa,Mwachilele HP, Mwachilele Health Post,507029,Rural,GRZ,Health Post,Yes,3000,28.94480252,-15.43757406
 Lusaka,Rufunsa,NamaNongo HP, NamaNongo Health Post,507025,Rural,GRZ,Rural Health Centre,Yes,3282,29.13247691,-15.41875091
-Lusaka,Rufunsa,Nyamphande HP,Nyamphande HP,507026,Rural,GRZ,Health Post,Yes,2048,29.32715102,-15.17116602
+Lusaka,Rufunsa,Nyamphande HP,Nyamphande Health Post,507026,Rural,GRZ,Health Post,Yes,2048,29.32715102,-15.17116602
 Lusaka,Rufunsa,Nyangwena RHC, Nyangwena Rural Health Centre,507028,Rural,GRZ,Rural Health Centre,Yes,3102,28.94515296,-15.4367655
 Lusaka,Rufunsa,Rufunsa RHC, Rufunsa Rural Health Centre,507024,Rural,GRZ,Rural Health Centre,Yes,4098,29.63616894,-15.08156071
 Lusaka,Rufunsa,Rufunsa Tech HP, Rutech Health Post,507030,Rural,GRZ,Health Post,Yes,9637,29.21909519,-15.27252114
@@ -1363,12 +1363,12 @@ Lusaka,Shibuyunji,Nampundwe RHC, Nampundwe Rural Health Centre,508022,Rural,GRZ,
 Lusaka,Shibuyunji,Shabasonje RHC, Shabasonje Rural Health Centre,508015,Rural,GRZ,Rural Health Centre,Yes,6773,27.77969167,-15.47487
 Lusaka,Shibuyunji,Sichobo RHC, Sichobo Rural Health Centre,508017,Rural,GRZ,Rural Health Centre,Yes,8805,27.82977048,-15.44963258
 Lusaka,Lusaka Urban,ZNS Chamba Valley,ZNS Chamba Valley,50060262,Urban,GRZ,Urban Health Centre,,,28.36042667,-15.37536
-Lusaka,Chibombo,ZNS Chikumbi HP,ZNS Chikumbi HP,50060263,Rural,GRZ,Health Post,,,28.188255,-15.37138833
+Lusaka,Chibombo,ZNS Chikumbi HP,ZNS Chikumbi Health Post,50060263,Rural,GRZ,Health Post,,,28.188255,-15.37138833
 Lusaka,Lusaka Urban,MainaSokoHospital,MainaSokoHospital,50060172,Urban,GRZ,Level 2 Hospital Provincial,,,28.13336167,-15.35807
 Lusaka,Lusaka  Urban,ZAF Lusaka UHC,ZAF Lusaka UHC,50060264,Urban,GRZ,Urban Health Centre,,,28.11524833,-15.31407333
-Lusaka,Lusaka Urban,ZNS-Safari HP,ZNS-Safari HP,50060265,Urban,GRZ,Health Post,,,28.70997167,-15.32327333
+Lusaka,Lusaka Urban,ZNS-Safari HP,ZNS-Safari Health Post,50060265,Urban,GRZ,Health Post,,,28.70997167,-15.32327333
 Lusaka,Lusaka Urban,ZAF MT Eugenia RHC,ZAF MT Eugenia RHC,50060266,Peri-Urban,GRZ,Rural Health Centre,,,28.615765,-13.072025
-Lusaka,Chongwe,ZNS Chongwe Clinic HP,ZNS Chongwe Clinic HP,50060267,Rural,GRZ,Health Post,,,28.65351667,-12.99150167
+Lusaka,Chongwe,ZNS Chongwe Clinic HP,ZNS Chongwe Clinic Health Post,50060267,Rural,GRZ,Health Post,,,28.65351667,-12.99150167
 Lusaka,Lusaka,ZNS&ZA Appollo,ZNS&ZA Appollo,50060268,Rural,Military,Rural Health Centre,,,28.75818333,-13.08558667
 Muchinga,Chama,Buli RHC, Buli Rural Health Centre,302024,Rural,GRZ,Rural Health Centre,Yes,,33.08275868,-11.34843882
 Muchinga,Chama,Chama District Hospital, Chama District Hospital,302010,Rural,GRZ,Level 1 Hospital District,Yes,143041,33.17449912,-11.22782739
@@ -1386,7 +1386,7 @@ Muchinga,Chama,Kambwili HP, Kambwili Health Post,302029,Rural,GRZ,Health Post,Ye
 Muchinga,Chama,Kamfutu HP,Kamfutu Health Post,302032,Rural,GRZ,Health Post,Yes,1457,33.35891197,-11.25144818
 Muchinga,Chama,Kanyelele RHC,Kanyelele Rural Health Centre,302015,Rural,GRZ,Rural Health Centre,Yes,4107,33.48305441,-10.74762657
 Muchinga,Chama,Kapichilasenga RHC, Kapichilasenga Rural Health Centre,302023,Rural,GRZ,Rural Health Centre,Yes,7214,32.88515121,-11.54609027
-Muchinga,Chama,Kapilingiza HP,Kapilingiza HP,302036,Rural,GRZ,Health Post,Yes,2355,33.04815441,-11.05197093
+Muchinga,Chama,Kapilingiza HP,Kapilingiza Health Post,302036,Rural,GRZ,Health Post,Yes,2355,33.04815441,-11.05197093
 Muchinga,Chama,Kasela HP, Kasela Health Post,302034,Rural,GRZ,Health Post,Yes,1793,32.70468673,-12.00577277
 Muchinga,Chama,Lundu RHC, Lundu Rural Health Centre,302016,Rural,GRZ,Rural Health Centre,Yes,4772,32.38344567,-10.998686
 Muchinga,Chama,Manga Mission Health Centre, Manga Mission Health Centre,3020102,Rural,Faith Based,Rural Health Centre,Yes,4264,32.84569457,-11.77522916
@@ -1417,7 +1417,7 @@ Muchinga,Isoka,Kampumbu RHC, Kampumbu Rural Health Centre,603013,Rural,GRZ,Rural
 Muchinga,Isoka,Kantenshya HP, Kantenshya Health Post,603007,Rural,GRZ,Health Post,Yes,8389,32.57575833,-10.07896333
 Muchinga,Isoka,Kapililonga RHC, Kapililonga Health Post,603022,Rural,GRZ,Rural Health Centre,Yes,11186,32.69974,-9.993411667
 Muchinga,Isoka,Kasoka UHC, Kasoka Urban Health Centre,603010,Urban,GRZ,Urban Health Centre,Yes,,32.63532833,-10.15799333
-Muchinga,Isoka,Katyetye HP,Katyetye HP,603023,Rural,GRZ,Health Post,Yes,1958,32.85681833,-10.084385
+Muchinga,Isoka,Katyetye HP,Katyetye Health Post,603023,Rural,GRZ,Health Post,Yes,1958,32.85681833,-10.084385
 Muchinga,Isoka,Lualiz HP, Lualizi Health Post,603019,Rural,GRZ,Health Post,Yes,,32.75795667,-10.26768833
 Muchinga,Isoka,Mwenikombe, Mwenekombe  Health Post,55030016,Rural,Private,Health Post,Yes,1305,32.84683667,-9.976448333
 Muchinga,Isoka,Nzoche HP, Nzoche Health Post,603020,Rural,GRZ,Health Post,Yes,10254,33.14497333,-9.691265
@@ -1431,9 +1431,9 @@ Muchinga,Mafinga,Muyombe District Hospital,Muyombe District Hospital,603029,Rura
 Muchinga,Mafinga,Muyombe RHC, Muyombe Rural Health Centre,603015,Rural,GRZ,Rural Health Centre,Yes,18712,33.44951321,-10.57741312
 Muchinga,Mafinga,Mweniwisi HP, Mweniwisi Health Post,603030,Rural,GRZ,Rural Health Centre,Yes,,33.14633333,-10.08496333
 Muchinga,Mafinga,Nachisitu RHC, Nachisitu Rural Health Centre,603016,Rural,GRZ,Rural Health Centre,Yes,,33.23813667,-9.910368333
-Muchinga,Mafinga,Sichitambule HP,Sichitambule HP,603026,Rural,GRZ,Health Post,Yes,2955,33.12019833,-10.33015667
+Muchinga,Mafinga,Sichitambule HP,Sichitambule Health Post,603026,Rural,GRZ,Health Post,Yes,2955,33.12019833,-10.33015667
 Muchinga,Mafinga,Thendere RHC, Thendere Rural Health Centre,603017,Rural,GRZ,Rural Health Centre,Yes,15758,33.37253167,-10.25678
-Muchinga,Mafinga,Wiya HP,Wiya HP,603027,Rural,GRZ,Health Post,Yes,,33.45785,-10.22805833
+Muchinga,Mafinga,Wiya HP,Wiya Health Post,603027,Rural,GRZ,Health Post,Yes,,33.45785,-10.22805833
 Muchinga,Mafinga,Zumbe HP, Zumbe Health Post,603024,Rural,GRZ,Health Post,Yes,7879,33.32397586,-10.51442517
 Muchinga,Mpika,Chalabesa RHC, Chalabesa Rural Health Centre,6080100,Rural,Faith Based,Rural Health Centre,Yes,15000,31.08471837,-11.48188727
 Muchinga,Mpika,Chaya HP, Chaya Health Post,55070016,Rural,GRZ,Health Post,Yes,2244,31.44666944,-11.83650025
@@ -1472,22 +1472,22 @@ Muchinga,Nakonde,Chilolwa RHC, Chilolwa Rural Health Centre,5560118,Rural,GRZ,Ru
 Muchinga,Nakonde,Chitamba HP, Chitamba Health Post,5560120,Rural,GRZ,Health Post,Yes,,32.60975194,-9.36646744
 Muchinga,Nakonde,Chozi RHC, Chozi Rural Health Centre,5560110,Rural,GRZ,Rural Health Centre,Yes,9018,32.26259216,-9.39369792
 Muchinga,Nakonde,Ibrahim HP, Ibrahim Health Post,5560122,Rural,GRZ,Health Post,Yes,,32.80866173,-9.34738598
-Muchinga,Nakonde,Ilola HP,Ilola HP,5560123,Rural,GRZ,Health Post,Yes,,32.53316112,-9.3534411
-Muchinga,Nakonde,Ituntu HP,Ituntu HP,5560124,Rural,GRZ,Health Post,Yes,,32.9213273,-9.62412287
-Muchinga,Nakonde,Kantongo HP,Kantongo HP,5560125,Rural,GRZ,Health Post,Yes,,32.63469516,-9.48675484
+Muchinga,Nakonde,Ilola HP,Ilola Health Post,5560123,Rural,GRZ,Health Post,Yes,,32.53316112,-9.3534411
+Muchinga,Nakonde,Ituntu HP,Ituntu Health Post,5560124,Rural,GRZ,Health Post,Yes,,32.9213273,-9.62412287
+Muchinga,Nakonde,Kantongo HP,Kantongo Health Post,5560125,Rural,GRZ,Health Post,Yes,,32.63469516,-9.48675484
 Muchinga,Nakonde,Kaombwe HP, Kaombwe Health Post,5560121,Rural,GRZ,Health Post,Yes,3606,32.88207846,-9.45702772
-Muchinga,Nakonde,Katozi HP,Katozi HP,5560126,Peri-Urban,GRZ,Health Post,Yes,,32.77634004,-9.32686543
+Muchinga,Nakonde,Katozi HP,Katozi Health Post,5560126,Peri-Urban,GRZ,Health Post,Yes,,32.77634004,-9.32686543
 Muchinga,Nakonde,Mayembe HP, Mayembe Health Post,5560111,Rural,GRZ,Rural Health Centre,Yes,4584,32.74350976,-9.55085735
-Muchinga,Nakonde,Movu HP,Movu HP,5560127,Rural,GRZ,Health Post,Yes,,32.5554342,-9.28444091
+Muchinga,Nakonde,Movu HP,Movu Health Post,5560127,Rural,GRZ,Health Post,Yes,,32.5554342,-9.28444091
 Muchinga,Nakonde,Mukalizi HP, Mukalizi Health Post,5560119,Rural,GRZ,Health Post,Yes,4644,32.19014037,-9.13394291
-Muchinga,Nakonde,Mukumbe HP,Mukumbe HP,5560128,Rural,GRZ,Health Post,Yes,,32.99352956,-9.6366279
+Muchinga,Nakonde,Mukumbe HP,Mukumbe Health Post,5560128,Rural,GRZ,Health Post,Yes,,32.99352956,-9.6366279
 Muchinga,Nakonde,Mwenzo RHC, Mwenzo Rural Health Centre,5560113,Rural,Faith Based,Rural Health Centre,Yes,2484,32.68774186,-9.32877287
 Muchinga,Nakonde,Nakonde District Hospital, Nakonde District Hospital,5560129,Peri-Urban,GRZ,Level 1 Hospital District,Yes,,32.70430293,-9.351187474
 Muchinga,Nakonde,Nakonde UHC, Nakonde Urban Health Centre,5560114,Urban,GRZ,Urban Health Centre,Yes,,32.75449471,-9.328564869
 Muchinga,Nakonde,Nakonde UHC,Nakonde UHC,5560133,Urban,GRZ,Urban Health Centre,Yes,58400,32.67507612,-9.419152721
-Muchinga,Nakonde,Ndingindi HP,Ndingindi HP,5560130,Rural,GRZ,Health Post,Yes,,32.5946806,-9.66270159
+Muchinga,Nakonde,Ndingindi HP,Ndingindi Health Post,5560130,Rural,GRZ,Health Post,Yes,,32.5946806,-9.66270159
 Muchinga,Nakonde,Ntantumbila RHC, Ntantumbila Rural Health Centre,5560116,Rural,GRZ,Rural Health Centre,Yes,1770,32.28347463,-9.20515497
-Muchinga,Nakonde,Nyela HP,Nyela HP,5560131,Rural,GRZ,Health Post,Yes,,32.84060765,-9.42925508
+Muchinga,Nakonde,Nyela HP,Nyela Health Post,5560131,Rural,GRZ,Health Post,Yes,,32.84060765,-9.42925508
 Muchinga,Nakonde,Shemu RHC, Shemu Rural Health Centre,5560117,Rural,GRZ,Rural Health Centre,Yes,11904,32.90196428,-9.52808059
 Muchinga,Nakonde,Waitwika RHC, Waitwika Rural Health Centre,5560115,Rural,GRZ,Rural Health Centre,Yes,10242,32.69645081,-9.517839156
 Muchinga,ShiwaNgandu,Chilanga RHC, Chilanga Rural Health Centre,6020100,Rural,GRZ,Rural Health Centre,Yes,4184,31.5099676,-10.86324218
@@ -1543,7 +1543,7 @@ Northern,Kasama,Lubushi RHC, Lubushi Rural Health Centre,605017,Rural,GRZ,Rural 
 Northern,Kasama,Lukashi HP, Lukashi Health Post,605038,Rural,GRZ,Health Post,Yes,3756,30.99748786,-9.935357538
 Northern,Kasama,Lukashya RHC, Lukashya Rural Health Centre,605018,Peri-Urban,GRZ,Health Post,Yes,7160,31.22203393,-10.21364154
 Northern,Kasama,Lukupa RHC, Lukupa Rural Health Centre,605019,Peri-Urban,Private,Urban Health Centre,Yes,5779,31.16489592,-10.12809433
-Northern,Kasama,Lwabwe HP,Lwabwe HP,605045,Rural,GRZ,Health Post,Yes,5718,31.21424438,-10.44121948
+Northern,Kasama,Lwabwe HP,Lwabwe Health Post,605045,Rural,GRZ,Health Post,Yes,5718,31.21424438,-10.44121948
 Northern,Kasama,Milima HP, Milima Rural Health Centre,605020,Peri-Urban,GRZ,Health Post,Yes,11653,31.2306802,-10.15414692
 Northern,Kasama,Misambo HP, Misambo Health Post,605046,Rural,GRZ,Health Post,Yes,2947,31.17631844,-10.08202467
 Northern,Kasama,Misamfu RHC, Misamfu Rural Health Centre,605021,Rural,GRZ,Rural Health Centre,Yes,6002,31.23040884,-10.16879709
@@ -1562,7 +1562,7 @@ Northern,Luwingu,Chikoyi Peri-Urban Clinic, Chikoyi Peri-Urban Clinic,6060123,Pe
 Northern,Luwingu,Chungu RHC, Chungu Rural Health Centre,6060110,Rural,GRZ,Rural Health Centre,Yes,8261,29.63829355,-10.59580353
 Northern,Luwingu,Fikonkonta HP, Fikonkonta Health Post,6060131,Rural,GRZ,Health Post,Yes,3004,30.14365961,-10.45997201
 Northern,Luwingu,Ipusukilo RHC, Ipusukilo Rural Health Centre,6060111,Rural,GRZ,Rural Health Centre,Yes,9108,29.88340832,-10.37884498
-Northern,Luwingu,Kasonde Kombo Kombo HP,Kasonde Kombo Kombo HP,6060132,Rural,GRZ,Health Post,Yes,1893,30.23298657,-10.75525861
+Northern,Luwingu,Kasonde Kombo Kombo HP,Kasonde Kombo Kombo Health Post,6060132,Rural,GRZ,Health Post,Yes,1893,30.23298657,-10.75525861
 Northern,Luwingu,Katuta RHC, Katuta Rural Health Centre,6060112,Rural,GRZ,Health Post,Yes,9001,29.50950156,-10.72710553
 Northern,Luwingu,Luena RHC, Luena Rural Health Centre,6060013,Rural,GRZ,Rural Health Centre,Yes,12190,30.20778333,-10.65193692
 Northern,Luwingu,Lufubu HP, Lufubu Health Post,6060161,Rural,GRZ,Health Post,Yes,4738,29.68968016,-10.32738184
@@ -1600,7 +1600,7 @@ Northern,Mbala,Maule HP, Maule Health Post,607028,Rural,GRZ,Health Post,Yes,3025
 Northern,Mbala,Mbala General Hospital, Mbala General Hospital,607001,Urban,GRZ,Level 2 Hospital Provincial,Yes,245928,31.36427918,-8.84523965
 Northern,Mbala,Mbala Urban Clinic, Mbala Urban Clinic,607021,Urban,GRZ,Urban Health Centre,Yes,15985,31.36413123,-8.84583696
 Northern,Mbala,Mpande RHC, Mpande Rural Health Centre,607015,Rural,GRZ,Rural Health Centre,Yes,10083,31.67312056,-9.39468382
-Northern,Mbala,Mulefu HP,Mulefu HP,607039,Rural,GRZ,Health Post,Yes,6170,31.46771624,-8.88444424
+Northern,Mbala,Mulefu HP,Mulefu Health Post,607039,Rural,GRZ,Health Post,Yes,6170,31.46771624,-8.88444424
 Northern,Mbala,Musipazi RHC, Musipazi Rural Health Centre,607042,Rural,GRZ,Rural Health Centre,Yes,4805,31.38504314,-8.68169915
 Northern,Mbala,Mwamba RHC, Mwamba Rural Health Centre (Mbala),607016,Rural,GRZ,Rural Health Centre,Yes,12788,31.61286734,-8.8972246
 Northern,Mbala,Mwenda HP, Mwenda Health Post,607036,Rural,GRZ,Health Post,Yes,3197,31.18050411,-8.95536202
@@ -1619,10 +1619,10 @@ Northern,Mporokoso,Chishamwamba RHC, Chishamwamba Rural Health Centre,609011,Rur
 Northern,Mporokoso,Chitoshi RHC, Chitoshi Rural Health Centre,609012,Rural,GRZ,Rural Health Centre,Yes,16146,30.20610467,-10.06877973
 Northern,Mporokoso,Chiwala RHC, Chiwala Rural Health Centre,609013,Rural,GRZ,Rural Health Centre,Yes,5105,29.56861198,-9.49430233
 Northern,Mporokoso,Kalabwe RHC, Kalabwe Rural Health Centre,609014,Rural,GRZ,Rural Health Centre,Yes,7042,29.67405764,-9.47247307
-Northern,Mporokoso,Kambobe HP,Kambobe HP,609030,Rural,GRZ,Health Post,Yes,,30.18580813,-9.36748647
+Northern,Mporokoso,Kambobe HP,Kambobe Health Post,609030,Rural,GRZ,Health Post,Yes,,30.18580813,-9.36748647
 Northern,Mporokoso,Kapatu RHC, Kapatu Rural Health Centre,609015,Rural,Faith Based,Rural Health Centre,Yes,7838,30.7383966,-9.72049306
 Northern,Mporokoso,Moseni HP, Moseni Health Post,609024,Rural,GRZ,Health Post,Yes,4332,31.06396863,-9.69352594
-Northern,Mporokoso,Mpalapata HP,Mpalapata HP,609031,Rural,GRZ,Health Post,Yes,,30.33281377,-10.19013116
+Northern,Mporokoso,Mpalapata HP,Mpalapata Health Post,609031,Rural,GRZ,Health Post,Yes,,30.33281377,-10.19013116
 Northern,Mporokoso,Mporokoso District Hospital, Mporokoso District Hospital,609001,Rural,GRZ,Level 1 Hospital District,Yes,,30.10490005,-9.37364291
 Northern,Mporokoso,Mukolwe RHC, Mukolwe Rural Health Centre,609016,Rural,GRZ,Rural Health Centre,Yes,,30.57569951,-9.49348542
 Northern,Mporokoso,Mukupa Kaoma RHC, Mukupa Kaoma Rural Health Centre,609017,Rural,GRZ,Rural Health Centre,Yes,14282,30.43157651,-9.92277875
@@ -1665,7 +1665,7 @@ Northern,Mungwi,Rosa RHC, Rosa Rural Health Centre,612021,Rural,GRZ,Rural Health
 Northern,Nsama,Chishela RHC, Chishela Rural Health Centre,6130110,Rural,GRZ,Rural Health Centre,Yes,8131,30.14286742,-8.53795823
 Northern,Nsama,Kakoma HP, Kakoma Health Post,6130121,Rural,GRZ,Health Post,Yes,8239,29.71629728,-8.987461645
 Northern,Nsama,Kampinda RHC, Kampinda Rural Health Centre,6130111,Rural,GRZ,Rural Health Centre,Yes,13259,29.76395912,-8.788504475
-Northern,Nsama,Kashikishi HP HP,Kashikishi HP HP,6130126,Rural,GRZ,Health Post,Yes,5705,29.66862939,-8.876294056
+Northern,Nsama,Kashikishi HP,Kashikishi Health Post,6130126,Rural,GRZ,Health Post,Yes,5705,29.66862939,-8.876294056
 Northern,Nsama,Mwewe RHC, Mwewe Rural Health Centre,6130114,Rural,GRZ,Rural Health Centre,Yes,,29.97619085,-8.63943901
 Northern,Nsama,Nsama RHC, Nsama Rural Health Centre,6130115,Rural,GRZ,Rural Health Centre,Yes,10439,29.94870717,-8.892272688
 Northern,Nsama,Nsumbu RHC, Nsumbu Rural Health Centre (Nsama),6130116,Rural,GRZ,Rural Health Centre,Yes,,30.46826376,-8.51428622
@@ -1685,12 +1685,12 @@ NorthWestern,Ikelenge,Jimbe RHC, Jimbe Rural Health Centre,7015113,Rural,GRZ,Rur
 NorthWestern,Ikelenge,Kafweku RHC, Kafweku Rural Health Centre,7015114,Rural,GRZ,Rural Health Centre,Yes,4589,24.12805921,-11.24994306
 NorthWestern,Ikelenge,Kalene HAHC, Kalene Hospital Affiliated Health Centre,7015199,Rural,Faith Based,Rural Health Centre,Yes,5648,24.18796903,-11.17643886
 NorthWestern,Ikelenge,Kalene Mission Hospital, Kalene Mission Hospital,7015001,Rural,Faith Based,Level 1 Hospital District,Yes,,24.18843817,-11.17644436
-NorthWestern,Ikelenge,Kamafumbu  HP,Kamafumbu  HP,7015135,Rural,GRZ,Health Post,Yes,2199,24.0567785,-11.05178329
+NorthWestern,Ikelenge,Kamafumbu  HP,Kamafumbu Health Post,7015135,Rural,GRZ,Health Post,Yes,2199,24.0567785,-11.05178329
 NorthWestern,Ikelenge,Kamukanda  RHC,Kamukanda  RHC,7015136,Rural,GRZ,Rural Health Centre,Yes,1927,24.35847782,-11.29031435
 NorthWestern,Ikelenge,Kayipaka RHC, Kayipaka Rural Health Centre,7015133,Rural,GRZ,Rural Health Centre,Yes,2294,24.27090243,-11.11911274
-NorthWestern,Ikelenge,Lwakela HP,Lwakela HP,7015134,Rural,Faith Based,Health Post,Yes,2180,24.40848199,-11.52212002
+NorthWestern,Ikelenge,Lwakela HP,Lwakela Health Post,7015134,Rural,Faith Based,Health Post,Yes,2180,24.40848199,-11.52212002
 NorthWestern,Ikelenge,Mukangala RHC, Mukangala Rural Health Centre,7015122,Rural,GRZ,Rural Health Centre,Yes,2294,24.33142631,-11.42865515
-NorthWestern,Ikelenge,Muzeya HP,Muzeya HP,7015138,Rural,GRZ,Health Post,Yes,1051,24.17565342,-11.05599516
+NorthWestern,Ikelenge,Muzeya HP,Muzeya Health Post,7015138,Rural,GRZ,Health Post,Yes,1051,24.17565342,-11.05599516
 NorthWestern,Ikelenge,Mwininyilamba,Mwininyilamba,7015137,Rural,GRZ,Health Post,Yes,2375,24.18015056,-11.24738512
 NorthWestern,Ikelenge,Sachibondu RHC, Sachibondu Rural Health Centre,7015125,Rural,Faith Based,Rural Health Centre,Yes,3580,24.46493595,-11.52131039
 NorthWestern,Ikelenge,Salujinga RHC, Salujinga Rural Health Centre,7015127,Rural,GRZ,Rural Health Centre,Yes,2471,24.12408577,-10.96942068
@@ -1709,15 +1709,15 @@ NorthWestern,Kabompo,Mufuliwanjamba HP, Mufuli Health Post,702032,Rural,GRZ,Heal
 NorthWestern,Kabompo,Mumbeji RHC, Mumbeji Rural Health Centre,702017,Rural,GRZ,Rural Health Centre,Yes,3738,23.6653743,-13.85925442
 NorthWestern,Kabompo,Ndungo RHC, Ndungo Rural Health Centre,702018,Rural,GRZ,Rural Health Centre,Yes,2264,24.18509941,-13.62389567
 NorthWestern,Kabompo,Nkulwashi RHC, Nkulwashi Rural Health Centre,702019,Rural,GRZ,Rural Health Centre,Yes,2208,24.10203315,-13.71999297
-NorthWestern,Kabompo,Samnunga HP,Samnunga HP,702033,Rural,GRZ,Health Post,Yes,1247,24.10610558,-13.63334861
+NorthWestern,Kabompo,Samnunga HP,Samnunga Health Post,702033,Rural,GRZ,Health Post,Yes,1247,24.10610558,-13.63334861
 NorthWestern,Kalumbila,Chisasa RHC, Chisasa Rural Health Centre,702510,Rural,GRZ,Rural Health Centre,Yes,8192,25.49544903,-12.11164347
 NorthWestern,Kalumbila,Chitungu RHC, Chitungu Rural Health Centre,702511,Rural,GRZ,Rural Health Centre,Yes,5120,25.39925639,-11.95050264
 NorthWestern,Kalumbila,Chovwe RHC, Chovwe Rural Health Centre,702512,Rural,GRZ,Rural Health Centre,Yes,5990,25.06519832,-12.39714823
 NorthWestern,Kalumbila,Holy Family RHC, Holy Family Rural Health Centre,702590,Rural,Faith Based,Rural Health Centre,Yes,3540,25.59817764,-12.26059856
 NorthWestern,Kalumbila,Jagaimo RHC, Jagaimo Rural Health Centre,702552,Rural,Faith Based,Rural Health Centre,Yes,2139,25.93191401,-12.42503872
 NorthWestern,Kalumbila,Jiwundu RHC, Jiwundu Rural Health Centre,702513,Rural,GRZ,Rural Health Centre,Yes,3530,25.58073389,-12.17374486
-NorthWestern,Kalumbila,Kalengelenge (Zfds) RHC, Kalengelenge (ZFDS W5) Rural Health Centre,702514,Rural,GRZ,Rural Health Centre,Yes,3072,25.69765599,-11.81099089
-NorthWestern,Kalumbila,Kamala  HP,Kamala  HP,702576,Rural,GRZ,Health Post,Yes,1139,25.77432694,-12.05491521
+NorthWestern,Kalumbila,Kalengelenge (ZFDS) RHC, Kalengelenge (ZFDS W5) Rural Health Centre,702514,Rural,GRZ,Rural Health Centre,Yes,3072,25.69765599,-11.81099089
+NorthWestern,Kalumbila,Kamala HP,Kamala Health Post,702576,Rural,GRZ,Health Post,Yes,1139,25.77432694,-12.05491521
 NorthWestern,Kalumbila,KamaNo HP, Kamano Health Post,702509,Rural,GRZ,Rural Health Centre,Yes,1450,26.039267,-12.86529362
 NorthWestern,Kalumbila,Kambishi RHC, Kambiji Rural Health Centre,702596,Rural,GRZ,Rural Health Centre,Yes,1920,25.47956633,-11.91077627
 NorthWestern,Kalumbila,Kamiba RHC,Kamiba RHC,702572,Rural,GRZ,Rural Health Centre,Yes,953,25.85022499,-12.54888172
@@ -1741,7 +1741,7 @@ NorthWestern,Kalumbila,Meheba D RHC, Maheba D Rural Health Centre,702545,Rural,G
 NorthWestern,Kalumbila,Meheba G RHC,Meheba G RHC,702573,Rural,NGO,Rural Health Centre,Yes,522,25.88864738,-12.54675259
 NorthWestern,Kalumbila,Mukumbi RHC, Mukumbi Rural Health Centre,702530,Rural,GRZ,Rural Health Centre,Yes,29571,25.76951472,-12.08658305
 NorthWestern,Kalumbila,Mumena RHC, Mumena Rural Health Centre,702532,Rural,GRZ,Rural Health Centre,Yes,3300,26.15256627,-12.55113255
-NorthWestern,Kalumbila,Musangezhi  HP,Musangezhi  HP,702599,Rural,GRZ,Health Post,Yes,,25.14020051,-12.3185212
+NorthWestern,Kalumbila,Musangezhi  HP,Musangezhi Health Post,702599,Rural,GRZ,Health Post,Yes,,25.14020051,-12.3185212
 NorthWestern,Kalumbila,Musele RHC,Musele RHC,702597,Rural,GRZ,Rural Health Centre,Yes,3901,25.39305755,-12.14257282
 NorthWestern,Kalumbila,Mushingashi RHC, Mushingashi Health Post,702566,Rural,GRZ,Health Post,Yes,2197,26.25546749,-12.55328411
 NorthWestern,Kalumbila,Mutanda Mission RHC, Mutanda Rural Health Centre,702534,Rural,GRZ,Rural Health Centre,Yes,9174,26.25871243,-12.39117583
@@ -1796,7 +1796,7 @@ NorthWestern,Mufumbwe,Kabipupu RHC, Kabipupu Rural Health Centre,704013,Rural,GR
 NorthWestern,Mufumbwe,Kalengwa RHC, Kalengwa Rural Health Centre,704014,Rural,GRZ,Rural Health Centre,Yes,1662,25.00211192,-13.46317386
 NorthWestern,Mufumbwe,Kaminzekenzeke RHC, Kaminzekenzeke Rural Health Centre,704015,Rural,GRZ,Health Post,Yes,5129,25.54819937,-13.78366705
 NorthWestern,Mufumbwe,Kashima RHC, Kashima Rural Health Centre,704016,Rural,GRZ,Rural Health Centre,Yes,14000,24.57742562,-13.21915661
-NorthWestern,Mufumbwe,Kashungulu  HP,Kashungulu  HP,704040,Rural,GRZ,Health Post,Yes,,25.33221927,-13.71534336
+NorthWestern,Mufumbwe,Kashungulu  HP,Kashungulu Health Post,704040,Rural,GRZ,Health Post,Yes,,25.33221927,-13.71534336
 NorthWestern,Mufumbwe,Kikonge HP, Kikonge Health Post,704023,Rural,GRZ,Health Post,Yes,744,25.36458171,-13.05852633
 NorthWestern,Mufumbwe,Lalafuta HP, Lalafuta Health Post,704025,Rural,GRZ,Health Post,Yes,1028,24.99532996,-14.18711219
 NorthWestern,Mufumbwe,Lubilo HP, Lubilo Health Post,704021,Rural,GRZ,Rural Health Centre,Yes,4773,24.90614072,-13.18448332
@@ -1814,7 +1814,7 @@ NorthWestern,Mushindamo,Kamisenga RHC, Kamisenga Rural Health Center,706041,Rura
 NorthWestern,Mushindamo,Kang'Wena HP, Kangwena Health Post,706069,Rural,GRZ,Health Post,Yes,5041,27.32183623,-12.37981268
 NorthWestern,Mushindamo,Kanuma RHC, Kanuma Rural Health Centre,706018,Rural,GRZ,Rural Health Centre,Yes,5000,26.93644829,-12.35100632
 NorthWestern,Mushindamo,Kichikwe RHC, Kichikwe Rural Health Centre,706057,Rural,GRZ,Rural Health Centre,Yes,9022,27.22196239,-12.34982041
-NorthWestern,Mushindamo,Kishela HP,Kishela HP,706077,Rural,GRZ,Health Post,Yes,1469,26.60491943,-11.99484739
+NorthWestern,Mushindamo,Kishela HP,Kishela Health Post,706077,Rural,GRZ,Health Post,Yes,1469,26.60491943,-11.99484739
 NorthWestern,Mushindamo,Luamala RHC, Luamala Rural Health Centre,706050,Rural,GRZ,Rural Health Centre,Yes,6905,26.77347123,-12.20069783
 NorthWestern,Mushindamo,Mapunga RHC, Mapunga Rural Health Centre,706027,Rural,GRZ,Rural Health Centre,Yes,16056,26.8514801,-12.93104991
 NorthWestern,Mushindamo,Mujimanzovu RHC,jimanzovu Rural Health Centre,706029,Rural,GRZ,Rural Health Centre,Yes,3268,26.51732522,-12.78637138
@@ -1897,8 +1897,8 @@ Southern,Chikankata,Chikankata HAHC, Chikankata Hospital Affiliated Health Centr
 Southern,Chikankata,Chikankata Referral Hospital, Chikankata Referral Hospital,813005,Peri-Urban,Faith Based,Level 1 Hospital District,Yes,16453,28.14442531,-16.22948877
 Southern,Chikankata,Chikokomene RHC, Chikokomene Rural Health Centre,813006,Rural,GRZ,Rural Health Centre,Yes,1466,28.46571053,-15.85374753
 Southern,Chikankata,Chikombola RHC, Chikombola Rural Health Centre,813007,Rural,GRZ,Rural Health Centre,Yes,10850,28.20270745,-16.199085
-Southern,Chikankata,Chileleka  HP,Chileleka  HP,813020,Rural,GRZ,Health Post,Yes,,28.41379797,-15.97129237
-Southern,Chikankata,Hapiku  HP,Hapiku  HP,813021,Rural,GRZ,Health Post,Yes,,28.29125513,-16.21496452
+Southern,Chikankata,Chileleka  HP,Chileleka Health Post,813020,Rural,GRZ,Health Post,Yes,,28.41379797,-15.97129237
+Southern,Chikankata,Hapiku  HP,Hapiku Health Post,813021,Rural,GRZ,Health Post,Yes,,28.29125513,-16.21496452
 Southern,Chikankata,Kafue Gorge HAHC, Kafue Gorge Hospital Affiliated Health Centre,813028,Rural,GRZ,Rural Health Centre,Yes,2935,28.44608255,-15.86589216
 Southern,Chikankata,Kafue Gorge Hospital, Kafue Gorge Hospital,813008,Rural,GRZ,Level 1 Hospital District,Yes,2935,28.44608255,-15.86589216
 Southern,Chikankata,Manyonyo HP, Manyonyo Health Post,813009,Rural,GRZ,Health Post,Yes,2388,28.06053646,-15.78442869
@@ -1920,7 +1920,7 @@ Southern,Choma,Choma Secondary School, Choma Secondary School Health Post,801062
 Southern,Choma,Dr Jain Surgery,Dr Jain Surgery,801100,Urban,Private,Urban Health Centre,Yes,,26.99213122,-16.8083694
 Southern,Choma,Harmony HP, Harmony Health Post,801048,Rural,GRZ,Health Post,Yes,2689,27.10382645,-16.75326891
 Southern,Choma,Highway Surgery,Highway Surgery,801101,Urban,Private,Urban Health Centre,Yes,,26.97526063,-16.81461484
-Southern,Choma,Kabanga HP,Kabanga HP,801012,Rural,GRZ,Health Post,Yes,,26.94709308,-16.26484451
+Southern,Choma,Kabanga HP,Kabanga Health Post,801012,Rural,GRZ,Health Post,Yes,,26.94709308,-16.26484451
 Southern,Choma,Kabanze Health Centre, Kabanze Health Centre,801060,Rural,GRZ,Health Post,Yes,2670,26.74292592,-16.3034032
 Southern,Choma,Kamwanu RHC, Kamwanu Rural Health Centre,801014,Rural,GRZ,Rural Health Centre,Yes,10782,26.77399797,-16.55673021
 Southern,Choma,Macha HAHC, Macha Hospital Affiliated Health Centre,801102,Rural,Faith Based,Rural Health Centre,Yes,10782,26.79140333,-16.39113645
@@ -1942,7 +1942,7 @@ Southern,Choma,Prisons UHC, Prisons Urban Health Centre,801011,Peri-Urban,GRZ,Ru
 Southern,Choma,Railway Surgery UHC, Railway Surgery Urban Health Centre,801038,Urban,GRZ,Urban Health Centre,Yes,8625,26.98323727,-16.80801489
 Southern,Choma,Shampande UHC, Shampande Urban Health Centre,801028,Urban,GRZ,Urban Health Centre,Yes,16173,26.96318918,-16.75203291
 Southern,Choma,Siankope HP, Siankope Rural Health Centre,801016,Rural,GRZ,Health Post,Yes,3252,27.06219077,-16.9226802
-Southern,Choma,Siaskabole HP,Siaskabole HP,801013,Rural,GRZ,Health Post,Yes,,27.04324868,-17.11431432
+Southern,Choma,Siaskabole HP,Siaskabole Health Post,801013,Rural,GRZ,Health Post,Yes,,27.04324868,-17.11431432
 Southern,Choma,Sibanyati RHC, Sibanyati Rural Health Centre,801045,Rural,GRZ,Rural Health Centre,Yes,8625,26.80149615,-16.82752243
 Southern,Choma,Sikalongo RHC, Sikalongo Rural Health Centre,801030,Rural,GRZ,Rural Health Centre,Yes,16597,27.23305034,-16.96727599
 Southern,Choma,Simakutu RHC, Simakutu Rural Health Centre,801043,Rural,GRZ,Rural Health Centre,Yes,5290,27.00352826,-17.06749518
@@ -1958,7 +1958,7 @@ Southern,Gwembe,Chisanga HP, Chisanga Health Post,802018,Rural,GRZ,Health Post,Y
 Southern,Gwembe,Gulumunyanga HP, Gulumunyanga Health Post,802041,Rural,GRZ,Health Post,Yes,6568,28.01313931,-16.69252165
 Southern,Gwembe,Gwembe District Hospital, Gwembe District Hospital,802001,Rural,GRZ,Level 1 Hospital District,Yes,,27.60086887,-16.49753356
 Southern,Gwembe,Gwembe HAHC, Gwembe Hospital Affiliated Health Centre,802099,Rural,GRZ,Urban Health Centre,Yes,4378,27.60200461,-16.49869833
-Southern,Gwembe,Hamatuba  HP,Hamatuba  HP,802042,Rural,GRZ,Health Post,Yes,,28.06408955,-16.77294134
+Southern,Gwembe,Hamatuba  HP,Hamatuba Health Post,802042,Rural,GRZ,Health Post,Yes,,28.06408955,-16.77294134
 Southern,Gwembe,Kalelezyi HP, Kalelezyi Health Post,802019,Rural,GRZ,Health Post,Yes,3649,28.13708444,-16.60617571
 Southern,Gwembe,Lukonde RHC, Lukonde Rural Health Centre,802015,Rural,GRZ,Rural Health Centre,Yes,5101,27.76136463,-16.58985885
 Southern,Gwembe,Luumbo RHC, Luumbo Rural Health Centre,802016,Rural,GRZ,Rural Health Centre,Yes,5108,28.09444319,-16.47500217
@@ -1981,14 +1981,14 @@ Southern,Kalomo,Kalomo District Hospital, Kalomo District Hospital,804002,Urban,
 Southern,Kalomo,Kalonda RHC, Kalonda Rural Health Centre,804027,Rural,GRZ,Rural Health Centre,Yes,8865,26.69774026,-16.88512039
 Southern,Kalomo,Kanchele RHC, Kanchele Rural Health Centre,804014,Rural,GRZ,Rural Health Centre,Yes,22908,26.77915326,-17.30284834
 Southern,Kalomo,Kasukwe HP, Kasukwe Health Post,804049,Rural,GRZ,Rural Health Centre,Yes,5498,26.57230667,-16.574024
-Southern,Kalomo,Katungu HP,Katungu HP,804056,Rural,GRZ,Health Post,Yes,,26.60708922,-17.18173587
+Southern,Kalomo,Katungu HP,Katungu Health Post,804056,Rural,GRZ,Health Post,Yes,,26.60708922,-17.18173587
 Southern,Kalomo,Mabombo HP, Mabombo Health Post,804039,Rural,GRZ,Rural Health Centre,Yes,16820,26.4325189,-16.33481195
-Southern,Kalomo,Mabuyu  HP,Mabuyu  HP,804051,Rural,GRZ,Health Post,Yes,,26.35963423,-16.90211982
+Southern,Kalomo,Mabuyu HP,Mabuyu Health Post,804051,Rural,GRZ,Health Post,Yes,,26.35963423,-16.90211982
 Southern,Kalomo,Masempela RHC, Masempela Rural Health Centre,804018,Rural,GRZ,Rural Health Centre,Yes,10297,26.93642358,-17.25224809
 Southern,Kalomo,Mawaya UHC, Mawaya Urban Health Centre,804034,Peri-Urban,GRZ,Urban Health Centre,Yes,13380,26.48232551,-17.02082613
 Southern,Kalomo,Mayoba RHC, Mayoba Rural Health Centre,804043,Rural,GRZ,Health Post,Yes,4150,26.26921294,-17.22769385
-Southern,Kalomo,Mikata HP,Mikata HP,804053,Rural,GRZ,Health Post,Yes,,26.34668478,-16.46464553
-Southern,Kalomo,Misika HP,Misika HP,804054,Rural,GRZ,Health Post,Yes,,26.73167397,-17.59358282
+Southern,Kalomo,Mikata HP,Mikata Health Post,804053,Rural,GRZ,Health Post,Yes,,26.34668478,-16.46464553
+Southern,Kalomo,Misika HP,Misika Health Post,804054,Rural,GRZ,Health Post,Yes,,26.73167397,-17.59358282
 Southern,Kalomo,Monde HP, Monde Health Post,804042,Rural,GRZ,Rural Health Centre,Yes,6991,26.7982906,-17.076
 Southern,Kalomo,Mubanga RHC, Mubanga Rural Health Centre,804025,Rural,GRZ,Rural Health Centre,Yes,10056,26.46493005,-16.7317731
 Southern,Kalomo,Mukwela RHC, Mukwela Rural Health Centre,804020,Rural,GRZ,Rural Health Centre,Yes,7542,26.6561205,-17.02806612
@@ -2003,10 +2003,10 @@ Southern,Kalomo,Nazilongo RHC, Nazilongo Rural Health centre,804044,Rural,GRZ,He
 Southern,Kalomo,New Kalomo District Hospital,New Kalomo District Hospital,804058,Peri-Urban,GRZ,Level 1 Hospital District,Yes,,26.49394006,-17.00006742
 Southern,Kalomo,Nkandanzovu RHC, Nkandanzovu Rural Health Centre,804046,Rural,GRZ,Rural Health Centre,Yes,16270,26.20162362,-16.57278453
 Southern,Kalomo,Rural Reconstruction Centre,Rural Reconstruction Centre,804052,Rural,GRZ,Rural Health Centre,Yes,,26.27798385,-16.99009971
-Southern,Kalomo,Siabalumbi  HP,Siabalumbi  HP,804057,Rural,GRZ,Health Post,Yes,,26.52672881,-17.13560104
+Southern,Kalomo,Siabalumbi HP,Siabalumbi Health Post,804057,Rural,GRZ,Health Post,Yes,,26.52672881,-17.13560104
 Southern,Kalomo,Siabunkululu RHC, Siabunkululu Rural Health Centre,804026,Rural,GRZ,Rural Health Centre,Yes,12694,26.66718646,-16.47612124
 Southern,Kalomo,Siachitema RHC, Siachitema Rural Health Centre,804013,Rural,Faith Based,Rural Health Centre,Yes,14720,26.70506286,-16.81821711
-Southern,Kalomo,Sikweya HP,Sikweya HP,804055,Rural,GRZ,Health Post,Yes,,26.6990133,-17.18205007
+Southern,Kalomo,Sikweya HP,Sikweya Health Post,804055,Rural,GRZ,Health Post,Yes,,26.6990133,-17.18205007
 Southern,Kalomo,Sipatunyana RHC, Sipatunyana Rural Health Centre,804011,Rural,GRZ,Rural Health Centre,Yes,13900,26.56135554,-17.28661192
 Southern,Kazungula,Chikonzya UHC,Chikonzya UHC,805033,Rural,GRZ,Urban Health Centre,Yes,,26.10856203,-17.3205409
 Southern,Kazungula,Kabuyu RHC, Kabuyu Rural Health Centre,805018,Rural,GRZ,Rural Health Centre,Yes,8550,25.9989903,-17.4929296
@@ -2073,7 +2073,7 @@ Southern,Mazabuka,Kaonga UHC, Kaonga Urban Health Centre,807022,Urban,GRZ,Urban 
 Southern,Mazabuka,Kascol UHC, Kascol Urban Health Centre,807020,Urban,Private,Urban Health Centre,Yes,3159,27.6975905,-15.87703528
 Southern,Mazabuka,Konkola RHC, Konkola Rural Health Centre,807023,Rural,GRZ,Rural Health Centre,Yes,7134,27.88232149,-16.22575499
 Southern,Mazabuka,Lubombo RHC, Lubombo Rural Health Centre,807024,Rural,GRZ,Rural Health Centre,Yes,6972,27.87733017,-15.86306406
-Southern,Mazabuka,Lungwe HP,Lungwe HP,8070101,Rural,GRZ,Health Post,Yes,,27.57256699,-15.84750149
+Southern,Mazabuka,Lungwe HP,Lungwe Health Post,8070101,Rural,GRZ,Health Post,Yes,,27.57256699,-15.84750149
 Southern,Mazabuka,Magoye RHC, Magoye Rural Health Centre,807025,Rural,GRZ,Rural Health Centre,Yes,,27.60706625,-16.00275722
 Southern,Mazabuka,Mainza HP, Mainza Health Post,807040,Rural,GRZ,Health Post,Yes,1913,27.74063064,-16.15641628
 Southern,Mazabuka,Makuku HP, Makuku Health Post,807045,Rural,Private,Health Post,Yes,749,28.04126322,-15.97758946
@@ -2100,49 +2100,49 @@ Southern,Mazabuka,Research Station UHC, Research Station Urban Health Centre,807
 Southern,Mazabuka,Shimungalu HP, Shimungalu Health Post,807061,Rural,GRZ,Health Post,Yes,2636,27.82454089,-15.76124352
 Southern,Mazabuka,Zambia Sugar,Zambia Sugar,807032,Urban,Private,Level 3 Hospital Tertiary,Yes,16000,27.7800795,-15.82924649
 Southern,Monze,Banakaila RHC, Banakaila Rural Health Centre,8080230,Rural,GRZ,Rural Health Centre,Yes,3771,27.32711687,-15.9780235
-Southern,Monze,Bbombo  HP,Bbombo  HP,8080370,Rural,GRZ,Health Post,Yes,11160,27.15304255,-16.39661309
-Southern,Monze,Bbwantu  HP,Bbwantu  HP,8080380,Rural,GRZ,Health Post,Yes,14800,27.78902792,-16.23686561
+Southern,Monze,Bbombo HP,Bbombo Health Post,8080370,Rural,GRZ,Health Post,Yes,11160,27.15304255,-16.39661309
+Southern,Monze,Bbwantu HP,Bbwantu Health Post,8080380,Rural,GRZ,Health Post,Yes,14800,27.78902792,-16.23686561
 Southern,Monze,Bweengwa RHC, Bweengwa Rural Health Centre,8080200,Rural,GRZ,Rural Health Centre,Yes,10266,27.13127593,-16.09850636
 Southern,Monze,Charles Lwangwa RHC, Charles Lwangwa Rural Health Centre,8080170,Rural,GRZ,Rural Health Centre,Yes,2572,27.55455282,-16.42326799
-Southern,Monze,Chibozu  HP,Chibozu  HP,8080390,Rural,GRZ,Health Post,Yes,9002,27.26006127,-16.32818403
+Southern,Monze,Chibozu HP,Chibozu Health Post,8080390,Rural,GRZ,Health Post,Yes,9002,27.26006127,-16.32818403
 Southern,Monze,Chikuni Opd Mission Hospital, Chikuni OPD Mission Hospital,8080310,Rural,Faith Based,Level 1 Hospital District,Yes,14299,27.54549047,-16.42944092
-Southern,Monze,Chipembele  HP,Chipembele  HP,8080400,Rural,GRZ,Health Post,Yes,14299,27.6063047,-16.3643812
+Southern,Monze,Chipembele HP,Chipembele Health Post,8080400,Rural,GRZ,Health Post,Yes,14299,27.6063047,-16.3643812
 Southern,Monze,Chisekesi RHC, Chisekesi Rural Health Centre,8080160,Rural,GRZ,Rural Health Centre,Yes,8370,27.47761893,-16.43893872
-Southern,Monze,Chisuwo  HP,Chisuwo  HP,8080470,Rural,GRZ,Health Post,Yes,14299,27.56220784,-16.47400821
-Southern,Monze,Hakunkula RHC, Hakunkula Rural Health Centre,8080220,Rural,GRZ,Rural Health Centre,Yes,4359,27.26475178,-16.01934393
-Southern,Monze,Hamangaba RHC, Hamangaba Rural Health Centre,8080270,Rural,GRZ,Rural Health Centre,Yes,4948,27.12485061,-16.19603788
-Southern,Monze,Hamapande RHC, Hamapande Rural Health Centre,8080190,Rural,GRZ,Rural Health Centre,Yes,9002,27.33858177,-16.30163888
-Southern,Monze,Kanundwa RHC, Kanundwa Rural Health Centre,8080280,Rural,GRZ,Rural Health Centre,Yes,10288,27.33908853,-16.19281395
-Southern,Monze,Katimba RHC, Katimba Rural Health Centre,8080260,Rural,GRZ,Rural Health Centre,Yes,11160,29.89549264,-13.65827404
-Southern,Monze,Kaumba HP, Kaumba Health Post,8080320,Rural,GRZ,Health Post,Yes,4359,29.81949862,-13.77545286
-Southern,Monze,Kayola HP, Kayola Health Post,8080410,Rural,GRZ,Health Post,Yes,3500,29.39783156,-13.94805227
-Southern,Monze,Keemba RHC, Keemba Rural Health Centre,8080250,Rural,GRZ,Rural Health Centre,Yes,14321,27.37172708,-16.05290093
-Southern,Monze,Luyaba RHC, Luyaba Rural Health Centre (Monze),8080210,Rural,GRZ,Rural Health Centre,Yes,7019,27.35376525,-16.13441175
-Southern,Monze,Mahiba  HP,Mahiba  HP,8080420,Rural,GRZ,Health Post,Yes,7019,27.28091989,-16.08153501
+Southern,Monze,Chisuwo HP,Chisuwo Health Post,8080470,Rural,GRZ,Health Post,Yes,14299,27.56220784,-16.47400821
+Southern,Monze,Hakunkula RHC,Hakunkula Rural Health Centre,8080220,Rural,GRZ,Rural Health Centre,Yes,4359,27.26475178,-16.01934393
+Southern,Monze,Hamangaba RHC,Hamangaba Rural Health Centre,8080270,Rural,GRZ,Rural Health Centre,Yes,4948,27.12485061,-16.19603788
+Southern,Monze,Hamapande RHC,Hamapande Rural Health Centre,8080190,Rural,GRZ,Rural Health Centre,Yes,9002,27.33858177,-16.30163888
+Southern,Monze,Kanundwa RHC,Kanundwa Rural Health Centre,8080280,Rural,GRZ,Rural Health Centre,Yes,10288,27.33908853,-16.19281395
+Southern,Monze,Katimba RHC,Katimba Rural Health Centre,8080260,Rural,GRZ,Rural Health Centre,Yes,11160,29.89549264,-13.65827404
+Southern,Monze,Kaumba HP,Kaumba Health Post,8080320,Rural,GRZ,Health Post,Yes,4359,29.81949862,-13.77545286
+Southern,Monze,Kayola HP,Kayola Health Post,8080410,Rural,GRZ,Health Post,Yes,3500,29.39783156,-13.94805227
+Southern,Monze,Keemba RHC,Keemba Rural Health Centre,8080250,Rural,GRZ,Rural Health Centre,Yes,14321,27.37172708,-16.05290093
+Southern,Monze,Luyaba RHC,Luyaba Rural Health Centre (Monze),8080210,Rural,GRZ,Rural Health Centre,Yes,7019,27.35376525,-16.13441175
+Southern,Monze,Mahiba HP,Mahiba Health Post,8080420,Rural,GRZ,Health Post,Yes,7019,27.28091989,-16.08153501
 Southern,Monze,Malundu RHC, Malundu Rural Health Centre,8080350,Rural,GRZ,Rural Health Centre,Yes,4556,27.19440632,-16.06604685
 Southern,Monze,Manungu UHC, Manungu Urban Health Centre,8080140,Urban,GRZ,Urban Health Centre,Yes,13819,27.4817865,-16.29315261
 Southern,Monze,Monze Mission Hospital, Monze Mission Hospital,8080100,Urban,Faith Based,Level 2 Hospital Provincial,Yes,,27.47483237,-16.27446622
 Southern,Monze,Monze UHC, Monze Urban Health Centre,8080300,Urban,GRZ,Urban Health Centre,Yes,15258,27.47496279,-16.27667321
 Southern,Monze,Moomba RHC , Moomba Rural Health Centre (Monze),8080101,Rural,GRZ,Rural Health Centre,Yes,4359,27.86200647,-16.37749448
 Southern,Monze,Moonzwe RHC, Moonzwe Rural Health Centre,8080240,Rural,GRZ,Rural Health Centre,Yes,3798,27.38368135,-15.97082198
-Southern,Monze,Mooya HP,Mooya HP,8080501,Rural,Private,Health Post,Yes,,27.16141499,-16.15639017
-Southern,Monze,Mujika  HP,Mujika  HP,8080430,Rural,GRZ,Health Post,Yes,14800,27.59747311,-16.20762897
-Southern,Monze,Mulongalwili  HP,Mulongalwili  HP,8080440,Rural,GRZ,Health Post,Yes,14299,27.67074066,-16.47502251
-Southern,Monze,Mulumbwa  HP,Mulumbwa  HP,8080502,Rural,GRZ,Health Post,Yes,,27.45555508,-16.28943097
+Southern,Monze,Mooya HP,Mooya Health Post,8080501,Rural,Private,Health Post,Yes,,27.16141499,-16.15639017
+Southern,Monze,Mujika  HP,Mujika Health Post,8080430,Rural,GRZ,Health Post,Yes,14800,27.59747311,-16.20762897
+Southern,Monze,Mulongalwili HP,Mulongalwili Health Post,8080440,Rural,GRZ,Health Post,Yes,14299,27.67074066,-16.47502251
+Southern,Monze,Mulumbwa HP,Mulumbwa Health Post,8080502,Rural,GRZ,Health Post,Yes,,27.45555508,-16.28943097
 Southern,Monze,Munyumabisi RHC,Munyumabisi RHC,8080460,Rural,GRZ,Rural Health Centre,Yes,2400,27.55283386,-16.12006805
-Southern,Monze,Nadongo HP, Nadongo Health Post,8080360,Rural,GRZ,Health Post,Yes,3226,27.86115135,-16.34042025
-Southern,Monze,Nalutanda  RHC, Nalutanda Health Post,8080480,Rural,GRZ,Rural Health Centre,Yes,2744,27.02898921,-16.14957299
-Southern,Monze,Namilongwe  HP,Namilongwe  HP,8080490,Rural,GRZ,Health Post,Yes,2241,27.31964554,-16.41833281
-Southern,Monze,Nampeyo RHC, Nampeyo Rural Health Centre,8080503,Rural,GRZ,Rural Health Centre,Yes,3500,27.65910013,-16.34172949
-Southern,Monze,Njolamwanza RHC, Njolamwanza Rural Health Centre,8080110,Rural,GRZ,Rural Health Centre,Yes,14800,27.71357554,-16.2186191
-Southern,Monze,Ntambo HP,Ntambo HP,8080500,Rural,GRZ,Health Post,Yes,14800,27.65055419,-16.198139
-Southern,Monze,Nteme HP, Nteme Health Post,8080510,Rural,GRZ,Health Post,Yes,3771,27.39923766,-16.17638581
-Southern,Monze,Rusangu RHC, Rusangu Rural Health Centre,8080150,Rural,GRZ,Rural Health Centre,Yes,8370,27.53396644,-16.37614851
-Southern,Monze,Siatontola RHC, Siatontola Rural Health Centre,8080180,Rural,GRZ,Rural Health Centre,Yes,15258,27.25258436,-16.44040434
-Southern,Monze,St Marys HP, St Marys Health Post,8080330,Urban,Private,Rural Health Centre,Yes,3270,27.42195119,-16.35038184
-Southern,Monze,Zca RHC, ZCA Rural Health Centre,8080130,Rural,GRZ,Rural Health Centre,Yes,5907,27.51821986,-16.28666702
+Southern,Monze,Nadongo HP,Nadongo Health Post,8080360,Rural,GRZ,Health Post,Yes,3226,27.86115135,-16.34042025
+Southern,Monze,Nalutanda RHC,Nalutanda Health Post,8080480,Rural,GRZ,Rural Health Centre,Yes,2744,27.02898921,-16.14957299
+Southern,Monze,Namilongwe HP,Namilongwe Health Post,8080490,Rural,GRZ,Health Post,Yes,2241,27.31964554,-16.41833281
+Southern,Monze,Nampeyo RHC,Nampeyo Rural Health Centre,8080503,Rural,GRZ,Rural Health Centre,Yes,3500,27.65910013,-16.34172949
+Southern,Monze,Njolamwanza RHC,Njolamwanza Rural Health Centre,8080110,Rural,GRZ,Rural Health Centre,Yes,14800,27.71357554,-16.2186191
+Southern,Monze,Ntambo HP,Ntambo Health Post,8080500,Rural,GRZ,Health Post,Yes,14800,27.65055419,-16.198139
+Southern,Monze,Nteme HP,Nteme Health Post,8080510,Rural,GRZ,Health Post,Yes,3771,27.39923766,-16.17638581
+Southern,Monze,Rusangu RHC,Rusangu Rural Health Centre,8080150,Rural,GRZ,Rural Health Centre,Yes,8370,27.53396644,-16.37614851
+Southern,Monze,Siatontola RHC,Siatontola Rural Health Centre,8080180,Rural,GRZ,Rural Health Centre,Yes,15258,27.25258436,-16.44040434
+Southern,Monze,St Marys HP,St Marys Health Post,8080330,Urban,Private,Rural Health Centre,Yes,3270,27.42195119,-16.35038184
+Southern,Monze,ZCA RHC,ZCA Rural Health Centre,8080130,Rural,GRZ,Rural Health Centre,Yes,5907,27.51821986,-16.28666702
 Southern,Namwala,Baambwe RHC, Baambwe Rural Health Centre,809010,Rural,GRZ,Rural Health Centre,Yes,5348,26.51765775,-15.77663277
-Southern,Namwala,Busangu HP,Busangu HP,809027,Rural,GRZ,Health Post,Yes,,26.74372179,-15.68163928
+Southern,Namwala,Busangu HP,Busangu Health Post,809027,Rural,GRZ,Health Post,Yes,,26.74372179,-15.68163928
 Southern,Namwala,Chitongo RHC, Chitongo Rural Health Centre,809011,Rural,GRZ,Rural Health Centre,Yes,10855,26.93697419,-16.03728066
 Southern,Namwala,Ichila RHC, Ichila Rural Health Centre,809012,Rural,GRZ,Rural Health Centre,Yes,6806,26.67136065,-16.03144656
 Southern,Namwala,Itapa HP, Itapa Health Post,809021,Rural,GRZ,Health Post,Yes,8994,26.52875556,-16.11770167
@@ -2150,30 +2150,30 @@ Southern,Namwala,Kabanga HP, Kabanga Health Post (Namwala),809022,Rural,GRZ,Heal
 Southern,Namwala,Kabulamwanda RHC, Kabulamwanda Rural Health Centre,809013,Rural,GRZ,Rural Health Centre,Yes,7292,26.87359745,-15.86694254
 Southern,Namwala,Kantengwa RHC, Kantengwa Rural Health Centre,809014,Rural,GRZ,Rural Health Centre,Yes,5469,26.87763367,-15.7713046
 Southern,Namwala,Kasenga RHC, Kasenga Rural Health Centre (Namwala),809015,Rural,GRZ,Rural Health Centre,Yes,4254,26.80701228,-15.86835338
-Southern,Namwala,Kazunikalila HP,Kazunikalila HP,809029,Rural,GRZ,Health Post,Yes,,26.64303292,-16.13767927
+Southern,Namwala,Kazunikalila HP,Kazunikalila Health Post,809029,Rural,GRZ,Health Post,Yes,,26.64303292,-16.13767927
 Southern,Namwala,Maala RHC, Maala Rural Health Centre,809016,Rural,GRZ,Rural Health Centre,Yes,9966,26.75468054,-15.74452295
-Southern,Namwala,Makalo HP,Makalo HP,809030,Rural,GRZ,Health Post,Yes,,26.72601937,-15.93453806
+Southern,Namwala,Makalo HP,Makalo Health Post,809030,Rural,GRZ,Health Post,Yes,,26.72601937,-15.93453806
 Southern,Namwala,Mandondo HP, Mandondo Health Post,809026,Rural,GRZ,Health Post,Yes,1600,26.9594485,-15.98240095
-Southern,Namwala,Mantolo HP,Mantolo HP,809031,Rural,GRZ,Health Post,Yes,,26.39494945,-16.13926252
+Southern,Namwala,Mantolo HP,Mantolo Health Post,809031,Rural,GRZ,Health Post,Yes,,26.39494945,-16.13926252
 Southern,Namwala,Maseele RHC, Maseele Rural Health Centre,809017,Urban,GRZ,Urban Health Centre,Yes,6199,26.41885774,-15.76056613
 Southern,Namwala,Moobola RHC, Moobola Rural Health Centre,809018,Rural,GRZ,Rural Health Centre,Yes,15100,26.69721781,-16.24738819
 Southern,Namwala,Moomba HP, Moomba Health Post,809023,Rural,GRZ,Health Post,Yes,6808,27.03112367,-16.08197951
 Southern,Namwala,Muchila RHC, Muchila Rural Health Centre,809019,Rural,GRZ,Rural Health Centre,Yes,10331,26.59739127,-16.2350339
 Southern,Namwala,Nakamboma RHC, Nakamboma Rural Health Centre,809020,Rural,GRZ,Rural Health Centre,Yes,7657,26.97702074,-16.12461125
-Southern,Namwala,Nalukwale HP,Nalukwale HP,809032,Rural,GRZ,Health Post,Yes,,26.40549087,-16.21358063
-Southern,Namwala,Namakubaule HP,Namakubaule HP,809033,Rural,GRZ,Health Post,Yes,,26.49704866,-15.94921817
+Southern,Namwala,Nalukwale HP,Nalukwale Health Post,809032,Rural,GRZ,Health Post,Yes,,26.40549087,-16.21358063
+Southern,Namwala,Namakubaule HP,Namakubaule Health Post,809033,Rural,GRZ,Health Post,Yes,,26.49704866,-15.94921817
 Southern,Namwala,Namwala District Hospital, Namwala District Hospital,809001,Urban,GRZ,Level 1 Hospital District,Yes,,26.44312344,-15.7520481
 Southern,Namwala,Namwala HAHC, Namwala Hospital Affiliated Health Centre,809098,Urban,GRZ,Urban Health Centre,Yes,5226,26.50217864,-15.7756582
 Southern,Namwala,Nchole HP, Nchole Health Post,809034,Rural,GRZ,Health Post,Yes,2300,26.67552084,-15.83931867
-Southern,Namwala,Ndema HP,Ndema HP,809035,Rural,GRZ,Health Post,Yes,,26.75638877,-16.09762135
+Southern,Namwala,Ndema HP,Ndema Health Post,809035,Rural,GRZ,Health Post,Yes,,26.75638877,-16.09762135
 Southern,Namwala,Ngabo HP, Ngabo Health Post,809024,Rural,GRZ,Health Post,Yes,4638,26.57862503,-15.9297561
-Southern,Namwala,Niko HP,Niko HP,809036,Rural,GRZ,Health Post,Yes,,26.92109426,-16.08032052
+Southern,Namwala,Niko HP,Niko Health Post,809036,Rural,GRZ,Health Post,Yes,,26.92109426,-16.08032052
 Southern,Pemba,Chilundu HP, Chilundu Health Post,8014010,Rural,GRZ,Health Post,Yes,2767,27.30253753,-16.60223108
 Southern,Pemba,Chiyumbabeenzu RHC, Chiyumbabeenzu Rural Health Centre,8014011,Rural,GRZ,Health Post,Yes,2442,27.40435,-16.69072167
 Southern,Pemba,Choompa HP, Choompa Health Post,8014025,Rural,GRZ,Health Post,Yes,2718,27.49093786,-16.5024749
 Southern,Pemba,Demu HP, Demu Health Post,8014012,Rural,GRZ,Health Post,Yes,2767,27.38726466,-16.60052196
 Southern,Pemba,Habbanyuka  HP, Habbanjuka Health Post,8014026,Rural,GRZ,Health Post,Yes,2674,27.59991459,-16.70766737
-Southern,Pemba,Hajamba HP,Hajamba HP,8014028,Rural,GRZ,Health Post,Yes,,27.49665231,-16.79442748
+Southern,Pemba,Hajamba HP,Hajamba Health Post,8014028,Rural,GRZ,Health Post,Yes,,27.49665231,-16.79442748
 Southern,Pemba,Jembo RHC, Jembo Rural Health Centre,8014013,Rural,GRZ,Rural Health Centre,Yes,11066,27.47526906,-16.64402044
 Southern,Pemba,Kanchomba RHC, Kanchomba Rural Health Centre,8014014,Rural,GRZ,Rural Health Centre,Yes,8300,27.49804202,-16.56467806
 Southern,Pemba,Kasikili RHC, Kasikili Rural Health Centre,8014015,Rural,GRZ,Rural Health Centre,Yes,2767,27.54445422,-16.58320122
@@ -2188,7 +2188,7 @@ Southern,Pemba,Siamuleya RHC, Siamuleya Rural Health Centre,8014023,Rural,GRZ,He
 Southern,Pemba,Sibalumbi  HP, Sibalumbi Health Post,8014027,Rural,GRZ,Health Post,Yes,3110,27.45360796,-16.55377492
 Southern,Pemba,Simooya HP, Simooya Health Post,8014024,Rural,GRZ,Health Post,Yes,2767,27.18419233,-16.65039965
 Southern,Siavonga,Chaanga RHC, Chaanga Rural Health Centre,811019,Rural,GRZ,Rural Health Centre,Yes,8621,28.41605362,-16.28171037
-Southern,Siavonga,Chalokwa  HP,Chalokwa  HP,811123,Rural,GRZ,Health Post,Yes,,28.82866513,-16.27993026
+Southern,Siavonga,Chalokwa HP,Chalokwa Health Post,811123,Rural,GRZ,Health Post,Yes,,28.82866513,-16.27993026
 Southern,Siavonga,Chizilika  HP,Chizilika  HP,811124,Rural,GRZ,Health Post,Yes,,28.45895506,-16.22705621
 Southern,Siavonga,Dambilo  HP,Dambilo  HP,811125,Rural,GRZ,Health Post,Yes,,28.38872342,-16.38740684
 Southern,Siavonga,Dambwe HP, Dambwe Health Post,811126,Rural,GRZ,Health Post,Yes,,28.24157844,-16.48324732

@@ -1,0 +1,23 @@
+# Run docker-compose -f docker-compose.production.yml build
+# Run docker-compose -f docker-compose.production.yml up
+# Live long and prosper
+
+version: '3'
+
+services:
+  MFL:
+    container_name: MFL
+    image: python
+    build:
+      context: .
+      dockerfile: .docker/MFL.production.dockerfile
+    environment:
+    - DJANGO_ENV=production
+    ports:
+    - "8000:8000"
+    networks:
+    - MFL-network
+
+networks:
+  MFL-network:
+    driver: bridge
