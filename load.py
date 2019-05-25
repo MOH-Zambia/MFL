@@ -234,28 +234,28 @@ def update_facilities_table():
 
 
 def run(verbose=True):
-    # load_facility_type_table()
-    # load_operational_status_table()
-    # load_ownership_table()
-    #
-    # lm = LayerMapping(Province, provinces_shp, province_mapping, transform=False)
-    # lm.save(strict=True, verbose=verbose)
+    load_facility_type_table()
+    load_operational_status_table()
+    load_ownership_table()
 
-    # load_district_type()
-    # load_location_type()
+    lm = LayerMapping(Province, provinces_shp, province_mapping, transform=False)
+    lm.save(strict=True, verbose=verbose)
 
-    # lm = LayerMapping(District, districts_shp, district_mapping, transform=False)
-    # lm.save(strict=True, verbose=verbose)
+    load_district_type_table()
+    load_location_type_table()
 
-    # lm = LayerMapping(Constituency, constituencies_shp, constituency_mapping, transform=False)
-    # lm.save(strict=False, verbose=verbose)
-    #
-    # lm = LayerMapping(Ward, wards_shp, ward_mapping, transform=False)
-    # lm.save(strict=True, verbose=verbose)
+    lm = LayerMapping(District, districts_shp, district_mapping, transform=False)
+    lm.save(strict=True, verbose=verbose)
 
-    # lm = LayerMapping(Facility, facility_shp, facility_mapping, transform=False)
-    # lm.save(strict=True, verbose=verbose)
+    lm = LayerMapping(Constituency, constituencies_shp, constituency_mapping, transform=False)
+    lm.save(strict=False, verbose=verbose)
 
-    # update_wards_table()
+    lm = LayerMapping(Ward, wards_shp, ward_mapping, transform=False)
+    lm.save(strict=True, verbose=verbose)
+
+    lm = LayerMapping(Facility, facility_shp, facility_mapping, transform=False)
+    lm.save(strict=True, verbose=verbose)
+
+    update_wards_table()
 
     update_facilities_table()
