@@ -108,8 +108,10 @@ include/
 # mypy
 .mypy_cache/
 
+#MFL
 MFL/migrations/
 maps/migrations/
+MFL/settings/production.py
 
 node_modules/
 vendor/
