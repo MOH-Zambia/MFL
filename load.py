@@ -1,3 +1,40 @@
+"""
+ ©Copyright 2018 Ministry of Health, Government of the Republic of Zambia.
+
+ This File is part of MFL
+
+ MFL is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or
+ (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
+ @package MFL
+ @subpackage
+ @access public
+ @author Chisanga L. Siwale<chisanga.siwaled@moh.gov.zm>
+ @copyright Copyright &copy; 2018, Ministry of Health, Government of the Republic of Zambia.
+ @version Demo-v2.a
+"""
+
+__author__ = "Chisanga L. Siwale"
+__copyright__ = "©Copyright 2018 Ministry of Health, Government of the Republic of Zambia"
+__credits__ = []
+__license__ = "GPL"
+__version__ = "3"
+__maintainer__ = "Chisanga L. Siwale"
+__email__ = "chisanga.siwaled@moh.gov.zm"
+__status__ = "Production"
+
+
 import os
 import csv
 from django.contrib.gis.utils import LayerMapping
@@ -85,6 +122,8 @@ facility_mapping = {
 
 
 def load_operational_status_table():
+    print('Starting loading OperationalStatus table...')
+
     data = {
         'Operational': 'A facility that is open and serving patients',
         'Licensed': 'A facility that has been approved and issued a license by the appropriate national regulatory '
@@ -106,24 +145,34 @@ def load_operational_status_table():
                      'different names but refer to the same facility. '
     }
 
-    for status, desc in data.items():
-        OperationStatus.objects.create(name=status, description=desc)
-        print('Saved: OperationalStatus => ' + status)
+    try:
+        for status, desc in data.items():
+            OperationStatus.objects.create(name=status, description=desc)
+            print('Saved: OperationalStatus => ' + status)
+    except Exception as e:
+        print(e)
 
     print('Completed loading OperationalStatus table!')
 
 
 def load_ownership_table():
+    print('Starting loading ownership table...')
     data = ['GRZ', 'Private', 'Faith Based', 'Military', 'NGO']
 
-    for ownership in data:
-        Ownership.objects.create(name=ownership)
-        print('Saved: Ownership => '+ownership)
+    try:
+        for ownership in data:
+            Ownership.objects.create(name=ownership)
+            print('Saved: Ownership => '+ownership)
+    except Exception as e:
+        print(e)
 
     print('Completed loading ownership table!')
 
 
+# Load MFL facility type model
 def load_facility_type_table():
+    print('Starting loading FacilityType table...')
+
     data = [
         'Health Post',
         'Rural Health Centre',
@@ -135,14 +184,20 @@ def load_facility_type_table():
         'Private',
     ]
 
-    for facility_type in data:
-        FacilityType.objects.create(name=facility_type)
-        print('Saved: FacilityType => ' + facility_type)
+    try:
+        for facility_type in data:
+            FacilityType.objects.create(name=facility_type)
+            print('Saved: FacilityType => ' + facility_type)
+    except Exception as e:
+        print(e)
 
     print('Completed loading FacilityType table!')
 
 
+# Loads table MFL_servicecategory
 def load_service_category_table():
+    print('Starting loading ServiceCategory table!')
+
     data = ['Accident and Emergency Casualty Service',
             'Ambulatory Services',
             'Antenatal Care',
@@ -150,36 +205,56 @@ def load_service_category_table():
             'Curative Services',
             ]
 
-    for service_category in data:
-        ServiceCategory.objects.create(name=service_category)
-        print('Saved: ServiceCategory => '+service_category)
+    try:
+        for service_category in data:
+            ServiceCategory.objects.create(name=service_category)
+            print('Saved: ServiceCategory => '+service_category)
+    except Exception as e:
+        print(e)
 
     print('Completed loading ServiceCategory table!')
 
 
+# Loads table geography_districttype
 def load_district_type_table():
+    print('Starting loading DistrictType table!')
+
     data = ['City', 'Provincial Town', 'District Town']
-    for district_type in data:
-        DistrictType.objects.create(name=district_type)
-        print('Saved: DistrictType => ' + district_type)
+
+    try:
+        for district_type in data:
+            DistrictType.objects.create(name=district_type)
+            print('Saved: DistrictType => ' + district_type)
+    except Exception as e:
+        print(e)
 
     print('Completed loading DistrictType table!')
 
 
 def load_location_type_table():
-    data = ['Urban', 'Peri-Urban', 'Rural']
-    for location_type in data:
-        LocationType.objects.create(name=location_type)
-        print('Saved: LocationType => ' + location_type)
+    print('Starting loading LocationType table..')
+
+    try:
+        data = ['Urban', 'Peri-Urban', 'Rural']
+        for location_type in data:
+            LocationType.objects.create(name=location_type)
+            print('Saved: LocationType => ' + location_type)
+    except Exception as e:
+        print(e)
 
     print('Completed loading LocationType table!')
 
 
 def load_operating_hours_table():
-    data = ['Open whole day', 'Open 24hrs', 'Open weekends', 'Open public holidays']
-    for operating_hour_type in data:
-        OperatingHours.objects.create(name=operating_hour_type)
-        print('Saved: OperatingHours => ' + operating_hour_type)
+    print('Starting loading OperatingHours table...')
+
+    try:
+        data = ['Open whole day', 'Open 24hrs', 'Open weekends', 'Open public holidays']
+        for operating_hour_type in data:
+            OperatingHours.objects.create(name=operating_hour_type)
+            print('Saved: OperatingHours => ' + operating_hour_type)
+    except Exception as e:
+        print(e)
 
     print('Completed loading OperatingHours table!')
 
@@ -212,7 +287,7 @@ def update_wards_table():
         if constituent:
             ward.constituency = constituent[0]
             ward.save()
-            print('Saved ward ' + ward.name + ' => ' + constituent[0].name)
+            print('Saved: Ward ' + ward.name + ' => ' + constituent[0].name)
 
 
 def update_facilities_table():
@@ -225,12 +300,12 @@ def update_facilities_table():
         if constituent:
             facility.constituency = constituent[0]
             facility.save()
-            print('Saved facility ' + facility.name + ': Constituent => ' + constituent[0].name)
+            print('Saved: Facility ' + facility.name + ': Constituent => ' + constituent[0].name)
 
         if ward:
             facility.ward = ward[0]
             facility.save()
-            print('Saved facility ' + facility.name + ': Ward => ' + ward[0].name)
+            print('Saved: Facility ' + facility.name + ': Ward => ' + ward[0].name)
 
 
 def run(verbose=True):
