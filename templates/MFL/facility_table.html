@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %} MFL {% endblock %}
+
+{% block style %}
+    <link rel="stylesheet" type="text/css" href="{% static 'MFL/css/jquery.dataTables.css' %}" >
+{#    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">#}
+    <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.6/css/fixedHeader.dataTables.min.css">
+    <style type="text/css">
+        thead input {
+            width: 100%;
+        }
+
+        .dataTables_paginate .paginate_button:hover {
+            background-color: #e17d00;
+        }
+    </style>
+{% endblock %}
+{% block content %}
+    <div class="wrapper pt-2">
+        <div class="container-fluid">
+            <table id="mfl-table" class="display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>Facility ID</th>
+                        <th>Name</th>
+                        <th>Province</th>
+                        <th>District</th>
+                        <th>Facility Type</th>
+                        <th>Ownership</th>
+                        <th>Operation Status</th>
+                        <th>Longitude</th>
+                        <th>Latitude</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% if facilities %}
+                        {% for facility in facilities %}
+                            <tr>
+                                <td>{{ facility.id }}</td>
+                                <td>{{ facility.name }}</td>
+                                <td>{{ facility.province }}</td>
+                                <td>{{ facility.district }}</td>
+                                <td>{{ facility.facility_type }}</td>
+                                <td>{{ facility.ownership }}</td>
+                                <td>{{ facility.operation_status }}</td>
+                                <td>{{ facility.longitude }}</td>
+                                <td>{{ facility.latitude }}</td>
+                            </tr>
+                        {% endfor %}
+                    {% endif %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+{% endblock %}
+
+{% block javascript %}
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/fixedheader/3.1.6/js/dataTables.fixedHeader.min.js"></script>
+
+    <script type="text/javascript" class="init">
+        $(document).ready(function() {
+            // Setup - add a text input to each footer cell
+            $('#mfl-table thead tr').clone(true).appendTo( '#mfl-table thead' );
+            $('#mfl-table thead tr:eq(1) th').each( function (i) {
+                var title = $(this).text();
+                $(this).html( '<input type="text" placeholder="Search '+title+'" />' );
+
+                $( 'input', this ).on( 'keyup change', function () {
+                    if ( table.column(i).search() !== this.value ) {
+                        table
+                            .column(i)
+                            .search( this.value )
+                            .draw();
+                    }
+                } );
+            } );
+
+            var table = $('#mfl-table').DataTable( {
+                orderCellsTop: true,
+                fixedHeader: true
+            } );
+        } );
+    </script>
+{% endblock %}
+
+
+

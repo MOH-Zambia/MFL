@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib.gis import admin
 from django.urls import include, path
 from django.conf.urls import url
-from MFL.views import FacilityDetail, FacilityList, FacilityViewSet, FeatureFacilityViewSet, feature_facilities, MapView
+from MFL.views import FacilityDetail, FacilityList, FacilityTable, FacilityViewSet, FeatureFacilityViewSet, feature_facilities, MapView
 from django.views.generic import TemplateView
 from rest_framework import routers
 
@@ -44,6 +44,7 @@ urlpatterns = [
     path('map', MapView.as_view(), name='map'),
     path('features/facility', feature_facilities, name='facilities'),
     path('list', FacilityList.as_view(), name='list'),
+    path('table', FacilityTable.as_view(), name='table'),
     path('contact', TemplateView.as_view(template_name='contact.html'), name='contact'),
     path('about', TemplateView.as_view(template_name='about.html'), name='about'),
     path('api/', include(router.urls)),

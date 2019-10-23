@@ -87,6 +87,9 @@ class OperationStatus(models.Model):
     def __str__(self):  # __unicode__ on Python 2
         return self.name
 
+    class Meta:
+        verbose_name_plural = "Operation Status"
+
 
 class LabLevel(models.Model):
     name = models.CharField(max_length=10, unique=True)
@@ -140,7 +143,10 @@ class SearchManager(models.Manager):
 
 class Facility(models.Model):
     DHIS2_UID = models.CharField(max_length=13, null=True, blank=True)
-    HMIS_Code = models.CharField(max_length=10)
+    HMIS_code = models.CharField(max_length=10, null=True, blank=True)
+    smartcare_GUID = models.CharField(max_length=36, null=True, blank=True)
+    eLMIS_ID = models.CharField(max_length=13, null=True, blank=True, unique=True)
+    iHRIS_ID = models.CharField(max_length=13, null=True, blank=True)
     name = models.CharField(max_length=60)
     facility_type = models.ForeignKey(FacilityType, on_delete=models.DO_NOTHING)
     operation_status = models.ForeignKey(OperationStatus, on_delete=models.DO_NOTHING, default=1)
@@ -166,18 +172,20 @@ class Facility(models.Model):
     ward = models.ForeignKey(Ward, on_delete=models.DO_NOTHING, null=True, blank=True)
     postal_address = models.CharField(_('Postal box'), max_length=25, null=True, blank=True, help_text='Postal address')
     location_type = models.ForeignKey(LocationType, on_delete=models.DO_NOTHING, null=True, blank=True)
-    web_address = models.CharField(max_length=120, null=True, blank=True)
+    web_address = models.URLField(null=True, blank=True)
     email = models.EmailField(null=True, blank=True)
     phone = models.CharField(max_length=13, null=True, blank=True)
     mobile = models.CharField(max_length=13, null=True, blank=True)
     fax = models.CharField(max_length=13, null=True, blank=True)
-    catchment_population = models.IntegerField(null=True, blank=True)
+    catchment_population_head_count = models.IntegerField(null=True, blank=True)
+    catchment_population_cso = models.IntegerField(null=True, blank=True)
     star = models.TextField(max_length=1000, null=True, blank=True)
     # stars = models.ManyToManyField(Star, null=True, blank=True)
     rated = models.TextField(max_length=1000, null=True, blank=True)
     rating = models.TextField(max_length=10, null=True, blank=True)
     longitude = models.FloatField(null=True, blank=True)
     latitude = models.FloatField(null=True, blank=True)
+    comment = models.TextField(null=True, blank=True)
     geom = models.PointField(srid=4326, blank=True)
     timestamp = models.DateTimeField(auto_now_add=True, auto_now=False)
     updated = models.DateTimeField(auto_now_add=False, auto_now=True)
@@ -187,7 +195,7 @@ class Facility(models.Model):
         return self.district.province.name
 
     def __str__(self):  # __unicode__ on Python 2
-        return "%s | %s" % (self.HMIS_Code, self.name)
+        return "%s | %s" % (self.HMIS_code, self.name)
 
     class Meta:
         verbose_name = "Facility"

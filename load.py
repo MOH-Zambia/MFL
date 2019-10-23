@@ -40,6 +40,7 @@ import csv
 from django.contrib.gis.utils import LayerMapping
 from MFL.models import *
 from geography.models import *
+import logging
 
 
 provinces_shp = os.path.abspath(
@@ -47,11 +48,11 @@ provinces_shp = os.path.abspath(
 )
 
 districts_shp = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), 'geography/data', 'District.shp'),
+    os.path.join(os.path.dirname(__file__), 'geography/data/Districts', 'Districts.shp'),
 )
 
 constituencies_shp = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), 'geography/data', 'Constituent.shp'),
+    os.path.join(os.path.dirname(__file__), 'geography/data/Constituencies', 'Constituencies.shp'),
 )
 
 wards_shp = os.path.abspath(
@@ -62,7 +63,7 @@ facility_shp = os.path.abspath(
     os.path.join(os.path.dirname(__file__), 'geography/data', 'Facility.shp'),
 )
 
-# Auto-generated `LayerMapping` dictionary for ZambiaProvince model
+# Auto-generated `LayerMapping` dictionary for Province model
 province_mapping = {
     'name': 'NAME',
     'population': 'POPULATION',
@@ -72,7 +73,7 @@ province_mapping = {
 }
 
 
-# Auto-generated `LayerMapping` dictionary for ZambiaDistrict model
+# Auto-generated `LayerMapping` dictionary for District model
 district_mapping = {
     'name': 'NAME',
     'district_type': {'name': 'FEATURE_TY'},
@@ -84,7 +85,7 @@ district_mapping = {
 }
 
 
-# Auto-generated `LayerMapping` dictionary for ZambiaConstituency model
+# Auto-generated `LayerMapping` dictionary for Constituency model
 constituency_mapping = {
     'name': 'NAME',
     'district': {'name': 'DISTRICT'},
@@ -95,7 +96,7 @@ constituency_mapping = {
 }
 
 
-# Auto-generated `LayerMapping` dictionary for ZambiaWard model
+# Auto-generated `LayerMapping` dictionary for Ward model
 ward_mapping = {
     'name': 'NAME',
     'population': 'POPULATION',
@@ -105,24 +106,28 @@ ward_mapping = {
 }
 
 
-# Auto-generated `LayerMapping` dictionary for ZambiaWard model
+# Auto-generated `LayerMapping` dictionary for Facility model
 facility_mapping = {
-    'district': {'name': 'DISTRICT'},
-    'name': 'NAME',
-    'HMIS_Code': 'HMIS_CODE',
-    'location_type': {'name': 'LOCATION'},
-    'ownership': {'name': 'OWNERSHIP'},
-    'facility_type': {'name': 'FACILITY_T'},
-    # 'operational_status': {'name': 'OPERATIONA'},
-    'catchment_population': 'CATCHMENT_',
-    'longitude': 'LONGITUDE',
-    'latitude': 'LATITUDE',
-    'geom': 'POINT',
+    'DHIS2_UID': 'DHIS2_UID',
+    'smartcare_GUID': 'smartcare_',
+    'iHRIS_ID': 'iHRIS_ID',
+    'district': {'name': 'district'},
+    'name': 'name',
+    'HMIS_code': 'HMIS_code',
+    'location_type': {'name': 'location'},
+    'ownership': {'name': 'ownership'},
+    'facility_type': {'name': 'facility_t'},
+    'catchment_population_head_count': 'catchment_',
+    'catchment_population_cso': 'catchmen_1',
+    'longitude': 'longitude',
+    'latitude': 'latitude',
+    'operation_status': {'name': 'operation_'},
+    'geom': 'Point',
 }
 
 
 def load_operational_status_table():
-    print('Starting loading OperationalStatus table...')
+    logging.info('Starting loading OperationalStatus table...\n')
 
     data = {
         'Operational': 'A facility that is open and serving patients',
@@ -142,61 +147,68 @@ def load_operational_status_table():
         'Does not exist': 'A facility which has been licensed, but has been verified not to physically exist.',
         'Duplicate': 'The facility exists and is properly licensed, but is an effective duplicate of another '
                      'facility. This usually occurs when two data sources are merged together, with slightly '
-                     'different names but refer to the same facility. '
+                     'different names but refer to the same facility.',
+        'Under Construction': ' '
     }
 
     try:
         for status, desc in data.items():
             OperationStatus.objects.create(name=status, description=desc)
-            print('Saved: OperationalStatus => ' + status)
+            logging.info('Saved: OperationalStatus => ' + status)
     except Exception as e:
-        print(e)
+        logging.info(str(e))
 
-    print('Completed loading OperationalStatus table!')
+    logging.info('Completed loading OperationalStatus table!\n')
 
 
 def load_ownership_table():
-    print('Starting loading ownership table...')
-    data = ['GRZ', 'Private', 'Faith Based', 'Military', 'NGO']
+    logging.info('Starting loading ownership table...\n')
+    data = ['GRZ', 'Private', 'NGO', 'Police', 'Military', '']
 
     try:
         for ownership in data:
             Ownership.objects.create(name=ownership)
-            print('Saved: Ownership => '+ownership)
+            logging.info('Saved: Ownership => '+ownership)
     except Exception as e:
-        print(e)
+        logging.info(str(e))
 
-    print('Completed loading ownership table!')
+    logging.info('Completed loading ownership table!\n')
 
 
 # Load MFL facility type model
 def load_facility_type_table():
-    print('Starting loading FacilityType table...')
+    logging.info('Starting loading FacilityType table...\n')
 
     data = [
         'Health Post',
+        'Border Health Post',
         'Rural Health Centre',
         'Urban Health Centre',
-        'Level 1 Hospital District',
-        'Level 2 Hospital Provincial',
-        'Level 3 Hospital Tertiary',
+        'Zonal Health Centre',
+        'Hospital Affiliated Health Centre',
+        'Hospital - Level 1',
+        'Hospital - Level 2',
+        'Hospital - Level 3',
+        'Police',
         'Military',
         'Private',
+        'NGO',
+        '',
     ]
 
     try:
         for facility_type in data:
             FacilityType.objects.create(name=facility_type)
-            print('Saved: FacilityType => ' + facility_type)
+            logging.info('Saved: FacilityType => ' + facility_type)
     except Exception as e:
-        print(e)
+        logging.error(str(e))
 
-    print('Completed loading FacilityType table!')
+    logging.info('Completed loading FacilityType table!\n')
 
 
 # Loads table MFL_servicecategory
 def load_service_category_table():
-    print('Starting loading ServiceCategory table!')
+    logging.info('Starting loading ServiceCategory table!\n')
 
     data = ['Accident and Emergency Casualty Service',
             'Ambulatory Services',
@@ -208,55 +220,55 @@ def load_service_category_table():
     try:
         for service_category in data:
             ServiceCategory.objects.create(name=service_category)
-            print('Saved: ServiceCategory => '+service_category)
+            logging.info('Saved: ServiceCategory => '+service_category)
     except Exception as e:
-        print(e)
+        logging.info(str(e))
 
-    print('Completed loading ServiceCategory table!')
+    logging.info('Completed loading ServiceCategory table!\n')
 
 
 # Loads table geography_districttype
 def load_district_type_table():
-    print('Starting loading DistrictType table!')
+    logging.info('Starting loading DistrictType table!\n')
 
     data = ['City', 'Provincial Town', 'District Town']
 
     try:
         for district_type in data:
             DistrictType.objects.create(name=district_type)
-            print('Saved: DistrictType => ' + district_type)
+            logging.info('Saved: DistrictType => ' + district_type)
     except Exception as e:
-        print(e)
+        logging.error(str(e))
 
-    print('Completed loading DistrictType table!')
+    logging.info('Completed loading DistrictType table!\n')
 
 
 def load_location_type_table():
-    print('Starting loading LocationType table..')
+    logging.info('Starting loading LocationType table..\n')
 
     try:
-        data = ['Urban', 'Peri-Urban', 'Rural']
+        data = ['Urban', 'Peri-Urban', 'Rural', '']
         for location_type in data:
             LocationType.objects.create(name=location_type)
-            print('Saved: LocationType => ' + location_type)
+            logging.info('Saved: LocationType => ' + location_type)
     except Exception as e:
-        print(e)
+        logging.error(str(e))
 
-    print('Completed loading LocationType table!')
+    logging.info('Completed loading LocationType table!\n')
 
 
 def load_operating_hours_table():
-    print('Starting loading OperatingHours table...')
+    logging.info('Starting loading OperatingHours table...\n')
 
     try:
         data = ['Open whole day', 'Open 24hrs', 'Open weekends', 'Open public holidays']
         for operating_hour_type in data:
             OperatingHours.objects.create(name=operating_hour_type)
-            print('Saved: OperatingHours => ' + operating_hour_type)
+            logging.info('Saved: OperatingHours => ' + operating_hour_type)
     except Exception as e:
-        print(e)
+        logging.error(str(e))
 
-    print('Completed loading OperatingHours table!')
+    logging.info('Completed loading OperatingHours table!\n')
 
 
 # def transform_district_table():
@@ -287,7 +299,7 @@ def update_wards_table():
         if constituent:
             ward.constituency = constituent[0]
             ward.save()
-            print('Saved: Ward ' + ward.name + ' => ' + constituent[0].name)
+            logging.info('Saved: Ward ' + ward.name + ' => ' + constituent[0].name)
 
 
 def update_facilities_table():
@@ -300,37 +312,43 @@ def update_facilities_table():
         if constituent:
             facility.constituency = constituent[0]
             facility.save()
-            print('Saved: Facility ' + facility.name + ': Constituent => ' + constituent[0].name)
+            logging.info('Saved: Facility ' + facility.name + ': Constituent => ' + constituent[0].name)
 
         if ward:
             facility.ward = ward[0]
             facility.save()
-            print('Saved: Facility ' + facility.name + ': Ward => ' + ward[0].name)
+            logging.info('Saved: Facility ' + facility.name + ': Ward => ' + ward[0].name)
 
 
 def run(verbose=True):
-    load_facility_type_table()
-    load_operational_status_table()
-    load_ownership_table()
+    # lm = LayerMapping(Province, provinces_shp, province_mapping, transform=False)
+    # lm.save(strict=True, verbose=verbose)
 
-    lm = LayerMapping(Province, provinces_shp, province_mapping, transform=False)
-    lm.save(strict=True, verbose=verbose)
+    # load_district_type_table()
 
-    load_district_type_table()
-    load_location_type_table()
+    # lm = LayerMapping(District, districts_shp, district_mapping, transform=False)
+    # lm.save(strict=True, verbose=verbose)
 
-    lm = LayerMapping(District, districts_shp, district_mapping, transform=False)
-    lm.save(strict=True, verbose=verbose)
+    # lm = LayerMapping(Constituency, constituencies_shp, constituency_mapping, transform=False)
+    # lm.save(strict=False, verbose=verbose)
 
-    lm = LayerMapping(Constituency, constituencies_shp, constituency_mapping, transform=False)
-    lm.save(strict=False, verbose=verbose)
+    # lm = LayerMapping(Ward, wards_shp, ward_mapping, transform=False)
+    # lm.save(strict=True, verbose=verbose)
 
-    lm = LayerMapping(Ward, wards_shp, ward_mapping, transform=False)
-    lm.save(strict=True, verbose=verbose)
+    # load_facility_type_table()
+    # load_operational_status_table()
 
-    lm = LayerMapping(Facility, facility_shp, facility_mapping, transform=False)
-    lm.save(strict=True, verbose=verbose)
+    # load_ownership_table()
+    # load_location_type_table()
 
-    update_wards_table()
+    try:
+        lm = LayerMapping(Facility, facility_shp, facility_mapping, transform=False)
+        lm.save(strict=False, verbose=verbose)
+    except Exception as e:
+        logging.error('Import error: '.format(e))
 
-    update_facilities_table()
+
+
+    # update_wards_table()
+    #
+    # update_facilities_table()

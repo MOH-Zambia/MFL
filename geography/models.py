@@ -21,7 +21,7 @@ class DistrictType(models.Model):
 
 
 class LocationType(models.Model):
-    name = models.CharField(max_length=10)
+    name = models.CharField(max_length=10, unique=True)
 
     def __str__(self):  # __unicode__ on Python 2
         return self.name

@@ -66,7 +66,7 @@
                         </ul>
                         <ul class="navbar-nav ml-auto">
                             <li class="{% if request.resolver_match.url_name == 'list' %}active{% endif %} nav-item"><a class="nav-link" href="{% url 'list' %}">List</a></li>
-                            <li class="{% if request.resolver_match.url_name == 'table' %}active{% endif %} nav-item"><a class="nav-link" href="#">Table</a></li>
+                            <li class="{% if request.resolver_match.url_name == 'table' %}active{% endif %} nav-item"><a class="nav-link" href="{% url 'table' %}">Table</a></li>
                             <li class="{% if request.resolver_match.url_name == 'map' %}active{% endif %} nav-item"><a class="nav-link" href="{% url 'map' %}">Map</a></li>
                             <li class="{% if request.resolver_match.url_name == 'help' %}active{% endif %} nav-item"><a class="nav-link" href="#">Help <span class="sr-only">(current)</span></a></li>
                         </ul>
@@ -92,7 +92,7 @@
                         <h5 class="orange font-weight-bold text-uppercase">External links</h5>
                         <p><a href="http://www.moh.gov.zm" rel="external" onclick="this.target='_blank';">Ministry of Health</a></p>
                         <p><a href="https://www.zicta.zm/" rel="external" onclick="this.target='_blank';">ZICTA</a></p>
-                        <p><a href="https://www.szi.gov.zm/" rel="external" onclick="this.target='_blank';">Smart Zambia Institute</a></p>
+                        <p><a href="http://www.szi.gov.zm/" rel="external" onclick="this.target='_blank';">Smart Zambia Institute</a></p>
                     </div>
                     <div class="col-lg-4 col-md-4">
                         <h5 class="orange font-weight-bold text-uppercase">Stay in touch</h5>

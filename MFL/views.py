@@ -88,6 +88,48 @@ class FacilityList(ListView):
         return context
 
 
+class FacilityTable(ListView):
+    template_name = 'MFL/facility_table.html'
+    queryset = Facility.objects.all().order_by('province', 'district', 'name')
+
+    def get_context_data(self, *args, **kwargs):
+        context = super(FacilityTable, self).get_context_data(*args, **kwargs)
+
+        query = self.request.GET.get('name')
+        form = SearchForm(self.request.GET)
+
+        if form.is_valid():
+            search_result = Facility.objects.search(form_data=self.request.GET)
+            queryset = search_result['query_set'].order_by('name')
+            count = queryset.count()
+            context = {
+                'form': form,
+                'facilities': queryset,
+                'query_string': search_result['query_string'],
+                'count': count
+            }
+        else:
+            if query:
+                queryset = Facility.objects.filter(
+                    Q(name__icontains=query) |
+                    Q(HMIS_Code__icontains=query)).order_by('name')
+                count = queryset.count()
+                context = {
+                    'form': form,
+                    'facilities': queryset,
+                    'count': count,
+                }
+            else:
+                queryset = Facility.objects.all().order_by('name')
+                count = queryset.count()
+                context = {
+                    'form': form,
+                    'facilities': queryset,
+                    'count': count,
+                }
+        return context
+
+
 class FacilityViewSet(viewsets.ModelViewSet):
     queryset = Facility.objects.all()
     serializer_class = FacilitySerializer
