@@ -67,10 +67,13 @@ class Ownership(models.Model):
 
 
 class FacilityType(models.Model):
-    name = models.CharField(max_length=30, unique=True)
+    name = models.CharField(max_length=50, unique=True)
 
     def __str__(self):  # __unicode__ on Python 2
         return self.name
+
+    class Meta:
+        verbose_name_plural = "Facility Types"
 
 
 class AdministrativeUnit(models.Model):
@@ -82,7 +85,7 @@ class AdministrativeUnit(models.Model):
 
 class OperationStatus(models.Model):
     name = models.CharField(max_length=30, unique=True)
-    description = models.TextField()
+    description = models.TextField(null=True, blank=True)
 
     def __str__(self):  # __unicode__ on Python 2
         return self.name
@@ -145,9 +148,9 @@ class Facility(models.Model):
     DHIS2_UID = models.CharField(max_length=13, null=True, blank=True)
     HMIS_code = models.CharField(max_length=10, null=True, blank=True)
     smartcare_GUID = models.CharField(max_length=36, null=True, blank=True)
-    eLMIS_ID = models.CharField(max_length=13, null=True, blank=True, unique=True)
+    eLMIS_ID = models.CharField(max_length=13, null=True, blank=True)
     iHRIS_ID = models.CharField(max_length=13, null=True, blank=True)
-    name = models.CharField(max_length=60)
+    name = models.CharField(max_length=100)
     facility_type = models.ForeignKey(FacilityType, on_delete=models.DO_NOTHING)
     operation_status = models.ForeignKey(OperationStatus, on_delete=models.DO_NOTHING, default=1)
     administrative_unit = models.ForeignKey(AdministrativeUnit, on_delete=models.DO_NOTHING, null=True, blank=True)
@@ -186,7 +189,7 @@ class Facility(models.Model):
     longitude = models.FloatField(null=True, blank=True)
     latitude = models.FloatField(null=True, blank=True)
     comment = models.TextField(null=True, blank=True)
-    geom = models.PointField(srid=4326, blank=True)
+    geom = models.PointField(srid=4326, blank=True, null=True)
     timestamp = models.DateTimeField(auto_now_add=True, auto_now=False)
     updated = models.DateTimeField(auto_now_add=False, auto_now=True)
     slug = models.SlugField(max_length=254, null=True, blank=True)

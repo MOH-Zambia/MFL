@@ -12,7 +12,7 @@ body {
 
 body{
 	overflow-x: hidden;
-	font-family: 'Open Sans', sans-serif;
+	/*font-family: 'Open Sans', sans-serif;*/
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 }
@@ -24,19 +24,19 @@ li{
 
 a{
 	text-decoration: none;
-	transition: all 500ms ease-in-out;
+	/*transition: all 500ms ease-in-out;*/
 }
 
 a:hover,
 a:active{
 	text-decoration: none;
-
+    color: #e17d00;
 }
 
 h1,
 h2,
 h4{
-	font-family: 'PT Sans Narrow', Arial, sans-serif ;
+	/*font-family: 'PT Sans Narrow', Arial, sans-serif ;*/
 	text-transform: uppercase;
 	font-weight: 700;
 }

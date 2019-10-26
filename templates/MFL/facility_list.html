@@ -122,7 +122,7 @@
                                 <span title="Hide/show advanced search">
                                     <i id="search-toggle-btn" class="fas fa-chevron-circle-left orange"></i>
                                 </span>
-                                Showing {{ facilities.start_index }} - {{ facilities.end_index }} of <span class="text-danger"><b>{{ count }} </b></span> results
+                                Showing {{ facilities.start_index }} - {{ facilities.end_index }} of <span class="orange"><b>{{ count }} </b></span> results
                             </h3>
                         </div>
                         <div class="ml-auto">
@@ -138,7 +138,7 @@
                                         <a href="{{ facility.get_absolute_url }}">
                                             <p>
                                                 <span class="orange lead font-weight-bold text-uppercase" style="cursor: pointer">
-                                                    {{ facility.HMIS_code }} | {{ facility.name }}
+                                                    {{ facility.id }} | {{ facility.name }}
                                                 </span>
                                             </p>
                                         </a>

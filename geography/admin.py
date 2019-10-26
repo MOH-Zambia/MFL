@@ -11,7 +11,11 @@ admin.site.register(Province, admin.OSMGeoAdmin)
 
 
 class DistrictAdmin(admin.ModelAdmin):
-    list_display = ('name', 'province')
+    list_display = ('name', 'province', 'district_type')
+
+
+class WardAdmin(admin.ModelAdmin):
+    list_display = ('name', 'constituency', 'population')
 
 
 admin.site.register(District, admin.OSMGeoAdmin)
