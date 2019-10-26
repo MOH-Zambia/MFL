@@ -43,6 +43,7 @@ INSTALLED_APPS = (
     'MFL',
     'geography',
     'django_seed',
+    'django_admin_listfilter_dropdown',
 )
 
 MIDDLEWARE_CLASSES = (

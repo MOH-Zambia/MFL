@@ -1,5 +1,8 @@
 from django.contrib import admin
 from django.contrib.gis import admin
+from django_admin_listfilter_dropdown.filters import (
+    DropdownFilter, ChoiceDropdownFilter, RelatedDropdownFilter
+)
 from MFL.models import *
 
 admin.site.register(AdministrativeUnit)
@@ -23,8 +26,8 @@ class FacilityAdmin(admin.OSMGeoAdmin):
                                        'number_of_nurses', 'number_of_doctors'], 'classes': ['collapse']}),
     ]
 
-    list_display = ('id', 'HMIS_code', 'smartcare_GUID', 'eLMIS_ID', 'iHRIS_ID', 'name', 'district', 'province')
-    list_filter = ['province', 'district', 'constituency', 'ward', 'facility_type', 'ownership']
+    list_display = ('id', 'HMIS_code', 'smartcare_GUID', 'eLMIS_ID', 'iHRIS_ID', 'name', 'facility_type', 'district', 'province')
+    list_filter = ['district__province', 'district', 'facility_type', 'ownership']
     search_fields = ['name']
 
 

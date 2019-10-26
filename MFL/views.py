@@ -160,13 +160,15 @@ class MapView(TemplateView):
 
     def get_context_data(self, **kwargs):
         context = super(MapView, self).get_context_data(**kwargs)
-        # context['num_facilities'] = Facility.objects.all().count()
-        context['num_facilities'] = Facility.objects.filter(~Q(facility_type=8)).count()
-        context['num_hospitals'] = Facility.objects.filter(facility_type__in=[4, 5, 6]).count()
-
-        context['num_UHC'] = Facility.objects.filter(facility_type__id=3).count()
-        context['num_RHC'] = Facility.objects.filter(facility_type__id=2).count()
-        context['num_HP'] = Facility.objects.filter(facility_type__id=1).count()
-        context['num_private'] = Facility.objects.filter(facility_type__id=8).count()
+        context['num_public'] = Facility.objects.filter(ownership__name='GRZ').count()
+        context['num_hospital_level_1'] = Facility.objects.filter(facility_type__name='Hospital - Level 1').count()
+        context['num_hospital_level_2'] = Facility.objects.filter(facility_type__name='Hospital - Level 2').count()
+        context['num_hospital_level_3'] = Facility.objects.filter(facility_type__name='Hospital - Level 3').count()
+        context['num_hospitals'] = context['num_hospital_level_1'] + context['num_hospital_level_2'] + context[
+            'num_hospital_level_3']
+        context['num_UHC'] = Facility.objects.filter(facility_type__name='Urban Health Centre').count()
+        context['num_RHC'] = Facility.objects.filter(facility_type__name='Rural Health Centre').count()
+        context['num_HP'] = Facility.objects.filter(facility_type__name='Health Post').count()
+        context['num_private'] = Facility.objects.filter(facility_type__name='Private').count()
 
         return context

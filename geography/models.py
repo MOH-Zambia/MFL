@@ -19,6 +19,9 @@ class DistrictType(models.Model):
     def __str__(self):  # __unicode__ on Python 2
         return self.name
 
+    class Meta:
+        verbose_name_plural = "District Types"
+
 
 class LocationType(models.Model):
     name = models.CharField(max_length=10, unique=True)

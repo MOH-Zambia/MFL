@@ -340,8 +340,8 @@ def update_facilities_table():
 
 
 def clear_data():
-    """Deletes all the table data"""
-    logging.info("Delete facility instances...")
+    """Deletes all data tables"""
+    logging.info("Clearing data...")
     Facility.objects.all().delete()
     FacilityType.objects.all().delete()
     Ownership.objects.all().delete()
@@ -394,5 +394,5 @@ def run(self, mode):
     lm.save(strict=False, verbose=True)
 
     update_wards_table()
-    #
+
     update_facilities_table()
