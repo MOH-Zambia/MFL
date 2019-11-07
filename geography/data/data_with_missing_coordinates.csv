@@ -1,0 +1,281 @@
+﻿province,district,name,HMIS_code,DHIS2_UID,smartcare_GUID,eLMIS_ID,iHRIS_ID,location,ownership,facility_type,longitude,latitude,catchment_population_head_count,catchment_population_cso,operation_status
+Lusaka,Lusaka,Arakan Camp Hospital,50060011,OqdKs11Ga8R,f3a53e6f19cc4f75b57b40608b45a68d,,facility|1010,Urban,Military,Hospital - Level 1,,,,,Operational
+Lusaka,Lusaka,Circle of Hope Health Centre,50060055,oGx0XfgYIh9,15008a6e31134922b8abef275c7757f2,,facility|1027,Urban,NGO,,,,,,Operational
+Lusaka,Lusaka,Lusaka Central Prison Urban Health Centre,50060241,Qdz6EcRjmCC,3d6b116d73ba4f28af0584a8084b5d50,,facility|1047,Urban,Police,Urban Health Centre,,,,,Operational
+Central,Kabwe,KIFCO Health Post,1005XX38,ZjpTCJMX8kg,613abd352fc54dfe979d8cb510b993a3,,facility|105,Urban,GRZ,Health Post,,,,,Operational
+Central,Kabwe,Kohima Camp Hospital,10050028,SCZWWD6hSG4,df251fec6b8d45de97f8dbff1862b3fd,,facility|106,Urban,Military,Hospital - Level 1,,,,,Operational
+Lusaka,Lusaka,Sikanze Police Hospital,50060255,C5f8F54buEf,9a55ec77414145629a660f1c96c7a083,,facility|1064,Urban,Police,,,,,,Operational
+Lusaka,Lusaka,ZNS Makeni Garrison Health Post,50060311,q70kBtNbBVc,97c93e1d446b487caa65d68f89b88bbf,,facility|1074,Urban,Military,Health Post,,,,,Operational
+Central,Shibuyunji,Mine Rural Health Centre,50080008,tkVsMWBbV9p,14a1ff09bd844e97a6e5c75c0260dcfd,,facility|1101,Rural,GRZ,Rural Health Centre,,,,,Operational
+Central,Kabwe,Maximum Prison Health Post,,GFOsdq1Yi6p,,,facility|111,Urban,Police,Health Post,,,,,Operational
+Central,Kabwe,Medium Prison Health Post,,Paw10zsVwtz,,,facility|112,Urban,Police,Health Post,,,,,Operational
+Luapula,Chipili,Chinshinki Health Post,,cY0ExeKU9zM,,,facility|1126,Rural,GRZ,Health Post,,,,,Operational
+Luapula,Chipili,Mimbulu Health Post,,DUOUmsjKjPy,,,facility|1134,Rural,GRZ,Health Post,,,,,Operational
+Luapula,Chipili,Mulunda Health Post,,krc82I1RBcF,,,facility|1138,Rural,GRZ,Health Post,,,,,Operational
+Central,Kabwe,Mpima Correctional Urban Health Centre,10050035,VKkC2nb6QHG,2d798a83947b4414af6d094dbe4b10af,,facility|114,Urban,Military,Urban Health Centre,,,,4094,Operational
+Luapula,Mwense,Musonda Rural Health Centre,,ZrYvlcX3KnS,,,facility|1141,Rural,GRZ,Rural Health Centre,,,,,Operational
+Luapula,Kawambwa,Kala Refugee Camp Rural Health Centre,40040010,ExbHo2icBRh,cd62b94c03824251964e2d5fd0e9a08a,,facility|1153,Rural,GRZ,Rural Health Centre,,,,,Operational
+Luapula,Kawambwa,Kubi Health Post,,y5ZvZep0zdU,,,facility|1159,Rural,GRZ,Health Post,,,,,Operational
+Luapula,Kawambwa,Matende Health Post,,sSdmacTv4Dm,,,facility|1163,Rural,GRZ,Health Post,,,,,Operational
+Luapula,Mansa,Luamfumu Rural Health Centre,,Yq5WdhjDEei,,,facility|1195,Rural,GRZ,Rural Health Centre,,,,,Operational
+Luapula,Mansa,Mulonga Health Post,,CdxhAEBJV85,,,facility|1211,Rural,GRZ,Health Post,,,,,Operational
+Luapula,Mansa,Musesha Rural Health Centre,,gw4j1ZQOYPU,,,facility|1214,Rural,GRZ,Rural Health Centre,,,,,Operational
+Luapula,Milenge,Kabange Health Post,,qL0AAFbFzoI,,,facility|1233,Rural,GRZ,Health Post,,,,,Operational
+Luapula,Milenge,Kafwanka Health Post,,VVwo4WBVNQ4,,,facility|1235,Rural,GRZ,Health Post,,,,,Operational
+Luapula,Milenge,Lupiya Milenge Health Post,,rd4LBUEH2cL,,,facility|1238,Rural,GRZ,Health Post,,,,,Operational
+Luapula,Milenge,Milambo Health Post,,T6YqMn8c0cz,,,facility|1240,Rural,GRZ,Health Post,,,,,Operational
+Luapula,Milenge,Milulu Health Post,,lqop2r0UrW4,,,facility|1243,Rural,GRZ,Health Post,,,,,Operational
+Luapula,Milenge,Moffat Health Post,,iNnpKcEzZwX,,,facility|1244,Rural,GRZ,Health Post,,,,,Operational
+Luapula,Milenge,Mulungushi Health Post,,FtVAnzSJgko,,,facility|1246,Rural,GRZ,Health Post,,,,,Operational
+Luapula,Milenge,Mumanse Health Post,,fnnmZeYMseB,,,facility|1247,Rural,GRZ,Health Post,,,,,Operational
+Luapula,Milenge,Shitabuli Health Post,,KFBnhA12YNS,,,facility|1248,Rural,GRZ,Health Post,,,,,Operational
+Central,Kabwe,Rayton Urban Health Centre,,rR0HzIiydVV,,,facility|128,Urban,Private,,,,,,Operational
+Central,Kabwe,Zambia Police Health Post,,axvGK5GODZ0,,,facility|130,Urban,Police,Health Post,,,,,Operational
+Central,Kabwe,Zambia State Insurance Clinic,,QYoI2SWaYRU,,,facility|131,Urban,Private,,,,,,Operational
+Central,Kabwe,ZNS Kabwe Urban Health Centre,10050057,gD016lOo5vF,95a84dfd39af4d85ae35a9b48e5f72dd,,facility|132,Urban,Military,Urban Health Centre,,,,5461,Operational
+Muchinga,Shiwang'andu,Shiwang'andu Urban Health Centre,,pG53M4spUQf,,,facility|1446,Rural,GRZ,Urban Health Centre,,,,,Operational
+Northern,Kasama,Chilubula (St. Fidelis) Mission Hospital Affiliated Health Centre,,AiRIWKJDQze,,,facility|1473,Rural,NGO,,,,,,Operational
+Northern,Kasama,Kasama Health Post,,qs2Mpxcv39y,569bc25dd11b40deb904cb2271cf6460,,facility|1479,Rural,GRZ,Health Post,,,,,Operational
+Northern,Mbala,Special Forces Clinic,60050016,f6Xl2OH5Dw2,85shdpix3c0gxb2ltii37ngquhgcl145,,facility|1562,Rural,Military,,,,,1787,Operational
+Northern,Mbala,ZAF Mbala (Samora) Urban Health Centre,60050018,QzaCYL9dq2y,425bd9f03fc14117be20484207900b23,,facility|1566,Urban,GRZ,Urban Health Centre,,,,5410,Operational
+Northern,Mbala,ZNS Mbala (Munyezi) Camp Rural Health Centre,60050019,a9GyAXwFqDg,3150f318ea3240d68648d4d2f318ee40,,facility|1567,Urban,GRZ,Rural Health Centre,,,,,Operational
+Central,Luano,Chimika Rural Health Centre,10070003,L34ZN4RT3RI,e138056538d74e88ad02ed489a9a5c25,,facility|166,Rural,GRZ,Health Post,,,,,Operational
+North-Western,Kalumbila,Lumwana Hospital Affiliated Health Centre,,BIN5dD864Bn,,,facility|1783,Rural,GRZ,,,,,,Operational
+North-Western,Solwezi,Maheba (F) Rural Health Centre,7010XX53,cdnVXZo8EFl,1072c01bc4154d1daa9962c91b45a689,,facility|1788,Rural,GRZ,Rural Health Centre,,,,,Operational
+North-Western,Kalumbila,Maheba H Rural Health Centre,,ZsdWMSUxzsC,,,facility|1790,Rural,GRZ,Rural Health Centre,,,,,Operational
+North-Western,Solwezi,Matero A (CHAI) Health Post,,WQVWnvAXxsf,,,facility|1795,Rural,NGO,Health Post,,,,,Operational
+North-Western,Kalumbila,Mumbezhi ZNS Rural Health Centre,70040034,Xaid0NQ56ge,cade7c584e8846cfb942f6c18279a5f4,,facility|1801,Rural,Military,Rural Health Centre,,,,,Operational
+North-Western,Solwezi,New Matero (CHAI) Health Post,,fZVAGCjogqX,,,facility|1811,Rural,NGO,Health Post,,,,,Operational
+North-Western,Solwezi,Solwezi Hospital Affiliated Health Centre,70100033,jvD5Dg98vnv,860e34b269d545da9108d9ced1138418,,facility|1820,Rural,GRZ,,,,,,Operational
+North-Western,Solwezi,Solwezi Medical Centre,70100034,zI5CoQO2qld,4097806e607240bc9fffb5e9a20e28cd,,facility|1821,Urban,Private,,,,,,Operational
+Central,Mkushi,Mayo Rural Health Centre,,VMB2gcIj72c,,,facility|189,Rural,GRZ,Rural Health Centre,,,,,Operational
+Southern,Choma,Zambia Railways Urban Health Centre,8002XX33,CB3cafwRSfY,a2b1ea91a6a94a52b13264f782f6d152,,facility|1906,Rural,GRZ,Urban Health Centre,,,,,Operational
+Southern,Kalomo,Nakalombwe Health Post,,GN9nk9RceJm,,,facility|1945,Rural,GRZ,Health Post,,,,,Operational
+Southern,Livingstone,LIBES Urban Health Centre,8006XX32,GZIz3OItQNr,0b10083c80384c838c5bf0b030c71b9e,,facility|1987,Urban,GRZ,Urban Health Centre,,,,,Operational
+Southern,Mazabuka,Chuula Clinic,80070043,hZLexuwuhcN,gx4rbsd59fie0i4egvnsis36w8ubgf6o,,facility|2008,Urban,GRZ,,,,,,Operational
+Southern,Zimba,Zimba Hospital Affiliated Health Centre,8004XX31,FvYQRSeLnx0,3691837563c54cd886953ec2799c0ed8,,facility|2149,Rural,GRZ,,,,,,Operational
+Western,Kaoma,Kaoma Hospital Affiliated Health Centre (Mulamba Clinic),90020006,tzeTpSKRLmS,6065ff9358074e76b024736458d0fc4e,,facility|2186,Rural,GRZ,,,,,,Operational
+Western,Kaoma,Luena Camp Hospital,90020012,oLx16uCRFTs,f4d47bc3463b4d669d67ad8616c8b36c,,facility|2192,Rural,Military,,,,,5148,Operational
+Central,Mumbwa,Mumbwa Prisons Health Post,10090029,mSCStnphdF7,99b47580ef5947fc89c52f8b41ff5ca1,,facility|226,Rural,Police,Health Post,,,,,Operational
+Central,Serenje,Kashishi Health Post,,gbx5RGiTOGN,,,facility|250,,GRZ,Health Post,,,,,Operational
+Central,Kapiri-Mposhi,Ilungu Health post,,kGYar494Wfz,,,facility|2553,Rural,GRZ,Health Post,,,,,Operational
+Copperbelt,Masaiti,Masaiti Boarding Health Post,,,,,facility|2616,Rural,GRZ,Health Post,,,,,Operational
+Copperbelt,Mpongwe,Bwembelelo Health Post,,hePwbZeYV4F,,,facility|2617,Rural,GRZ,Health Post,,,,,Operational
+Copperbelt,Mpongwe,Kangololo Health Post,,hcHNV1cj9qS,,,facility|2621,Rural,GRZ,Health Post,,,,,Operational
+Copperbelt,Mpongwe,Munkumpu Health Post,,c6JFkeWQKUx,,,facility|2622,Rural,GRZ,Health Post,,,,,Operational
+Copperbelt,Ndola,Chipolopolo Health Post,20100012,,izo26u68myv86zjpzj37qpgbxkb1iazk,,facility|2628,Urban,GRZ,Health Post,,,,,Operational
+Eastern,Lundazi,Chiwe Health Post,,zGH9y8oT6uM,,,facility|2652,Rural,GRZ,Health Post,,,,,Operational
+Eastern,Lundazi,Kazonde Health Post,,OIjIgUE02E2,,,facility|2654,Rural,GRZ,Health Post,,,,,Operational
+Eastern,Lumezi,Sikatengwa Health Post,,v2B2Y36hznw,,,facility|2658,Rural,GRZ,Health Post,,,,,Operational
+Eastern,Mambwe,Chipako Health Post,,fHFQntzrcFp,,,facility|2660,Rural,GRZ,Health Post,,,,,Operational
+Eastern,Mambwe,Lusandwa South Health Post,,udm3wxNUU8Y,,,facility|2662,Rural,GRZ,Health Post,,,,,Operational
+Luapula,Kawambwa,Musambeshi Health Post,,WCqpSIqgf3c,,,facility|2687,Rural,GRZ,Health Post,,,,,Operational
+Luapula,Mansa,Kapompwa Rural Health Centre,40061012,x9JZZJxwHEt,,,facility|2697,Rural,GRZ,Rural Health Centre,,,,,Operational
+Luapula,Mansa,ZNS Luamfumu Rural Health Centre,40060056,,,,facility|2705,Rural,Military,Rural Health Centre,,,,8876,Operational
+Central,Chibombo,ZNS Chikumbi Health Post,10010004,,139e4a9383ac49aca1987c86e95c06a3,,facility|2725,Rural,Military,Health Post,,,4000,4000,Operational
+Copperbelt,Chililabombwe,Konkola 2 Urban Health Centre,20010009,mmnnnjAbM3K,8dc92290d502486aa1caea1244a85a08,,facility|275,Urban,GRZ,Urban Health Centre,,,,,Operational
+Lusaka,Lusaka,ZNS Chamba Valley,50060309,,,,facility|2757,Urban,Military,Urban Health Centre,,,,,Operational
+North-Western,Ikelenge,Kamukanda Health Post,70020013,tqTDPX9F53a,c3dc474eabbd4e62b1f69cd371198d92,,facility|2790,Rural,GRZ,Health Post,,,,,Operational
+North-Western,Mwinilunga,Ntambu Hospital Affiliated Health Centre,,SGdWnMShcVg,,,facility|2805,Rural,GRZ,,,,,,Operational
+Copperbelt,Chililabombwe,Nardmweka Urban Health Centre,20010016,fL2ztnMBsnm,1d26djgygl1irffmm3k91f7nmhdmf6fg,,facility|281,Urban,GRZ,Urban Health Centre,,,,,Operational
+Southern,Kalomo,Mikata Health Post,,IC1kqSDeoVZ,,,facility|2823,Rural,GRZ,Health Post,,,,,Operational
+Southern,Monze,Chibozu Health Post,,XyWsKmjzkFR,,,facility|2835,Rural,GRZ,Health Post,,,,,Operational
+Southern,Monze,Mooya Health Post,,WnpLDCGxFSo,,,facility|2839,Rural,GRZ,Health Post,,,,,Operational
+Southern,Monze,Namilongwe Health Post,,aIV0iahrEjI,,,facility|2844,Rural,GRZ,Health Post,,,,,Operational
+Southern,Sinazongwe,Lutuwa Health Post,,eYqdAFlOW2q,,,facility|2870,Rural,GRZ,Health Post,,,,,Operational
+Southern,Sinazongwe,Siawaza Health Post,,UbOA309Ce8k,,,facility|2878,Rural,GRZ,Health Post,,,,,Operational
+Southern,Sinazongwe,Sinanjola Health Post,,kNs0RtZfWa4,,,facility|2880,Rural,GRZ,Health Post,,,,,Operational
+Western,Sesheke,Kaale Rural Health Centre,,IvhsCA1a7WS,,,facility|2917,Rural,GRZ,Rural Health Centre,,,,,Operational
+Copperbelt,Chingola,Nchanga II Urban Health Centre,20020029,pj0NIZffpzS,a1b59767897f4e01bdbefac6084ed35d,,facility|298,Urban,GRZ,Urban Health Centre,,,,,Operational
+Northern,Senga Hill,Vundoka Health Post,,MU4yY5Ke6GE,,,facility|2991,Rural,GRZ,Health Post,,,,,Operational
+Northern,Senga Hill,Kunkuta Health Post,,aGDolyFMI8p,,,facility|2993,Rural,GRZ,Health Post,,,,,Operational
+Northern,Senga Hill,Sikalembe Health Post,,MFBP2fSIDN6,,,facility|2996,Rural,GRZ,Health Post,,,,,Operational
+Copperbelt,Chingola,Nchanga South Hospital Affiliated Health Centre,20020035,ykgfTE0iES5,f1d3707763d94ea79513f5dbe8654b5b,,facility|301,Urban,GRZ,,,,,,Operational
+Central,Kapiri-Mposhi,Matilyo Health post,,TEjyGHDv6vr,,,facility|3012,Rural,GRZ,Health Post,,,,,Operational
+Central,Mumbwa,Shakumbila Health Post,,lj0YCsVthop,,,facility|3013,Rural,GRZ,Health Post,,,,,Operational
+Central,Mumbwa,Lubemba Health Post,,Or60PLLBT8z,,,facility|3016,Rural,GRZ,Health Post,,,,,Operational
+Central,Shibuyunji,Masiteki Health Post,50080004,jCJ6sjtHcAY,20fcfd6017504c3a9e527b73f09409ad,,facility|3017,Rural,GRZ,Health Post,,,,,Operational
+Central,Chitambo,Katikulula Health Post,,ZiLHXv99UoF,,,facility|3019,Rural,GRZ,Health Post,,,,,Operational
+Copperbelt,Chingola,Nchanga South Referral Hospital,20020036,HkhzOHBLaKx,590ed5125952495a853d937405262a48,,facility|302,Urban,GRZ,,,,,,Operational
+Central,Chitambo,Reuben Health Post,,a0tulQPScYX,,,facility|3020,Rural,GRZ,Health Post,,,,,Operational
+Central,Serenje,Ndabala Rural Health Centre,,I6TZXSYRo3z,,,facility|3031,Rural,GRZ,Rural Health Centre,,,,,Operational
+Lusaka,Rufunsa,Lubalashi Health Post,,Jv76pscRXB2,,,facility|3042,Rural,GRZ,Health Post,,,,,Operational
+Southern,Monze,Nalocha Health Post,,D36Wg3kZ3t5,,,facility|3044,Rural,GRZ,Health Post,,,,,Operational
+Copperbelt,Kalulushi,Plantsite Chambishi Health Post,,Lc1xJS6oyDQ,,,facility|323,Urban,GRZ,Health Post,,,,,Operational
+Copperbelt,Kitwe,Chamboli J (Mopani) Urban Health Centre,20040035,UnefcR0XAJV,gu7g28t1ioekh6y5lxyx5dhhxr15l270,,facility|333,Urban,GRZ,Urban Health Centre,,,,,Operational
+North-Western,Kalumbila,Kakaindu Rural Health Centre,,uRZ5HFQK7d2,,,facility|3346,Rural,GRZ,Rural Health Centre,,,,,Operational
+Copperbelt,Ndola,Hillcrest Urban Health Centre (Ndola),20100021,CCbpXiclRqh,t7kgspop1skpmdngrxeoc4gjt1ufly5i,,facility|3355,Urban,GRZ,Urban Health Centre,,,,,Operational
+Copperbelt,Masaiti,Saka Health Post,,HQ6OJ7mQbPB,,,facility|3367,Rural,GRZ,Health Post,,,,,Operational
+Luapula,Mwense,Chanshi Health Post,,hChFf0V4ppg,,,facility|3388,Rural,GRZ,Health Post,,,,,Operational
+Northern,Senga Hill,Senga Hill District Hospital,,G47P2ogsJOx,,,facility|3397,Rural,GRZ,,,,,,Operational
+Northern,Mungwi,Changala Health Post,,X567utfLHKK,,,facility|3401,Rural,GRZ,Health Post,,,,,Operational
+Copperbelt,Mufulira,Minambe Health Post,,lK3CYYflJQ0,,,facility|3440,Urban,GRZ,Health Post,,,,,Operational
+Lusaka,Chilanga,Sekelela Health Post,,bOo3kXTQfvT,,,facility|3468,Rural,GRZ,Health Post,,,,,Operational
+Copperbelt,Kitwe,Kakolo Health Post,,p7sGwtoljA0,,,facility|347,Urban,GRZ,Health Post,,,,,Operational
+Northern,Mpulungu,Kapembwa Rural Health Centre,,hoLpfnV6z6Y,,,facility|3476,Rural,GRZ,Rural Health Centre,,,,,Operational
+Northern,Mpulungu,Kakusu Health Post,60070008,di4dZdLFbtS,09ot6fe68yctcy3i7yghgugx2fvtpbql,,facility|3479,Rural,GRZ,Health Post,,,,,Operational
+Copperbelt,Masaiti,Eden Health Post (Masaiti),,u0RL06psJEN,,,facility|3485,Rural,GRZ,Health Post,,,,,Operational
+Copperbelt,Kitwe,Luto Health Post,,f6X5DsgudRT,,,facility|3495,Urban,GRZ,Health Post,,,,,Operational
+Copperbelt,Luanshya,Roan Section 3 Health Centre,20050034,,frj19rq14zee3vl49xft93zj8sgsd90y,,facility|3506,Urban,GRZ,,,,,,Operational
+Eastern,Mambwe,Chamubobo Health Post,30051001,,,,facility|3516,Rural,GRZ,Health Post,,,,,Operational
+Eastern,Mambwe,Kamuwawa Health Post,,S4BBwFDPDEy,,,facility|3517,Rural,GRZ,Health Post,,,,,Operational
+Copperbelt,Kitwe,Mawlaick Urban Health Centre,,HI1jfU42zvg,,,facility|363,Urban,GRZ,Urban Health Centre,,,,,Operational
+Copperbelt,Kitwe,Misaka Health Post (Kitwe),20040064,IEWVme0dRVZ,8e3iqs8fk4u1w921lybwpfav9788jxgf,,facility|368,Urban,GRZ,Health Post,,,,,Operational
+Copperbelt,Kitwe,Miseshi-Mindolo Health Post,,xBGGa2OqmNu,,,facility|369,Urban,GRZ,Health Post,,,,,Operational
+Copperbelt,Kitwe,Mumana Urban Health Centre,2004XX33,IB4SxhFBf18,61e41aa687664ea2907b246db80b2438,,facility|373,Urban,GRZ,Urban Health Centre,,,,,Operational
+Copperbelt,Kitwe,New Start (Kitwe) Health Post,2004XXGF,BRekOBeehZj,c87fcda284e1488087f3c4925004cf82,,facility|379,Urban,NGO,Health Post,,,,,Operational
+Copperbelt,Kitwe,Nkana Hospital Affiliated Health Centre,2004XX98,wyb86szgq3Y,b9a57f36214d448da6d16c536b867acc,,facility|381,Urban,GRZ,,,,,,Operational
+Copperbelt,Kitwe,OHMB Urban Health Centre,,E8pgm994IAP,,,facility|383,Urban,GRZ,Urban Health Centre,,,,,Operational
+Copperbelt,Kitwe,Wusakile Government Clinic,,prRaX3dItsm,,,facility|392,Urban,GRZ,,,,,,Operational
+Copperbelt,Kitwe,ZNS Urban Health Centre,,LXAi7FyOk1G,,,facility|398,Urban,Military,Urban Health Centre,,,,,Operational
+Copperbelt,Luanshya,Baluba Shaft Clinic,2005XX11,l8MgRrAGJWM,62ef2024c89346faa70f591c8024d1f1,,facility|401,Urban,GRZ,,,,,,Operational
+Copperbelt,Luanshya,Luanshya Spita Hospital Affiliated Health Centre,2005XX99,GZWv8LJXWEu,7df0d3910b4c4ae888a0998597bd6585,,facility|413,Urban,GRZ,,,,,,Operational
+Copperbelt,Luanshya,Plant and Works Urban Health Centre,,NwTt5phN9dn,,,facility|423,Urban,GRZ,Urban Health Centre,,,,,Operational
+Copperbelt,Luanshya,Shaft 18,2005XX29,pzV3DigqDeC,5a1f2dbfd85c41f098467ad87473ad00,,facility|429,Urban,GRZ,,,,,,Operational
+Copperbelt,Luanshya,Shaft 28,2005XX30,c7ufa0Qz5xO,f3f5da0fecef4ab6965e6b0bdd6a49e9,,facility|430,Urban,GRZ,,,,,,Operational
+Copperbelt,Luanshya,Thomson Hospital Affiliated Health Centre,2005XX97,EANADg0eT2B,f84c9fb5f0b944808eb8679527a0ed47,,facility|432,Urban,GRZ,,,,,,Operational
+Copperbelt,Mpongwe,Agape Health Post,2008XY07,VpqXrXtj52W,21bc7e80165944258b0f56bfeb9e4d2f,,facility|484,Rural,GRZ,Health Post,,,,,Operational
+Copperbelt,Mpongwe,Chibangu Health Post,2008XX22,r2TsVGdtFge,e3169ae34bcd4f3d8e8cee9b14b2144c,,facility|486,Rural,GRZ,Health Post,,,,,Operational
+Central,Chibombo,ZNS Chisamba Rural Health Centre,10010006,uhVtTq0ICIF,536bb7d4e9ec4bb7b2677d162f055d0e,,facility|5,Rural,Military,Rural Health Centre,,,10234,5870,Operational
+Copperbelt,Mpongwe,Mpongwe Hospital Affiliated Health Centre,2008XX99,IryfNyT1uR1,52fa8d85b08e438e98fb127788311097,,facility|502,Rural,GRZ,,,,,,Operational
+Copperbelt,Mpongwe,Thanda Health Post,,TcQdgV7FKkj,,,facility|513,Rural,GRZ,Health Post,,,,,Operational
+Copperbelt,Mufulira,Central Dressings Health Post,2009XX12,Keyf95fcaJx,a10b8f9628644fa08533177c166a5cbe,,facility|518,Urban,Private,,,,,,Operational
+Copperbelt,Mufulira,Mufulira Clinic 4 Urban Health Centre,2009XX21,Zc2KtTGTKQx,6875a6fae6f042fca382fea0e1de0a94,,facility|533,Urban,GRZ,Urban Health Centre,,,,,Operational
+Copperbelt,Mufulira,Mufulira Clinic 8 Urban Health Centre,2009XX25,OW88QoNEiWz,94961b9208f84bb5b4fcfe13f90e973b,,facility|537,Urban,GRZ,Urban Health Centre,,,,,Operational
+Copperbelt,Mufulira,Mufulira Prisons Urban Health Centre,20090025,VPTKnQWBanz,ad8f79a9494540c6926616a944f0e446,,facility|539,Urban,Police,Health Post,,,,400,Operational
+Copperbelt,Mufulira,Mufulira West Health Post,,eQLhw75HRhB,,,facility|541,Urban,GRZ,Health Post,,,,,Operational
+Copperbelt,Mufulira,Mupambe Health Post,,k85SZxKiTaN,,,facility|542,Urban,GRZ,Health Post,,,,,Operational
+Copperbelt,Mufulira,Triple S (CHAI) Health Post,,zPQrMjV2nlA,,,facility|549,Urban,NGO,Health Post,,,,,Operational
+Copperbelt,Ndola,Arthur Davison Hospital Affiliated Health Centre,2010XX99,ozPn8YZgyLv,02389cfaf7e248e8b11dfef9dcc6ac53,,facility|553,Urban,GRZ,,,,,,Operational
+Copperbelt,Ndola,Chilanga Cement Urban Health Centre,,uP6tR4t9Hap,,,facility|556,Urban,GRZ,Urban Health Centre,,,,,Operational
+Copperbelt,Ndola,Jabulani Urban Health Centre,2010XX25,fDZnwvGYDdB,b070ca511c9249d081d29ad2bd0705f7,,facility|565,Urban,GRZ,Urban Health Centre,,,,,Operational
+Copperbelt,Ndola,Mery Berg Urban Health Centre,20100045,W5AgtN79uny,2b314a4515964884944ab3f5c9e828f0,,facility|581,Urban,Private,,,,,,Operational
+Copperbelt,Ndola,Satyam Urban Health Centre,2010XX38,RJnQWlh35Bh,c61c2761e1fc4ee3b600163ed77563b7,,facility|600,Urban,GRZ,Urban Health Centre,,,,,Operational
+Copperbelt,Ndola,VILLA Urban Health Centre,2010XX26,dyFBjqtVz0n,8f6812adf9ef42c38f4ab9a67ac61d3f,,facility|605,Urban,GRZ,Urban Health Centre,,,,,Operational
+Copperbelt,Ndola,Zambia Sugar Urban Health Centre,2010XX55,Kn7MhWfHA7y,9399e20563594b5f98ad5cca0dcc35ce,,facility|606,Urban,Private,,,,,,Operational
+Copperbelt,Ndola,ZFDS Medical Centre Urban Health Centre,20100084,CEv7p9i4TQe,379072c96114488c81330924959eb638,,facility|608,Urban,Military,Urban Health Centre,,,,,Operational
+Eastern,Chipata,Eastern Command Military Clinic,,bAYRy7WZfJj,,,facility|651,Urban,Military,,,,,10317,Operational
+Eastern,Chipata,Gondar Camp Barracks 4ZR,30020028,Jj59Gta1CRl,,,facility|653,Urban,Military,Hospital - Level 2,,,,1499,Operational
+Eastern,Katete,Lupando Health Post,,otJ4KzWtoTD,,,facility|712,Rural,GRZ,Health Post,,,,,Operational
+Eastern,Lundazi,Elunyaweni Rural Health Centre,,UAhFR8LoUdr,,,facility|737,Rural,GRZ,Rural Health Centre,,,,,Operational
+Eastern,Chasefu,Kanyanga Zonal Health Centre,,KpE7nylAqMq,,,facility|742,Rural,GRZ,Zonal Health Centre,,,,,Operational
+Central,Itezhi-Tezhi,Nachishila Rural Health Centre,,gGEpfxID3u0,,,facility|75,Rural,GRZ,Rural Health Centre,,,,,Operational
+Central,Kabwe,ARK Private Clinic,,mHs8NE6sJBO,,,facility|79,Urban,Private,,,,,,Operational
+Eastern,Nyimba,ZNS Health Post,,INPIoaz9rQ0,,,facility|818,Rural,Military,Health Post,,,,3461,Operational
+Central,Kabwe,Chindwin Camp Urban Health Centre,10050007,nyBEgf7h2Ez,ad9a9a0de4bf474ca51e6ed2309dbf29,,facility|83,Urban,Military,Urban Health Centre,,,,5537,Operational
+Central,Kabwe,Dorcas Family Planning Clinic,1005XY36,QxMSpBT4HD8,c588b605f6c149bab3802f060eccf525,,facility|88,Urban,Private,,,,,,Operational
+Lusaka,Chilanga,ZNS - BB Health Post,50010019,QwiQcWknlhR,4bc4ce76aa86476aa26b4accf3f849e4,,facility|919,Rural,Military,Health Post,,,,,Operational
+Lusaka,Chilanga,ZNS-LDB Health Post,50010020,LPzSO1ZEvrD, ,,facility|920,Rural,Military,Health Post,,,,7000,Operational
+Lusaka,Chilanga,ZNS-Safari Health Post,50010021,eChTvZQNbEz,6d2e68e5c9584dadb76227c8bcb11aed,,facility|921,Rural,Military,Health Post,,,,500,Operational
+Central,Kabwe,Kabwe General Hospital Affiliated Health Centre,1005XX98,Mzoe6uoN3zU,0acaf0b6cd154c2291b869dfe9fbd835,,facility|93,Urban,GRZ,Hospital Affiliated Health Centre,,,,,Operational
+Lusaka,Chirundu,Maunga Health Post,50020011,RBqacJzY7b0,8999d0c5d9db4ae9b05f5efd18f30379,,facility|932,Rural,GRZ,Health Post,,,,,Operational
+Lusaka,Chongwe,Mikango Camp Rural Health Centre,50030021,QByuNQ95b9q,2bd5c0b1881741d1853d5c2288a5917b,,facility|954,Rural,Military,Rural Health Centre,,,,6413,Operational
+Lusaka,Chongwe,Nchute Health Post,,kfIZWsFCXx7,,,facility|960,Rural,GRZ,Health Post,,,,,Operational
+Lusaka,Chongwe,ZAF 71 Rural Health Centre,50030035,Dzuvv20pM02,2f8d7366eae74408a1c305b2ef33ee1b,,facility|966,Rural,Military,Rural Health Centre,,,,2170,Operational
+Lusaka,Chongwe,ZNS Airport Camp Health Post,50030038,YUfAZavZy7W,2f0a38b631de44978b2fe963afeffd55,,facility|969,Rural,Military,Health Post,,,,1658,Operational
+Muchinga,Chama,Mwila Health Post,,FUf4B6D0a28,,,,Rural,GRZ,Health Post,,,,,Operational
+Eastern,Chasefu,Khulamayembe Health Post,,BHwAmQVYA8l,,,,Rural,GRZ,Health Post,,,,,Operational
+Lusaka,Lusaka,Paradise Health Post,,gduxpWyZVhv,,,,Urban,Private,,,,,,Operational
+Copperbelt,Luanshya,Section 3 Urban Health Centre,,a39KNt8ZSef,,,,Urban,GRZ,Urban Health Centre,,,,,Operational
+North-Western,Chavuma,Kalombo Health Post,,aZcrWRY0xW9,,,,Rural,GRZ,Health Post,,,,,Operational
+Central,Chibombo,Chilochabalenje Health Post,,g42i3akwlpj,,,,Rural,GRZ,Health Post,,,,,Operational
+Central,Chibombo,Mulonda Health Post,,us8T9gyaOYW,,,,Rural,GRZ,Health Post,,,,,Operational
+Central,Chibombo,Harper Anne Health Centre,,RaMnzc06b3L,,,,Rural,Private,,,,,,Operational
+Central,Chibombo,Namununga Health Post,,w5fXlHOnHJM,,,,Rural,GRZ,Health Post,,,,,Operational
+Central,Chibombo,Ntapwila Health Post,,M4e4R8Marao,,,,Rural,GRZ,Health Post,,,,,Operational
+Central,Chibombo,Sr. Lucy O'Brien Memorial Rural Health Centre,,Zve7Ecm6Gq5,,,,Rural,NGO,Rural Health Centre,,,,,Operational
+Eastern,Chipata,Chipata Health Care,30020015,kCtWkRwROsV,rmrwh8vjvm49r92lazuacefyfoj1pylk,,,Urban,GRZ,,,,,,Operational
+Southern,Chikankata,Majoru Clinic,80010009,lmzWGRQEBkO,dfae86ac69f745d4841125d351544beb,,,Rural,Private,,,,,,Operational
+Lusaka,Chilanga,Victoria Clinic,,x1Tfu2HRQUD,,,,Urban,Private,,,,,,Operational
+Copperbelt,Chingola,Africa Medicare Services Limited,20020001,yqRZ6dq0Q0u,7wih6pkvscprlc5xqodyxugttawf0ofw,,,Urban,Private,,,,,,Operational
+Eastern,Chipata,Kayiwale Health Post,30020042,WHbwxxNVFGA,ntu3d4p4yptde73a74lks716pk5qbifg,,,Urban,GRZ,Health Post,,,,,Operational
+Copperbelt,Chingola,Chingola Surgery,20020005,,o7pkqm68ebzubzt69hzxw9o7jvecmrv1,,,Urban,Private,,,,,,Operational
+Copperbelt,Chingola,Datta's Surgery,20020007,,3u9pbgf1cjig2mnwzv13co5i4aryjcpv,,,Urban,Private,,,,,,Operational
+Copperbelt,Chingola,Eye Marks Opticians,20020009,,7uhbd3f0q5bmwm4z7ykkk2lrw1lybtcf,,,Urban,Private,,,,,,Operational
+Copperbelt,Chingola,Kings Trust Health Post,,Li74DooM8gU,,,,Urban,Private,,,,,,Operational
+Copperbelt,Chingola,Milano Optician,20020024,,gd1c8obcmf9kd3f9wpo67b6tgbq74iq0,,,,Private,,,,,,Operational
+Eastern,Chipata,EJIS Professional Medical Centre,30020025,hFCn29fHq1I,b264nznw4a4a1iq39jv3p5azppz0bkcu,,,Urban,Private,,,,,,Operational
+Eastern,Chipata,Motala Clinic and Diagnostic Health Centre,,kcebliLmEIX,,,,Urban,Private,,,,,,Operational
+Eastern,Chipata,Mwami Wellness Health Centre,,rCBPqgObW4C,,,,Urban,Private,,,,,,Operational
+Eastern,Chipata,Vision Care Opticians Health Centre,30020075,cCFiZg1rUOx,t7w2ikpb03t23az2u8d8t359wdn64ujf,,,Urban,Private,,,,,,Operational
+Central,Chisamba,Kawama Health Post (Chisamba),,OxlLGLAONOk,,,,Rural,GRZ,Health Post,,,,,Operational
+Central,Chisamba,Bethel Medical Clinic,10020001,,y40277wsomyzhcy1zv7sl558rfkwwd6i,,,,Private,,,,,,Operational
+Southern,Gwembe,New Gwembe District Hospital,80031004,,,,,Rural,GRZ,Hospital - Level 1,,,,,Operational
+Central,Kabwe,KARA Private Health Post,1005XXGC,MlKGdkI9Ff7,fedf23b86b73460fb29e657b6e57d186,,,Urban,NGO,Health Post,,,,,Operational
+Central,Kabwe,Mukobeko Maximum Prison Urban Health Centre,10050037,,79501f951b7040768598be854da703b4,,,Urban,Police,,,,,,Operational
+Central,Kabwe,Highridge Private Clinic,1005XX51,xTGyfubRt21,7a0f2332d4184eb0b80ca9d395ec38bd,,,Urban,Private,,,,,,Operational
+Central,Kabwe,Mukobeko Medium Prison,10050038,,40dddfd5589d4d57b329ae97ee3f15e5,,,Urban,Police,,,,,5535,Operational
+Central,Kabwe,Mela Medical Centre,10050034,,2y9i6v3jih9609v4coll5zuxxhwqiace,,,Urban,Private,,,,,,Operational
+Central,Kabwe,Nkumbu (AIDS Health Foundation) Clinic,10050049,,07pns02nu3lcne7m8ut101iryzhirs62,,,Urban,NGO,,,,,,Operational
+Central,Kabwe,USAID DISCOVER Health Hub,1005XX74,,88d29970607d4e2ab980d82c480a329f,,,Urban,NGO,,,,,,Operational
+Central,Kabwe,Mukuni Medical Centre,10050041,,8yeyc1mc4ya2rit2xit57kzbc4xxs4lv,,,Urban,Private,,,,,,Operational
+Central,Kabwe,Paglory University Clinic,10050050,,wxacw9d6zi0qsjo70nwjkh6peei6qom2,,,Urban,Private,,,,,,Operational
+Central,Kabwe,Parkview Private Clinic,1005XX40,d3gYGdcrvEQ,1a72e3d50e0742fa88c22bc43781886f,,,Urban,Private,,,,,,Operational
+Copperbelt,Kalulushi,Sangwa Health Post,20030027,,g5ns9sig6tt1auyhyyrqqw95qi2rh6gx,,,Urban,GRZ,Health Post,,,,,Operational
+North-Western,Kalumbila,Kambazhi Rural Health Centre,,UN8x2aAb1uu,,,,Rural,GRZ,Rural Health Centre,,,,,Operational
+North-Western,Kalumbila,Kimikanga Rural Health Centre,,mMGj3BlBy7L,,,,Rural,GRZ,Rural Health Centre,,,,,Operational
+North-Western,Kalumbila,Shinda Health Post,,goyuNyS4mK0,,,,Rural,GRZ,Health Post,,,,,Operational
+Northern,Kasama,Chilubula Rural Health Centre,,SxlzNk3gMnn,,,,Rural,GRZ,Rural Health Centre,,,,,Operational
+North-Western,Kalumbila,Trident Clinic,70040048,,433b7acaf5b04e62943396a4305ca663,,,Rural,Private,,,,,,Operational
+Central,Kapiri-Mposhi,Renato Health post,,IiiqPr70AqG,,,,Rural,Private,,,,,,Operational
+Eastern,Kasenengwa,Chipembere Health Post,30020017,HgeAlXBEAep,jxiswa3hh3j71r19vbtb0kl6p4kux7dn,,,Rural,GRZ,Health Post,,,,,Operational
+Eastern,Katete,Lupande Health Post,,Z7YP7rFaNsW,,,,Rural,GRZ,Health Post,,,,,Operational
+Southern,Kazungula,New Kazungula District Hospital,80051003,,,,,Rural,GRZ,Hospital - Level 1,,,,,Operational
+Muchinga,Lavushi Manda,Kalonge Pipeline,5507XX13,,1b57043e55ac48539fc771225dee0177,,,Rural,GRZ,,,,,,Operational
+Copperbelt,Kitwe,Hillview Medical Centre,20040031,XycJZtRx9sa,3zw6cy0up3iqitm9ntntz9gipsz6tfcs,,,Urban,Private,,,,,,Operational
+Copperbelt,Kitwe,Wusakile Spita Private Hospital,,noEDTWfy2zG,,,,Urban,Private,,,,,,Operational
+Muchinga,Lavushi Manda,Kapilya Rural Health Centre,,lR9o86rxHBr,,,,Rural,GRZ,Rural Health Centre,,,,,Operational
+Southern,Livingstone,Dambwa Site & Service Health Post,,rK9mbCNFd9v,,,,Rural,GRZ,Health Post,,,,,Operational
+Copperbelt,Luanshya,Dr. Bhatts Medical & Dental Services.,20050007,,f3f93da2e6d0496992dd9ed1c825b730,,,Urban,Private,,,,,,Operational
+Copperbelt,Luanshya,Zamefa Clinic,20050039,vZSGwbpGMEr,5edc3493100340e7a2dab4fe65d6068c,,,Urban,Private,,,,,,Operational
+Western,Lukulu,Lyalala Health Post,,k6ZuDdt5oya,,,,Rural,GRZ,Health Post,,,,,Operational
+Eastern,Lundazi,Thandizane Health centre,30040049,,,,,Rural,NGO,Rural Health Centre,,,,,Operational
+Northern,Lunte,Filipu Health Post,,FRx9ulBl4om,,,,Rural,GRZ,Health Post,,,,,Operational
+Lusaka,Lusaka,Bwafwano Health Urban Centre,50060023,v5wOr6GY66O,71460d5da417472f90eda414839d11b6,,,Urban,GRZ,,,,,,Operational
+Lusaka,Lusaka,Cardinal Adams Hospital,50060025,x25XDWoKYm8,e9f1700cbd2f471e90b3e8da8834e3dc,,,Urban,Private,,,,,,Operational
+Lusaka,Lusaka,Care for Business Hospital,50060026,M3F9aPXEp4Q,91e9268490624de788f94c7f7cb19f26,,,Urban,Private,,,,,,Operational
+Lusaka,Lusaka,Chreso Ministries Health Centre,5006XXGB,sBfCK6hdEhN,20ce25b557a94252a48be8738a56bc4c,,,Urban,NGO,,,,,,Operational
+Lusaka,Lusaka,First Fruits Health Centre,50060096,aRnEwTpxWTX,e80fa16d864749f3a784d6f10f77c667,,,Urban,NGO,,,,,,Operational
+Lusaka,Lusaka,Coptic Hospital,50060063,NBpGik1Jknw,b87a3df2347c46e5a1f5583cf0b04d89,,,Urban,Private,,,,,,Operational
+Lusaka,Lusaka,Lubwa Health Post,,VBv0yryzCup,,,,Urban,GRZ,Health Post,,,,,Operational
+Lusaka,Lusaka,Lusaka Trust Hospital,50060164,MbDTDTfb9S9,db3f86a2a17d43be9643558f82ca4392,,,Urban,Private,,,,,,Operational
+Lusaka,Lusaka,Lusungu Health Centre,50060006,AS637XjrR9P,q90y0se0usu97xjq6n3avs47ahmqbz07,,,Urban,Private,,,,,,Operational
+Lusaka,Lusaka,Mum's Care Hospital,50060200,bJ9V0t6cVCI,9a6cafc3a29a46cf83a87f3e94693b6c,,,Urban,Private,,,,,,Operational
+Lusaka,Lusaka,Premium Medical Centre Hospital,50060239,JP28dHx9Z4v,87b43187fa18483b8e1ad4d6a990a08c,,,Urban,Private,,,,,,Operational
+Lusaka,Lusaka,St. John's Medical Centre,50060265,Mhx3SSXnR50,e741be44a00c4f03ae9406c3f673bd26,,,Urban,Private,,,,,,Operational
+Lusaka,Lusaka,Tiny Tim & Friends Health Centre,50060275,XaTxNxRMfwW,uo13p4dq34kv8cq7doxqa7xmdlhm6se3,,,Urban,Private,,,,,,Operational
+Lusaka,Lusaka,Viva Hospital,50060296,tgpIsvgHqGa,e34b8571b389x6gfa3b7c7bd52a13a0d,,,Urban,Private,,,,,,Operational
+Lusaka,Lusaka,ZAF Logistics Command,50060299,,,,,Urban,Military,Urban Health Centre,,,,,Operational
+Lusaka,Lusaka,ZNS Headquarters Clinic,50060310,,,,,Urban,Military,Health Post,,,,2000,Operational
+Lusaka,Lusaka,Zatulate Health Centre,5006XXGA,vlCp686zYH4,ee73827681084f7288ce281f80d911dc,,,Urban,Private,,,,,,Operational
+Eastern,Mambwe,Kamubaba Health Post,30051002,,,,,Rural,GRZ,Health Post,,,,,Operational
+Luapula,Mansa,Home of Compassion Hospital,40060013,izllrAR8s3P,sx4qm4qloax1tl7odbsbf13vx6wlj6dg,,,Rural,GRZ,,,,,,Operational
+Luapula,Mansa,Luapula Region Camp Health Post,40060025,,,,,Rural,Military,Health Post,,,,,Operational
+Luapula,Mansa,Moonga Health Post (Mansa),,XrxzqJTE8ZG,,,,Rural,GRZ,Health Post,,,,,Operational
+Luapula,Mansa,Musaika Health Post,,IFlH7FfHYo6,,,,Rural,GRZ,Health Post,,,,,Operational
+Southern,Mazabuka,Mabanga Health Post,,EDlEk3pqlg8,,,,Rural,GRZ,Health Post,,,,,Operational
+Southern,Mazabuka,Shembwe Health Post,,nShDIK2WJ99,,,,Rural,GRZ,Health Post,,,,,Operational
+Northern,Mbala,Chisenga Health Post,,GtctzmLBRFO,,,,Rural,GRZ,Health Post,,,,,Operational
+Southern,Mazabuka,Victoria Private Hospital,80070045,ilAkk7HwnXw,6ls4xumbt9j66693hfx9gvootkbu0ziq,,,Urban,Private,,,,,,Operational
+Southern,Mazabuka,Zambia Sugar Hospital,80070038,rMfvDkjnfrC,hg959itw0ijqjoy6bz6br6l7c50tjw6n,,,Urban,Private,,,,,,Operational
+Northern,Mbala,Kalekwa Health Post,,YkUjbalujQL,,,,Rural,GRZ,Health Post,,,,,Operational
+Northern,Mbala,Kalekwa health Post,,YpUfO5yMu1E,,,,Rural,GRZ,Health Post,,,,,Operational
+Northern,Mbala,Mayanga Health Post,,GrbPvqYxmR6,,,,Rural,GRZ,Health Post,,,,,Operational
+Central,Mkushi,Kangalati Health Post,,,,,,Rural,GRZ,Health Post,,,,,Under Construction
+Central,Mkushi,Tamo Health Centre,10080036,,co8ff5rygvzo3hscv38v4eyz8gnh64pd,,,,Private,,,,,,Operational
+Western,Mongu,Katongo Health Post,,P5NIzmi3sBC,,,,Rural,GRZ,Health Post,,,,,Operational
+Southern,Monze,Clinic of Hope Private Clinic,80080007,vz1eGpR53Pu,h4xl3ehgsyp1kee9lhrtnyi3y5jvaq72,,,Rural,Private,,,,,,Operational
+Southern,Monze,El Shalom Private Clinic,80080010,OIgTOm4iwid,xqcwo4pg9buskmftbzdoal2qpr4hsx5x,,,Rural,Private,,,,,,Operational
+Muchinga,Mpika,St. Odillia Rural Health Centre,5507XX42,,448ba82588314de18100dee2bcd7b9d6,,,Rural,NGO,Health Post,,,,,Operational
+Northern,Mpulungu,Kabyolwe Health Post,,fxxQ6VxN5KI,,,,Rural,GRZ,Health Post,,,,,Operational
+Central,Mumbwa,Mumbwa Medical Centre,10090019,fe6ohMLNTAU,iqi5u1l1w9c6v7xmvjybnczape4anadm,,,Rural,Private,,,,,,Operational
+North-Western,Mwinilunga,Kampemba Health Post,,KSZLySvh3KE,,,,Rural,GRZ,Health Post,,,,,Operational
+Southern,Namwala,New Namwala District Hospital,80091012,,,,,Urban,GRZ,Hospital - Level 1,,,,,Operational
+Northern,Senga Hill,Mwiluzi Health Post,,I8S4in4skXF,,,,Rural,GRZ,Health Post,,,,,Operational
+Eastern,Nyimba,Mawanda Health Post,,FV302JiJVWF,,,,Rural,GRZ,Health Post,,,,,Operational
+Eastern,Petauke,Esther Lungu Health Post,,,,,,Rural,GRZ,Health Post,,,,,Operational
+Central,Serenje,Peddyreddy Laxima Reddy (PLR) Health Post,,ziWrOm1mp3e,,,,Rural,GRZ,Rural Health Centre,,,,,Operational
+Central,Serenje,Silver Land Health Post,,WcWNQyjTliL,,,,Rural,GRZ,Health Post,,,,,Operational
+North-Western,Solwezi,Chikwa Medic,70100001,nfrEL8NUlmF,1b480d8a6ece4ef48027ce44c1d293eb,,,Urban,Private,,,,,,Operational
+North-Western,Solwezi,Kansanshi Hospital,70100010,lBfebiwuHez,df892c6585d44a1d8b12f8026828f307,,,Urban,Private,,,,,,Operational
+North-Western,Solwezi,Zambia Army Clinic,70100042,bciwKH5w85F,r4isl33c83sl4v63qomqg9urw3hqmwqy,,,Urban,Military,,,,,,Operational
