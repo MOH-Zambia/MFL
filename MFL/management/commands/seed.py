@@ -13,7 +13,7 @@ from MFL.models import Facility, FacilityType, OperationStatus, Ownership
 from geography.models import Province, District, LocationType
 
 seeder = Seed.seeder()
-DATA_FILENAME = 'geography/data/data.csv'
+DATA_FILENAME = 'geography/data/data_with_missing_coordinates.csv'
 csvfile = Path(__file__).parents[3] / DATA_FILENAME
 
 # python manage.py seed --mode=refresh
