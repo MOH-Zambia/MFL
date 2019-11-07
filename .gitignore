@@ -110,7 +110,7 @@ include/
 
 #MFL
 MFL/migrations/
-maps/migrations/
+geography/migrations/
 MFL/settings/production.py
 
 node_modules/
@@ -119,3 +119,9 @@ vendor/
 .idea/
 
 
+db.json
+db/
+geography/data/data_with_missing_coordinates.csv
+geography/migrations/0001_initial.py
+media/
+tests/

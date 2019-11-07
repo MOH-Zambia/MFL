@@ -109,4 +109,3 @@ def run(self, mode):
         return
 
     load_facilities()
-
