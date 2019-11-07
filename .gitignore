@@ -118,10 +118,5 @@ vendor/
 
 .idea/
 
-
 db.json
-db/
-geography/data/data_with_missing_coordinates.csv
-geography/migrations/0001_initial.py
-media/
-tests/
+
