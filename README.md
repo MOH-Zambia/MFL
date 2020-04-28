@@ -13,7 +13,11 @@ cd /var/lib
 ```
 ### Postgresql installation
 ```bash
-sudo apt install postgresql-10 postgresql-common postgresql-server-dev-10 postgresql-10-postgis-2.4 -y
+sudo apt install postgresql-10 postgresql-contrib-10 postgresql-server-dev-10 postgresql-10-postgis-2.4 -y
+sudo -u postgres createuser -SDRP mfl --Default password is "password"
+sudo -u postgres createdb -O mfl MFL
+sudo -u postgres psql -c "create extension postgis;" MFL
+
 ```
 ```bash 
 sudo git clone https://github.com/MOH-Zambia/MFL
