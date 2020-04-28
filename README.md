@@ -12,8 +12,8 @@ sudo apt install python3 virtualenv -y
 
 cd /var/lib
 ```
+### Postgresql installation
 ```bash
-### Postgresql 
 sudo apt install postgresql-10 postgresql-common postgresql-server-dev-10 postgresql-10-postgis-2.4 -y
 ```
 ```bash 
