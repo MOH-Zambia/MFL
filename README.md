@@ -9,7 +9,6 @@ To run this application you need to have python 3.5 https://www.python.org insta
 ```bash
 sudo apt update && sudo apt dist-upgrade -y
 sudo apt install python3 virtualenv -y
-
 cd /var/lib
 ```
 ### Postgresql installation
@@ -18,8 +17,7 @@ sudo apt install postgresql-10 postgresql-common postgresql-server-dev-10 postgr
 ```
 ```bash 
 sudo git clone https://github.com/MOH-Zambia/MFL
-```
-```bash
+sudo chmod 777 -R MFL
 cd MFL
 ```
 
