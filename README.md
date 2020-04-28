@@ -5,17 +5,23 @@ To run this application you need to have python 3.5 https://www.python.org insta
 
 # Installation
 
+### Ubuntu 18.04 
+```bash
+sudo apt update && sudo apt dist-upgrade -y
+sudo apt install python3
+sudo apt install virtualenv
+cd /var/lib
+```
+
 ```bash 
-  git clone https://github.com/MOH-Zambia/MFL
+  sudo git clone https://github.com/MOH-Zambia/MFL
 ```
 ```bash
   cd MFL
 ```
-```bash
-  pip install virtualenv
-```
+
 ```bash 
-  virtualenv -p python3 .
+  sudo virtualenv -p python3 .
 ```
 ```bash 
   source bin/activate
