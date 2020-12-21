@@ -90,7 +90,7 @@ class FacilityList(ListView):
 
 class FacilityTable(ListView):
     template_name = 'MFL/facility_table.html'
-    queryset = Facility.objects.all().order_by('province', 'district', 'name')
+    queryset = Facility.objects.all().order_by('district', 'name')
 
     def get_context_data(self, *args, **kwargs):
         context = super(FacilityTable, self).get_context_data(*args, **kwargs)
